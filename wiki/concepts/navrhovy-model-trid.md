@@ -12,15 +12,32 @@
 
 Zatímco [[domenovy-model|doménový model]] popisuje entity reálného světa a jejich vztahy, návrhový model tříd (Design Class Diagram) dokumentuje architektonická a implementační rozhodnutí. Slouží jako přímý podklad pro generování zdrojových kódů.
 
+![Transformace z konceptu do implementace](imgs/05.prednaska-062.jpg)
+*Obrázek: Ukázka trasování (stereotyp «trace») od doménových tříd k detailnímu návrhu pro implementaci v Javě/C#.*
+
 ## Prvky návrhového modelu
 Návrhový model vychází z doménového, ale konkretizuje ho:
-- **Atributy**: Upřesnění přesných datových typů (např. `String`, `Date`, `int`).
-- **Asociace**: Určení směru navigovatelnosti asociace a názvů konců asociací, což v kódu často odpovídá referenčním atributům.
-- **Metody**: Přiřazení zodpovědností jednotlivým třídám ve formě metod. Obsahují vstupní parametry, výstupní typy a specifikaci viditelnosti (`public +`, `private -`, `protected #`, `package ~`).
-- **Nové třídy**: Zavedení specifických softwarových tříd, které v reálné doméně neexistují (např. controllery, repository, buildery).
-- **Pokročilá UML notace**: Zobrazování statických (třídních) metod a atributů, abstraktních tříd, **[[komponenty-a-rozhrani|rozhraní (interface)]]** a generických typů (šablon, např. `List<T>`).
 
-*Doporučení pro přehlednost*: Aby byl diagram čitelný, často se nezobrazují automaticky generované gettery a settery, a nemusí zachycovat úplně každou softwarovou třídu v systému. Důležité je zachytit principy a klíčové vzory (např. **[[navrhove-vzory-gof|GoF vzory]]**).
+### Rozšířená notace tříd
+V návrhovém modelu využíváme plnou sílu UML notace pro zachycení implementačních detailů:
+- **Viditelnost**: public (`+`), protected (`#`), package (`~`), private (`-`).
+- **Členové**: statické prvky (podtržené), abstraktní prvky (kurzíva), konstanty (`{readOnly}`).
+- **Šablony (Templates)**: Modelování generických typů (např. `Seznam<T>`).
+
+![UML Notace tříd - Viditelnost a členy](imgs/05.prednaska-053.jpg)
+![Šablony a Generika](imgs/05.prednaska-055.jpg)
+*Obrázek: Přehled prvků třídy v UML a ukázka použití šablon.*
+
+### Reprezentace vztahů a rozhraní
+Vztahy lze v UML znázornit buď graficky asociací, nebo textově pomocí atributu třídy. Důležitým prvkem je také realizace rozhraní.
+
+- **Realizace rozhraní**: Přerušovaná čára s prázdnou šipkou.
+- **Asociace**: Určení směru navigovatelnosti a násobností.
+
+![Reprezentace vztahů: Atribut vs. Asociace](imgs/05.prednaska-057.jpg)
+![Reprezentace vztahů: Grafická asociace](imgs/05.prednaska-058.jpg)
+![Realizace rozhraní](imgs/05.prednaska-060.jpg)
+*Obrázek: Různé způsoby zachycení vztahů a implementace rozhraní.*
 
 ## Přiřazování zodpovědností (GRASP)
 Klíčovým úkolem při tvorbě návrhového modelu je správné rozdělení zodpovědností (převod scénářů z [[pripady-uziti|případů užití]] na metody konkrétních tříd). K tomu se využívají vzory GRASP (General Responsibility Assignment Software Patterns). Často se také využívá princip **[[dependency-injection|Dependency Injection]]** pro uvolnění vazeb mezi třídami.
