@@ -1,5 +1,12 @@
 # Log změn
 
+## [2026-05-08] - Integrace a optimalizace obrázků (feat/integrate-images)
+- Do wiki bylo integrováno přes 100 obrázků a schémat z přednášek 2-12 na základě OCR logů.
+- **Vizuální optimalizace**: Všechny obrázky byly zmenšeny a formátovány pomocí Obsidian syntaxe (`![|size]`).
+- **Vyvážení proporcí**: Vertikální diagramy mají nastavené limity výšky (`![|x350]`) a horizontální schémata jsou rozšířena pro lepší čitelnost.
+- **Side-by-side layout**: Související obrázky (chyby/opravy, postupné kroky) jsou umístěny vedle sebe pro úsporu místa a lepší srovnání.
+- Aktualizováno přes 20 koncepčních stránek napříč všemi tématy (Analýza, Návrh, Persistence, QA, Management).
+
 ## [2026-05-08] - Reorganizace indexu (refactor/index-grouping)
 - Koncepční stránky v `wiki/index.md` byly seskupeny do 9 logických celků (Základy, Analýza, Návrh, Implementace, QA atd.).
 - Zlepšení přehlednosti a navigace v hlavní mapě znalostí.
