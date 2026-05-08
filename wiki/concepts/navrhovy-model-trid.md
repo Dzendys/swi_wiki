@@ -18,12 +18,12 @@ Návrhový model vychází z doménového, ale konkretizuje ho:
 - **Asociace**: Určení směru navigovatelnosti asociace a názvů konců asociací, což v kódu často odpovídá referenčním atributům.
 - **Metody**: Přiřazení zodpovědností jednotlivým třídám ve formě metod. Obsahují vstupní parametry, výstupní typy a specifikaci viditelnosti (`public +`, `private -`, `protected #`, `package ~`).
 - **Nové třídy**: Zavedení specifických softwarových tříd, které v reálné doméně neexistují (např. controllery, repository, buildery).
-- **Pokročilá UML notace**: Zobrazování statických (třídních) metod a atributů, abstraktních tříd, rozhraní (interface) a generických typů (šablon, např. `List<T>`).
+- **Pokročilá UML notace**: Zobrazování statických (třídních) metod a atributů, abstraktních tříd, **[[komponenty-a-rozhrani|rozhraní (interface)]]** a generických typů (šablon, např. `List<T>`).
 
-*Doporučení pro přehlednost*: Aby byl diagram čitelný, často se nezobrazují automaticky generované gettery a settery, a nemusí zachycovat úplně každou softwarovou třídu v systému. Důležité je zachytit principy a klíčové vzory.
+*Doporučení pro přehlednost*: Aby byl diagram čitelný, často se nezobrazují automaticky generované gettery a settery, a nemusí zachycovat úplně každou softwarovou třídu v systému. Důležité je zachytit principy a klíčové vzory (např. **[[navrhove-vzory-gof|GoF vzory]]**).
 
 ## Přiřazování zodpovědností (GRASP)
-Klíčovým úkolem při tvorbě návrhového modelu je správné rozdělení zodpovědností (převod scénářů z [[pripady-uziti|případů užití]] na metody konkrétních tříd). K tomu se využívají vzory GRASP (General Responsibility Assignment Software Patterns):
+Klíčovým úkolem při tvorbě návrhového modelu je správné rozdělení zodpovědností (převod scénářů z [[pripady-uziti|případů užití]] na metody konkrétních tříd). K tomu se využívají vzory GRASP (General Responsibility Assignment Software Patterns). Často se také využívá princip **[[dependency-injection|Dependency Injection]]** pro uvolnění vazeb mezi třídami.
 
 - **Informační expert (Information Expert)**: Zodpovědnost by měla být přidělena třídě, která má informace potřebné k jejímu splnění.
 - **Nízká provázanost (Low Coupling)**: Třídy by měly být navrženy tak, aby závislost mezi nimi byla co nejmenší. To usnadňuje údržbu a znovupoužitelnost.

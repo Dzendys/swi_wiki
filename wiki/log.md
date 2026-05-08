@@ -1,5 +1,14 @@
 # Log změn
 
+## [2026-05-08] - Ingest 7. přednášky (ingest/prednaska-07)
+- Zpracování přednášky `07.prednaska.pdf`.
+- Vytvoření souhrnné stránky [[07-navrhove-vzory-a-komponenty]].
+- Vytvoření konceptu [[komponenty-a-rozhrani]] (fyzické komponenty, nabízená/vyžadovaná rozhraní, diagram komponent).
+- Vytvoření konceptu [[dependency-injection]] (IoC, DI typy, Spring scopes).
+- Vytvoření konceptu [[navrhove-vzory-gof]] (Abstract Factory, Builder, State, Observer, Adapter).
+- Aktualizace [[softwarova-architektura]] a [[navrhovy-model-trid]].
+- Aktualizace [[index]].
+
 ## [2026-05-08] - Ingest 6. přednášky (ingest/prednaska-06)
 - Zpracování přednášky `06.prednaska.pdf`.
 - Vytvoření souhrnné stránky [[06-architektonicke-vzory]].

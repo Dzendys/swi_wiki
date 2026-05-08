@@ -7,6 +7,7 @@
 - [[04-analyza-problemove-domeny|04. Analýza problémové domény]]
 - [[05-navrh-softwarovych-systemu|05. Návrh softwarových systémů]]
 - [[06-architektonicke-vzory|06. Architektonické vzory]]
+- [[07-navrhove-vzory-a-komponenty|07. Návrhové vzory a komponenty]]
 
 ## Koncepty
 - [[softwarove-inzenyrstvi|Softwarové inženýrství]]
@@ -30,6 +31,9 @@
 - [[navrhovy-model-trid|Návrhový model tříd (UML)]]
 - [[sekvencni-diagram|Sekvenční diagram (UML)]]
 - [[mvc-mvp|Vzory prezentační vrstvy (MVC, MVP)]]
+- [[komponenty-a-rozhrani|Komponenty a rozhraní]]
+- [[dependency-injection|IoC a Dependency Injection]]
+- [[navrhove-vzory-gof|Návrhové vzory GoF]]
 
 ---
 #index #BI-SWI
