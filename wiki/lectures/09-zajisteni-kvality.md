@@ -9,26 +9,21 @@
 
 ---
 
-Zajištění kvality není jen o hledání chyb, ale o systematickém přístupu k celému procesu vývoje, který vede k dodání kvalitního produktu při optimalizaci nákladů.
+Přednáška představuje systematický přístup k zajištění a měření kvality softwaru.
 
 ## Klíčová témata
 
-### [[zajisteni-kvality|Zajištění kvality (QA)]]
-- **Cíle**: Kvalitní řešení, měřitelnost kvality a úspora financí (oprava chyby v produkci je až 100x dražší než v návrhu).
-- **Aktivity**: Plánování procesů, měření, vyhodnocování a řízení.
-- **Vlastnosti kvality**: Rozdělení na externí (pro uživatele - korektnost, použitelnost) a interní (pro vývoj - udržovatelnost, čitelnost).
+### Zajištění kvality (QA)
+Cíle a aktivity QA, externí vs. interní charakteristiky kvality (FURPS, ISO 25010).
+- Více viz: [[zajisteni-kvality]]
 
-### [[verifikace-a-validace|Verifikace vs. Validace]]
-- **Verifikace**: Ověření na základě modelu/specifikace ("Stavíme produkt správně?").
-- **Validace**: Ověření na základě reálných výsledků a očekávání uživatele ("Stavíme správný produkt?").
+### Verifikace a Validace
+Rozdíl mezi ověřováním shody se specifikací ("Stavíme produkt správně?") a shody s potřebami uživatele ("Stavíme správný produkt?").
+- Více viz: [[verifikace-a-validace]]
 
-### [[testovani|Testování softwaru]]
-- **Klasifikace testů**:
-    - Dle rozsahu: [[testovani#Jednotkové testy|jednotkové]], [[testovani#Integrační testy|integrační]], [[testovani#Systémové testy|systémové]].
-    - Dle znalosti vnitřku: **White Box** (znalost kódu), **Black Box** (testování rozhraní), **Gray Box**.
-    - Dle způsobu: **Statické** (inspekce, review) vs. **Dynamické** (spouštění kódu).
-- **Techniky**: [[testovani#Hraniční testování|Hraniční testování (Boundary Testing)]], [[testovani#Analýza ekvivalence|analýza ekvivalence]], [[testovani#Regresní testy|regresní]] a [[testovani#Smoke testy|smoke testy]].
-- **Metriky**: Pokrytí kódu (code coverage), cyklomatická složitost, počet nalezených chyb.
+### Testování softwaru
+Klasifikace testů (jednotkové, integrační, systémové), techniky návrhu testovacích případů (hraniční hodnoty, ekvivalence) a metriky.
+- Více viz: [[testovani]]
 
 ## Související stránky
 - [[pozadavky]] (Model FURPS)

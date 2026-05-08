@@ -9,35 +9,30 @@
 
 ---
 
-Implementace je hlavní pracovní postup u softwarových projektů a jediná činnost, která nemůže být vynechána. Cílem je dodat produkt, který funguje dle požadavků, snadno se používá, neobsahuje chyby, funguje v cílových prostředích a je snadno udržovatelný.
+Implementace je klíčová fáze transformující návrh do spustitelného kódu.
 
 ## Klíčová témata
 
-### [[implementace|Proces implementace]]
-- Přepis scénářů [[pripady-uziti|případů užití]] do kódu.
-- Dodržování architektury a návrhových rozhodnutí.
-- "Návrh v malém" – rozhodování o detailech v souladu s celkovou koncepcí.
+### Proces implementace
+Cíle implementace (funkčnost, použitelnost, udržovatelnost) a přepis modelů do zdrojového kódu.
+- Více viz: [[implementace]]
 
-### [[objektove-paradigma|Objektové paradigma]]
-- Systém jako soubor komunikujících objektů.
-- Základní pilíře: [[objektove-paradigma#Zapouzdření|zapouzdření]], [[objektove-paradigma#Dědičnost|dědičnost]], [[objektove-paradigma#Polymorfismus|polymorfismus]], abstraktní třídy.
-- Sledování stavu pomocí [[objektovy-diagram|objektových diagramů]].
+### Objektové paradigma
+Základní principy (zapouzdření, dědičnost, polymorfismus) a sledování stavu objektů.
+- Více viz: [[objektove-paradigma]]
+- Strukturální pohled: [[objektovy-diagram]]
 
-### [[clean-code|Základní pravidla (Clean Code)]]
-- **SRP (Single Responsibility Principle)**: Jedna metoda = jedna zodpovědnost.
-- **Law of Demeter**: "Don't talk to strangers" – omezení volání metod na známé objekty.
-- **DRY (Don't Repeat Yourself)**: Eliminace duplicit kódu i dat.
-- **Programování proti rozhraní**: Používání [[komponenty-a-rozhrani|rozhraní]] tam, kde se očekávají změny.
-- **Liskov Substitution Principle (LSP)**: Správné použití dědičnosti (náhrada nadtřídy podtřídou nesmí rozbít kód). Upřednostnění skládání před dědičností.
+### Clean Code a principy návrhu
+Aplikace pravidel jako SRP, DRY, Law of Demeter a LSP pro zajištění kvality kódu.
+- Více viz: [[clean-code]]
 
-### [[osetreni-chyb-a-logovani|Ošetření chyb a logování]]
-- Strategie ošetření: vracení neutrálních hodnot, chybových kódů nebo vyvolání výjimek.
-- Logování jako nástroj pro sledování běhu a diagnostiku (úrovně: DEBUG, INFO, WARN, ERROR, FATAL).
+### Ošetření chyb a logování
+Strategie pro robustní aplikaci a mechanismy pro sledování běhu programu.
+- Více viz: [[osetreni-chyb-a-logovani]]
 
-### [[refaktoring|Refaktoring]]
-- Změna vnitřní struktury kódu bez změny vnějšího chování.
-- Nutnost existence testů před začátkem refaktoringu.
-- Odstraňování "code smells" (duplicity, dlouhé metody, velké třídy).
+### Refaktoring
+Změna vnitřní struktury kódu bez změny vnějšího chování. Identifikace "code smells".
+- Více viz: [[refaktoring]]
 
 ## Související stránky
 - [[navrh-softwaru]]
