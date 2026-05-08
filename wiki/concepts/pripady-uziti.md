@@ -51,7 +51,7 @@ Případy užití jsou klíčovým prvkem v klasických metodikách. Například
 - **Detailně pouze „zajímavé“ UC**: Vyhněte se zbytečnému rozepisování triviálních operací.
 - **Využijte grafiku**: Pokud je scénář složitý (mnoho alternativních toků), doplňte jej [[diagram-aktivit|diagramem aktivit]].
 
-![[imgs/03.prednaska-043.jpg|178]]
+![[imgs/03.prednaska-043.jpg|222]]
 *Obrázek: Detailní diagram aktivit rozvádějící kroky případu užití "Vložit novou knihu".*
 
 - **Wireframing**: Pochopení případu užití velmi usnadňuje nákres obrazovky (zdroj: raw/lectures/03.prednaska.pdf).

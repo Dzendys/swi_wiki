@@ -19,7 +19,7 @@ Modelování [[obchodni-procesy|obchodních procesů]] umožňuje vizualizovat t
 ### Notace a UML Diagram aktivit
 Pro srozumitelné zachycení logiky procesů se využívají vizuální modely.
 
-![[imgs/02.prednaska-019.jpg|515]] ![[imgs/02.prednaska-021.jpg|370]]
+![[imgs/02.prednaska-019.jpg|687]] ![[imgs/02.prednaska-021.jpg|493]]
 *Obrázek: Příklad procesu v notaci Eriksson-Penker a ukázka fragmentu BPMN.*
 
 Hlavním probíraným nástrojem je [[diagram-aktivit|UML diagram aktivit]], který pomocí principu toku tokenů modeluje sekvenční i paralelní činnosti, rozhodovací body a zóny zodpovědnosti (swimlanes) jednotlivých rolí.
