@@ -7,6 +7,7 @@
 - Technické detaily, pravidla a definice byly definitivně konsolidovány v koncepčních stránkách (`wiki/concepts/`).
 - Zajištěno, že každý technický pojem nebo postup je detailně vysvětlen právě na jednom místě.
 - Přednášky nyní slouží jako informativní průvodci a rozcestníky pro přípravu na zkoušku.
+- Kontrola a oprava všech vnitřních odkazů (včetně opravy odkazů na analytické fáze).
 - Kontrola a prolinkování všech souvisejících stránek.
 
 ## [2026-05-08] - Ingest 12. přednášky (ingest/prednaska-12)
