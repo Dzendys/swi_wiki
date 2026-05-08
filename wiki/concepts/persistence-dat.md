@@ -22,7 +22,7 @@ Persistence dat v [[vrstvy-architektury|třívrstvé architektuře]] spadá do n
 ## Návrh datového schématu
 V návrhové fázi vytváříme detailní UML datový model, který specifikuje datové typy, primární a cizí klíče a unikátní indexy.
 
-![|180](imgs/05.prednaska-023.jpg) ![|450](imgs/05.prednaska-032.jpg)
+![|x250](imgs/05.prednaska-023.jpg) ![|x350](imgs/05.prednaska-032.jpg)
 *Obrázek: Detailní návrh databázových tabulek a jejich vzájemných vazeb.*
 
 ## Table Data Gateway (TDG)
@@ -30,7 +30,7 @@ Jedna instance této třídy spravuje všechny řádky v jedné tabulce.
 - **Princip**: Zapouzdřuje všechny SQL dotazy pro danou tabulku (SELECT, INSERT, UPDATE, DELETE).
 - **Použití**: Vhodné tam, kde doménová logika není složitá a stačí pracovat s RecordSety (zdroj: raw/extra/Table Data Gateway.pdf).
 
-![Vzor Table Data Gateway|x300](imgs/06.prednaska-033.jpg)
+![Vzor Table Data Gateway|x350](imgs/06.prednaska-033.jpg)
 *Obrázek: Třída Gateway zapouzdřující CRUD operace nad tabulkou Kniha.*
 
 ## Row Data Gateway (RDG)
@@ -38,7 +38,7 @@ Jeden objekt této třídy reprezentuje právě jeden řádek v databázi.
 - **Princip**: Objekt obsahuje atributy odpovídající sloupcům tabulky a metody pro manipulaci s daným řádkem (`insert()`, `update()`, `delete()`). Pro vyhledávání instancí se obvykle používá samostatná třída (Finder).
 - **Použití**: Odděluje datový přístup od business logiky (zdroj: raw/extra/Row Data Gateway.pdf).
 
-![Vzor Row Data Gateway|400](imgs/06.prednaska-035.jpg) ![Vzor Row Data Gateway (Modifikace)|200](imgs/06.prednaska-037.jpg)
+![Vzor Row Data Gateway|x350](imgs/06.prednaska-035.jpg) ![Vzor Row Data Gateway (Modifikace)|x350](imgs/06.prednaska-037.jpg)
 *Obrázek: Modelování Row Data Gateway s vyhledávačem (Finder) and méně vhodná varianta se statickými metodami.*
 
 ## Active Record
@@ -47,7 +47,7 @@ Velmi oblíbený vzor, který vychází z Row Data Gateway, ale přidává k obj
 - **Nevýhoda**: Porušuje zásady čisté třívrstvé architektury (silná vazba business logiky na databázi).
 - **Použití**: Často v PHP (Eloquent), Ruby on Rails (zdroj: raw/extra/Active Record.pdf).
 
-![Vzor Active Record|x300](imgs/06.prednaska-039.jpg)
+![Vzor Active Record|x350](imgs/06.prednaska-039.jpg)
 *Obrázek: Třída Kniha obsahující jak data, tak business logiku.*
 
 ## Data Mapper
@@ -56,7 +56,7 @@ Vrstva mapperů, která přenáší data mezi objekty a databází a přitom je 
 - **Výhody**: Maximální decoupling (rozvolnění vazeb). Umožňuje mapovat složité hierarchie a kolekce.
 - **Použití**: Základ moderních ORM frameworků jako Hibernate (Java), Entity Framework (.NET) nebo Doctrine (PHP) (zdroj: raw/extra/Data Mapper.pdf).
 
-![Vzor Data Mapper|x300](imgs/06.prednaska-041.jpg)
+![Vzor Data Mapper|x350](imgs/06.prednaska-041.jpg)
 *Obrázek: Oddělení business objektu od databáze pomocí Mapperu.*
 
 ## Související stránky

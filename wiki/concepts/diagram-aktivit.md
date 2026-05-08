@@ -24,7 +24,7 @@
 - **Volání aktivity (Call Behavior)**: Označeno symbolem "hrábí", reprezentuje spuštění jiného diagramu (zdroj: raw/extra/Activity Diagram.pdf).
 - Akce se spustí, jakmile obdrží tokeny na všech vstupních hranách. Po dokončení vygeneruje tokeny na všech výstupních hranách (zdroj: raw/extra/Activity Diagram.pdf).
 
-![|x300](imgs/02.prednaska-028.jpg)
+![|x250](imgs/02.prednaska-028.jpg)
 *Obrázek: Různé typy akčních uzlů (základní akce, volání aktivity, odeslání/přijetí události).*
 
 ### Řídící uzly (Control Nodes)
@@ -36,7 +36,7 @@
 - **Rozvětvení (Fork)**: Silná čára. Jeden vstup, více výstupů. Token se duplikuje do všech větví (zdroj: raw/extra/Activity Diagram.pdf).
 - **Spojení (Join)**: Silná čára. Více vstupů, jeden výstup. Čeká na tokeny ze všech větví (zdroj: raw/extra/Activity Diagram.pdf).
 
-![|200](imgs/02.prednaska-030.jpg) ![|400](imgs/02.prednaska-032.jpg)
+![|x250](imgs/02.prednaska-030.jpg) ![|x250](imgs/02.prednaska-032.jpg)
 *Obrázek: Legenda řídících uzlů a příklady větvení toku.*
 
 ### Zóny zodpovědnosti (Swimlanes)
@@ -48,28 +48,28 @@ Rozdělují diagram do sloupců nebo řádků podle rolí (např. Student, Učit
 ### Objektové uzly (Object Nodes)
 Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník). Lze u nich v hranatých závorkách uvést **stav objektu** (např. `:Objednávka [Vytvořena]`) (zdroj: raw/lectures/02.prednaska.pdf).
 
-![|220](imgs/02.prednaska-036.jpg) ![|220](imgs/02.prednaska-037.jpg) ![|220](imgs/02.prednaska-043.jpg)
+![|x350](imgs/02.prednaska-036.jpg) ![|x350](imgs/02.prednaska-037.jpg) ![|x250](imgs/02.prednaska-043.jpg)
 *Obrázek: Různé způsoby zobrazení toku objektů a jejich stavů.*
 
 ## Pokročilé konstrukce
 - **Vícenásobné provedení (Expansion Region)**: Oblast, kde se akce provádí pro každý prvek vstupní kolekce (zdroj: raw/lectures/02.prednaska.pdf).
 - **Region přerušení (Interruptible Region)**: Oblast, jejíž provádění může být přerušeno specifikovanou událostí (zdroj: raw/lectures/02.prednaska.pdf).
 
-![|350](imgs/02.prednaska-039.jpg) ![|350](imgs/02.prednaska-041.jpg)
+![|x250](imgs/02.prednaska-039.jpg) ![|x350](imgs/02.prednaska-041.jpg)
 *Obrázek: Ukázka vícenásobného provedení a přerušitelné oblasti.*
 
 ## Komplexní příklad
-![|x400](imgs/02.prednaska-045.jpg)
+![|x350](imgs/02.prednaska-045.jpg)
 *Obrázek: Komplexní model procesu rezervace knihy se všemi prvky.*
 
 ## Časté chyby
 1.  **Chybné modelování cyklu**: Sloučení zpětné vazby přímo do akce namísto použití slučovacího uzlu (Merge). To způsobí "zaseknutí" (deadlock), protože akce čeká na token z obou vstupů (zdroj: raw/extra/Activity Diagram.pdf).
 2.  **Míchání akcí a stavů**: Používání symbolu akce pro zachycení stavu objektu. Správně má být stav v hranatých závorkách uvnitř objektového uzlu (zdroj: raw/lectures/02.prednaska.pdf).
 
-![|300](imgs/02.prednaska-049.jpg) ![|300](imgs/02.prednaska-051.jpg)
+![|x250](imgs/02.prednaska-049.jpg) ![|x250](imgs/02.prednaska-051.jpg)
 *Obrázek: Typická chyba při modelování cyklu a její správné řešení.*
 
-![|300](imgs/02.prednaska-053.jpg) ![|300](imgs/02.prednaska-055.jpg)
+![|x250](imgs/02.prednaska-053.jpg) ![|x250](imgs/02.prednaska-055.jpg)
 *Obrázek: Ukázka nesprávného míchání stavů s akcemi a následná oprava pomocí objektových uzlů.*
 
 ## Související stránky
