@@ -12,9 +12,9 @@
 **Softwarové inženýrství** (SWI) představuje systematický přístup k tvorbě softwaru (zdroj: raw/lectures/01.prednaska.pdf). Nejde pouze o programování, ale o řešení komplexních problémů spojených s vývojem rozsáhlých informačních systémů.
 
 ## Životní cyklus vývoje softwaru (SDLC)
-Moderní softwarové inženýrství dělí vývoj do několika logických fází, které se v praxi často překrývají (iterativní vývoj):
+Způsob, jakým jsou jednotlivé kroky vývoje uspořádány, definuje **[[metodiky-vyvoje#Modely životního cyklu (SDLC)|model životního cyklu]]** (Vodopád, Iterativní model, Agilní přístup). Moderní inženýrství preferuje iterace:
 
-1.  **[[obchodni-procesy|Modelování obchodních procesů]]**: Pochopení činnosti zákazníka a kontextu, ve kterém bude systém fungovat.
+1.  **[[obchodni-procesy|Modelování obchodních procesů]]**: Pochopení činnosti zákazníka.
 2.  **[[pozadavky|Analýza a sběr požadavků]]**: Definice toho, co má systém dělat (funkční požadavky) a jaké má mít vlastnosti (nefunkční požadavky dle modelu [[pozadavky#Model FURPS|FURPS]]).
 3.  **[[analyza-problemove-domeny|Analýza domény]]**: Vytvoření [[domenovy-model|doménového modelu]], který zachycuje klíčové pojmy a vztahy v reálném světě nezávisle na technologii.
 4.  **[[navrh-softwaru|Návrh systému (Design)]]**: Rozhodnutí o tom, *jak* bude systém postaven.

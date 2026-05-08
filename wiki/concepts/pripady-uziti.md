@@ -43,6 +43,9 @@ Vztahy se používají primárně k **zamezení duplicity** v textových scéná
 Jednou z nejčastějších chyb je snaha o **funkční dekompozici** (rozklad jednoho složitého případu užití na menší pomocí include/extend). Tento postup vede k nepřehledným diagramům a fragmentovaným scénářům, které se špatně čtou.
 - **Pravidlo**: Pokud část scénáře nepotřebujete využít v jiném, samostatném případu užití, neoddělujte ji do vlastní "bubliny" (zdroj: raw/extra/Use Case Model.pdf).
 
+## Využití v metodikách
+Případy užití jsou klíčovým prvkem v klasických metodikách. Například **[[unified-process|Unified Process (UP)]]** je procesem "řízeným případy užití" (Use Case Driven), kde UC slouží jako základ pro plánování iterací, návrh architektury i testování.
+
 ## Doporučení pro tvorbu scénářů
 - **Popisujte „co“, nikoliv „jak“**: Zaměřte se na logické kroky, nikoliv na detaily uživatelského rozhraní (např. "kliknutí na tlačítko").
 - **Detailně pouze „zajímavé“ UC**: Vyhněte se zbytečnému rozepisování triviálních operací.

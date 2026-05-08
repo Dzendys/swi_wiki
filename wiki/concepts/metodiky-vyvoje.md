@@ -11,11 +11,23 @@
 
 **Softwarový proces** je posloupnost kroků vedoucích k vytvoření produktu. Snaha o jeho standardizaci a opakovatelnost vede k vytvoření **metodiky** (zdroj: raw/lectures/12.prednaska.pdf).
 
-## Cíle metodik
-- **Standardizace**: Sjednocení pracovních postupů v týmu/firmě.
-- **Opakovatelnost**: Možnost zopakovat úspěšné postupy z dřívějších projektů.
-- **Předvídatelnost**: Snadnější [[odhad-pracnosti|odhadování]] a kontrola postupu pomocí metrik.
-- **Zamezení chybám**: Vyvarování se chyb, které se staly v minulosti.
+## Modely životního cyklu (SDLC)
+Způsob, jakým jsou jednotlivé kroky (analýza, návrh, implementace, testování) uspořádány v čase:
+
+### 1. Vodopád (Waterfall)
+Sekvence kroků, kde každá fáze musí být dokončena před začátkem další.
+- **Vlastnosti**: Lineární postup, obtížný návrat zpět (pouze o jeden krok).
+- **Vhodné pro**: Projekty s jasnými, fixními požadavky na začátku.
+
+### 2. Iterativní model
+Projekt je rozdělen do menších celků (iterací), které fungují jako "malé vodopády".
+- **Vlastnosti**: Průběžné dodávky funkčních částí, rychlá zpětná vazba od zákazníka, možnost měnit směr (požadavky) během vývoje.
+- **Příklad**: [[unified-process|Unified Process (UP)]].
+
+### 3. Agilní přístup
+Iterativní model, kde je délka iterace zkrácena na minimum (týdny).
+- **Vlastnosti**: Extrémní důraz na spolupráci, fungující software a reakci na změnu (viz [[agilni-vyvoj|Agilní manifest]]).
+- **Příklad**: [[scrum|SCRUM]].
 
 ## Kategorizace metodik
 
