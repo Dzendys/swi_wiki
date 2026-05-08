@@ -9,33 +9,25 @@
 
 ---
 
-Po fázi [[implementace|implementace]] a [[testovani|testování]] následuje nasazení systému do provozu, jeho následná správa a často i nutnost propojení s jinými systémy.
+Přednáška pokrývá provozní aspekty softwaru a jeho začlenění do ekosystému zákazníka.
 
 ## Klíčová témata
 
-### [[nasazeni-aplikace|Nasazení aplikace]]
-- **Sestavení (Build)**: Použití nástrojů jako Maven, Gradle (Java) nebo npm (JavaScript).
-- **Proces**: Stažení závislostí, vytvoření spustitelného systému, generování dokumentace.
-- **Způsob**: Přechod od nespolehlivého manuálního nasazení k automatizovaným **pipeline** (minimalizace lidské chyby).
+### Nasazení aplikace
+Proces sestavení (Build) a přechod od manuálního k automatizovanému nasazení (CI/CD).
+- Více viz: [[nasazeni-aplikace]]
 
-### [[podpora-a-udrzba|Podpora a údržba]]
-- **Úrovně podpory**: 1. úroveň (helpdesk), 2. úroveň (technická), 3. úroveň (experti/vývojáři).
-- **SLA (Service Level Agreement)**: Garance dostupnosti, doby výpadku a rychlosti vyřešení incidentů.
-- **Typy údržby**: Opravná (hledání chyb), adaptivní (změna prostředí), zdokonalovací (nové funkce) a preventivní (předcházení problémům).
-- **Technický dluh**: Nedostatečná kvalita kódu zvyšuje náklady na údržbu.
+### Podpora a údržba
+Úrovně podpory, smluvní garance (SLA) a klasifikace typů údržby (opravná, adaptivní, zdokonalovací, preventivní).
+- Více viz: [[podpora-a-udrzba]]
 
-### [[integrace-aplikaci|Integrace aplikací]]
-- **Důvody**: Konsolidace dat a procesů, využití stávajících investic.
-- **Integrační styly**:
-    - Přenos souborů (dávkové zpracování).
-    - Sdílená databáze (rychlá výměna, ale porušuje zapouzdření).
-    - Vzdálené volání procedur (synchronní).
-    - Zasílání zpráv (Messaging – asynchronní, omezuje lavinový efekt při výpadku).
+### Integrace aplikací
+Způsoby a styly propojování izolovaných systémů (soubory, sdílená DB, RPC, Messaging).
+- Více viz: [[integrace-aplikaci]]
 
-### [[webove-sluzby-rest-soap|Webové služby a formáty dat]]
-- **SOAP**: Robustní průmyslový standard, XML, WSDL.
-- **REST**: Datově orientovaný styl, využití HTTP metod (GET, POST, PUT, DELETE), JSON.
-- **JSON vs. XML**: JSON je ideální pro GUI a webové aplikace, XML pro složité integrace se silnou typovou kontrolou (XSD).
+### Webové služby (REST vs. SOAP)
+Technologická realizace integrace pomocí standardů SOAP a REST a využití datových formátů JSON a XML.
+- Více viz: [[webove-sluzby-rest-soap]]
 
 ## Související stránky
 - [[implementace]]

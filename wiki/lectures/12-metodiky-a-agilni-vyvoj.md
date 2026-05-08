@@ -9,28 +9,22 @@
 
 ---
 
-Cílem softwarového inženýrství je efektivně vytvářet kvalitní produkty. Toho se dosahuje stanovením a vylepšováním **softwarového procesu**, jehož konkrétní realizaci nazýváme **[[metodiky-vyvoje|metodikou]]**.
+Závěrečná přednáška shrnuje různé přístupy k organizaci softwarového procesu.
 
 ## Klíčová témata
 
-### [[metodiky-vyvoje|Metodiky vývoje]]
-- **Klasické (Těžké)**: Důraz na dokumentaci, propracovanost, ale vyšší pracnost (např. [[unified-process|UP]], RUP).
-- **Agilní (Lehké)**: Zaměření na produkt, minimalizace dokumentace, rychlá zpětná vazba (např. [[scrum|SCRUM]], XP, TDD).
-- **Výběr metodiky**: Závisí na velikosti projektu a týmu, stabilitě požadavků a kultuře zákazníka.
+### Metodiky vývoje softwaru
+Kategorizace na klasické ("těžké") a agilní ("lehké") metodiky. Faktory ovlivňující výběr metodiky.
+- Více viz: [[metodiky-vyvoje]]
 
-### [[unified-process|Unified Process (UP)]]
-- Iterativní, řízený [[pripady-uziti|případy užití]], postavený na [[softwarova-architektura|architektuře]].
-- Fáze: Inception (zahájení), Elaboration (rozpracování), Construction (konstrukce), Transition (dodání).
+### Unified Process (UP)
+Klasický iterativní proces řízený případy užití a zaměřený na architekturu.
+- Více viz: [[unified-process]]
 
-### [[agilni-vyvoj|Agilní přístup a manifest]]
-- **Agilní manifest**: Jednotlivci a interakce > procesy; Fungující software > dokumentace; Spolupráce > smlouva; Reakce na změnu > plán.
-- **Principy**: Prioritou je spokojený zákazník, vítání změn, denní spolupráce byznysu a vývoje, samo-organizující se týmy.
-
-### [[scrum|SCRUM]]
-- Nejrozšířenější agilní framework.
-- **Role**: Scrum Master, Product Owner, Developers.
-- **Artefakty**: Product Backlog, Sprint Backlog, Inkrement.
-- **Události**: Sprint, Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective.
+### Agilní vývoj a SCRUM
+Principy agilního manifestu a nejpoužívanější agilní framework SCRUM (role, artefakty, události).
+- Více viz: [[agilni-vyvoj]]
+- Detailní pohled na: [[scrum]]
 
 ## Související stránky
 - [[softwarove-inzenyrstvi]]

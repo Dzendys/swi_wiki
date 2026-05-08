@@ -9,33 +9,25 @@
 
 ---
 
-Projektové řízení v softwarovém inženýrství zajišťuje, že produkt bude dodán včas, v požadované kvalitě, se slíbeným chováním a v dohodnuté ceně.
+Přednáška představuje disciplínu projektového řízení v kontextu vývoje softwaru.
 
 ## Klíčová témata
 
-### [[softwarove-inzenyrstvi#Životní cyklus vývoje softwaru (SDLC)|Modely životního cyklu]]
-- **Pracovní postupy**: Analýza [[pozadavky|požadavků]], [[navrh-softwaru|návrh]], [[implementace|konstrukce]], [[testovani|testování]] a údržba.
-- **Modely**:
-    - **Vodopád (Waterfall)**: Sekvenční, nelze se vracet zpět (vhodné pro neměnné požadavky).
-    - **Iterativní**: Sekvence "malých vodopádů", průběžné dodávky a zpětná vazba.
-    - **Agilní**: Extrémně krátké iterace, rychlá reakce na změny.
+### Modely životního cyklu (SDLC)
+Způsoby uspořádání vývojových fází v čase (Vodopád, Iterativní modely).
+- Více viz: [[metodiky-vyvoje#Modely životního cyklu (SDLC)|Modely životního cyklu]]
 
-### [[projektove-rizeni|Projektové řízení a role manažera]]
-- **Projekt**: Časově ohraničená unikátní činnost směřující ke změně (např. zavedení nového IS).
-- **Projektový manažer**: Sleduje a řídí náklady, čas (milníky), rozsah (bobtnání požadavků), kvalitu a rizika.
-- **Fáze**: Příprava (výstupy, alokace zdrojů), Provádění (monitoring, komunikace) a Uzavření (vyhodnocení).
+### Řízení projektu a role manažera
+Role projektového manažera, sledování omezení (čas, cena, rozsah, kvalita) a fáze projektu.
+- Více viz: [[projektove-rizeni]]
 
-### [[odhad-pracnosti|Plánování a odhady]]
-- **Odhady**: Pracnost (jednotky MD), cena a čas. Nutno počítat (ne jen hádat) na základě požadavků, obrazovek nebo tabulek.
-- **Metody**: Karnerova metoda (Use Case Points), COCOMO (počet řádků kódu).
-- **Projektový plán**:
-    - **WBS (Work Breakdown Structure)**: Rozpad projektu na úkoly.
-    - **Ganttův diagram**: Časový harmonogram se závislostmi (FS, SS, FF, SF).
-    - **Kritická cesta**: Nejdelší cesta v projektu určující minimální délku trvání.
+### Plánování a odhady
+Techniky odhadování pracnosti a nástroje pro plánování (WBS, Ganttův diagram, kritická cesta).
+- Více viz: [[odhad-pracnosti]]
 
-### [[rizeni-rizik|Řízení rizik]]
-- **Evidence**: Popis rizika, pravděpodobnost a závažnost (impakt).
-- **Strategie**: Akceptace, minimalizace (pravděpodobnosti či dopadu) nebo odstranění.
+### Řízení rizik
+Identifikace hrozeb a strategií jejich řešení (akceptace, minimalizace, odstranění).
+- Více viz: [[rizeni-rizik]]
 
 ## Související stránky
 - [[softwarove-inzenyrstvi]]
