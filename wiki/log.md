@@ -1,5 +1,13 @@
 # Log změn
 
+## [2026-05-08] - Ingest 11. přednášky (ingest/prednaska-11)
+- Zpracování přednášky `11.prednaska.pdf`.
+- Vytvoření souhrnné stránky [[11-projektove-rizeni]].
+- Vytvoření konceptu [[projektove-rizeni]] (fáze projektu, role manažera, cíle).
+- Vytvoření konceptu [[rizeni-rizik]] (evidence, strategie řešení).
+- Aktualizace [[odhad-pracnosti]] (metody UCP a COCOMO, historická data, pravidla odhadování).
+- Aktualizace [[index]].
+
 ## [2026-05-08] - Ingest 10. přednášky (ingest/prednaska-10)
 - Zpracování přednášky `10.prednaska.pdf`.
 - Vytvoření souhrnné stránky [[10-nasazeni-udrzba-a-integrace]].

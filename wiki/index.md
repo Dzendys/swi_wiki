@@ -11,6 +11,7 @@
 - [[08-implementace|08. Implementace]]
 - [[09-zajisteni-kvality|09. Zajištění kvality]]
 - [[10-nasazeni-udrzba-a-integrace|10. Nasazení, údržba a integrace aplikací]]
+- [[11-projektove-rizeni|11. Projektové řízení]]
 
 ## Koncepty
 - [[softwarove-inzenyrstvi|Softwarové inženýrství]]
@@ -50,6 +51,8 @@
 - [[podpora-a-udrzba|Podpora a údržba]]
 - [[integrace-aplikaci|Integrace aplikací]]
 - [[webove-sluzby-rest-soap|Webové služby (REST, SOAP)]]
+- [[projektove-rizeni|Projektové řízení]]
+- [[rizeni-rizik|Řízení rizik]]
 
 ---
 #index #BI-SWI

@@ -22,10 +22,24 @@ Termín dodání lze odvodit z pracnosti a velikosti týmu. Teoreticky lze úkol
 **Pozor**: V praxi spolupráce více osob přináší režii (komunikace, koordinace), takže doba trvání se s počtem lidí **nezkracuje lineárně** (zdroj: raw/lectures/01.prednaska.pdf).
 
 ## Stanovení odhadu
-Odhad nelze snadno provést bez detailní znalosti rozsahu (**scope**) projektu. Rozsah zahrnuje nejen implementaci, ale i dokumentaci, školení a řízení. Detailní specifikací požadavků se zabývá [[role-analytika|analytik]] (zdroj: raw/lectures/01.prednaska.pdf).
+Odhad nelze snadno provést bez detailní znalosti rozsahu (**scope**) projektu. Rozsah zahrnuje nejen implementaci, ale i dokumentaci, školení a řízení.
+
+### Metody odhadování
+-   **Úsudek (Expert Judgment)**: Rychlý, ale často nepřesný (programátoři bývají příliš optimističtí).
+-   **Karnerova metoda (Use Case Points)**: Odhad na základě počtu a složitosti [[pripady-uziti|aktérů a případů užití]].
+-   **COCOMO (Constructive Cost Model)**: Matematický model založený na odhadovaném počtu řádek kódu (LOC).
+-   **Historická data**: Porovnání s dřívějšími projekty v daném odvětví je nejspolehlivější cestou (zdroj: raw/lectures/11.prednaska.pdf).
+
+### Pravidla pro přesnější odhady
+-   **Odhadujte v rozmezí**: Místo jednoho čísla určete dolní a horní hranici (např. s 90% pravděpodobností se výsledek vejde do tohoto intervalu).
+-   **Zohledněte velikost**: Pracnost s velikostí projektu neroste lineárně.
+-   **Nepodléhejte tlaku**: Úmyslně nižší odhad je "sleva", která by měla být věcí obchodu, nikoliv technika.
+-   **Použijte více metod**: Výsledky porovnejte a analyzujte rozdíly.
 
 ## Související stránky
+- [[projektove-rizeni]]
 - [[role-analytika]]
+- [[rizeni-rizik]]
 - [[tymova-spoluprace]]
 
 ---
