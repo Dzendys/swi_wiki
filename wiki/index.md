@@ -1,5 +1,14 @@
 # BI-SWI Wiki Index
 
+## Moduly (Skripta)
+Strukturovaný studijní průvodce rozdělený do logických celků pro přípravu na zkoušku.
+- [[modules/01_Uvod_a_Zivotni_Cyklus/index|01. Úvod a Životní cyklus]]
+- [[modules/02_Analyza_a_Pozadavky/index|02. Analýza a Požadavky]]
+- [[modules/03_Architektura_a_Navrh/index|03. Architektura a Návrh]]
+- [[modules/04_Implementace_a_Kvalita/index|04. Implementace a Kvalita]]
+- [[modules/05_Nasazeni_a_Provoz/index|05. Nasazení a Provoz]]
+- [[modules/06_Projektove_Rizeni/index|06. Projektové Řízení]]
+
 ## Přednášky
 - [[01-uvod-do-swi|01. Úvod do SWI a týmového vývoje]]
 - [[02-modelovani-obchodnich-procesu|02. Modelování obchodních procesů]]

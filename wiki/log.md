@@ -1,5 +1,17 @@
 # Log změn
 
+## [2026-05-09] - Vytvoření strukturovaných skript (feat/skripta-moduly)
+- Vytvořeno 6 modulů v `wiki/modules/` sloužících jako ucelený studijní průvodce pro zkoušku.
+- Každý modul syntetizuje informace z přednášek a koncepčních stránek do plynulého textu.
+- Zahrnuty klíčové diagramy a vizuální schémata z přednášek pro lepší pochopení souvislostí.
+- Aktualizován `wiki/index.md` o novou sekci "Moduly (Skripta)".
+- **Modul 01**: Úvod, životní cyklus (SDLC), metodiky (UP, Scrum).
+- **Modul 02**: Analýza procesů, požadavků (FURPS) a doménové modelování.
+- **Modul 03**: Architektura, vrstvení, návrh tříd (GRASP), vzory GoF a persistence.
+- **Modul 04**: Implementace, Clean Code, refaktoring a zajištění kvality (QA, testování).
+- **Modul 05**: Nasazení (CI/CD), údržba (SLA) a integrace aplikací (REST/SOAP).
+- **Modul 06**: Projektové řízení, odhadování pracnosti a řízení rizik.
+
 ## [2026-05-08] - Fix měřítka obrázků (fix/image-scaling-vertical-horizontal)
 - **Oprava vertikálních obrázků**: Vertikální schémata byla omezena na výšku `x250`, aby nezabírala příliš mnoho vertikálního prostoru.
 - **Zachování horizontálních obrázků**: Horizontální a čtvercové obrázky byly sjednoceny na výšku `x350`, což zachovává jejich čitelnost a "velký" formát, který preferuje uživatel.
