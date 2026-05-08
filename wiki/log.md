@@ -1,5 +1,18 @@
 # Log změn
 
+## [2026-05-08] - Ingest 6. přednášky (ingest/prednaska-06)
+- Zpracování přednášky `06.prednaska.pdf`.
+- Vytvoření souhrnné stránky [[06-architektonicke-vzory]].
+- Vytvoření konceptu [[vrstvy-architektury]] (Monolit, 2-vrstvá, 3-vrstvá, striktní/relaxovaná).
+- Vytvoření konceptu [[persistence-dat]] s detaily z doplňkových materiálů (Active Record, Data Mapper, atd.).
+- Vytvoření konceptu [[sekvencni-diagram]] (UML notace pro spolupráci objektů).
+- Vytvoření konceptu [[mvc-mvp]] (vzory prezentační vrstvy).
+- Aktualizace [[index]].
+
+## [2026-05-08] - Oprava vztahů v Use Case (fix: clarify UC relationships)
+- Revize [[pripady-uziti]] a [[diagram-pripadu-uziti]] na základě `Use Case Model.pdf`.
+- Doplněno varování před funkční dekompozicí a upřesnění významu `include` a `extend`.
+
 ## [2026-05-08] - Ingest 5. přednášky (ingest/prednaska-05)
 - Zpracování přednášky `05.prednaska.pdf`.
 - Vytvoření souhrnné stránky [[05-navrh-softwarovych-systemu]].

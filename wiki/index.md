@@ -6,6 +6,7 @@
 - [[03-analyza-a-sber-pozadavku|03. Analýza a sběr požadavků]]
 - [[04-analyza-problemove-domeny|04. Analýza problémové domény]]
 - [[05-navrh-softwarovych-systemu|05. Návrh softwarových systémů]]
+- [[06-architektonicke-vzory|06. Architektonické vzory]]
 
 ## Koncepty
 - [[softwarove-inzenyrstvi|Softwarové inženýrství]]
@@ -23,8 +24,12 @@
 - [[stavovy-diagram|Stavový diagram (UML)]]
 - [[navrh-softwaru|Návrh softwaru]]
 - [[softwarova-architektura|Softwarová architektura]]
+- [[vrstvy-architektury|Vícevrstvé architektury]]
+- [[persistence-dat|Persistence dat (TDG, RDG, Active Record, Data Mapper)]]
 - [[mapovani-dedicnosti|Mapování dědičnosti (ORM)]]
 - [[navrhovy-model-trid|Návrhový model tříd (UML)]]
+- [[sekvencni-diagram|Sekvenční diagram (UML)]]
+- [[mvc-mvp|Vzory prezentační vrstvy (MVC, MVP)]]
 
 ---
 #index #BI-SWI
