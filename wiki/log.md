@@ -1,5 +1,13 @@
 # Log změn
 
+## [2026-05-08] - Konsolidace Single Source of Truth (refactor/ssot-consolidation)
+- Rozsáhlá refaktorizace celé wiki pro zajištění principu Single Source of Truth.
+- Všech 12 stránek přednášek (`wiki/lectures/`) bylo zredukováno na stručné souhrny s odkazy na příslušné koncepty.
+- Technické detaily, pravidla a definice byly přesunuty nebo potvrzeny v koncepčních stránkách (`wiki/concepts/`).
+- Zajištěno, že každý technický pojem nebo postup je detailně vysvětlen právě na jednom místě (v konceptu).
+- Přednášky nyní slouží jako tematické rozcestníky pro přípravu na zkoušku.
+- Kontrola a prolinkování všech souvisejících stránek pro lepší navigaci v Obsidianu.
+
 ## [2026-05-08] - Ingest 12. přednášky (ingest/prednaska-12)
 - Zpracování přednášky `12.prednaska.pdf`.
 - Vytvoření souhrnné stránky [[12-metodiky-a-agilni-vyvoj]].
