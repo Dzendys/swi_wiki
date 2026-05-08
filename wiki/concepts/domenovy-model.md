@@ -13,6 +13,9 @@
 
 **Doménový model** (Domain Model) je klíčovým výstupem analytika, který odpovídá na otázku, s jakými daty a entitami systém pracuje (zdroj: raw/lectures/01.prednaska.pdf). K jeho tvorbě se využívá **UML Diagram tříd** (Class Diagram) na vysoké úrovni abstrakce (zdroj: raw/extra/Class Diagram Domain Model.pdf).
 
+![Komplexní doménový model knihovny](imgs/04.prednaska-032.jpg)
+*Obrázek: Celkový pohled na analytický model knihovny zahrnující klíčové entity a jejich vazby.*
+
 ## Účel a charakteristika
 - **Slovníček pojmů**: Sjednocení terminologie mezi zákazníkem a vývojáři.
 - **Abstrakce**: Neobsahuje implementační detaily (metody, cizí klíče).
@@ -22,7 +25,9 @@
 ### Třída (Entity)
 - **Atributy**: Vlastnosti entity (název:typ). Používají se pouze základní typy (int, text, date) (zdroj: raw/lectures/04.prednaska.pdf).
 - **Metody**: V doménovém modelu se typicky nepoužívají, ledaže popisují doménovou logiku (nikoliv implementaci jako `print()` nebo `backup()`) (zdroj: raw/lectures/04.prednaska.pdf).
-- **Viditelnost**: private (`-`), protected (`#`), public (`+`).
+
+![Notace UML třídy](imgs/04.prednaska-010.jpg)
+*Obrázek: Detailní notace třídy v UML (název, atributy s viditelností, metody).*
 
 ### Vztahy
 - **Asociace**: Propojení mezi entitami s definovanou **násobností** (např. `0..*`, `1..1`). Násobnost je nutné kontrolovat v obou směrech (zdroj: raw/lectures/04.prednaska.pdf).
@@ -30,17 +35,46 @@
 - **Agregace**: Slabší vazba "celek-část". Doporučuje se spíše nepoužívat a nahradit asociací (zdroj: raw/lectures/04.prednaska.pdf).
 - **Generalizace (Dědičnost)**: Modelování hierarchie entit (potomek dědí od rodiče).
 
-## Hledání entit
-Entity se hledají jako podstatná jména v:
-- Business procesních modelech.
-- [[pripady-uziti|Modelech případů užití]].
-- Slovníčku pojmů (zdroj: raw/lectures/04.prednaska.pdf).
+![Typy vztahů v UML](imgs/04.prednaska-012.jpg)
+*Obrázek: Přehled základních typů vazeb mezi třídami.*
+
+#### Speciální vazby
+- **Asociační třída**: Používá se pro zachycení informací, které patří k samotné vazbě mezi dvěma třídami.
+- **Atribut vs. Asociace**: Pro doménový model je názornější modelovat komplexní vlastnosti jako samostatné třídy spojené asociací.
+
+![Asociační třída](imgs/04.prednaska-016.jpg)
+![Atribut vs. Asociace](imgs/04.prednaska-014.jpg)
+*Obrázek: Znázornění asociační třídy a porovnání modelování pomocí atributu vs. asociace.*
+
+## Postup tvorby a refaktoring
+Při tvorbě doménového modelu postupně zpřesňujeme strukturu entit tak, aby co nejlépe odpovídala realitě.
+
+1.  **Vyčlenění entit**: Místo atributů (např. jméno autora v třídě Kniha) vytváříme samostatné entity (Autor).
+2.  **Modelování historie**: Místo přímé vazby (např. Čtenář "má půjčeno" Knihu) zavádíme vazební entity (Výpůjčka), které umožňují sledovat historii a doplňkové údaje (datum od-do).
+3.  **Rozlišení popisu a instance**: Oddělení obecné informace (Kniha - název, ISBN) od fyzických exemplářů (Výtisk - evidenční číslo, stav).
+
+![Refaktoring: Kniha a Autor](imgs/04.prednaska-022.jpg)
+![Refaktoring: Zavedení Výpůjčky](imgs/04.prednaska-028.jpg)
+![Refaktoring: Kniha vs. Výtisk](imgs/04.prednaska-030.jpg)
+*Obrázek: Ukázky postupného zpřesňování doménového modelu.*
 
 ## Časté chyby
 - **Implementační detaily**: Zahrnutí atributů typu `rowid` nebo metod pro údržbu databáze.
+- **Softwarové třídy**: Zahrnutí technických tříd (např. `DatabazeKnih`), které nepatří do reálného světa.
 - **Cizí klíče**: Snaha identifikovat objekt pomocí atributu (např. `cisloFaktury` v třídě `Kniha`) místo použití asociace (zdroj: raw/lectures/04.prednaska.pdf).
-- **Nevhodná dědičnost**: Použití generalizace pro kategorie, které se mohou překrývat nebo měnit (vhodnější je vazba na entitu `Typ` nebo `Žánr`).
-- **Pletení instance a popisu**: Třída by neměla obsahovat atributy instance (evidenční číslo) i obecného popisu (název, autor) dohromady, pokud může existovat více instancí jednoho popisu (zdroj: raw/lectures/04.prednaska.pdf).
+- **Nevhodná dědičnost**: Použití generalizace pro kategorie (např. Žánry), které se mohou měnit. Vhodnější je asociace na samostatnou třídu.
+- **Modelování historie jako entity**: Historie sama o sobě není entita, ale vlastnost dat v čase (správně se modeluje např. pomocí entity Cena s platností od-do).
+- **Pletení instance a popisu**: Třída by neměla obsahovat atributy instance i obecného popisu dohromady.
+
+![Chyba: Implementační detaily](imgs/04.prednaska-042.jpg)
+![Chyba: Softwarové třídy](imgs/04.prednaska-046.jpg)
+![Chyba: Cizí klíče](imgs/04.prednaska-048.jpg)
+![Chyba: Nevhodná dědičnost](imgs/04.prednaska-052.jpg)
+![Oprava: Modelování kategorií](imgs/04.prednaska-054.jpg)
+![Chyba: Historie jako entita](imgs/04.prednaska-056.jpg)
+![Oprava: Modelování historie ceny](imgs/04.prednaska-058.jpg)
+![Chyba: Míchání instance a popisu](imgs/04.prednaska-050.jpg)
+*Obrázek: Příklady nejčastějších chyb v doménovém modelu a jejich správná řešení.*
 
 ## Související stránky
 - [[role-analytika]]
