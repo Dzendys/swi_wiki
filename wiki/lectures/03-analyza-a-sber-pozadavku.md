@@ -9,22 +9,18 @@
 
 ---
 
-Přednáška detailně rozebírá analytickou fázi zaměřenou na požadavky.
+Přednáška detailně rozebírá analytickou fázi zaměřenou na přesnou specifikaci toho, co má systém dělat a jaké vlastnosti musí splňovat.
 
 ## Klíčová témata
 
 ### Kategorizace a specifikace požadavků
-Vymezení hranic systému a kategorizace požadavků na projektové a produktové (funkční a nefunkční). Představení modelu **FURPS**.
-- Více viz: [[pozadavky]]
+Klíčovým úkolem je rozlišení mezi projektovými (cena, čas) a produktovými požadavky. Produktové [[pozadavky|požadavky]] se dále dělí na funkční a nefunkční pomocí modelu **FURPS**. Důraz je kladen na ověřitelnost a jednoznačnost každého požadavku, což je základem pro pozdější akceptační testování.
 
 ### Modelování případů užití (Use Case Model)
-Detailní technika pro zachycení funkčních požadavků. Pravidla pro tvorbu scénářů, určování granularity a časté chyby v modelu.
-- Více viz: [[pripady-uziti]]
-- Grafické znázornění: [[diagram-pripadu-uziti]]
+Technika [[pripady-uziti|případů užití]] slouží k zachycení funkčních požadavků z pohledu aktérů systému. Přednáška definuje pravidla pro tvorbu textových scénářů, určování správné granularity (cca 10 kroků na scénář) a varuje před častými chybami, jako je snaha o přílišnou funkční dekompozici v [[diagram-pripadu-uziti|diagramu]].
 
 ### Uživatelské příběhy
-Alternativní způsob zachycení požadavků, typický pro agilní vývoj.
-- Více viz: [[uzivatelske-pribehy]]
+Jako alternativu k formálním případům užití představuje přednáška [[uzivatelske-pribehy|uživatelské příběhy (User Stories)]], které jsou typické pro agilní vývoj. Zaměřují se na přidanou hodnotu pro uživatele a slouží jako podklad pro komunikaci v týmu.
 
 ## Související stránky
 - [[pozadavky]]
