@@ -37,7 +37,7 @@ Rozhraní je množina operací, která specifikuje služby poskytované třídou
 ## Architektura založená na komponentách
 Použití komponent a rozhraní umožňuje vytvářet čistou architektura, kde jsou jednotlivé vrstvy a moduly propojeny přes kontrakty (rozhraní).
 
-![|250](imgs/07.prednaska-017.jpg) ![|250](imgs/07.prednaska-019.jpg)
+![|350](imgs/07.prednaska-017.jpg) ![|450](imgs/07.prednaska-019.jpg)
 *Obrázek: Komplexní diagram komponent a detailní specifikace metod v rozhraních.*
 
 ## Propojování komponent

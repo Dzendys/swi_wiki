@@ -22,7 +22,7 @@ Zajištění kvality (QA) je systematický přístup k zajištění toho, aby so
 ## Měření kvality (Statická analýza)
 Moderní nástroje pro statickou analýzu (např. SonarQube) umožňují vizualizovat kvalitu kódu pomocí různých metrik, jako je technický dluh, spolehlivost a udržovatelnost.
 
-![|250](imgs/09.prednaska-022.jpg) ![|250](imgs/09.prednaska-023.jpg)
+![|300](imgs/09.prednaska-022.jpg) ![|300](imgs/09.prednaska-023.jpg)
 *Obrázek: Ukázky výstupů statické analýzy zaměřené na spolehlivost (chyby) a udržovatelnost (technický dluh).*
 
 ## Charakteristiky kvality

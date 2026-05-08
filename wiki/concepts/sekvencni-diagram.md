@@ -30,7 +30,7 @@ Sekvenční diagram (Sequence Diagram) patří mezi diagramy chování a je klí
     - **Nalezená zpráva (Found Message)**: Šipka vycházející z černého bodu (vstup do systému zvenčí).
     - **Zaslání zprávy sám sobě (Self Message)**: Smyčka zpět na stejnou životní čáru (volání vnitřní metody).
 
-![|250](imgs/06.prednaska-055.jpg) ![|250](imgs/06.prednaska-057.jpg)
+![|200](imgs/06.prednaska-055.jpg) ![|200](imgs/06.prednaska-057.jpg)
 *Obrázek: Modelování životního cyklu objektů a specifických typů zpráv.*
 
 - **Fragmenty (Kombinované fragmenty)**: Rámečky pro řízení toku:
