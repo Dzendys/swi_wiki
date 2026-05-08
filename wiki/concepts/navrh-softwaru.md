@@ -18,7 +18,7 @@ Návrh softwaru (Design) je kritickým krokem před samotnou implementací. Zodp
 - **[[navrhovy-model-trid|Návrhový model tříd]]**: Realizace případů užití pomocí konkrétních objektů a přiřazení zodpovědností jednotlivým metodám softwarových tříd.
 
 ## Související stránky
-- [[analyza-pozadavku]]
+- [[03-analyza-a-sber-pozadavku|Analýza požadavků]]
 - [[role-analytika]]
 - [[mapovani-dedicnosti]]
 

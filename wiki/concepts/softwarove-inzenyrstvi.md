@@ -16,7 +16,7 @@ Způsob, jakým jsou jednotlivé kroky vývoje uspořádány, definuje **[[metod
 
 1.  **[[obchodni-procesy|Modelování obchodních procesů]]**: Pochopení činnosti zákazníka.
 2.  **[[pozadavky|Analýza a sběr požadavků]]**: Definice toho, co má systém dělat (funkční požadavky) a jaké má mít vlastnosti (nefunkční požadavky dle modelu [[pozadavky#Model FURPS|FURPS]]).
-3.  **[[analyza-problemove-domeny|Analýza domény]]**: Vytvoření [[domenovy-model|doménového modelu]], který zachycuje klíčové pojmy a vztahy v reálném světě nezávisle na technologii.
+3.  **[[04-analyza-problemove-domeny|Analýza domény]]**: Vytvoření [[domenovy-model|doménového modelu]], který zachycuje klíčové pojmy a vztahy v reálném světě nezávisle na technologii.
 4.  **[[navrh-softwaru|Návrh systému (Design)]]**: Rozhodnutí o tom, *jak* bude systém postaven.
     *   Definice [[softwarova-architektura|architektury]] a [[vrstvy-architektury|vrstev]].
     *   Detailní [[navrhovy-model-trid|návrh tříd]], metod a [[komponenty-a-rozhrani|komponent]].
