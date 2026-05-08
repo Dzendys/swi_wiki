@@ -22,11 +22,8 @@ Vrstvy představují horizontální rozdělení [[softwarova-architektura|softwa
 ## Pravidla závislostí
 Závislosti by měly směřovat vždy **shora dolů**. Rozlišujeme dva přístupy:
 
-![Striktní třívrstvá architektura](imgs/06.prednaska-023.jpg)
-*Obrázek: Striktní vrstvení - závislost pouze na bezprostředně nižší vrstvě.*
-
-![Relaxovaná třívrstvá architektura](imgs/06.prednaska-025.jpg)
-*Obrázek: Relaxované vrstvení - možnost přímého přístupu k jakékoliv nižší vrstvě.*
+![Striktní třívrstvá architektura|300](imgs/06.prednaska-023.jpg) ![Relaxovaná třívrstvá architektura|300](imgs/06.prednaska-025.jpg)
+*Obrázek: Porovnání striktního (vlevo) a relaxovaného (vpravo) vrstvení.*
 
 Rozlišujeme dva přístupy:
 - **Striktní architektura**: Vrstva může využívat pouze vrstvu bezprostředně pod ní.

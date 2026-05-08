@@ -12,7 +12,7 @@
 
 Zatímco [[domenovy-model|doménový model]] popisuje entity reálného světa a jejich vztahy, návrhový model tříd (Design Class Diagram) dokumentuje architektonická a implementační rozhodnutí. Slouží jako přímý podklad pro generování zdrojových kódů.
 
-![Transformace z konceptu do implementace](imgs/05.prednaska-062.jpg)
+![|500](imgs/05.prednaska-062.jpg)
 *Obrázek: Ukázka trasování (stereotyp «trace») od doménových tříd k detailnímu návrhu pro implementaci v Javě/C#.*
 
 ## Prvky návrhového modelu
@@ -24,8 +24,7 @@ V návrhovém modelu využíváme plnou sílu UML notace pro zachycení implemen
 - **Členové**: statické prvky (podtržené), abstraktní prvky (kurzíva), konstanty (`{readOnly}`).
 - **Šablony (Templates)**: Modelování generických typů (např. `Seznam<T>`).
 
-![UML Notace tříd - Viditelnost a členy](imgs/05.prednaska-053.jpg)
-![Šablony a Generika](imgs/05.prednaska-055.jpg)
+![|300](imgs/05.prednaska-053.jpg) ![|300](imgs/05.prednaska-055.jpg)
 *Obrázek: Přehled prvků třídy v UML a ukázka použití šablon.*
 
 ### Reprezentace vztahů a rozhraní
@@ -34,9 +33,7 @@ Vztahy lze v UML znázornit buď graficky asociací, nebo textově pomocí atrib
 - **Realizace rozhraní**: Přerušovaná čára s prázdnou šipkou.
 - **Asociace**: Určení směru navigovatelnosti a násobností.
 
-![Reprezentace vztahů: Atribut vs. Asociace](imgs/05.prednaska-057.jpg)
-![Reprezentace vztahů: Grafická asociace](imgs/05.prednaska-058.jpg)
-![Realizace rozhraní](imgs/05.prednaska-060.jpg)
+![|250](imgs/05.prednaska-057.jpg) ![|250](imgs/05.prednaska-058.jpg) ![|250](imgs/05.prednaska-060.jpg)
 *Obrázek: Různé způsoby zachycení vztahů a implementace rozhraní.*
 
 ## Přiřazování zodpovědností (GRASP)

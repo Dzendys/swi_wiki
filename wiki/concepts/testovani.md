@@ -45,15 +45,13 @@ Testování je jednou z klíčových forem [[verifikace-a-validace|validace a ve
 ## Metriky testování
 Sledování metrik v čase umožňuje vyhodnotit stabilitu systému a efektivitu testování.
 
-![Trend výsledků testů](imgs/09.prednaska-041.jpg)
-![Trend pokrytí kódu](imgs/09.prednaska-042.jpg)
+![Trend výsledků testů|300](imgs/09.prednaska-041.jpg) ![Trend pokrytí kódu|300](imgs/09.prednaska-042.jpg)
 *Obrázek: Vizualizace trendů v úspěšnosti testů a procentuálním pokrytí kódu v čase.*
 
 - **Pokrytí kódu (Code Coverage)**: Procento řádků, tříd nebo metod pokrytých testy (typicky u White Box testů).
 - **Cyklomatická složitost**: Počet nezávislých cest kódem.
 
-![Souhrnné metriky pokrytí](imgs/09.prednaska-044.jpg)
-![Vztah pokrytí a složitosti](imgs/09.prednaska-045.jpg)
+![Souhrnné metriky pokrytí|300](imgs/09.prednaska-044.jpg) ![Vztah pokrytí a složitosti|300](imgs/09.prednaska-045.jpg)
 *Obrázek: Detailní přehled pokrytí (Line vs Condition Coverage) a analýza vztahu mezi složitostí kódu a jeho otestováním.*
 
 - **Počet nalezených chyb** vs. počet chyb nalezených v produkci.

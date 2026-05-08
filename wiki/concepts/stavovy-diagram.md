@@ -16,7 +16,7 @@
 - **Přechod (Transition)**: Vztah mezi dvěma stavy naznačující, že objekt v prvním stavu provede určité akce a přejde do druhého stavu, nastane-li specifikovaná událost a jsou-li splněny podmínky (zdroj: raw/lectures/04.prednaska.pdf).
 - **Událost (Event)**: Výskyt něčeho, co může spustit přechod (zdroj: raw/lectures/04.prednaska.pdf).
 
-![Stavový diagram entity Výtisk](imgs/04.prednaska-035.jpg)
+![|500](imgs/04.prednaska-035.jpg)
 *Obrázek: Životní cyklus entity Výtisk (stavy Volný, Vypůjčený, Ztracený, Vyřazený).*
 
 ## Notace
