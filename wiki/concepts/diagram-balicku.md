@@ -15,7 +15,7 @@ Diagram balíčků (Package Diagram) je klíčový pro zachycení struktury syst
 ## Účel
 Hlavním účelem je řídil složitost (komplexitu) velkých systémů. Balíčky by měly být navrženy tak, aby představovaly ucelené, relativně nezávislé moduly. Pomáhají při:
 
-![[imgs/03.prednaska-016.jpg|x200]] ![[imgs/05.prednaska-030.jpg|x250]]
+![[imgs/03.prednaska-016.jpg|151]] ![[imgs/05.prednaska-030.jpg|611]]
 *Obrázek: Rozdělení systému do logických balíčků (Evidence čtenářů, Evidence knih, Evidence výpůjček).*
 
 Pomáhají při:
@@ -27,7 +27,7 @@ Pomáhají při:
 - **Balíček (Package)**: Kreslí se jako složka (obdélník s menším obdélníkem vlevo nahoře). Jméno balíčku je buď uvnitř velkého obdélníku, nebo v malém "oušku".
 - **Závislost (Dependency)**: Kreslí se jako přerušovaná čárkovaná šipka mezi balíčky, značící, že jeden balíček využívá elementy jiného balíčku.
 
-![[imgs/05.prednaska-039.jpg|x200]]
+![[imgs/05.prednaska-039.jpg|85]]
 *Obrázek: Základní jednosměrná závislost (Balíček A závisí na Balíčku B).*
 
 ### Vnoření balíčků
@@ -36,13 +36,13 @@ Balíčky mohou obsahovat jiné balíčky. V UML existuje několik způsobů, ja
 2.  **Grafické vnoření**: Obdélníky vnitřních balíčků jsou nakresleny fyzicky uvnitř těla nadřazeného balíčku.
 3.  **Kompoziční vazba**: Explicitní definice členství pomocí čáry s křížkem v kroužku.
 
-![[imgs/05.prednaska-045.jpg|x250]] ![[imgs/05.prednaska-046.jpg|x250]] ![[imgs/05.prednaska-047.jpg|x250]]
+![[imgs/05.prednaska-045.jpg|457]] ![[imgs/05.prednaska-046.jpg|632]] ![[imgs/05.prednaska-047.jpg|420]]
 *Obrázek: Různé notace pro zobrazení hierarchie a vnořování balíčků.*
 
 ## Cyklické závislosti
 Velkým problémem v diagramu balíčků jsou **cyklické závislosti** (Balíček A závisí na B a B závisí zpět na A). Cykly ztěžují lokalizaci dopadů změn a komplikují rozšiřitelnost.
 
-![[imgs/05.prednaska-041.jpg|x200]]
+![[imgs/05.prednaska-041.jpg|118]]
 *Obrázek: Problematická obousměrná závislost, která vytváří cyklus.*
 
 Řešením cyklických závislostí je:
@@ -50,7 +50,7 @@ Velkým problémem v diagramu balíčků jsou **cyklické závislosti** (Balíč
 - Vyčlenění tříd tvořících cyklus do nového balíčku (všichni pak závisí na tomto novém společném balíčku).
 - Vytvoření rozhraní a uplatnění principu inverze závislostí (Dependency Inversion).
 
-![[imgs/05.prednaska-043.jpg|x250]]
+![[imgs/05.prednaska-043.jpg|414]]
 *Obrázek: Odstranění cyklu vyčleněním společné logiky do Balíčku C.*
 
 ## Související stránky

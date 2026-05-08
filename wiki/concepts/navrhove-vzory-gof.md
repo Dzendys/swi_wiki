@@ -16,24 +16,24 @@ Vzory se dělí do tří základních kategorií podle svého účelu:
 Zaměřují se na proces vytváření objektů tak, aby byl systém nezávislý na způsobu jejich vzniku.
 - **Abstraktní továrna (Abstract Factory)**: Poskytuje rozhraní pro vytváření rodin souvisejících nebo závislých objektů, aniž by specifikovala jejich konkrétní třídy. Klient pracuje pouze s rozhraním továrny a produktů.
 
-![[imgs/07.prednaska-031.jpg|x250]]
+![[imgs/07.prednaska-031.jpg|462]]
 *Obrázek: UML diagram vzoru Abstract Factory (Klient závisí pouze na abstraktních rozhraních).*
 
 - **[[softwarova-architektura#Využití návrhových vzorů|Stavitel (Builder)]]**: Odděluje konstrukci složitého objektu od jeho reprezentace. Stejný postup konstrukce může vytvořit různé reprezentace (např. SQL dotaz pro různé dialekty). Skládá se z *Directora* (řídí strukturu) a *Buildera* (staví části).
 
-![[imgs/05.prednaska-073.jpg|x250]] ![[imgs/05.prednaska-076.jpg|x250]] ![[imgs/05.prednaska-079.jpg|x250]]
+![[imgs/05.prednaska-073.jpg|1125]] ![[imgs/05.prednaska-076.jpg|510]] ![[imgs/05.prednaska-079.jpg|467]]
 *Obrázek: Implementace vzoru Builder pro generování SQL skriptů pro různé databáze.*
 
 ## 2. Vzory chování (Behavioral)
 Zabývají se algoritmy a přiřazováním zodpovědností mezi objekty.
 - **Stav (State)**: Umožňuje objektu měnit své chování při změně jeho vnitřního stavu. Vypadá to, jako by objekt změnil svou třídu. Odstraňuje složitá větvení (`switch`, `if-else`).
 
-![[imgs/07.prednaska-038.jpg|x250]] ![[imgs/07.prednaska-040.jpg|x250]]
+![[imgs/07.prednaska-038.jpg|476]] ![[imgs/07.prednaska-040.jpg|605]]
 *Obrázek: Struktura vzoru State a jeho konkrétní aplikace na životní cyklus výtisku.*
 
 Využití vzoru State v praxi lze ilustrovat pomocí [[sekvencni-diagram|sekvenčních diagramů]], které ukazují, jak objekt deleguje chování na aktuální instanci stavu.
 
-![[imgs/07.prednaska-042.jpg|x250]] ![[imgs/07.prednaska-044.jpg|x250]]
+![[imgs/07.prednaska-042.jpg|414]] ![[imgs/07.prednaska-044.jpg|491]]
 *Obrázek: Spolupráce objektů při změně stavu výtisku.*
 
 - **Pozorovatel (Observer)**: Definuje závislost 1:N mezi objekty tak, že když jeden objekt změní stav, všechny závislé objekty jsou o tom informovány a automaticky aktualizovány. (Klíčový prvek vzoru [[mvc-mvp|MVC]]).
@@ -42,7 +42,7 @@ Využití vzoru State v praxi lze ilustrovat pomocí [[sekvencni-diagram|sekven�
 Zabývají se tím, jak jsou třídy a objekty skládány do větších celků.
 - **Adaptér (Adapter)**: Převádí rozhraní jedné třídy na jiné rozhraní, které klient očekává. Umožňuje spolupráci tříd, které by jinak kvůli nekompatibilním rozhraním nespolupracovaly.
 
-![[imgs/07.prednaska-048.jpg|x250]]
+![[imgs/07.prednaska-048.jpg|654]]
 *Obrázek: UML diagram vzoru Adaptér pro propojení nekompatibilních rozhraní.*
 
 ## Související stránky

@@ -31,7 +31,7 @@ Osoba zodpovědná za celkové řízení. Sleduje a ovlivňuje:
         *   [[odhad-pracnosti|Odhady pracnosti]] a alokace zdrojů (přiřazení lidí k rolím).
         *   Tvorba **projektového plánu** (WBS, Ganttův diagram).
 
-    ![[imgs/11.prednaska-032.jpg|x250]]
+    ![[imgs/11.prednaska-032.jpg|482]]
     *Obrázek: Vizualizace projektového plánu pomocí Ganttova diagramu (úkoly, trvání, závislosti).*
 
     2.  **Provádění**:
