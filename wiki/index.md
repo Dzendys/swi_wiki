@@ -8,6 +8,7 @@
 - [[05-navrh-softwarovych-systemu|05. Návrh softwarových systémů]]
 - [[06-architektonicke-vzory|06. Architektonické vzory]]
 - [[07-navrhove-vzory-a-komponenty|07. Návrhové vzory a komponenty]]
+- [[08-implementace|08. Implementace]]
 
 ## Koncepty
 - [[softwarove-inzenyrstvi|Softwarové inženýrství]]
@@ -30,10 +31,16 @@
 - [[mapovani-dedicnosti|Mapování dědičnosti (ORM)]]
 - [[navrhovy-model-trid|Návrhový model tříd (UML)]]
 - [[sekvencni-diagram|Sekvenční diagram (UML)]]
+- [[objektovy-diagram|Objektový diagram (UML)]]
 - [[mvc-mvp|Vzory prezentační vrstvy (MVC, MVP)]]
 - [[komponenty-a-rozhrani|Komponenty a rozhraní]]
 - [[dependency-injection|IoC a Dependency Injection]]
 - [[navrhove-vzory-gof|Návrhové vzory GoF]]
+- [[implementace|Implementace]]
+- [[objektove-paradigma|Objektové paradigma]]
+- [[clean-code|Clean Code a principy návrhu]]
+- [[osetreni-chyb-a-logovani|Ošetření chyb a logování]]
+- [[refaktoring|Refaktoring]]
 
 ---
 #index #BI-SWI
