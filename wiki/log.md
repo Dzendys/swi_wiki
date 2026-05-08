@@ -1,5 +1,14 @@
 # Log změn
 
+## [2026-05-08] - Ingest 10. přednášky (ingest/prednaska-10)
+- Zpracování přednášky `10.prednaska.pdf`.
+- Vytvoření souhrnné stránky [[10-nasazeni-udrzba-a-integrace]].
+- Vytvoření konceptu [[nasazeni-aplikace]] (build nástroje, způsoby nasazení, automatizace).
+- Vytvoření konceptu [[podpora-a-udrzba]] (úrovně podpory, SLA, typy údržby, testovací data).
+- Vytvoření konceptu [[integrace-aplikaci]] (důvody, problémy, integrační styly).
+- Vytvoření konceptu [[webove-sluzby-rest-soap]] (porovnání SOAP vs. REST, JSON vs. XML).
+- Aktualizace [[index]].
+
 ## [2026-05-08] - Ingest 9. přednášky (ingest/prednaska-09)
 - Zpracování přednášky `09.prednaska.pdf`.
 - Vytvoření souhrnné stránky [[09-zajisteni-kvality]].

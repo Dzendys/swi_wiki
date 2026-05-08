@@ -10,6 +10,7 @@
 - [[07-navrhove-vzory-a-komponenty|07. Návrhové vzory a komponenty]]
 - [[08-implementace|08. Implementace]]
 - [[09-zajisteni-kvality|09. Zajištění kvality]]
+- [[10-nasazeni-udrzba-a-integrace|10. Nasazení, údržba a integrace aplikací]]
 
 ## Koncepty
 - [[softwarove-inzenyrstvi|Softwarové inženýrství]]
@@ -45,6 +46,10 @@
 - [[zajisteni-kvality|Zajištění kvality (QA)]]
 - [[verifikace-a-validace|Verifikace a validace]]
 - [[testovani|Testování softwaru]]
+- [[nasazeni-aplikace|Nasazení aplikace]]
+- [[podpora-a-udrzba|Podpora a údržba]]
+- [[integrace-aplikaci|Integrace aplikací]]
+- [[webove-sluzby-rest-soap|Webové služby (REST, SOAP)]]
 
 ---
 #index #BI-SWI
