@@ -11,12 +11,17 @@
 
 ---
 
-**Model případů užití** (Use Case Model) slouží k nadefinování požadavků a specifikaci rozsahu (scope) projektu (zdroj: raw/lectures/01.prednaska.pdf).
+## Model případů užití
+**Model případů užití** (Use Case Model) slouží k nadefinování požadavků a specifikaci rozsahu (scope) projektu (zdroj: raw/lectures/01.prednaska.pdf). Model se skládá z:
+- Seznamu aktérů.
+- [[diagram-pripadu-uziti|Diagramů případů užití]].
+- Textových specifikací (scénářů) jednotlivých případů užití.
 
 ## Základní pojmy
 - **Use Case (případ užití)**: Specifický způsob využití systému aktérem k dosažení měřitelného cíle. Představuje ucelenou jednotku funkcionality (zdroj: raw/extra/Use Case Model.pdf).
 - **Aktér (Actor)**: Role, kterou hraje externí entita (člověk, jiný systém, čas) vůči systému. Aktér je vždy vně systému (zdroj: raw/extra/Use Case Model.pdf).
-- **Asociace**: Propojení mezi aktérem a případem užití, naznačující jejich vzájemnou interakci.
+
+Podrobný popis grafických prvků a vztahů naleznete na stránce [[diagram-pripadu-uziti]].
 
 ## Specifikace případu užití
 Každý případ užití by měl být detailně popsán (typicky textově). Standardní specifikace obsahuje:

@@ -1,5 +1,11 @@
 # Log změn
 
+## [2026-05-08] - Specializované koncepty pro diagramy (feat/diagram-concepts)
+- Vytvoření samostatných stránek pro notaci a strukturu: [[diagram-pripadu-uziti]], [[diagram-balicku]] a [[domenovy-model]].
+- Integrace detailů z `raw/extra/Class Diagram Domain Model.pdf`.
+- Refaktoring [[pripady-uziti]] (oddělení notace od techniky).
+- Aktualizace [[role-analytika]] a [[index]].
+
 ## [2026-05-08] - Ingest 3. přednášky (ingest/03-analyza-pozadavku)
 - Zpracování přednášky `03.prednaska.pdf`.
 - Vytvoření souhrnné stránky [[03-analyza-a-sber-pozadavku]].

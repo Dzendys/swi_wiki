@@ -15,6 +15,9 @@
 - [[pripady-uziti|Případy užití (Use Case)]]
 - [[pozadavky|Požadavky (FURPS)]]
 - [[uzivatelske-pribehy|Uživatelské příběhy (User Stories)]]
+- [[diagram-pripadu-uziti|Diagram případů užití (UML)]]
+- [[diagram-balicku|Diagram balíčků (UML)]]
+- [[domenovy-model|Doménový model]]
 
 ---
 #index #BI-SWI
