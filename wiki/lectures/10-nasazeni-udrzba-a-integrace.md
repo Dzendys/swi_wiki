@@ -9,25 +9,21 @@
 
 ---
 
-Přednáška pokrývá provozní aspekty softwaru a jeho začlenění do ekosystému zákazníka.
+Přednáška pokrývá provozní aspekty softwaru a jeho začlenění do technologického ekosystému zákazníka po dokončení vývoje.
 
 ## Klíčová témata
 
 ### Nasazení aplikace
-Proces sestavení (Build) a přechod od manuálního k automatizovanému nasazení (CI/CD).
-- Více viz: [[nasazeni-aplikace]]
+Proces [[nasazeni-aplikace|nasazení]] začíná sestavením (buildem) produktu ze zdrojových kódů. Přednáška vysvětluje přechod od rizikového manuálního nasazování k moderním automatizovaným **CI/CD** procesům (pipeline), které zajišťují opakovatelnost a stabilitu v různých prostředích (dev, test, prod).
 
 ### Podpora a údržba
-Úrovně podpory, smluvní garance (SLA) a klasifikace typů údržby (opravná, adaptivní, zdokonalovací, preventivní).
-- Více viz: [[podpora-a-udrzba]]
+Po nasazení přebírá systém tým [[podpora-a-udrzba|podpory a údržby]]. Přednáška definuje úrovně podpory (L1–L3) a smluvní garance provozu (**SLA**). Dále klasifikuje typy údržby na opravnou (chyby), adaptivní (změna okolí), zdokonalovací (nové funkce) a preventivní (předcházení budoucím problémům).
 
 ### Integrace aplikací
-Způsoby a styly propojování izolovaných systémů (soubory, sdílená DB, RPC, Messaging).
-- Více viz: [[integrace-aplikaci]]
+Aplikace málokdy fungují izolovaně. [[integrace-aplikaci|Integrace aplikací]] řeší jejich propojení za účelem sdílení dat a procesů. Rozebírají se základní styly jako přenos souborů, sdílená databáze, vzdálené volání procedur a asynchronní zasílání zpráv (Messaging), které zvyšuje robustnost při výpadcích.
 
 ### Webové služby (REST vs. SOAP)
-Technologická realizace integrace pomocí standardů SOAP a REST a využití datových formátů JSON a XML.
-- Více viz: [[webove-sluzby-rest-soap]]
+V oblasti technické realizace integrací přednáška porovnává robustní standard **SOAP** (postavený na XML a WSDL) s lehčím architektonickým stylem **REST**, který využívá standardní HTTP metody a formát **JSON**. Rozebírají se výhody a typická užití obou přístupů. Podrobnosti viz [[webove-sluzby-rest-soap]].
 
 ## Související stránky
 - [[implementace]]

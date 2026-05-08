@@ -9,21 +9,18 @@
 
 ---
 
-Přednáška představuje systematický přístup k zajištění a měření kvality softwaru.
+Přednáška představuje systematický přístup k zajištění a měření kvality softwaru jako nedílnou součást celého vývojového cyklu, nikoliv pouze jako závěrečnou fázi testování.
 
 ## Klíčová témata
 
 ### Zajištění kvality (QA)
-Cíle a aktivity QA, externí vs. interní charakteristiky kvality (FURPS, ISO 25010).
-- Více viz: [[zajisteni-kvality]]
+[[zajisteni-kvality|Zajištění kvality]] (Quality Assurance) zahrnuje plánování procesů a měření charakteristik produktu. Přednáška rozebírá externí kvality (korektnost, použitelnost) a interní kvality (udržovatelnost, testovatelnost) na základě modelu FURPS. Klíčovým argumentem pro QA je úspora nákladů, neboť cena opravy chyby roste v čase exponenciálně.
 
 ### Verifikace a Validace
-Rozdíl mezi ověřováním shody se specifikací ("Stavíme produkt správně?") a shody s potřebami uživatele ("Stavíme správný produkt?").
-- Více viz: [[verifikace-a-validace]]
+Procesy kontroly kvality se dělí na dvě základní disciplíny. [[verifikace-a-validace|Verifikace]] odpovídá na otázku, zda stavíme produkt správně vzhledem ke specifikaci a modelům. Naproti tomu **validace** zkoumá, zda stavíme správný produkt, který skutečně řeší potřeby a očekávání uživatele.
 
 ### Testování softwaru
-Klasifikace testů (jednotkové, integrační, systémové), techniky návrhu testovacích případů (hraniční hodnoty, ekvivalence) a metriky.
-- Více viz: [[testovani]]
+[[testovani|Testování]] je technický proces hledání chyb a měření kvality. Přednáška klasifikuje testy podle rozsahu (jednotkové, integrační, systémové), podle znalosti vnitřku (White vs. Black Box) a představuje techniky návrhu testovacích případů, jako je analýza hraničních hodnot nebo tříd ekvivalence.
 
 ## Související stránky
 - [[pozadavky]] (Model FURPS)
