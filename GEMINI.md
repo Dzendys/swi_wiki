@@ -9,14 +9,16 @@ Tato wiki je strukturovaná, vzájemně propojená znalostní báze, která má 
 
 ## Git Workflow (Správa změn)
 
-K celé wiki přistupuj metaforicky jako ke Git repozitáři. Hlavní stabilní a ověřená větev se jmenuje `master`. Tvá komunikace a provádění změn se řídí těmito pravidly:
+Celá wiki je spravována jako reálný **Git repozitář**. Hlavní stabilní a ověřená větev se jmenuje `master`. Tvá komunikace a provádění změn se řídí těmito pravidly:
 
-- **Drobné změny** (např. oprava překlepu, odpověď na jednoduchou otázku s drobným doplněním, přidání jednoho odkazu): Komunikuj jako přímý commit do `master`. (Ohlásíš například: `fix: oprava skloňování u odkazu na autorské právo`).
+- **Drobné změny** (např. oprava překlepu, odpověď na jednoduchou otázku s drobným doplněním, přidání jednoho odkazu): Prováděj jako přímý commit do `master` pomocí `git commit`. (Ohlásíš například: `fix: oprava skloňování u odkazu na autorské právo`).
 - **Velké změny** (např. zpracování nového PDF, generování nových konceptů, rozsáhlá refaktorizace existujících stránek):
-  1. Vždy nejprve založ novou pracovní větev ve formátu `prefix/nazev` (např. `feat/novy-koncept`, `update/licence`, `ingest/prednaska-03`).
-  2. Během práce v této větvi ukládej logické celky jako samostatné commity s jasnou zprávou ve formátu `typ: zprava` (např. `feat: vytvoření stránky p03`, `update: rozšíření konceptu o informace z extra`).
-  3. Jakmile je celá sada změn hotová a ověřená, ohlas merge do větve `master` a počkej na schválení.
-  4. Teprve po výslovném schválení zapiš provedené změny do `wiki/log.md`.
+  1. Vždy nejprve založ novou pracovní větev pomocí `git checkout -b prefix/nazev` (např. `feat/novy-koncept`, `update/licence`, `ingest/prednaska-03`).
+  2. Během práce v této větvi ukládej logické celky jako samostatné commity pomocí `git add` a `git commit` s jasnou zprávou ve formátu `typ: zprava`.
+  3. Jakmile je celá sada změn hotová a ověřená, ohlas připravenost k mergi do větve `master` a počkej na schválení.
+  4. Po výslovném schválení proveď merge do `master` pomocí `git checkout master` a `git merge nazev-vetve`.
+  5. **Pracovní větve po mergi nemaž**, pokud k tomu nedostaneš přímý pokyn od uživatele.
+  6. Teprve po úspěšném mergi zapiš provedené změny do `wiki/log.md`.
 
 ## Struktura složek
 
