@@ -1,5 +1,9 @@
 # Log změn
 
+## [2026-05-08] - Reorganizace indexu (refactor/index-grouping)
+- Koncepční stránky v `wiki/index.md` byly seskupeny do 9 logických celků (Základy, Analýza, Návrh, Implementace, QA atd.).
+- Zlepšení přehlednosti a navigace v hlavní mapě znalostí.
+
 ## [2026-05-08] - Konsolidace Single Source of Truth (refactor/ssot-consolidation)
 - Rozsáhlá refaktorizace celé wiki pro zajištění principu Single Source of Truth.
 - Všech 12 stránek přednášek (`wiki/lectures/`) bylo zredukováno na popisné souhrny s odkazy na příslušné koncepty.
