@@ -19,7 +19,7 @@ Unified Process (UP) je otevřený standard klasické metodiky, který se stal z
 ## Fáze životního cyklu UP
 Projekt v UP prochází čtyřmi hlavními fázemi (zdroj: raw/lectures/12.prednaska.pdf):
 
-![|x250](imgs/12.prednaska-029.jpg)
+![[imgs/12.prednaska-029.jpg|x250]]
 *Obrázek: Vizualizace fází a intenzity jednotlivých disciplín v čase v rámci metodiky UP.*
 
 1.  **Inception (Zahájení)**: Definice rozsahu projektu, odhad nákladů, vyhodnocení proveditelnosti.

@@ -21,13 +21,13 @@ Objektový diagram (Object Diagram) patří v UML do skupiny **diagramů struktu
 2.  **Stav objektu**: V bloku pod názvem jsou uvedeny konkrétní **hodnoty atributů** v daném okamžiku (např. `rokVydani = 2005`).
 3.  **Spojení (Link)**: Instance asociace mezi objekty. Zobrazuje se jako čára propojující objekty. Na rozdíl od asociací v diagramu tříd nemají spojení násobnost (multiplicity).
 
-![|x200](imgs/08.prednaska-020.jpg)
+![[imgs/08.prednaska-020.jpg|x200]]
 *Obrázek: Ukázka instancí tříd s konkrétními hodnotami atributů a vazbami.*
 
 ## Příklad komplexního diagramu
 Objektový diagram pomáhá vizualizovat multiplicity v praxi – například že jeden konkrétní autor napsal několik konkrétních knih, z nichž každá má několik fyzických výtisků v různých stavech.
 
-![|x250](imgs/08.prednaska-022.jpg)
+![[imgs/08.prednaska-022.jpg|x250]]
 *Obrázek: Modelování konkrétních dat v systému knihovny.*
 
 ## Příklad (EA: UML Structural - Object)

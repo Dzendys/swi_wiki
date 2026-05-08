@@ -16,13 +16,13 @@
 
 Persistence dat v [[vrstvy-architektury|třívrstvé architektuře]] spadá do nejnižší (datové) vrstvy. Existuje několik osvědčených vzorů (dle Martina Fowlera) pro mapování objektů na databázové tabulky.
 
-![Trasovatelnost: Od konceptu k databázi|x250](imgs/05.prednaska-027.jpg)
+![[imgs/05.prednaska-027.jpg|x250]]
 *Obrázek: Vztah mezi konceptuálním modelem a jeho fyzickou realizací v databázi (včetně řešení vztahu M:N).*
 
 ## Návrh datového schématu
 V návrhové fázi vytváříme detailní UML datový model, který specifikuje datové typy, primární a cizí klíče a unikátní indexy.
 
-![|x200](imgs/05.prednaska-023.jpg) ![|x250](imgs/05.prednaska-032.jpg)
+![[imgs/05.prednaska-023.jpg|x200]] ![[imgs/05.prednaska-032.jpg|x250]]
 *Obrázek: Detailní návrh databázových tabulek a jejich vzájemných vazeb.*
 
 ## Table Data Gateway (TDG)
@@ -30,7 +30,7 @@ Jedna instance této třídy spravuje všechny řádky v jedné tabulce.
 - **Princip**: Zapouzdřuje všechny SQL dotazy pro danou tabulku (SELECT, INSERT, UPDATE, DELETE).
 - **Použití**: Vhodné tam, kde doménová logika není složitá a stačí pracovat s RecordSety (zdroj: raw/extra/Table Data Gateway.pdf).
 
-![Vzor Table Data Gateway|x250](imgs/06.prednaska-033.jpg)
+![[imgs/06.prednaska-033.jpg|x250]]
 *Obrázek: Třída Gateway zapouzdřující CRUD operace nad tabulkou Kniha.*
 
 ## Row Data Gateway (RDG)
@@ -38,7 +38,7 @@ Jeden objekt této třídy reprezentuje právě jeden řádek v databázi.
 - **Princip**: Objekt obsahuje atributy odpovídající sloupcům tabulky a metody pro manipulaci s daným řádkem (`insert()`, `update()`, `delete()`). Pro vyhledávání instancí se obvykle používá samostatná třída (Finder).
 - **Použití**: Odděluje datový přístup od business logiky (zdroj: raw/extra/Row Data Gateway.pdf).
 
-![Vzor Row Data Gateway|x250](imgs/06.prednaska-035.jpg) ![Vzor Row Data Gateway (Modifikace)|x250](imgs/06.prednaska-037.jpg)
+![[imgs/06.prednaska-035.jpg|x250]] ![[imgs/06.prednaska-037.jpg|x250]]
 *Obrázek: Modelování Row Data Gateway s vyhledávačem (Finder) and méně vhodná varianta se statickými metodami.*
 
 ## Active Record
@@ -47,7 +47,7 @@ Velmi oblíbený vzor, který vychází z Row Data Gateway, ale přidává k obj
 - **Nevýhoda**: Porušuje zásady čisté třívrstvé architektury (silná vazba business logiky na databázi).
 - **Použití**: Často v PHP (Eloquent), Ruby on Rails (zdroj: raw/extra/Active Record.pdf).
 
-![Vzor Active Record|x250](imgs/06.prednaska-039.jpg)
+![[imgs/06.prednaska-039.jpg|x250]]
 *Obrázek: Třída Kniha obsahující jak data, tak business logiku.*
 
 ## Data Mapper
@@ -56,7 +56,7 @@ Vrstva mapperů, která přenáší data mezi objekty a databází a přitom je 
 - **Výhody**: Maximální decoupling (rozvolnění vazeb). Umožňuje mapovat složité hierarchie a kolekce.
 - **Použití**: Základ moderních ORM frameworků jako Hibernate (Java), Entity Framework (.NET) nebo Doctrine (PHP) (zdroj: raw/extra/Data Mapper.pdf).
 
-![Vzor Data Mapper|x250](imgs/06.prednaska-041.jpg)
+![[imgs/06.prednaska-041.jpg|x250]]
 *Obrázek: Oddělení business objektu od databáze pomocí Mapperu.*
 
 ## Související stránky

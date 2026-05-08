@@ -11,7 +11,7 @@
 
 V moderním softwarovém inženýrství je kladen důraz na modularitu a znovupoužitelnost. Toho se dosahuje pomocí komponent a jasně definovaných rozhraní.
 
-![|x200](imgs/07.prednaska-011.jpg)
+![[imgs/07.prednaska-011.jpg|x200]]
 *Obrázek: Základní UML notace pro komponentu a rozhraní (stereotyp «interface»).*
 
 ## Komponenta (Component)
@@ -24,26 +24,26 @@ Komponenta je fyzická část systému, která je **samostatně nasaditelná** (
 Rozhraní je množina operací, která specifikuje služby poskytované třídou nebo komponentou.
 - **Účel**: Odděluje specifikaci ("co") od implementace ("jak"). Tím výrazně **snižuje provázanost** (coupling) mezi částmi systému.
 
-![|x200](imgs/07.prednaska-015.jpg)
+![[imgs/07.prednaska-015.jpg|x200]]
 *Obrázek: Vztah realizace mezi konkrétní třídou a rozhraním.*
 
 - **Typy rozhraní v UML**:
     - **Nabízené (Provided)**: Rozhraní, které komponenta realizuje (kreslí se jako plné kolečko "lollipop").
     - **Vyžadované (Required)**: Rozhraní, které komponenta potřebuje ke své činnosti (kreslí se jako půlkruh "socket").
 
-![|x200](imgs/07.prednaska-013.jpg)
+![[imgs/07.prednaska-013.jpg|x200]]
 *Obrázek: Znázornění nabízeného rozhraní, vyžadovaného rozhraní a jejich sestavení (assembly).*
 
 ## Architektura založená na komponentách
 Použití komponent a rozhraní umožňuje vytvářet čistou architektura, kde jsou jednotlivé vrstvy a moduly propojeny přes kontrakty (rozhraní).
 
-![|x250](imgs/07.prednaska-017.jpg) ![|x250](imgs/07.prednaska-019.jpg)
+![[imgs/07.prednaska-017.jpg|x250]] ![[imgs/07.prednaska-019.jpg|x250]]
 *Obrázek: Komplexní diagram komponent a detailní specifikace metod v rozhraních.*
 
 ## Propojování komponent
 Komponenty lze propojovat manuálně přímo ve zdrojovém kódu (méně flexibilní), nebo pomocí principu **[[dependency-injection|Inversion of Control (IoC)]]**. V tomto případě třída nezávisí na konkrétní implementaci, ale na abstraktním rozhraní.
 
-![|x250](imgs/07.prednaska-022.jpg)
+![[imgs/07.prednaska-022.jpg|x250]]
 *Obrázek: Závislost na rozhraní (ICtenarDAO) namísto konkrétní implementace.*
 
 ## Související stránky
