@@ -24,6 +24,10 @@ Tým je typicky malý (do 10 členů) a skládá se ze tří rolí:
 
 ## Události (Events)
 1.  **Sprint**: Základní jednotka, trvá 1 týden až 1 měsíc. Požadavky v něm jsou fixní a nelze je měnit.
+
+![SCRUM - Životní cyklus sprintu](imgs/12.prednaska-047.jpg)
+*Obrázek: Vizualizace základního cyklu metodiky Scrum (backlogy, sprint, schůzky).*
+
 2.  **Sprint Planning**: Plánovací schůzka na začátku sprintu (stanovení cíle a výběr položek z backlogu).
 3.  **Daily Scrum**: Každodenní 15minutová schůzka (stodynka), kde každý odpovídá: *Co jsem dělal včera? Co udělám dnes? Mám nějaké překážky?*
 4.  **Sprint Review**: Předvedení výsledků (inkrementu) zákazníkovi a zúčastněným stranám na konci sprintu.
@@ -33,6 +37,9 @@ Tým je typicky malý (do 10 členů) a skládá se ze tří rolí:
 -   **Předehra (Prelude)**: Plánování, sestavení Product Backlogu, návrh architektury na vysokém stupni abstrakce.
 -   **Hra (Play)**: Iterativní provádění sprintů (typicky 3–8 iterací).
 -   **Dohra (Post-game)**: Integrace systému, akceptační testy, finální dokumentace.
+
+![SCRUM - Detailní procesní schéma](imgs/12.prednaska-051.jpg)
+*Obrázek: Podrobný přehled fází Scrumu rozdělený do bloků Předehra, Hra a Dohra.*
 
 ## Související stránky
 - [[agilni-vyvoj]]
