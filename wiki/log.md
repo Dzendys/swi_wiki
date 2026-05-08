@@ -1,5 +1,12 @@
 # Log změn
 
+## [2026-05-08] - Ingest 4. přednášky (ingest/04-objektova-analyza)
+- Zpracování přednášky `04.prednaska.pdf`.
+- Vytvoření souhrnné stránky [[04-analyza-problemove-domeny]].
+- Vytvoření konceptu [[stavovy-diagram]].
+- Výrazné rozšíření konceptu [[domenovy-model]] (notace tříd, vztahy, multiplicity, kompozice, agregace, hledání entit a časté chyby).
+- Aktualizace [[index]].
+
 ## [2026-05-08] - Specializované koncepty pro diagramy (feat/diagram-concepts)
 - Vytvoření samostatných stránek pro notaci a strukturu: [[diagram-pripadu-uziti]], [[diagram-balicku]] a [[domenovy-model]].
 - Integrace detailů z `raw/extra/Class Diagram Domain Model.pdf`.
