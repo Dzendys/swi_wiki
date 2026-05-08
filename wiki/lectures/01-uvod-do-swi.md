@@ -9,23 +9,25 @@
 
 ---
 
-Přednáška definuje [[softwarove-inzenyrstvi|softwarové inženýrství]] jako systematický přístup k tvorbě softwaru (zdroj: raw/lectures/01.prednaska.pdf). Hlavním cílem je naučit se pracovní postupy pro vývoj rozsáhlých systémů na zakázku.
+Přednáška uvádí do kontextu předmět BI-SWI a definuje základní principy oboru.
 
-## Týmová spolupráce
-Klíčovým aspektem je [[tymova-spoluprace|týmová spolupráce]], kde za projekt zodpovídá celý tým. V rámci předmětu je zaveden systém přerozdělování bodů (až 60 %), který slouží k motivaci členů na základě kvality a množství odvedené práce (zdroj: raw/lectures/01.prednaska.pdf).
+## Klíčová témata
 
-Pro komunikaci je doporučeno alespoň jedno osobní setkání týdně. Pro správu úkolů a chyb se využívá **GitLab Issues**, kde je nutné vykazovat čas strávený na úkolech (zdroj: raw/lectures/01.prednaska.pdf).
+### Softwarové inženýrství
+Definice oboru jako systematického přístupu k tvorbě rozsáhlých systémů na zakázku.
+- Více viz: [[softwarove-inzenyrstvi]]
 
-## Projektové plánování
-Při zahájení projektu je nutné stanovit [[odhad-pracnosti|odhad pracnosti]]. Ten se udává v jednotkách:
-- **MH** (Man-hour) – člověkohodina.
-- **MD** (Man-day) – 8 MH.
-- **MW** (Man-week) – 5 MD.
+### Týmová spolupráce a BI-SWI
+Zásady spolupráce v týmu, zodpovědnost za projekt a specifika hodnocení v rámci předmětu (přerozdělování bodů).
+- Více viz: [[tymova-spoluprace]]
 
-Důležitým poznatkem je, že doba trvání projektu se s přidáváním lidí nezkracuje lineárně kvůli režii na komunikaci (zdroj: raw/lectures/01.prednaska.pdf).
+### Plánování a odhady
+Základy projektového plánování a definice jednotek pracnosti (MH, MD, MW).
+- Více viz: [[odhad-pracnosti]]
 
-## Analýza
-První fází je analýza, kterou vede [[role-analytika|analytik]]. Jeho cílem je pochopit prostředí zákazníka a definovat, co má systém dělat, prostřednictvím modelů (obchodní procesy, případy užití, doménový model) (zdroj: raw/lectures/01.prednaska.pdf).
+### Role analytika
+Úvod do analytické fáze a role analytika při pochopení prostředí zákazníka.
+- Více viz: [[role-analytika]]
 
 ## Související stránky
 - [[softwarove-inzenyrstvi]]

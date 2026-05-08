@@ -9,26 +9,22 @@
 
 ---
 
-Analýza požadavků je klíčovou fází, jejímž cílem je vymezit hranice systému, umožnit přesnější [[odhad-pracnosti|odhad pracnosti]] a vyjasnit zadání se zákazníkem (zdroj: raw/lectures/03.prednaska.pdf).
+Přednáška detailně rozebírá analytickou fázi zaměřenou na požadavky.
 
-## Kategorizace požadavků
-Základní dělení požadavků je na **projektové** (cena, termíny) a **produktové**. Produktové požadavky se dále dělí pomocí modelu **FURPS**:
-- **F** (Functionality) – funkčnost.
-- **U** (Usability) – použitelnost.
-- **R** (Reliability) – spolehlivost.
-- **P** (Performance) – výkon.
-- **S** (Supportability) – podporovatelnost (zdroj: raw/lectures/03.prednaska.pdf).
+## Klíčová témata
 
-Více informací naleznete na stránce [[pozadavky]].
+### Kategorizace a specifikace požadavků
+Vymezení hranic systému a kategorizace požadavků na projektové a produktové (funkční a nefunkční). Představení modelu **FURPS**.
+- Více viz: [[pozadavky]]
 
-## Způsoby zachycení
-K zachycení požadavků se využívají různé formy podle míry formality a metodiky vývoje:
-- **Strukturovaný text**: Pro méně formální popis.
-- **[[uzivatelske-pribehy|Uživatelské příběhy (User Stories)]]**: Typické pro agilní vývoj.
-- **[[pripady-uziti|Model případů užití (Use Case Model)]]**: Pro detailní zachycení funkčních požadavků (zdroj: raw/lectures/03.prednaska.pdf).
+### Modelování případů užití (Use Case Model)
+Detailní technika pro zachycení funkčních požadavků. Pravidla pro tvorbu scénářů, určování granularity a časté chyby v modelu.
+- Více viz: [[pripady-uziti]]
+- Grafické znázornění: [[diagram-pripadu-uziti]]
 
-## Doporučení pro Model případů užití
-Přednáška doplňuje pravidla pro tvorbu scénářů, určování granularity (cca 10 kroků na scénář) a upozorňuje na časté chyby, jako je míchání s procesním modelem nebo chybějící aktéři (zdroj: raw/lectures/03.prednaska.pdf).
+### Uživatelské příběhy
+Alternativní způsob zachycení požadavků, typický pro agilní vývoj.
+- Více viz: [[uzivatelske-pribehy]]
 
 ## Související stránky
 - [[pozadavky]]
