@@ -11,6 +11,9 @@
 
 V moderním softwarovém inženýrství je kladen důraz na modularitu a znovupoužitelnost. Toho se dosahuje pomocí komponent a jasně definovaných rozhraní.
 
+![Notace komponenty a rozhraní](imgs/07.prednaska-011.jpg)
+*Obrázek: Základní UML notace pro komponentu a rozhraní (stereotyp «interface»).*
+
 ## Komponenta (Component)
 Komponenta je fyzická část systému, která je **samostatně nasaditelná** (např. soubory `.exe`, `.jar`, `.war`, `.dll`). 
 - Má svou vnitřní strukturu (může se skládat z mnoha tříd).
@@ -20,17 +23,29 @@ Komponenta je fyzická část systému, která je **samostatně nasaditelná** (
 ## Rozhraní (Interface)
 Rozhraní je množina operací, která specifikuje služby poskytované třídou nebo komponentou.
 - **Účel**: Odděluje specifikaci ("co") od implementace ("jak"). Tím výrazně **snižuje provázanost** (coupling) mezi částmi systému.
+
+![Realizace rozhraní třídou](imgs/07.prednaska-015.jpg)
+*Obrázek: Vztah realizace mezi konkrétní třídou a rozhraním.*
+
 - **Typy rozhraní v UML**:
     - **Nabízené (Provided)**: Rozhraní, které komponenta realizuje (kreslí se jako plné kolečko "lollipop").
     - **Vyžadované (Required)**: Rozhraní, které komponenta potřebuje ke své činnosti (kreslí se jako půlkruh "socket").
-- **Způsoby popisu**:
-    - `interface` v programovacích jazycích (Java, C#).
-    - **WSDL**: Popis rozhraní pro SOAP webové služby.
-    - **Swagger/OpenAPI**: Formát pro popis REST API.
-    - **Package** v PL/SQL.
+
+![Typy rozhraní komponent](imgs/07.prednaska-013.jpg)
+*Obrázek: Znázornění nabízeného rozhraní, vyžadovaného rozhraní a jejich sestavení (assembly).*
+
+## Architektura založená na komponentách
+Použití komponent a rozhraní umožňuje vytvářet čistou architekturu, kde jsou jednotlivé vrstvy a moduly propojeny přes kontrakty (rozhraní).
+
+![Architektura s komponentami](imgs/07.prednaska-017.jpg)
+![Detail specifikace rozhraní](imgs/07.prednaska-019.jpg)
+*Obrázek: Komplexní diagram komponent a detailní specifikace metod v rozhraních.*
 
 ## Propojování komponent
-Komponenty lze propojovat manuálně přímo ve zdrojovém kódu (méně flexibilní), nebo pomocí principu **[[dependency-injection|Inversion of Control (IoC)]]**.
+Komponenty lze propojovat manuálně přímo ve zdrojovém kódu (méně flexibilní), nebo pomocí principu **[[dependency-injection|Inversion of Control (IoC)]]**. V tomto případě třída nezávisí na konkrétní implementaci, ale na abstraktním rozhraní.
+
+![Propojení komponent přes IoC](imgs/07.prednaska-022.jpg)
+*Obrázek: Závislost na rozhraní (ICtenarDAO) namísto konkrétní implementace.*
 
 ## Související stránky
 - [[softwarova-architektura]]
