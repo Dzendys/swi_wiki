@@ -35,8 +35,13 @@ Každý případ užití by měl být detailně popsán (typicky textově). Stan
 - **Výstupní podmínky (Postconditions)**: Stavy systému po úspěšném dokončení (např. "Výpůjčka je evidována") (zdroj: raw/extra/Ukázka UC.pdf).
 
 ## Vztahy mezi případy užití
-- **Include (zahrnutí)**: Jeden případ užití povinně využívá funkcionalitu jiného (vhodné pro sdílené kroky).
-- **Extend (rozšíření)**: Podmíněné rozšíření základního případu užití o doplňkovou funkcionalitu (zdroj: raw/extra/Use Case Model.pdf).
+Vztahy se používají primárně k **zamezení duplicity** v textových scénářích, nikoliv k rozkladu systému na podfunkce.
+- **Include (zahrnutí)**: Jeden případ užití povinně využívá funkcionalitu jiného. Používá se výhradně pro **sdílenou logiku**, kterou využívá více než jeden jiný případ užití.
+- **Extend (rozšíření)**: Podmíněné (volitelné) rozšíření základního případu užití o doplňkovou funkcionalitu (např. "Získání slevy" při "Platbě") (zdroj: raw/extra/Use Case Model.pdf).
+
+## Častá chyba: Funkční dekompozice
+Jednou z nejčastějších chyb je snaha o **funkční dekompozici** (rozklad jednoho složitého případu užití na menší pomocí include/extend). Tento postup vede k nepřehledným diagramům a fragmentovaným scénářům, které se špatně čtou.
+- **Pravidlo**: Pokud část scénáře nepotřebujete využít v jiném, samostatném případu užití, neoddělujte ji do vlastní "bubliny" (zdroj: raw/extra/Use Case Model.pdf).
 
 ## Doporučení pro tvorbu scénářů
 - **Popisujte „co“, nikoliv „jak“**: Zaměřte se na logické kroky, nikoliv na detaily uživatelského rozhraní (např. "kliknutí na tlačítko").
