@@ -1,5 +1,15 @@
 # Log změn
 
+## [2026-05-08] - Ingest 12. přednášky (ingest/prednaska-12)
+- Zpracování přednášky `12.prednaska.pdf`.
+- Vytvoření souhrnné stránky [[12-metodiky-a-agilni-vyvoj]].
+- Vytvoření konceptu [[metodiky-vyvoje]] (klasické vs. agilní, přínosy, výběr).
+- Vytvoření konceptu [[unified-process]] (fáze Inception, Elaboration, Construction, Transition).
+- Vytvoření konceptu [[agilni-vyvoj]] (Agilní manifest, principy, výhody a rizika).
+- Vytvoření konceptu [[scrum]] (role Scrum Master/PO, artefakty, události, fáze projektu).
+- Aktualizace [[softwarove-inzenyrstvi]] (propojení na metodiky).
+- Aktualizace [[index]].
+
 ## [2026-05-08] - Ingest 11. přednášky (ingest/prednaska-11)
 - Zpracování přednášky `11.prednaska.pdf`.
 - Vytvoření souhrnné stránky [[11-projektove-rizeni]].

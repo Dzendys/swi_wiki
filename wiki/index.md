@@ -12,6 +12,7 @@
 - [[09-zajisteni-kvality|09. Zajištění kvality]]
 - [[10-nasazeni-udrzba-a-integrace|10. Nasazení, údržba a integrace aplikací]]
 - [[11-projektove-rizeni|11. Projektové řízení]]
+- [[12-metodiky-a-agilni-vyvoj|12. Metodiky a agilní přístup]]
 
 ## Koncepty
 - [[softwarove-inzenyrstvi|Softwarové inženýrství]]
@@ -53,6 +54,10 @@
 - [[webove-sluzby-rest-soap|Webové služby (REST, SOAP)]]
 - [[projektove-rizeni|Projektové řízení]]
 - [[rizeni-rizik|Řízení rizik]]
+- [[metodiky-vyvoje|Metodiky vývoje]]
+- [[unified-process|Unified Process (UP)]]
+- [[agilni-vyvoj|Agilní vývoj]]
+- [[scrum|SCRUM]]
 
 ---
 #index #BI-SWI

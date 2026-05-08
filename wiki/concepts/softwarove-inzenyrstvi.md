@@ -28,6 +28,7 @@ Moderní softwarové inženýrství dělí vývoj do několika logických fází
 ## Průřezová témata
 Softwarové inženýrství zahrnuje i disciplíny, které prostupují celým cyklem:
 - **Management**: [[tymova-spoluprace|Týmová spolupráce]], [[odhad-pracnosti|odhady pracnosti]] a verzování.
+- **Metodiky a proces**: Volba konkrétního přístupu k vývoji, např. klasický [[unified-process|Unified Process]] nebo agilní [[scrum|SCRUM]] (viz [[metodiky-vyvoje]]).
 - **Integrace**: Propojování systémů pomocí [[integrace-aplikaci|integračních stylů]] a [[webove-sluzby-rest-soap|webových služeb]].
 
 ## Související stránky
