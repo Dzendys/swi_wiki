@@ -16,7 +16,7 @@ Cílem práce **analytika** je odpovědět na otázku: **„Co bude systém děl
 ## Hlavní činnosti
 Analytik musí:
 1.  **Poznat zákazníka** a pochopit jeho prostředí a procesy.
-2.  **Popsat činnost** pomocí modelů obchodních procesů.
+2.  **Popsat činnost** pomocí [[obchodni-procesy|modelů obchodních procesů]]. K tomu se nejčastěji využívá [[diagram-aktivit|diagram aktivit]].
 3.  **Nadefinovat požadavky** a specifikovat rozsah (scope) projektu.
 4.  **Popsat data a entity**, se kterými systém pracuje (doménový model) (zdroj: raw/lectures/01.prednaska.pdf).
 
