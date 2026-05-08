@@ -38,7 +38,7 @@ Jeden objekt této třídy reprezentuje právě jeden řádek v databázi.
 - **Princip**: Objekt obsahuje atributy odpovídající sloupcům tabulky a metody pro manipulaci s daným řádkem (`insert()`, `update()`, `delete()`). Pro vyhledávání instancí se obvykle používá samostatná třída (Finder).
 - **Použití**: Odděluje datový přístup od business logiky (zdroj: raw/extra/Row Data Gateway.pdf).
 
-![Vzor Row Data Gateway|250](imgs/06.prednaska-035.jpg) ![Vzor Row Data Gateway (Modifikace)|250](imgs/06.prednaska-037.jpg)
+![Vzor Row Data Gateway|400](imgs/06.prednaska-035.jpg) ![Vzor Row Data Gateway (Modifikace)|200](imgs/06.prednaska-037.jpg)
 *Obrázek: Modelování Row Data Gateway s vyhledávačem (Finder) and méně vhodná varianta se statickými metodami.*
 
 ## Active Record
