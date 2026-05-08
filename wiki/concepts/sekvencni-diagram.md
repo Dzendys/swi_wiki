@@ -19,7 +19,7 @@ Sekvenční diagram (Sequence Diagram) patří mezi diagramy chování a je klí
     - **Asynchronní**: Šipka s otevřeným hrotem. Volající pokračuje v práci.
     - **Návratová hodnota**: Přerušovaná šipka směrem zpět.
 
-![Základy sekvenčního diagramu|300](imgs/06.prednaska-051.jpg) ![Zápis návratové hodnoty|300](imgs/06.prednaska-053.jpg)
+![|250](imgs/06.prednaska-051.jpg) ![|250](imgs/06.prednaska-053.jpg)
 *Obrázek: Základní notace zpráv a způsoby zápisu návratových hodnot.*
 
 - **Aktivace (Execution Specification)**: Úzký svislý obdélník na životní čáře značící, že objekt právě vykonává nějakou metodu.
@@ -30,7 +30,7 @@ Sekvenční diagram (Sequence Diagram) patří mezi diagramy chování a je klí
     - **Nalezená zpráva (Found Message)**: Šipka vycházející z černého bodu (vstup do systému zvenčí).
     - **Zaslání zprávy sám sobě (Self Message)**: Smyčka zpět na stejnou životní čáru (volání vnitřní metody).
 
-![Životní cyklus objektu|300](imgs/06.prednaska-055.jpg) ![Nalezená a vlastní zpráva|300](imgs/06.prednaska-057.jpg)
+![|250](imgs/06.prednaska-055.jpg) ![|250](imgs/06.prednaska-057.jpg)
 *Obrázek: Modelování životního cyklu objektů a specifických typů zpráv.*
 
 - **Fragmenty (Kombinované fragmenty)**: Rámečky pro řízení toku:
@@ -39,13 +39,13 @@ Sekvenční diagram (Sequence Diagram) patří mezi diagramy chování a je klí
     - `opt`: Volitelná část.
     - `par`: Paralelní běh.
 
-![Kombinované fragmenty|500](imgs/06.prednaska-059.jpg)
+![|x400](imgs/06.prednaska-059.jpg)
 *Obrázek: Ukázka fragmentů pro větvení (alt) a cykly (loop).*
 
 ## Komplexní příklad
 Sekvenční diagramy se využívají k detailnímu návrhu realizace konkrétních scénářů, kde je vidět spolupráce mezi business objekty a změny jejich stavů.
 
-![Scénář Vypůjčení výtisku|600](imgs/06.prednaska-061.jpg)
+![|x450](imgs/06.prednaska-061.jpg)
 *Obrázek: Realizace scénáře vypůjčení knihy zahrnující delegování zodpovědnosti a změnu stavu.*
 
 ## Význam v návrhu
