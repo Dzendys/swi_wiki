@@ -1,5 +1,15 @@
 # Log změn
 
+## [2026-05-08] - Ingest 5. přednášky (ingest/prednaska-05)
+- Zpracování přednášky `05.prednaska.pdf`.
+- Vytvoření souhrnné stránky [[05-navrh-softwarovych-systemu]].
+- Vytvoření konceptu [[navrh-softwaru]].
+- Vytvoření konceptu [[softwarova-architektura]].
+- Vytvoření konceptu [[navrhovy-model-trid]] s využitím informací z `GRASP.pdf`.
+- Vytvoření konceptu [[mapovani-dedicnosti]] s detailním popisem Single, Concrete a Class Table Inheritance na základě doplňkových materiálů.
+- Aktualizace [[diagram-balicku]] o sekci o cyklických závislostech a vnořování.
+- Aktualizace [[index]].
+
 ## [2026-05-08] - Ingest 4. přednášky (ingest/04-objektova-analyza)
 - Zpracování přednášky `04.prednaska.pdf`.
 - Vytvoření souhrnné stránky [[04-analyza-problemove-domeny]].

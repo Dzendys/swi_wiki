@@ -4,26 +4,36 @@
 
 **Zdroje**:
 - `raw/lectures/03.prednaska.pdf`
+- `raw/lectures/05.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08
 
 ---
 
-[[diagram-balicku|Diagram balíčků]] (Package Diagram) umožňuje rozdělit systém na jednotlivé „oblasti“ (např. Evidence čtenářů, Správa výpůjček), které jsou následně detailně analyzovány (zdroj: raw/lectures/03.prednaska.pdf).
+Diagram balíčků (Package Diagram) je klíčový pro zachycení struktury systému na vyšší úrovni abstrakce než [[domenovy-model|diagram tříd]]. Umožňuje seskupit třídy, případy užití nebo i jiné balíčky do logických celků – **balíčků**. V kontextu [[softwarova-architektura|softwarové architektury]] slouží k vizualizaci logické architektury (např. vrstev a podsystémů).
 
-## Využití v analýze
-- **High-level pohled**: Poskytuje přehled nad celým systémem bez zabřednutí do detailů.
-- **Prvotní odhady**: Pomáhá při hrubém stanovení rozsahu a [[odhad-pracnosti|pracnosti]] projektu.
-- **Hierarchie**: Balíčky mohou být do sebe vnořovány, což umožňuje hierarchickou organizaci požadavků nebo komponent (zdroj: raw/lectures/03.prednaska.pdf).
+## Účel
+Hlavním účelem je řídit složitost (komplexitu) velkých systémů. Balíčky by měly být navrženy tak, aby představovaly ucelené, relativně nezávislé moduly. Pomáhají při:
+- Logické organizaci modelu.
+- Zobrazení architektonických vrstev nebo subsystémů.
+- Zobrazení závislostí mezi moduly.
 
-## Notace
-- **Balíček (Package)**: Symbol složky s názvem oblasti.
-- **Závislost (Dependency)**: Směrovaná čárkovaná šipka mezi balíčky, značící, že jeden balíček využívá elementy jiného balíčku.
+## Notace a Vztahy
+- **Balíček (Package)**: Kreslí se jako složka (obdélník s menším obdélníkem vlevo nahoře). Jméno balíčku je buď uvnitř velkého obdélníku, nebo v malém "oušku".
+- **Závislost (Dependency)**: Kreslí se jako přerušovaná čárkovaná šipka mezi balíčky, značící, že jeden balíček využívá elementy jiného balíčku.
+- **Vnoření**: Balíčky mohou obsahovat jiné balíčky. Kreslí se buď fyzickým vnořením symbolu složky dovnitř jiné, nebo pomocí textového zápisu `BalíčekA::BalíčekB`.
+
+## Cyklické závislosti
+Velkým problémem v diagramu balíčků jsou **cyklické závislosti** (Balíček A závisí na B a B závisí zpět na A). Cykly ztěžují lokalizaci dopadů změn a komplikují rozšiřitelnost. 
+Řešením cyklických závislostí je:
+- Přesun problémové třídy.
+- Vyčlenění tříd tvořících cyklus do nového balíčku.
+- Vytvoření rozhraní a uplatnění principu inverze závislostí (Dependency Inversion).
 
 ## Související stránky
-- [[role-analytika]]
-- [[odhad-pracnosti]]
-- [[pozadavky]]
+- [[softwarova-architektura]]
+- [[domenovy-model]]
+- [[navrh-softwaru]]
 
 ---
-#uml #package-diagram #analyza #organizace #swi #BI-SWI
+#uml #package-diagram #analyza #architektura #organizace #swi #BI-SWI

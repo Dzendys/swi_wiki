@@ -5,6 +5,7 @@
 - [[02-modelovani-obchodnich-procesu|02. Modelování obchodních procesů]]
 - [[03-analyza-a-sber-pozadavku|03. Analýza a sběr požadavků]]
 - [[04-analyza-problemove-domeny|04. Analýza problémové domény]]
+- [[05-navrh-softwarovych-systemu|05. Návrh softwarových systémů]]
 
 ## Koncepty
 - [[softwarove-inzenyrstvi|Softwarové inženýrství]]
@@ -20,6 +21,10 @@
 - [[diagram-balicku|Diagram balíčků (UML)]]
 - [[domenovy-model|Doménový model]]
 - [[stavovy-diagram|Stavový diagram (UML)]]
+- [[navrh-softwaru|Návrh softwaru]]
+- [[softwarova-architektura|Softwarová architektura]]
+- [[mapovani-dedicnosti|Mapování dědičnosti (ORM)]]
+- [[navrhovy-model-trid|Návrhový model tříd (UML)]]
 
 ---
 #index #BI-SWI
