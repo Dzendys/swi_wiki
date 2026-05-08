@@ -9,28 +9,21 @@
 
 ---
 
-Tato přednáška se věnuje technikám, jak zajistit nízkou provázanost (low coupling) v rozsáhlých systémech.
+Tato přednáška se věnuje technikám pro zajištění nízké provázanosti (low coupling) v rozsáhlých systémech.
 
-## Klíčová témata přednášky
+## Klíčová témata
 
-### 1. Rozhraní a komponenty
-Byl definován rozdíl mezi logickým rozhraním a fyzickou komponentou. Rozhraní je klíčovým nástrojem pro oddělení specifikace od implementace.
-- **Komponenta**: Fyzická, samostatně nasaditelná jednotka.
-- **Diagram komponent**: UML diagram pro zobrazení nabízených a vyžadovaných rozhraní.
-Podrobnosti viz [[komponenty-a-rozhrani]].
+### Rozhraní a komponenty
+Oddělení specifikace od implementace. Rozdíl mezi logickým rozhraním a fyzickou, samostatně nasaditelnou jednotkou (komponentou).
+- Více viz: [[komponenty-a-rozhrani]]
 
-### 2. Propojování a Inversion of Control
-Vysvětlení, proč je manuální vytváření instancí nevhodné pro velké systémy a jak tento problém řeší **IoC kontejnery** (např. Spring). 
-- **Dependency Injection**: Vstřikování závislostí přes konstruktor nebo settery.
-- **Bean Scopes**: Definice životního cyklu objektů ve Springu (Singleton, Prototype atd.).
-Podrobnosti viz [[dependency-injection]].
+### Propojování a Dependency Injection
+Řešení správy závislostí pomocí IoC kontejnerů. Principy vkládání závislostí a životní cyklus objektů.
+- Více viz: [[dependency-injection]]
 
-### 3. Vybrané GoF vzory
-Přednáška představila pět základních návrhových vzorů rozdělených do tří kategorií:
-- **Creational**: Abstract Factory (vytváření rodin produktů), Builder (konstrukce složitých objektů).
-- **Behavioral**: State (chování závislé na stavu), Observer (upozorňování na změny).
-- **Structural**: Adapter (konverze rozhraní).
-Podrobnosti viz [[navrhove-vzory-gof]].
+### Návrhové vzory (GoF)
+Představení osvědčených šablon pro řešení typických objektových problémů (Abstract Factory, Builder, State, Observer, Adapter).
+- Více viz: [[navrhove-vzory-gof]]
 
 ## Související stránky
 - [[komponenty-a-rozhrani]]

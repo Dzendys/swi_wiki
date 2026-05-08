@@ -4,37 +4,31 @@
 
 **Zdroje**:
 - `raw/lectures/05.prednaska.pdf`
-- `raw/extra/Single Table Inheritance.pdf`
-- `raw/extra/Concrete Table Inheritance.pdf`
-- `raw/extra/Class Table Inheritance.pdf`
-- `raw/extra/GRASP.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08
 
 ---
 
-Tato přednáška vysvětluje posun v procesu vývoje softwaru od fáze analýzy k fázi [[navrh-softwaru|návrhu]]. Analytika, který odpovídal na otázku "Co?", střídá Solution Architekt, který řeší "Jak?" se to provede. 
+Přednáška definuje fázi návrhu (Design) jako hledání odpovědi na otázku "Jak?" bude systém realizován.
 
-## Klíčová témata přednášky
+## Klíčová témata
 
-### 1. Od analýzy k návrhu
-Zatímco analytický doménový model a případy užití definují požadavky, návrh se zabývá jejich realizací. To zahrnuje volbu programovacího jazyka (dnes převážně OO), volbu a popis uložení dat a definici [[softwarova-architektura|softwarové architektury]].
+### Od analýzy k návrhu
+Posun od definice požadavků k technické realizaci. Výběr programovacího jazyka a paradigmatu.
+- Více viz: [[navrh-softwaru]]
 
-### 2. Návrh uložení dat
-Probírá se reprezentace databázového modelu. Relační databáze jsou stále nejběžnější, což ale u OO jazyků vede na nutnost mapování objektů do tabulek (O/R mapping). 
-Speciální pozornost se věnuje **[[mapovani-dedicnosti|mapování dědičnosti]]** do relační DB, pro které existují 3 základní vzory od Martina Fowlera:
-- Single Table Inheritance
-- Concrete Table Inheritance
-- Class Table Inheritance
+### Návrh uložení dat
+Reprezentace databázového modelu a řešení rozporu mezi OO světem a relačními databázemi (O/R mapping).
+- Více viz: [[persistence-dat]]
+- Mapování dědičnosti: [[mapovani-dedicnosti]]
 
-U samotného diagramu databázového modelu je pro srozumitelnost vhodné skrývat popisky konců asociací a dělit rozsáhlé tabulky do vnořených [[diagram-balicku|diagramů balíčků]].
+### Návrh architektury
+Rozdělení systému na logické a fyzické části. Izolace nestabilních částí a minimalizace dopadů změn.
+- Více viz: [[softwarova-architektura]]
 
-### 3. Návrh architektury
-[[softwarova-architektura|Softwarová architektura]] se dělí na logickou (organizace kódu, vrstvy) a fyzickou (nasazení, výpočetní uzly). Cílem architektury je srozumitelnost, rozšiřitelnost a udržovatelnost. Architektura izoluje místa budoucích změn (např. integraci na externí systém) pomocí zapouzdření a rozhraní, čímž minimalizuje dopad změn. Bylo zmíněno použití návrhových vzorů, jako je *Stavitel (Builder)*, pro řešení opakujících se problémů v návrhu.
-
-### 4. Návrhový model tříd
-Slouží pro zdokumentování architektonických rozhodnutí a generování kódů. Na rozdíl od [[domenovy-model|doménového modelu]] obsahuje [[navrhovy-model-trid|návrhový model tříd]] konkrétní datové typy, viditelnost, směry asociací a metody, do kterých jsou přidělovány zodpovědnosti. 
-K přidělování zodpovědností se využívají principy **GRASP** (Informační expert, Nízká provázanost, Vysoká soudržnost). Diagram tříd v návrhu se nezabývá každou třídou (např. generovanými gettery), ale zdůrazňuje klíčová architektonická pravidla.
+### Návrhový model tříd
+Dokumentace implementačních rozhodnutí (datové typy, viditelnost, metody). Přiřazování zodpovědností pomocí principů **GRASP**.
+- Více viz: [[navrhovy-model-trid]]
 
 ## Související stránky
 - [[navrh-softwaru]]
