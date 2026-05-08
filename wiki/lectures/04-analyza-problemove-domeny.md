@@ -9,26 +9,21 @@
 
 ---
 
-Cílem analýzy problémové domény je vytvořit [[domenovy-model|doménový model]], který slouží jako základ pro následný design systému (databázový model, model tříd) (zdroj: raw/lectures/04.prednaska.pdf).
+Přednáška propojuje analytické výstupy z procesů a případů užití do strukturovaného datového pohledu.
 
-## Analytický doménový model
-Doménový model zachycuje:
-- Popis dat a jejich význam.
-- Vazby mezi entitami.
-- Atributy a stavy entit (zdroj: raw/lectures/04.prednaska.pdf).
+## Klíčová témata
 
-Pro jeho tvorbu se využívá **UML Diagram tříd** na vysoké úrovni abstrakce. Více detailů naleznete na stránce [[domenovy-model]].
+### Analytický doménový model
+Zachycuje klíčové pojmy (entity), jejich atributy a vzájemné vztahy na vysoké úrovni abstrakce. Slouží k sjednocení terminologie.
+- Více viz: [[domenovy-model]]
 
-## Modelování stavů
-Pro entity s významným životním cyklem se vytváří [[stavovy-diagram|stavový diagram (UML State Machine)]]. Ten pomáhá vyjasnit:
-- Stavy, ve kterých se entita může nacházet.
-- Události a podmínky vyvolávající přechody mezi stavy (zdroj: raw/lectures/04.prednaska.pdf).
+### Modelování životního cyklu (Stavový diagram)
+Zachycení stavů a přechodů u entit s významným chováním v čase.
+- Více viz: [[stavovy-diagram]]
 
-## Hledání entit
-Entity (třídy) se hledají jako podstatná jména v:
-- Business procesních modelech.
-- [[pripady-uziti|Modelech případů užití]].
-- Slovníčku pojmů (zdroj: raw/lectures/04.prednaska.pdf).
+### Hledání entit
+Metody identifikace entit v textech scénářů, procesních modelech a slovníčku pojmů.
+- Více viz: [[domenovy-model#Hledání entit|Hledání entit]]
 
 ## Související stránky
 - [[domenovy-model]]

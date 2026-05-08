@@ -9,15 +9,17 @@
 
 ---
 
-Přednáška vysvětluje, proč je důležité modelovat [[obchodni-procesy|obchodní procesy]] dříve, než se začne s návrhem samotného systému. Hlavním přínosem je pochopení potřeb zákazníka a přesnější specifikace požadavků (zdroj: raw/lectures/02.prednaska.pdf).
+Přednáška vysvětluje nezbytnost procesního modelování pro pochopení potřeb zákazníka před zahájením návrhu systému.
 
 ## Klíčová témata
-- **Důležitost textového popisu**: Text je nejdůležitější formou zachycení procesu, diagram slouží pro snadnější pochopení a ověření (zdroj: raw/lectures/02.prednaska.pdf).
-- **Analýza AS IS vs. TO BE**: Modelování současného stavu (AS IS) pomáhá najít problémová místa, zatímco model budoucího stavu (TO BE) navrhuje řešení a umožňuje vyhodnotit přínosy (zdroj: raw/lectures/02.prednaska.pdf).
-- **Notace**: Mezi zmíněné notace patří Eriksson-Penker, BPMN a prioritně [[diagram-aktivit|UML diagram aktivit]] (zdroj: raw/lectures/02.prednaska.pdf).
 
-## Diagram aktivit
-Hlavním nástrojem probíraným v této přednášce je [[diagram-aktivit|diagram aktivit]]. Přednáška pokrývá základní i rozšiřující prvky, jako jsou řídící uzly, zóny zodpovědnosti (swimlanes) a objektové uzly (zdroj: raw/lectures/02.prednaska.pdf).
+### Význam a přínosy
+Identifikace problémových míst, oblastí pro automatizaci a přesnější specifikace požadavků. Rozdíl mezi modely **AS IS** a **TO BE**.
+- Více viz: [[obchodni-procesy]]
+
+### Notace a UML Diagram aktivit
+Využití vizuálních modelů pro zachycení logiky procesu. Detailní seznámení s UML diagramem aktivit (tokeny, řídící uzly, swimlanes).
+- Více viz: [[diagram-aktivit]]
 
 ## Související stránky
 - [[obchodni-procesy]]
