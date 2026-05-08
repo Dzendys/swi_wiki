@@ -9,21 +9,18 @@
 
 ---
 
-Tato přednáška se věnuje technikám pro zajištění nízké provázanosti (low coupling) v rozsáhlých systémech.
+Tato přednáška se věnuje pokročilým technikám pro zajištění nízké provázanosti (low coupling) a modularity v rozsáhlých systémech.
 
 ## Klíčová témata
 
 ### Rozhraní a komponenty
-Oddělení specifikace od implementace. Rozdíl mezi logickým rozhraním a fyzickou, samostatně nasaditelnou jednotkou (komponentou).
-- Více viz: [[komponenty-a-rozhrani]]
+Základem modularity je oddělení specifikace od implementace pomocí [[komponenty-a-rozhrani|rozhraní]]. Přednáška definuje rozdíl mezi logickým rozhraním a fyzickou, samostatně nasaditelnou jednotkou (komponentou). Diagram komponent v UML slouží k vizualizaci nabízených a vyžadovaných služeb systému.
 
 ### Propojování a Dependency Injection
-Řešení správy závislostí pomocí IoC kontejnerů. Principy vkládání závislostí a životní cyklus objektů.
-- Více viz: [[dependency-injection]]
+Pro flexibilní správu závislostí se využívají IoC kontejnery. Princip **[[dependency-injection|Dependency Injection]]** (vstřikování závislostí) umožňuje objektům získat své spolupracovníky zvenčí, místo aby si je samy vytvářely, což usnadňuje testování (mockování) a výměnu implementací.
 
 ### Návrhové vzory (GoF)
-Představení osvědčených šablon pro řešení typických objektových problémů (Abstract Factory, Builder, State, Observer, Adapter).
-- Více viz: [[navrhove-vzory-gof]]
+Přednáška představuje pět vybraných vzorů ze skupiny "Gang of Four" jako osvědčená řešení typických objektových problémů. Jedná se o vzory pro vytváření (Abstract Factory, Builder), chování (State, Observer) a strukturu (Adapter). Podrobnosti viz [[navrhove-vzory-gof]].
 
 ## Související stránky
 - [[komponenty-a-rozhrani]]
