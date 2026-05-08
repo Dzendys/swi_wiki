@@ -32,7 +32,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
-  - wikilinks
+  - wikilinks:
+      base_url: /SWI-wiki/
+      end_url: /
   - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
