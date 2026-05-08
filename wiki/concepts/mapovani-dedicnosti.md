@@ -29,9 +29,14 @@ Každá třída v hierarchii (včetně abstraktních rodičů) má svou vlastní
 - **Výhody**: Čistý normalizovaný databázový návrh bez duplicit struktury a bez plýtvání místem (`NULL` hodnotami). Symetrické zobrazení hierarchie tříd do DB.
 - **Nevýhody**: Složité a výkonnostně náročnější získávání dat. Pro načtení jednoho objektu z konce hierarchie je nutné spojit (JOIN) několik tabulek podle hloubky dědičnosti.
 
+## Návrhová doporučení
+Při používání dědičnosti je nutné dbát na to, aby byla použita správně i z pohledu softwarového návrhu, nejen databázového uložení. Klíčovým pravidlem je **[[clean-code#Liskov Substitution Principle (LSP)|Liskov Substitution Principle (LSP)]]**. Často se ukazuje, že je vhodnější upřednostnit **skládání (composition)** před dědičností, což se v databázi řeší pomocí asociací (cizích klíčů).
+
 ## Související stránky
 - [[navrh-softwaru]]
 - [[domenovy-model]]
+- [[objektove-paradigma]]
+- [[clean-code]]
 
 ---
 #swi #databaze #orm #dedicnost #navrhove-vzory #BI-SWI
