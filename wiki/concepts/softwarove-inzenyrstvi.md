@@ -9,20 +9,31 @@
 
 ---
 
-**Softwarové inženýrství** (SWI) představuje systematický přístup k tvorbě softwaru (zdroj: raw/lectures/01.prednaska.pdf). Nejde pouze o programování, ale o řešení problémů spojených s vývojem rozsáhlých informačních systémů.
+**Softwarové inženýrství** (SWI) představuje systematický přístup k tvorbě softwaru (zdroj: raw/lectures/01.prednaska.pdf). Nejde pouze o programování, ale o řešení komplexních problémů spojených s vývojem rozsáhlých informačních systémů.
 
-Mezi hlavní činnosti SWI patří:
-- Pochopení činnosti a problémů zákazníka.
-- Sběr a analýza požadavků.
-- Návrh softwarového řešení.
-- Konstrukce (programování).
-- Zajištění kvality a snadné udržovatelnosti (zdroj: raw/lectures/01.prednaska.pdf).
+## Životní cyklus vývoje softwaru (SDLC)
+Moderní softwarové inženýrství dělí vývoj do několika logických fází, které se v praxi často překrývají (iterativní vývoj):
 
-V kontextu předmětu BI-SWI je kladen důraz na vývoj rozsáhlých systémů na zakázku a využití modelovacího jazyka **UML** (zdroj: raw/lectures/01.prednaska.pdf).
+1.  **[[obchodni-procesy|Modelování obchodních procesů]]**: Pochopení činnosti zákazníka a kontextu, ve kterém bude systém fungovat.
+2.  **[[pozadavky|Analýza a sběr požadavků]]**: Definice toho, co má systém dělat (funkční požadavky) a jaké má mít vlastnosti (nefunkční požadavky dle modelu [[pozadavky#Model FURPS|FURPS]]).
+3.  **[[analyza-problemove-domeny|Analýza domény]]**: Vytvoření [[domenovy-model|doménového modelu]], který zachycuje klíčové pojmy a vztahy v reálném světě nezávisle na technologii.
+4.  **[[navrh-softwaru|Návrh systému (Design)]]**: Rozhodnutí o tom, *jak* bude systém postaven.
+    *   Definice [[softwarova-architektura|architektury]] a [[vrstvy-architektury|vrstev]].
+    *   Detailní [[navrhovy-model-trid|návrh tříd]], metod a [[komponenty-a-rozhrani|komponent]].
+    *   Volba [[persistence-dat|persistence]] a [[mapovani-dedicnosti|mapování dat]].
+5.  **[[implementace|Implementace]]**: Samotná konstrukce kódu. Klíčem je dodržování pravidel [[clean-code|čistého kódu]], využívání [[navrhove-vzory-gof|návrhových vzorů]] a průběžný [[refaktoring]].
+6.  **[[zajisteni-kvality|Zajištění kvality (QA)]]**: Průběžná [[verifikace-a-validace|verifikace a validace]] systému pomocí různých úrovní [[testovani|testování]].
+7.  **[[nasazeni-aplikace|Nasazení]] a [[podpora-a-udrzba|údržba]]**: Předání systému do provozu, řešení incidentů (SLA) a dlouhodobý rozvoj (opravná, adaptivní či zdokonalovací údržba).
+
+## Průřezová témata
+Softwarové inženýrství zahrnuje i disciplíny, které prostupují celým cyklem:
+- **Management**: [[tymova-spoluprace|Týmová spolupráce]], [[odhad-pracnosti|odhady pracnosti]] a verzování.
+- **Integrace**: Propojování systémů pomocí [[integrace-aplikaci|integračních stylů]] a [[webove-sluzby-rest-soap|webových služeb]].
 
 ## Související stránky
 - [[role-analytika]]
-- [[odhad-pracnosti]]
+- [[softwarova-architektura]]
+- [[index]]
 
 ---
 #swi #teorie #metodika #BI-SWI
