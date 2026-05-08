@@ -1,5 +1,11 @@
 # Log změn
 
+## [2026-05-08] - Fix měřítka obrázků (fix/image-scaling-vertical-horizontal)
+- **Oprava vertikálních obrázků**: Vertikální schémata byla omezena na výšku `x250`, aby nezabírala příliš mnoho vertikálního prostoru.
+- **Zachování horizontálních obrázků**: Horizontální a čtvercové obrázky byly sjednoceny na výšku `x350`, což zachovává jejich čitelnost a "velký" formát, který preferuje uživatel.
+- **Standardizace na výšku**: Převedení všech obrázků na výškové škálování (`![|xHeight]`) místo šířkového, což zabraňuje extrémnímu natahování vertikálních obrázků.
+- **Reset historie**: Práce vychází ze stavu commitu `0a378d3` po předchozích neúspěšných pokusech o radikální zmenšení.
+
 ## [2026-05-08] - Integrace a optimalizace obrázků (feat/integrate-images)
 - Do wiki bylo integrováno přes 100 obrázků a schémat z přednášek 2-12 na základě OCR logů.
 - **Vizuální optimalizace**: Všechny obrázky byly zmenšeny a formátovány pomocí Obsidian syntaxe (`![|size]`).
