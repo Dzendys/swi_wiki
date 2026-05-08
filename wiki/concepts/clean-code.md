@@ -31,7 +31,7 @@ Zákaz duplicity kódu i dat. Duplicita vede k chybám při aktualizacích (zapo
 ### Liskov Substitution Principle (LSP)
 Podtřída musí být použitelná všude tam, kde je očekávána její nadtřída, aniž by se změnila korektnost programu.
 
-![|x250](imgs/08.prednaska-032.jpg)
+![|x200](imgs/08.prednaska-032.jpg)
 *Obrázek: Klasický příklad nevhodného použití dědičnosti, kdy Čtverec dědí z Obdélníku a porušuje jeho chování.*
 
 - **Příklad špatného užití**: Dědění `Čtverce` od `Obdélníka`. Pokud kód nastaví šířku a očekává, že výška zůstane stejná, u čtverce toto selže (změní se obojí).

@@ -16,13 +16,13 @@ Zajištění kvality (QA) je systematický přístup k zajištění toho, aby so
 - **Měření kvality**: Kvantifikace stavu produktu pomocí metrik.
 - **Úspora financí a zdrojů**: Prevence chyb je levnější než jejich následná oprava. Cena opravy chyby roste exponenciálně s časem (zdroj: raw/lectures/09.prednaska.pdf).
 
-![|x350](imgs/09.prednaska-012.jpg)
+![|x250](imgs/09.prednaska-012.jpg)
 *Obrázek: Exponenciální nárůst nákladů na opravu chyby v závislosti na fázi odhalení.*
 
 ## Měření kvality (Statická analýza)
 Moderní nástroje pro statickou analýzu (např. SonarQube) umožňují vizualizovat kvalitu kódu pomocí různých metrik, jako je technický dluh, spolehlivost a udržovatelnost.
 
-![|x350](imgs/09.prednaska-022.jpg) ![|x350](imgs/09.prednaska-023.jpg)
+![|x250](imgs/09.prednaska-022.jpg) ![|x250](imgs/09.prednaska-023.jpg)
 *Obrázek: Ukázky výstupů statické analýzy zaměřené na spolehlivost (chyby) a udržovatelnost (technický dluh).*
 
 ## Charakteristiky kvality

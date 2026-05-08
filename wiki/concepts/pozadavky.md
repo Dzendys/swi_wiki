@@ -24,7 +24,7 @@ Týkají se procesu vývoje (např. cena, termíny dodání, školení uživatel
 ### 2. Produktové požadavky
 Týkají se vlastností samotného produktu a dělí se na:
 
-![|x350](imgs/03.prednaska-018.jpg)
+![|x250](imgs/03.prednaska-018.jpg)
 *Obrázek: Alternativní reprezentace funkčních požadavků pomocí UML profilu.*
 
 Týkají se vlastností samotného produktu a dělí se na:

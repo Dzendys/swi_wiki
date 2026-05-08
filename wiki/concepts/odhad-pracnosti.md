@@ -33,7 +33,7 @@ Odhad nelze snadno provést bez detailní znalosti rozsahu (**scope**) projektu.
 ### Pravidla pro přesnější odhady
 -   **Odhadujte v rozmezí**: Místo jednoho čísla určete dolní a horní hranici (např. s 90% pravděpodobností se výsledek vejde do tohoto intervalu).
 
-![|x350](imgs/11.prednaska-025.jpg)
+![|x250](imgs/11.prednaska-025.jpg)
 *Obrázek: Tlak na odhadování a nejistota s tím spojená.*
 
 -   **Zohledněte velikost**: Pracnost s velikostí projektu neroste lineárně.
