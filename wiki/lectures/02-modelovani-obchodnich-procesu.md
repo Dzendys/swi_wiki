@@ -17,7 +17,16 @@ Přednáška vysvětluje nezbytnost procesního modelování jako nástroje pro 
 Modelování [[obchodni-procesy|obchodních procesů]] umožňuje vizualizovat tok činností v organizaci. Analýza začíná popisem současného stavu (**AS IS**), který odhaluje neefektivity a úzká hrdla. Následný návrh budoucího stavu (**TO BE**) definuje, jak bude systém procesy podporovat nebo měnit, což je klíčové pro vyhodnocení přínosů projektu.
 
 ### Notace a UML Diagram aktivit
-Pro srozumitelné zachycení logiky procesů se využívají vizuální modely. Hlavním probíraným nástrojem je [[diagram-aktivit|UML diagram aktivit]], který pomocí principu toku tokenů modeluje sekvenční i paralelní činnosti, rozhodovací body a zóny zodpovědnosti (swimlanes) jednotlivých rolí.
+Pro srozumitelné zachycení logiky procesů se využívají vizuální modely.
+
+![Notace Eriksson-Penker](imgs/02.prednaska-019.jpg)
+*Obrázek: Příklad procesu v notaci Eriksson-Penker (vstup, aktivity, objekty, role).*
+
+![Fragment BPMN](imgs/02.prednaska-021.jpg)
+*Obrázek: Ukázka fragmentu diagramu v notaci BPMN (Business Process Model and Notation).*
+
+Hlavním probíraným nástrojem je [[diagram-aktivit|UML diagram aktivit]], který pomocí principu toku tokenů modeluje sekvenční i paralelní činnosti, rozhodovací body a zóny zodpovědnosti (swimlanes) jednotlivých rolí.
+
 
 ## Související stránky
 - [[obchodni-procesy]]
