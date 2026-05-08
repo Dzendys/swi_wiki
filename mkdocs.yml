@@ -1,0 +1,80 @@
+site_name: BI-SWI Wiki
+site_url: https://Dzendys.github.io/SWI-wiki
+repo_name: Dzendys/SWI-wiki
+repo_url: https://github.com/Dzendys/SWI-wiki
+theme:
+  name: material
+  language: cs
+  features:
+    - content.code.copy
+    - navigation.footer
+    - navigation.indexes
+    - navigation.expand
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+      primary: indigo
+      accent: indigo
+
+docs_dir: wiki
+
+markdown_extensions:
+  - tables
+  - toc
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+plugins:
+  - search
+  - roamlinks
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Úvod: index.md
+  - Skripta (Moduly):
+    - 01 Úvod a životní cyklus: modules/01_Uvod_a_Zivotni_Cyklus/index.md
+    - 02 Analýza a požadavky: modules/02_Analyza_a_Pozadavky/index.md
+    - 03 Architektura a návrh: modules/03_Architektura_a_Navrh/index.md
+    - 04 Implementace a kvalita: modules/04_Implementace_a_Kvalita/index.md
+    - 05 Nasazení a provoz: modules/05_Nasazeni_a_Provoz/index.md
+    - 06 Projektové řízení: modules/06_Projektove_Rizeni/index.md
+  - Přednášky:
+    - 01 Úvod: lectures/01-uvod-do-swi.md
+    - 02 Modelování procesů: lectures/02-modelovani-obchodnich-procesu.md
+    - 03 Sběr požadavků: lectures/03-analyza-a-sber-pozadavku.md
+    - 04 Analýza domény: lectures/04-analyza-problemove-domeny.md
+    - 05 Návrh systémů: lectures/05-navrh-softwarovych-systemu.md
+    - 06 Architektonické vzory: lectures/06-architektonicke-vzory.md
+    - 07 Návrhové vzory: lectures/07-navrhove-vzory-a-komponenty.md
+    - 08 Implementace: lectures/08-implementace.md
+    - 09 Zajištění kvality: lectures/09-zajisteni-kvality.md
+    - 10 Nasazení a údržba: lectures/10-nasazeni-udrzba-a-integrace.md
+    - 11 Projektové řízení: lectures/11-projektove-rizeni.md
+    - 12 Metodiky: lectures/12-metodiky-a-agilni-vyvoj.md
+  - Koncepty: concepts/index.md
+  - Log změn: log.md
