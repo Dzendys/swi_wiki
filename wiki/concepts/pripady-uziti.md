@@ -33,9 +33,32 @@ Každý případ užití by měl být detailně popsán (typicky textově). Stan
 - **Include (zahrnutí)**: Jeden případ užití povinně využívá funkcionalitu jiného (vhodné pro sdílené kroky).
 - **Extend (rozšíření)**: Podmíněné rozšíření základního případu užití o doplňkovou funkcionalitu (zdroj: raw/extra/Use Case Model.pdf).
 
+## Doporučení pro tvorbu scénářů
+- **Popisujte „co“, nikoliv „jak“**: Zaměřte se na logické kroky, nikoliv na detaily uživatelského rozhraní (např. "kliknutí na tlačítko").
+- **Detailně pouze „zajímavé“ UC**: Vyhněte se zbytečnému rozepisování triviálních operací.
+- **Využijte grafiku**: Pokud je scénář složitý (mnoho alternativních toků), doplňte jej [[diagram-aktivit|diagramem aktivit]].
+- **Wireframing**: Pochopení případu užití velmi usnadňuje nákres obrazovky (zdroj: raw/lectures/03.prednaska.pdf).
+
+## Granularita a úrovně detailu
+Správně zvolená granularita je zásadní pro odhady pracnosti. Doporučuje se:
+- Jeden scénář má cca **10 kroků**.
+- Provedení uživatelem trvá řádově **hodiny** (zdroj: raw/lectures/03.prednaska.pdf).
+
+Model může být zpracován na různých úrovních:
+- **Stručný**: Pouze výčet aktérů, UC a jejich cílů + diagram. Vhodné pro frameworky nebo pokud je vývojář součástí analytického týmu.
+- **Detailní**: Obsahuje textové scénáře, alternativní toky a pre/post-podmínky. Nutné pro fixaci rozsahu u zakázkových systémů (zdroj: raw/lectures/03.prednaska.pdf).
+
+## Časté chyby v UC modelu
+- **Snaha znázornit tok událostí v diagramu**: K tomu slouží scénáře nebo diagramy aktivit.
+- **Zobrazování datových úložišť**: Use Case diagram není datový model.
+- **Případ užití bez aktéra**: UC, který nikdo nevyužívá, nemá v systému smysl.
+- **Zahrnutí činností mimo systém**: Ty patří do [[obchodni-procesy|modelu obchodních procesů]] (zdroj: raw/lectures/03.prednaska.pdf).
+
 ## Související stránky
 - [[role-analytika]]
 - [[diagram-aktivit]]
+- [[pozadavky]]
+- [[uzivatelske-pribehy]]
 
 ---
-#use-case #analyza #poadavky #uml #BI-SWI
+#use-case #analyza #poadavky #uml #chyby #BI-SWI

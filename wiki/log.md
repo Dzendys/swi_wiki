@@ -1,5 +1,12 @@
 # Log změn
 
+## [2026-05-08] - Ingest 3. přednášky (ingest/03-analyza-pozadavku)
+- Zpracování přednášky `03.prednaska.pdf`.
+- Vytvoření souhrnné stránky [[03-analyza-a-sber-pozadavku]].
+- Vytvoření konceptů [[pozadavky]] (včetně modelu FURPS) a [[uzivatelske-pribehy]].
+- Rozšíření a aktualizace [[pripady-uziti]] o doporučení k tvorbě scénářů, granularitu a časté chyby.
+- Aktualizace [[index]].
+
 ## [2026-05-08] - Refaktoring Use Case (feat/use-case-concept)
 - Vytvoření samostatného konceptu [[pripady-uziti]].
 - Přesun a rozšíření informací o UC z `role-analytika`.
