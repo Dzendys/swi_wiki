@@ -22,7 +22,7 @@ Persistence dat v [[vrstvy-architektury|třívrstvé architektuře]] spadá do n
 ## Návrh datového schématu
 V návrhové fázi vytváříme detailní UML datový model, který specifikuje datové typy, primární a cizí klíče a unikátní indexy.
 
-![UML Datový model - Kniha|250](imgs/05.prednaska-023.jpg) ![UML Datový model - Výpůjčky a Čtenáři|250](imgs/05.prednaska-032.jpg)
+![|180](imgs/05.prednaska-023.jpg) ![|450](imgs/05.prednaska-032.jpg)
 *Obrázek: Detailní návrh databázových tabulek a jejich vzájemných vazeb.*
 
 ## Table Data Gateway (TDG)

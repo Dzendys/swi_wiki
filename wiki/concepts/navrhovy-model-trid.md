@@ -33,7 +33,7 @@ Vztahy lze v UML znázornit buď graficky asociací, nebo textově pomocí atrib
 - **Realizace rozhraní**: Přerušovaná čára s prázdnou šipkou.
 - **Asociace**: Určení směru navigovatelnosti a násobností.
 
-![|200](imgs/05.prednaska-057.jpg) ![|200](imgs/05.prednaska-058.jpg) ![|200](imgs/05.prednaska-060.jpg)
+![|150](imgs/05.prednaska-057.jpg) ![|300](imgs/05.prednaska-058.jpg) ![|150](imgs/05.prednaska-060.jpg)
 *Obrázek: Různé způsoby zachycení vztahů a implementace rozhraní.*
 
 ## Přiřazování zodpovědností (GRASP)
