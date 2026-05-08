@@ -11,6 +11,7 @@
 - [[role-analytika|Role analytika]]
 - [[obchodni-procesy|Obchodní procesy]]
 - [[diagram-aktivit|Diagram aktivit (UML)]]
+- [[pripady-uziti|Případy užití (Use Case)]]
 
 ---
 #index #BI-SWI

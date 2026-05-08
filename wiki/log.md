@@ -1,5 +1,10 @@
 # Log změn
 
+## [2026-05-08] - Refaktoring Use Case (feat/use-case-concept)
+- Vytvoření samostatného konceptu [[pripady-uziti]].
+- Přesun a rozšíření informací o UC z `role-analytika`.
+- Aktualizace [[role-analytika]] a [[index]].
+
 ## [2026-05-08] - Ingest 2. přednášky (ingest/02-procesni-modelovani)
 - Zpracování přednášky `02.prednaska.pdf`.
 - Vytvoření souhrnné stránky [[02-modelovani-obchodnich-procesu]].
