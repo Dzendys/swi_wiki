@@ -3,6 +3,7 @@
 **Shrnutí**: Způsoby a vzory pro trvalé ukládání objektů z operační paměti do datového úložiště (typicky relační databáze).
 
 **Zdroje**:
+- `raw/lectures/05.prednaska.pdf`
 - `raw/lectures/06.prednaska.pdf`
 - `raw/extra/Table Data Gateway.pdf`
 - `raw/extra/Row Data Gateway.pdf`
@@ -30,10 +31,17 @@ Jedna instance této třídy spravuje všechny řádky v jedné tabulce.
 - **Princip**: Zapouzdřuje všechny SQL dotazy pro danou tabulku (SELECT, INSERT, UPDATE, DELETE).
 - **Použití**: Vhodné tam, kde doménová logika není složitá a stačí pracovat s RecordSety (zdroj: raw/extra/Table Data Gateway.pdf).
 
+![Vzor Table Data Gateway](imgs/06.prednaska-033.jpg)
+*Obrázek: Třída Gateway zapouzdřující CRUD operace nad tabulkou Kniha.*
+
 ## Row Data Gateway (RDG)
 Jeden objekt této třídy reprezentuje právě jeden řádek v databázi.
 - **Princip**: Objekt obsahuje atributy odpovídající sloupcům tabulky a metody pro manipulaci s daným řádkem (`insert()`, `update()`, `delete()`). Pro vyhledávání instancí se obvykle používá samostatná třída (Finder).
 - **Použití**: Odděluje datový přístup od business logiky (zdroj: raw/extra/Row Data Gateway.pdf).
+
+![Vzor Row Data Gateway](imgs/06.prednaska-035.jpg)
+![Vzor Row Data Gateway (Modifikace)](imgs/06.prednaska-037.jpg)
+*Obrázek: Modelování Row Data Gateway s vyhledávačem (Finder) a méně vhodná varianta se statickými metodami.*
 
 ## Active Record
 Velmi oblíbený vzor, který vychází z Row Data Gateway, ale přidává k objektu **business logiku**.
@@ -41,11 +49,17 @@ Velmi oblíbený vzor, který vychází z Row Data Gateway, ale přidává k obj
 - **Nevýhoda**: Porušuje zásady čisté třívrstvé architektury (silná vazba business logiky na databázi).
 - **Použití**: Často v PHP (Eloquent), Ruby on Rails (zdroj: raw/extra/Active Record.pdf).
 
+![Vzor Active Record](imgs/06.prednaska-039.jpg)
+*Obrázek: Třída Kniha obsahující jak data, tak business logiku.*
+
 ## Data Mapper
 Vrstva mapperů, která přenáší data mezi objekty a databází a přitom je udržuje navzájem nezávislé.
 - **Princip**: Doménové objekty vůbec netuší, že existuje nějaká databáze. Mapování je definováno externě (anotace, XML).
 - **Výhody**: Maximální decoupling (rozvolnění vazeb). Umožňuje mapovat složité hierarchie a kolekce.
 - **Použití**: Základ moderních ORM frameworků jako Hibernate (Java), Entity Framework (.NET) nebo Doctrine (PHP) (zdroj: raw/extra/Data Mapper.pdf).
+
+![Vzor Data Mapper](imgs/06.prednaska-041.jpg)
+*Obrázek: Oddělení business objektu od databáze pomocí Mapperu.*
 
 ## Související stránky
 - [[mapovani-dedicnosti]]
