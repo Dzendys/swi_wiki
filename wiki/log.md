@@ -1,5 +1,17 @@
 # Log změn
 
+## [2026-05-08] - Ingest 8. přednášky (ingest/prednaska-08)
+- Zpracování přednášky `08.prednaska.pdf`.
+- Vytvoření souhrnné stránky [[08-implementace]].
+- Vytvoření konceptu [[implementace]] (cíle, proces, "návrh v malém").
+- Vytvoření konceptu [[objektove-paradigma]] (zapouzdření, dědičnost, polymorfismus).
+- Vytvoření konceptu [[objektovy-diagram]] (UML snapshot stavu systému).
+- Vytvoření konceptu [[clean-code]] (SRP, DRY, Law of Demeter, LSP, čitelnost).
+- Vytvoření konceptu [[refaktoring]] (příznaky, techniky, nutnost testů).
+- Vytvoření konceptu [[osetreni-chyb-a-logovani]] (strategie, úrovně logování).
+- Aktualizace [[mapovani-dedicnosti]] (doplnění LSP a skládání).
+- Aktualizace [[index]].
+
 ## [2026-05-08] - Ingest 7. přednášky (ingest/prednaska-07)
 - Zpracování přednášky `07.prednaska.pdf`.
 - Vytvoření souhrnné stránky [[07-navrhove-vzory-a-komponenty]].
