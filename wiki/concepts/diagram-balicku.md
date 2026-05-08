@@ -14,6 +14,11 @@ Diagram balíčků (Package Diagram) je klíčový pro zachycení struktury syst
 
 ## Účel
 Hlavním účelem je řídit složitost (komplexitu) velkých systémů. Balíčky by měly být navrženy tak, aby představovaly ucelené, relativně nezávislé moduly. Pomáhají při:
+
+![Ukázka diagramu balíčků](imgs/03.prednaska-016.jpg)
+*Obrázek: Rozdělení systému do logických balíčků (Evidence čtenářů, Správa výpůjček).*
+
+Pomáhají při:
 - Logické organizaci modelu.
 - Zobrazení architektonických vrstev nebo subsystémů.
 - Zobrazení závislostí mezi moduly.

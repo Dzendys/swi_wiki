@@ -23,6 +23,11 @@ Týkají se procesu vývoje (např. cena, termíny dodání, školení uživatel
 
 ### 2. Produktové požadavky
 Týkají se vlastností samotného produktu a dělí se na:
+
+![Ukázka funkčních požadavků](imgs/03.prednaska-018.jpg)
+*Obrázek: Alternativní reprezentace funkčních požadavků pomocí UML profilu.*
+
+Týkají se vlastností samotného produktu a dělí se na:
 - **Funkční požadavky**: Popisují chování systému (co má dělat).
 - **Nefunkční (obecné) požadavky**: Určují omezení a kvality systému (jak má fungovat). Mají zásadní dopad na návrh architektury (zdroj: raw/lectures/03.prednaska.pdf).
 
