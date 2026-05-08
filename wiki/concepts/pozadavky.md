@@ -15,7 +15,7 @@
 Každý požadavek by měl být:
 - **Jednoznačný**: Nepřipouští více výkladů.
 - **Splnitelný**: Lze jej realizovat v rámci projektu.
-- **Ověřitelný**: Lze prokázat, že byl splněn (např. v rámci akceptačního testování) (zdroj: raw/lectures/03.prednaska.pdf).
+- **Ověřitelný**: Lze prokázat, že byl splněn (např. v rámci akceptačního testování). Ověřitelnost je základním předpokladem pro [[zajisteni-kvality|zajištění kvality]] (zdroj: raw/lectures/03.prednaska.pdf).
 
 ## Kategorizace požadavků
 ### 1. Projektové požadavky

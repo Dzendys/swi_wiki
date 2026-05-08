@@ -1,5 +1,14 @@
 # Log změn
 
+## [2026-05-08] - Ingest 9. přednášky (ingest/prednaska-09)
+- Zpracování přednášky `09.prednaska.pdf`.
+- Vytvoření souhrnné stránky [[09-zajisteni-kvality]].
+- Vytvoření konceptu [[zajisteni-kvality]] (QA cíle, charakteristiky FURPS, aktivity).
+- Vytvoření konceptu [[verifikace-a-validace]] (rozdíly, příklady).
+- Vytvoření konceptu [[testovani]] (klasifikace, techniky - Boundary, Equivalence, metriky).
+- Aktualizace [[pozadavky]] (propojení s ověřitelností a QA).
+- Aktualizace [[index]].
+
 ## [2026-05-08] - Ingest 8. přednášky (ingest/prednaska-08)
 - Zpracování přednášky `08.prednaska.pdf`.
 - Vytvoření souhrnné stránky [[08-implementace]].

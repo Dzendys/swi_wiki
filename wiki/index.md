@@ -9,6 +9,7 @@
 - [[06-architektonicke-vzory|06. Architektonické vzory]]
 - [[07-navrhove-vzory-a-komponenty|07. Návrhové vzory a komponenty]]
 - [[08-implementace|08. Implementace]]
+- [[09-zajisteni-kvality|09. Zajištění kvality]]
 
 ## Koncepty
 - [[softwarove-inzenyrstvi|Softwarové inženýrství]]
@@ -41,6 +42,9 @@
 - [[clean-code|Clean Code a principy návrhu]]
 - [[osetreni-chyb-a-logovani|Ošetření chyb a logování]]
 - [[refaktoring|Refaktoring]]
+- [[zajisteni-kvality|Zajištění kvality (QA)]]
+- [[verifikace-a-validace|Verifikace a validace]]
+- [[testovani|Testování softwaru]]
 
 ---
 #index #BI-SWI
