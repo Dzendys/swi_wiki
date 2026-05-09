@@ -60,6 +60,7 @@ extra_javascript:
 nav:
   - Úvod: index.md
   - Skripta (Moduly):
+    - modules/index.md
     - 01 Úvod a životní cyklus: modules/01_Uvod_a_Zivotni_Cyklus/index.md
     - 02 Analýza a požadavky: modules/02_Analyza_a_Pozadavky/index.md
     - 03 Architektura a návrh: modules/03_Architektura_a_Navrh/index.md
