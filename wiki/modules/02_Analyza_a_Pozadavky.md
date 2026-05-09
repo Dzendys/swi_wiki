@@ -3,8 +3,11 @@
 **Shrnutí**: Tato sekce se zabývá analytickou fází vývoje softwaru, od pochopení obchodních procesů zákazníka přes specifikaci požadavků až po vytvoření doménového modelu.
 
 **Zdroje**:
+
 - `wiki/lectures/02-modelovani-obchodnich-procesu.md`
+
 - `wiki/lectures/03-analyza-a-sber-pozadavku.md`
+
 - `wiki/lectures/04-analyza-problemove-domeny.md`
 
 **Naposledy aktualizováno**: 2026-05-18
@@ -14,18 +17,24 @@
 ## Role analytika a proces analýzy
 
 Hlavním úkolem [[role-analytika|analytika]] je odpovědět na otázku: **„Co bude systém dělat?“**. Analytik funguje jako most mezi zákazníkem (business světem) a vývojovým týmem (technickým světem).
+
 - **Cíl**: Minimalizovat riziko, že se postaví systém, který nikdo nepotřebuje.
+
 - **Činnosti**: Sběr požadavků (interview, workshopy), analýza procesů, tvorba modelů a specifikace.
 
 ## Modelování obchodních procesů
 
 Před samotným návrhem systému je nutné pochopit [[obchodni-procesy|obchodní procesy]] zákazníka.
+
 - **AS IS (Současný stav)**: Popisuje realitu bez nového systému. Slouží k odhalení slabých míst.
+
 - **TO BE (Budoucí stav)**: Návrh, jak budou procesy vypadat po nasazení systému.
 
 ### Diagram aktivit (UML)
 Pro vizualizaci procesů se využívá [[diagram-aktivit|UML diagram aktivit]]. 
+
 - **Princip toku tokenů**: Akce se spustí, když do ní dorazí "značka" (token).
+
 - **Klíčové prvky**:
     - **Rozhodnutí (Decision)**: Větvení toku na základě podmínky.
     - **Fork / Join**: Paralelizace a následná synchronizace toku.
@@ -47,14 +56,19 @@ Pro vizualizaci procesů se využívá [[diagram-aktivit|UML diagram aktivit]].
 | **S** (Supportability) | Snadnost údržby, instalace, konfigurace, rozšiřitelnost. |
 
 ### Techniky zachycení požadavků
+
 - **[[pripady-uziti|Případy užití (Use Cases)]]**: Formální popis interakce (Aktér -> Systém). Obsahují hlavní scénář a alternativní/chybové toky.
+
 - **[[uzivatelske-pribehy|Uživatelské příběhy (User Stories)]]**: Agilní technika. Formát: „Jako **[role]** chci **[cíl]**, abych **[přínos]**.“ Doplňují se o akceptační kritéria.
 
 ## Analýza problémové domény
 
 [[domenovy-model|Doménový model]] zachycuje klíčové pojmy (entity), jejich atributy a vztahy v reálném světě.
+
 - **Asociace**: Vztah mezi dvěma třídami (včetně násobnosti).
+
 - **Agregace / Kompozice**: Vztah "celek-část". U kompozice část zaniká s celkem (např. Budova-Místnost).
+
 - **Generalizace**: Vztah nadřazenosti a podřazenosti (dědičnost).
 
 **Důležité**: Doménový model se vyhýbá implementačním detailům (databáze, GUI). Pro zachycení stavů objektu v čase se využívá [[stavovy-diagram|stavový diagram]].
@@ -64,12 +78,19 @@ Pro vizualizaci procesů se využívá [[diagram-aktivit|UML diagram aktivit]].
 ## Související stránky
 
 - [[role-analytika]]
+
 - [[obchodni-procesy]]
+
 - [[pozadavky]]
+
 - [[pripady-uziti]]
+
 - [[uzivatelske-pribehy]]
+
 - [[domenovy-model]]
+
 - [[diagram-aktivit]]
+
 - [[diagram-pripadu-uziti]]
 
 ---
