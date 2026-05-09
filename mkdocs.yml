@@ -77,5 +77,7 @@ nav:
     - 10 Nasazení a údržba: lectures/10-nasazeni-udrzba-a-integrace.md
     - 11 Projektové řízení: lectures/11-projektove-rizeni.md
     - 12 Metodiky: lectures/12-metodiky-a-agilni-vyvoj.md
-  - Koncepty: concepts/index.md
+  - Koncepty:
+    - Přehled: concepts/index.md
+    - concepts/
   - Log změn: log.md
