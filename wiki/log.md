@@ -1,5 +1,12 @@
 # Log změn
 
+## [2026-05-09] Merge: fix/formatting-issues-final
+Surgical oprava formátování v celé wiki:
+- Přidány prázdné řádky mezi hlavičky (např. **Zdroje**:, ### Nadpis) a následující odrážkové seznamy.
+- Přidány prázdné řádky na konce seznamů, pokud jsou následovány textem.
+- Striktně zachována vazba mezi obrázky `![[...]` a popisky `*Obrázek: ...*` (zůstávají na sousedních řádcích bez mezery).
+- Změny ověřeny proti rozbití vizuální vazby obrázků v MkDocs.
+
 ## [2026-05-09] - Vytvoření strukturovaných modulů (feat/moduly-moduly)
 - Vytvořeno 6 modulů v `wiki/modules/` sloužících jako ucelený studijní průvodce pro zkoušku.
 - Každý modul syntetizuje informace z přednášek a koncepčních stránek do plynulého textu.
