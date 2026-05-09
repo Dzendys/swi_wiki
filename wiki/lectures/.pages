@@ -1,5 +1,6 @@
 title: Přednášky
 nav:
+  - Rozcestník: index.md
   - 01 Úvod: 01-uvod-do-swi.md
   - 02 Modelování procesů: 02-modelovani-obchodnich-procesu.md
   - 03 Sběr požadavků: 03-analyza-a-sber-pozadavku.md
