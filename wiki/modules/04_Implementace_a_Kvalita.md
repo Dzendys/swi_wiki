@@ -17,6 +17,7 @@
 
 ### Clean Code (Čistý kód)
 Kvalita implementace je přímo úměrná její udržovatelnosti. Dodržování pravidel **[[clean-code|čistého kódu]]** zahrnuje:
+
 - **SRP (Single Responsibility)**: Každá třída či metoda má mít jednu zodpovědnost.
 - **DRY (Don't Repeat Yourself)**: Zákaz duplicity kódu.
 - **Law of Demeter**: Objekt by měl komunikovat pouze se svými "přímými známými".
@@ -37,11 +38,13 @@ Robustní aplikace musí obsahovat správné **[[osetreni-chyb-a-logovani|ošet�
 
 ### Verifikace vs. Validace
 Procesy kontroly kvality dělíme na:
+
 - **[[verifikace-a-validace|Verifikace]]**: „Stavíme produkt správně?“ (shoda se specifikací a modely).
 - **Validace**: „Stavíme správný produkt?“ (shoda s potřebami uživatele).
 
 ### Testování softwaru
 [[testovani|Testování]] je proces hledání chyb. Rozlišujeme:
+
 - **Dle rozsahu**: Jednotkové (Unit), Integrační a Systémové testy.
 - **Dle znalosti kódu**: **White Box** (vidíme kód) a **Black Box** (testujeme přes rozhraní).
 - **Techniky**: Analýza hraničních hodnot, třídy ekvivalence, regresní testování (ověření, že změna nerozbila stávající funkce).
@@ -53,6 +56,7 @@ Kvalitu testování lze měřit pomocí metrik, jako je **pokrytí kódu (Code C
 *Obrázek: Vizualizace trendů v úspěšnosti testů v čase.*
 
 ## Související stránky
+
 - [[implementace]]
 - [[clean-code]]
 - [[refaktoring]]

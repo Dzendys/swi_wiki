@@ -31,6 +31,7 @@ V prezentační vrstvě se pro oddělení dat od jejich zobrazení využívají 
 ## Persistence dat a mapování
 
 Většina systémů vyžaduje trvalé uložení dat v relačních databázích. Protože relační svět nepodporuje dědičnost, využívají se vzory pro **[[mapovani-dedicnosti|mapování dědičnosti]]**:
+
 - **Single Table Inheritance**: Jedna tabulka pro celou hierarchii.
 - **Concrete Table Inheritance**: Tabulka pro každou konkrétní třídu.
 - **Class Table Inheritance**: Tabulka pro každou třídu v hierarchii spojená cizími klíči.
@@ -48,11 +49,13 @@ Modularita systému je zajištěna pomocí [[komponenty-a-rozhrani|rozhraní (In
 ## Návrhové vzory (GoF)
 
 Pro řešení opakujících se problémů v objektovém návrhu se využívají osvědčené **[[navrhove-vzory-gof|návrhové vzory GoF]]**:
+
 - **Vytváření**: Abstract Factory, Builder.
 - **Chování**: State (nahrazuje složitá větvení životním cyklem), Observer.
 - **Struktura**: Adapter (propojení nekompatibilních rozhraní).
 
 ## Související stránky
+
 - [[softwarova-architektura]]
 - [[navrh-softwaru]]
 - [[vrstvy-architektury]]

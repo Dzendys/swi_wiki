@@ -13,6 +13,7 @@
 Sekvenční diagram (Sequence Diagram) patří mezi diagramy chování a je klíčový pro fázi [[navrh-softwaru|návrhu]]. Zatímco [[navrhovy-model-trid|diagram tříd]] zachycuje statickou strukturu, sekvenční diagram ukazuje, jak si objekty v čase vyměňují zprávy, aby splnily konkrétní úkol (scénář z [[pripady-uziti|případu užití]]).
 
 ## Základní notace
+
 - **Životní čára (Lifeline)**: Svislá čárkovaná čára pod objektem.
 - **Objekt**: Obdélník na vrcholu čáry. Zápis: `názevObjektu : Třída` (pojmenovaný) nebo `: Třída` (anonymní).
 - **Zpráva (Message)**: Vodorovná šipka mezi životními čárami.
@@ -27,6 +28,7 @@ Sekvenční diagram (Sequence Diagram) patří mezi diagramy chování a je klí
 - **Aktivace (Execution Specification)**: Úzký svislý obdélník na životní čáře značící, že objekt právě vykonává nějakou metodu.
 
 ## Pokročilé prvky
+
 - **Vytvoření/Zrušení objektu**: Zpráva `«create»` končí u nového objektu. Zrušení se značí křížkem `X` na konci životní čáry (zpráva `«destroy»`).
 - **Nalezená a vlastní zpráva**:
     - **Nalezená zpráva (Found Message)**: Šipka vycházející z černého bodu (vstup do systému zvenčí).
@@ -57,6 +59,7 @@ Sekvenční diagramy se využívají k detailnímu návrhu realizace konkrétní
 Sekvenční diagramy pomáhají přiřazovat zodpovědnosti třídám (určují metody). Při jejich tvorbě se uplatňují principy [[navrhovy-model-trid|GRASP]].
 
 ## Související stránky
+
 - [[navrhovy-model-trid]]
 - [[pripady-uziti]]
 - [[navrh-softwaru]]

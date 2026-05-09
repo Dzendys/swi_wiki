@@ -13,6 +13,7 @@
 Unified Process (UP) je otevřený standard klasické metodiky, který se stal základem pro komerční varianty jako Rational Unified Process (RUP).
 
 ## Klíčové charakteristiky
+
 - **Řízený [[pripady-uziti|případy užití]]**: Požadavky jsou definovány a sledovány skrze Use Case.
 - **Zaměřený na architekturu**: Důraz na včasný návrh a stabilizaci [[softwarova-architektura|architektury]].
 - **Iterativní a inkrementální**: Vývoj probíhá v cyklech, každý dodává funkční přírůstek.
@@ -31,6 +32,7 @@ Projekt v UP prochází čtyřmi hlavními fázemi (zdroj: raw/lectures/12.predn
 
 ## Pracovní postupy (Disciplíny)
 V rámci každé iterace se prolínají různé činnosti v různé intenzitě:
+
 - Sběr požadavků.
 - Analýza a návrh.
 - Implementace.
@@ -38,6 +40,7 @@ V rámci každé iterace se prolínají různé činnosti v různé intenzitě:
 - Nasazení.
 
 ## Související stránky
+
 - [[metodiky-vyvoje]]
 - [[softwarova-architektura]]
 - [[pripady-uziti]]

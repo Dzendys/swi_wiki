@@ -19,6 +19,7 @@ Hlavním úkolem [[role-analytika|analytika]] je odpovědět na otázku: **„Co
 ## Modelování obchodních procesů
 
 Před samotným návrhem systému je nutné pochopit [[obchodni-procesy|obchodní procesy]] zákazníka. Rozlišujeme dva základní pohledy:
+
 - **AS IS (Současný stav)**: Popisuje, jak procesy fungují dnes. Slouží k identifikaci neefektivit a problémových míst.
 - **TO BE (Budoucí stav)**: Návrh procesů po nasazení systému. Definuje, jak bude systém uživatele podporovat.
 
@@ -34,6 +35,7 @@ Pro vizualizaci procesů se nejčastěji využívá [[diagram-aktivit|UML diagra
 [[pozadavky|Požadavky]] jsou základem pro odhad pracnosti i akceptační testování. Musí být jednoznačné, splnitelné a především **ověřitelné**.
 
 Kategorizace pomocí modelu **FURPS**:
+
 - **F** (Functionality): Funkční požadavky (co má systém dělat).
 - **U** (Usability): Použitelnost a lidské faktory.
 - **R** (Reliability): Spolehlivost a dostupnost.
@@ -56,6 +58,7 @@ Při tvorbě modelu se analytik vyhýbá implementačním detailům (např. ciz�
 *Obrázek: Celkový pohled na analytický doménový model knihovny.*
 
 ## Související stránky
+
 - [[role-analytika]]
 - [[obchodni-procesy]]
 - [[pozadavky]]

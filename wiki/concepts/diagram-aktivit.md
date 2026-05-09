@@ -60,6 +60,7 @@ Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník). 
 *Obrázek: Různé způsoby zobrazení toku objektů a jejich stavů.*
 
 ## Pokročilé konstrukce
+
 - **Vícenásobné provedení (Expansion Region)**: Oblast, kde se akce provádí pro každý prvek vstupní kolekce (zdroj: raw/lectures/02.prednaska.pdf).
 - **Region přerušení (Interruptible Region)**: Oblast, jejíž provádění může být přerušeno specifikovanou událostí (zdroj: raw/lectures/02.prednaska.pdf).
 
@@ -73,6 +74,7 @@ Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník). 
 *Obrázek: Komplexní model procesu rezervace knihy se všemi prvky.*
 
 ## Časté chyby
+
 1.  **Chybné modelování cyklu**: Sloučení zpětné vazby přímo do akce namísto použití slučovacího uzlu (Merge). To způsobí "zaseknutí" (deadlock), protože akce čeká na token z obou vstupů (zdroj: raw/extra/Activity Diagram.pdf).
 2.  **Míchání akcí a stavů**: Používání symbolu akce pro zachycení stavu objektu. Správně má být stav v hranatých závorkách uvnitř objektového uzlu (zdroj: raw/lectures/02.prednaska.pdf).
 
@@ -85,6 +87,7 @@ Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník). 
 *Obrázek: Ukázka nesprávného míchání stavů s akcemi a následná oprava pomocí objektových uzlů.*
 
 ## Související stránky
+
 - [[obchodni-procesy]]
 - [[role-analytika]]
 

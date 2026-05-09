@@ -15,6 +15,7 @@ Testování je jednou z klíčových forem [[verifikace-a-validace|validace a ve
 ## Klasifikace testů
 
 ### Podle rozsahu
+
 1.  **Jednotkové testy (Unit Tests)**: Testují nejmenší testovatelné části (metody, třídy) izolovaně od zbytku systému.
 2.  **Integrační testy**: Ověřují správnou spolupráci mezi více komponentami nebo moduly.
 3.  **Systémové testy**: Testují celý systém jako celek vůči specifikovaným požadavkům.
@@ -43,6 +44,7 @@ Testování je jednou z klíčových forem [[verifikace-a-validace|validace a ve
 -   **Smoke testy**: Rychlá sada testů k ověření základní stability aplikace (např. "lze se přihlásit?") po nasazení.
 
 ## Testovací artefakty
+
 -   **Testovací plán**: Dokument definující *co, jak, kdo a kdy* bude testovat.
 -   **Testovací případ (Test Case)**: Konkrétní postup, vstupní data, očekávaná výstupní data a výsledek.
 -   **Test suite**: Kolekce testovacích případů.
@@ -67,6 +69,7 @@ Sledování metrik v čase umožňuje vyhodnotit stabilitu systému a efektivitu
 Dobrý test by měl mít vysokou schopnost odhalit chybu (**Power**), být snadno udržovatelný (**Maintainable**), odpovídat chování uživatele (**Credible**), být opakovatelný (**Repeatable**) a mít přidanou hodnotu (**Value**).
 
 ## Související stránky
+
 - [[zajisteni-kvality]]
 - [[verifikace-a-validace]]
 - [[implementace]]

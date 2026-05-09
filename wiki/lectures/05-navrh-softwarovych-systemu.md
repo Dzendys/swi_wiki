@@ -27,6 +27,7 @@ Klíčovým úkolem je návrh [[persistence-dat|persistence]]. Většina systém
 Na rozdíl od doménového modelu je [[navrhovy-model-trid|návrhový model tříd]] detailní a slouží jako podklad pro kódování. Obsahuje konkrétní datové typy, viditelnost a metody, do kterých jsou přiřazovány zodpovědnosti na základě principů **GRASP** (např. Informační expert).
 
 ## Související stránky
+
 - [[navrh-softwaru]]
 - [[softwarova-architektura]]
 - [[mapovani-dedicnosti]]

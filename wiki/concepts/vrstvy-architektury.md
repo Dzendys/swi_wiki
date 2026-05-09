@@ -13,6 +13,7 @@
 Vrstvy představují horizontální rozdělení [[softwarova-architektura|softwarové architektury]]. Každá vrstva seskupuje logicky související komponenty a služby.
 
 ## Typy architektur dle počtu vrstev
+
 - **Monolitická (jednovrstvá)**: Veškerý kód (UI, logika, DB přístup) je v jednom celku. Vhodné pro prototypy a velmi rychlý počáteční vývoj, ale extrémně náročné na údržbu u větších systémů.
 - **Dvouvrstvá**: Typicky dělí systém na *Prezentační vrstvu* a *Datovou vrstvu*. Vhodná pro jednoduché CRUD aplikace (vytvoř, čti, uprav, smaž), kde není složitá business logika.
 - **Třívrstvá**: Nejrozšířenější pro informační systémy. Skládá se z:
@@ -28,16 +29,19 @@ Závislosti by měly směřovat vždy **shora dolů**. Rozlišujeme dva přístu
 *Obrázek: Porovnání striktního (vlevo) a relaxovaného (vpravo) vrstvení.*
 
 Rozlišujeme dva přístupy:
+
 - **Striktní architektura**: Vrstva může využívat pouze vrstvu bezprostředně pod ní.
 - **Relaxovaná architektura**: Vrstva může využívat jakoukoliv vrstvu pod ní (např. prezentační vrstva může volat přímo technickou službu pro logování). V praxi je tento přístup nejčastější.
 
 ## Výhody vrstvení
+
 - **Oddělení zájmů (Separation of Concerns)**: Snazší lokalizace chyb a pochopení kódu.
 - **Znovupoužitelnost**: Nižší vrstvy (technické služby) jsou obecnější a lze je použít ve více projektech. Vyšší vrstvy jsou specifické pro konkrétní projekt.
 - **Snadná výměna vrstev**: Lze např. vyměnit databázi nebo přidat mobilní aplikaci k existující business logice bez její změny.
 - **Testovatelnost**: Jednotlivé vrstvy lze testovat izolovaně (pomocí mocků).
 
 ## Související stránky
+
 - [[softwarova-architektura]]
 - [[persistence-dat]]
 - [[mvc-mvp]]

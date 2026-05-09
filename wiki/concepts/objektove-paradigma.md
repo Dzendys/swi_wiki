@@ -24,12 +24,14 @@ Objekt funguje jako "černá skříňka" (black box). Drží svůj vnitřní sta
 
 ### Dědičnost (Inheritance)
 Umožňuje vytvořit novou třídu (podtřídu), která přebírá vlastnosti a metody jiné třídy (nadtřídy).
+
 - Atributy a metody nadtřídy jsou vloženy do podtřídy.
 - Metody podtřídy mohou **překrýt** (override) metody nadtřídy.
 - *Pozor*: Dědičnost by měla být používána obezřetně a splňovat [[clean-code#Liskov Substitution Principle (LSP)|Liskov Substitution Principle]]. Často je vhodnější použít skládání.
 
 ### Abstraktní třída
 Třída, ze které nelze vytvářet instance. Slouží jako předpis pro podtřídy.
+
 - Může obsahovat abstraktní metody (bez implementace), které musí podtřídy definovat.
 - Může obsahovat i implementované metody a atributy.
 
@@ -40,6 +42,7 @@ Schopnost objektů různých tříd reagovat na stejné volání metody různým
 Pro vizualizaci aktuálního stavu systému (instancí a jejich vazeb) v konkrétní časový okamžik se používá **[[objektovy-diagram]]**.
 
 ## Související stránky
+
 - [[navrhovy-model-trid]]
 - [[implementace]]
 - [[objektovy-diagram]]

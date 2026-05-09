@@ -16,11 +16,13 @@ Architekturu lze zkoumat ze dvou základních pohledů:
 
 ## Logická architektura
 Zabývá se organizací zdrojových kódů a konceptuálních celků:
+
 - **Organizace**: Sdružování softwarových tříd do balíčků (packages) a jmenných prostorů (namespaces).
 - **Vrstvy a podsystémy**: Uspořádání balíčků do vyšších logických celků (např. prezentační vrstva, aplikační logika, datová vrstva). Pro vizualizaci se používá [[diagram-balicku|diagram balíčků]].
 
 ## Fyzická architektura (Nasazení)
 Zabývá se rozložením běžícího softwaru na fyzický hardware:
+
 - **[[komponenty-a-rozhrani|Komponenty]]**: Rozdělení systému na samostatně nasaditelné jednotky (např. `.jar`, `.dll`). Komponenty jsou od sebe odděleny **rozhraními**, což snižuje jejich provázanost.
 - **Výpočetní uzly**: Určení, na kterých strojích komponenty poběží. Rozhoduje se například mezi architekturou tenkého klienta, tlustého klienta a využitím aplikačních clusterů.
 
@@ -28,6 +30,7 @@ Zabývá se rozložením běžícího softwaru na fyzický hardware:
 Návrh architektury by neměl znovu "vymýšlet kolo". Pro řešení opakujících se architektonických a návrhových problémů se využívají osvědčené **návrhové vzory** (Design Patterns, např. ze skupiny GoF). Příkladem je vzor *Stavitel (Builder)* pro flexibilní konstrukci složitých objektů (např. sestavování SQL skriptů nezávisle na konkrétním dialektu relační databáze).
 
 ## Související stránky
+
 - [[navrh-softwaru]]
 - [[diagram-balicku]]
 - [[navrhovy-model-trid]]

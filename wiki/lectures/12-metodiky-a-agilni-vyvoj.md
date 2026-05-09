@@ -24,6 +24,7 @@ Představitelem klasických, ale iterativních metodik je **[[unified-process|Un
 [[agilni-vyvoj|Agilní přístup]] stojí na principech Agilního manifestu, který cení fungující software a reakci na změnu nad procesy a dokumentaci. Nejrozšířenějším frameworkem je **[[scrum|SCRUM]]**, který definuje specifické role (Scrum Master, Product Owner, Developers), artefakty (backlogy) a události (sprinty, daily scrum) pro efektivní samo-organizaci týmu.
 
 ## Související stránky
+
 - [[softwarove-inzenyrstvi]]
 - [[projektove-rizeni]]
 - [[pripady-uziti]]

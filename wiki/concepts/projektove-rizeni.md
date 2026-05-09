@@ -13,11 +13,13 @@
 Projektové řízení v oblasti softwaru je specifické svou komplexností a vysokou mírou neurčitosti (zdroj: raw/lectures/11.prednaska.pdf).
 
 ## Základní pojmy
+
 - **Projekt**: Časově ohraničená činnost směřující k vytvoření unikátního produktu nebo služby (např. zavedení nového informačního systému). Pomocí projektu se snažíme dosáhnout konkrétní změny.
 - **Cíle projektu**: Dodat produkt/službu **včas**, v požadované **kvalitě**, s očekávaným **chováním** a v dohodnuté **ceně**.
 
 ## Projektový manažer
 Osoba zodpovědná za celkové řízení. Sleduje a ovlivňuje:
+
 - **Náklady/cenu**: Kolik lze utratit.
 - **Čas**: Termíny a milníky (kdy má být hotovo).
 - **Rozsah (Scope)**: Brání "bobtnání požadavků" bez odpovídajícího navýšení zdrojů.
@@ -26,6 +28,7 @@ Osoba zodpovědná za celkové řízení. Sleduje a ovlivňuje:
 - **Přínosy**: Hlídá, aby projekt skutečně řešil potřebu zákazníka.
 
 ## Fáze projektu
+
 1.  **Příprava**:
     - Vyhodnocení proveditelnosti.
         *   Stanovení výstupů (nejen aplikace, ale i dokumentace, migrace dat, školení).
@@ -45,6 +48,7 @@ Osoba zodpovědná za celkové řízení. Sleduje a ovlivňuje:
     *   Evidence **historických dat** (trvání, cena, problémy). Tato data jsou klíčová pro odhady budoucích projektů.
 
 ## Související stránky
+
 - [[softwarove-inzenyrstvi]]
 - [[odhad-pracnosti]]
 - [[rizeni-rizik]]

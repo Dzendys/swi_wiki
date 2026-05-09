@@ -19,6 +19,7 @@
 *Obrázek: Komplexní Use Case diagram zachycující hranice systému (IS knihovny), aktéry a jejich interakce.*
 
 ## Notace a prvky
+
 - **Aktér (Actor)**: Panáček reprezentující roli externí entity (uživatel, jiný systém, čas). Aktér je vždy vně systému (zdroj: raw/extra/Use Case Model.pdf).
 - **Případ užití (Use Case)**: Bublina (elipsa) reprezentující ucelenou jednotku funkcionality.
 - **Hranice systému (Subject Boundary)**: Obdélník ohraničující případy užití, které systém realizuje.
@@ -29,6 +30,7 @@
 *Obrázek: Různé způsoby znázornění aktérů (lidské role vs. časový spouštěč).*
 
 ## Vztahy mezi aktéry
+
 - **Generalizace (dědičnost)**: Plná čára s uzavřenou šipkou u rodiče. Potomek dědí všechny asociace k případům užití od svého rodiče, což zpřehledňuje diagram (zdroj: raw/lectures/03.prednaska.pdf).
 
 ![[imgs/03.prednaska-034.jpg|65]]
@@ -37,6 +39,7 @@
 
 ## Vztahy mezi případy užití
 Vztahy by se měly používat střídmě, aby diagram zůstal přehledný.
+
 - **Include (zahrnutí)**: Směrovaná čárkovaná šipka se stereotypem `«include»`. Označuje povinné vyčlenění **sdílené logiky** (reusage). Nemá se používat pro pouhý rozklad (dekompozici) jednoho UC na kroky (zdroj: raw/extra/Use Case Model.pdf).
 - **Extend (rozšíření)**: Směrovaná čárkovaná šipka se stereotypem `«extend»`. Označuje volitelné rozšíření základního UC za určitých podmínek. Opět platí, že by se nemělo jednat o pouhou dekompozici (zdroj: raw/extra/Use Case Model.pdf).
 
@@ -45,6 +48,7 @@ Vztahy by se měly používat střídmě, aby diagram zůstal přehledný.
 *Obrázek: Znázornění vztahů include (povinné zahrnutí) a extend (volitelné rozšíření).*
 
 ## Typické chyby v UC diagramech
+
 1.  **Modelování toku (sekvence)**: UC diagram není určen pro zobrazení pořadí kroků. K tomu slouží scénáře nebo diagramy aktivit.
 2.  **Datová úložiště**: Databáze nebo soubory nejsou aktéři ani případy užití.
 3.  **Chybějící aktér**: Každý UC musí být iniciován nebo využíván nějakým aktérem.
@@ -56,6 +60,7 @@ Vztahy by se měly používat střídmě, aby diagram zůstal přehledný.
 *Obrázek: Příklady nejčastějších chyb při tvorbě diagramů případů užití (modelování toku, datová úložiště, chybějící aktér, činnosti mimo systém).*
 
 ## Související stránky
+
 - [[pripady-uziti]]
 - [[role-analytika]]
 - [[pozadavky]]

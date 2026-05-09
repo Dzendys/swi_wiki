@@ -24,6 +24,7 @@ Pro entity, které mají složité chování v čase, se vytváří [[stavovy-di
 Přednáška uvádí praktické postupy, jak identifikovat entity v textech scénářů případů užití nebo v procesních modelech. Typicky se jedná o podstatná jména, která reprezentují důležitá data systému. Správná identifikace entit a jejich vztahů předchází chybám v datovém návrhu.
 
 ## Související stránky
+
 - [[domenovy-model]]
 - [[stavovy-diagram]]
 - [[role-analytika]]

@@ -14,6 +14,7 @@ Webové služby umožňují integraci aplikací běžících na různých platfo
 
 ## SOAP (Simple Object Access Protocol)
 Robustní průmyslový standard pro výměnu strukturovaných informací.
+
 - **Protokol**: XML.
 - **Popis rozhraní**: WSDL (Web Services Description Language).
 - **Vlastnosti**: Mnoho podpůrných standardů, typické pro integraci komplexních podnikových aplikací.
@@ -21,6 +22,7 @@ Robustní průmyslový standard pro výměnu strukturovaných informací.
 
 ## REST (Representational State Transfer)
 Architektonický styl (nikoliv protokol) orientovaný na zdroje.
+
 - **Zdroje**: Každý zdroj (resource) je identifikován unikátním **URI**.
 - **Operace**: Využívá standardní HTTP metody pro CRUD operace:
     - **GET**: Retrieve/Read (čtení).
@@ -32,11 +34,13 @@ Architektonický styl (nikoliv protokol) orientovaný na zdroje.
 
 ### JSON (JavaScript Object Notation)
 Textová notace nezávislá na jazyku.
+
 - **Výhody**: Jednoduché zpracování v JS, úsporný formát.
 - **Použití**: Veřejná API, přenos dat pro GUI.
 
 ### XML (eXtensible Markup Language)
 Hierarchický značkovací jazyk.
+
 - **Výhody**: Snadná definice datových typů (**XSD**), transformace (**XSLT**), dotazování (**XPath/XQuery**).
 - **Použití**: Komplexní podnikové integrace.
 
@@ -47,6 +51,7 @@ Hierarchický značkovací jazyk.
 | **Transformace** | Obtížnější | Snadná (XSLT) |
 
 ## Související stránky
+
 - [[integrace-aplikaci]]
 - [[komponenty-a-rozhrani]]
 

@@ -45,12 +45,14 @@ Podtřída musí být použitelná všude tam, kde je očekávána její nadtř�
 Kód by měl záviset na **[[komponenty-a-rozhrani|rozhraní]]**, nikoliv na konkrétní implementaci. To umožňuje snadnou výměnu komponent nebo rozšíření systému bez zásahu do existující logiky. Rozhraní by mělo být vnímáno jako "neměnný kontrakt".
 
 ## Čitelnost a konvence
+
 - **Srozumitelné názvy**: Třídy, metody a parametry musí být samopopisné (např. `pokutaZaZpozdeni` místo `y`).
 - **Pojmenování**: Dodržování konvencí (`camelCase`, `PascalCase`, `SNAKE_CASE`) dle standardů daného jazyka (např. Java, C#, Kotlin, TS).
 - **Délka metod**: Ideálně jedna obrazovka (max. 100-200 řádků). Čím delší metoda, tím vyšší chybovost.
 - **Magické konstanty**: Nepoužívat literály v kódu (např. `50`), ale pojmenované konstanty (`SPRAVNI_POPLATEK`).
 
 ## Související stránky
+
 - [[implementace]]
 - [[objektove-paradigma]]
 - [[refaktoring]]

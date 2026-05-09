@@ -13,12 +13,14 @@
 Refaktoring je disciplinovaná technika pro restrukturalizaci existujícího těla kódu. Hlavním cílem je učinit kód čistším, srozumitelnějším a méně náchylným k chybám v budoucnu.
 
 ## Základní pravidla
+
 1.  **Nemění se vnější chování**: Systém musí po refaktoringu dělat přesně to samé, co před ním.
 2.  **Nutnost testů**: Před začátkem refaktoringu musí existovat sada testů, která ověří, že nedošlo ke změně chování (zdroj: raw/lectures/08.prednaska.pdf).
 3.  **Malé kroky**: Změny by měly být prováděny v malých, kontrolovaných krůčcích.
 
 ## Kdy začít s refaktoringem (Code Smells)
 Příznaky, že kód vyžaduje refaktoring:
+
 -   **Duplicity**: Stejný nebo podobný kód na více místech (viz [[clean-code#DRY (Don't Repeat Yourself)|DRY]]).
 -   **Dlouhé metody**: Metody přesahující jednu obrazovku nebo vykonávající více zodpovědností.
 -   **Velké třídy**: Třídy s nízkou soudržností, které dělají příliš mnoho věcí.
@@ -28,6 +30,7 @@ Příznaky, že kód vyžaduje refaktoring:
 -   **Nedodržení jmenných konvencí**.
 
 ## Vybrané techniky
+
 -   **Extrahování metody (Extract Method)**: Přesun části kódu do nové, dobře pojmenované metody.
 -   **Přejmenování (Rename)**: Změna názvu metody, třídy nebo proměnné na srozumitelnější.
 -   **Zapouzdření atributu**: Skrytí veřejného atributu za gettery a settery.
@@ -37,10 +40,12 @@ Příznaky, že kód vyžaduje refaktoring:
 -   **Zavedení objektu jako parametru**: Seskupení souvisejících parametrů do jedné třídy.
 
 ## Doporučená literatura
+
 -   Martin Fowler: *Refaktoring: zlepšení existujícího kódu* (ISBN: 80-247-0299-1).
 -   Web [refactoring.com](http://refactoring.com/).
 
 ## Související stránky
+
 - [[clean-code]]
 - [[implementace]]
 - [[osetreni-chyb-a-logovani]]

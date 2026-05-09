@@ -14,6 +14,7 @@ Robustní aplikace musí být připravena na nevalidní vstupy (uživatelé, sou
 
 ## Ošetření chyb (Error Handling)
 Existuje několik strategií, jak se vypořádat s chybovým stavem:
+
 1.  **Vrácení neutrální hodnoty**: Např. prázdný řetězec, `0` nebo `null`. Pozor na "zamaskování chyby", kdy program pokračuje dál v nekonzistentním stavu.
 2.  **Vrácení chybového kódu**: Tradiční přístup (např. v C), kde metoda vrací kód označující výsledek operace.
 3.  **Vyvolání výjimky (Exception)**: Moderní přístup (Java, C#, Python, TS). Odděluje cestu "šťastného běhu" od cesty ošetření chyb.
@@ -25,6 +26,7 @@ Logování slouží k záznamu důležitých událostí během běhu aplikace pr
 
 ### Úrovně logování (Priority)
 Běžně se používají tyto úrovně (od nejméně závažné):
+
 -   **DEBUG**: Detailní informace pro vývojáře, v produkci obvykle vypnuté.
 -   **INFO**: Obecné informace o běhu (např. "Server spuštěn", "Uživatel přihlášen").
 -   **WARN**: Varování o neobvyklých stavech, které aplikaci nezastaví (např. "Doba odezvy externí služby je vysoká").
@@ -38,10 +40,12 @@ Běžně se používají tyto úrovně (od nejméně závažné):
 
 ### Existující řešení
 Místo psaní vlastního logování se vždy používají prověřené knihovny:
+
 -   **Java**: Java Logging API, LOG4J, SLF4J.
 -   **C#**: NLog, Serilog.
 
 ## Související stránky
+
 - [[implementace]]
 - [[clean-code]]
 - [[refaktoring]]

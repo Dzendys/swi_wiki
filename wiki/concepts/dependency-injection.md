@@ -22,21 +22,25 @@ DI je technika, kdy IoC kontejner (např. Spring) automaticky dosazuje (vstřiku
 
 ## IoC Kontejnery
 Softwarové rámce, které spravují životní cyklus objektů (beans) a jejich propojení:
+
 - **Java**: Spring, EJB.
 - **PHP**: Symfony (Service Configurator).
 
 ### Spring Bean Scopes
 V frameworku Spring lze definovat, jak dlouho instance (bean) žije:
+
 - **Singleton**: Jedna instance pro celý kontejner (výchozí).
 - **Prototype**: Nová instance při každém vyžádání.
 - **Request**: Instance žije po dobu jednoho HTTP požadavku (web).
 - **Session**: Instance žije po dobu jedné uživatelské relace (web).
 
 ## Výhody
+
 - **Snadná výměna implementace**: Např. výměna reálné databáze za testovací (mock) bez změny business logiky.
 - **Deklarativní vazby**: Propojení je definováno v konfiguraci (anotace, XML), ne pevně v kódu.
 
 ## Související stránky
+
 - [[komponenty-a-rozhrani]]
 - [[vrstvy-architektury]]
 - [[navrhove-vzory-gof]]

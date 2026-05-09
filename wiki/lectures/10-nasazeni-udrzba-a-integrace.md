@@ -27,6 +27,7 @@ Aplikace málokdy fungují izolovaně. [[integrace-aplikaci|Integrace aplikací]
 V oblasti technické realizace integrací přednáška porovnává robustní standard **SOAP** (postavený na XML a WSDL) s lehčím architektonickým stylem **REST**, který využívá standardní HTTP metody a formát **JSON**. Rozebírají se výhody a typická užití obou přístupů. Podrobnosti viz [[webove-sluzby-rest-soap]].
 
 ## Související stránky
+
 - [[implementace]]
 - [[softwarova-architektura]]
 - [[testovani]]

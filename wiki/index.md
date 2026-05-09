@@ -23,6 +23,7 @@ Strukturovaný studijní průvodce rozdělený do logických fází vývoje soft
 - [[06_Projektove_Rizeni|06. Projektové Řízení]]
 
 ## Přednášky
+
 - [[01-uvod-do-swi|01. Úvod do SWI a týmového vývoje]]
 - [[02-modelovani-obchodnich-procesu|02. Modelování obchodních procesů]]
 - [[03-analyza-a-sber-pozadavku|03. Analýza a sběr požadavků]]

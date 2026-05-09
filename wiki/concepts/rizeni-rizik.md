@@ -14,12 +14,14 @@ Riziko v softwarovém projektu může být jak **hrozba** (např. zákazník nep
 
 ## Evidence rizik
 Každé riziko by mělo být zaznamenáno a popsáno:
+
 - **Popis**: Co se může stát.
 - **Pravděpodobnost**: Jaká je šance, že riziko nastane (např. v procentech nebo stupnice velká/střední/malá).
 - **Závažnost (Impakt)**: Jak velký dopad by událost měla na projekt (čas, cena, kvalita).
 - **Vlastník**: Osoba zodpovědná za monitoring rizika.
 
 ## Strategie řešení (Hrozby)
+
 1.  **Akceptace**: Přijetí rizika bez dalších opatření (vhodné pro rizika s nízkou závažností).
 2.  **Minimalizace pravděpodobnosti**: Podniknutí kroků, aby riziko vůbec nenastalo (např. včasné školení).
 3.  **Minimalizace dopadu**: Příprava "plánu B", pokud riziko nastane.
@@ -28,6 +30,7 @@ Každé riziko by mělo být zaznamenáno a popsáno:
 Příležitosti lze naopak buď **využít**, nebo **odmítnout**.
 
 ## Související stránky
+
 - [[projektove-rizeni]]
 - [[odhad-pracnosti]]
 

@@ -14,6 +14,7 @@ Tyto vzory řeší typické problémy [[vrstvy-architektury|prezentační vrstvy
 
 ## MVC (Model-View-Controller)
 Původní vzor, kde jsou komponenty provázány takto:
+
 - **Model**: Zapouzdřuje data a business logiku.
 - **View**: Zobrazuje data uživateli (čte je z modelu).
 - **Controller**: Reaguje na uživatelské vstupy a mění stav modelu.
@@ -23,6 +24,7 @@ Původní vzor, kde jsou komponenty provázány takto:
 
 ## MVP (Model-View-Presenter)
 Modernější varianta, která více izoluje View:
+
 - **Model**: Stejný jako v MVC.
 - **View**: Je velmi jednoduché (tzv. "hloupé"). Pouze vykresluje komponenty a zachytává události (kliknutí), které okamžitě deleguje na Presenter.
 - **Presenter**: Obsahuje logiku řízení. Čte data z modelu a explicitně je "tlačí" do View (např. přes rozhraní).
@@ -30,10 +32,12 @@ Modernější varianta, která více izoluje View:
 
 ## Praktické využití
 Vzory jsou základem většiny moderních frameworků:
+
 - **Web**: Angular, React, Vue, Spring MVC, ASP.NET Core, Laravel.
 - **Desktop**: JavaFX, Swing, .NET WPF.
 
 ## Související stránky
+
 - [[vrstvy-architektury]]
 - [[softwarova-architektura]]
 

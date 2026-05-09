@@ -22,6 +22,7 @@ Návrhový model vychází z doménového, ale konkretizuje ho:
 
 ### Rozšířená notace tříd
 V návrhovém modelu využíváme plnou sílu UML notace pro zachycení implementačních detailů:
+
 - **Viditelnost**: public (`+`), protected (`#`), package (`~`), private (`-`).
 - **Členové**: statické prvky (podtržené), abstraktní prvky (kurzíva), konstanty (`{readOnly}`).
 - **Šablony (Templates)**: Modelování generických typů (např. `Seznam<T>`).
@@ -48,6 +49,7 @@ Klíčovým úkolem při tvorbě návrhového modelu je správné rozdělení zo
 - **Vysoká soudržnost (High Cohesion)**: Zodpovědnosti jedné třídy by měly spolu úzce souviset a tvořit logický celek. Třída by neměla dělat "příliš mnoho nesouvisejících věcí".
 
 ## Související stránky
+
 - [[navrh-softwaru]]
 - [[softwarova-architektura]]
 - [[domenovy-model]]

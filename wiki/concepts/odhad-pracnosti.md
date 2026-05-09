@@ -14,6 +14,7 @@
 
 ## Používané jednotky
 Pracnost se určuje v "člověko-jednotkách":
+
 - **Man-hour (MH)**: Pracovní hodina člověka.
 - **Man-day (MD)**: Pracovní den člověka (obvykle 1 MD = 8 MH).
 - **Man-week (MW)**: Pracovní týden člověka (obvykle 1 MW = 5 MD) (zdroj: raw/lectures/01.prednaska.pdf).
@@ -45,6 +46,7 @@ Odhad nelze snadno provést bez detailní znalosti rozsahu (**scope**) projektu.
 -   **Použijte více metod**: Výsledky porovnejte a analyzujte rozdíly.
 
 ## Související stránky
+
 - [[projektove-rizeni]]
 - [[role-analytika]]
 - [[rizeni-rizik]]

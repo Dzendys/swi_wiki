@@ -45,6 +45,7 @@ Standardní [[metodiky-vyvoje|metodiky]] pak tyto modely konkrétně realizují.
 [[agilni-vyvoj|Agilní vývoj]] stojí na Agilním manifestu, který upřednostňuje jednotlivce a interakce před procesy, a fungující software před dokumentací. Nejrozšířenějším agilním frameworkem je **[[scrum|SCRUM]]**.
 
 SCRUM definuje specifické role:
+
 - **Product Owner**: Zástupce zákazníka, spravuje priority v Product Backlogu.
 - **Scrum Master**: Ochraňuje proces a odstraňuje překážky.
 - **Developers**: Tým realizující inkrementy softwaru.
@@ -56,6 +57,7 @@ Práce probíhá ve fixních cyklech zvaných **sprinty** (1 týden až 1 měsí
 *Obrázek: Vizualizace základního cyklu metodiky Scrum.*
 
 ## Související stránky
+
 - [[softwarove-inzenyrstvi]]
 - [[metodiky-vyvoje]]
 - [[agilni-vyvoj]]

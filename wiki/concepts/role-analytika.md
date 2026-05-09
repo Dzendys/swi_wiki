@@ -14,6 +14,7 @@ Cílem práce **analytika** je odpovědět na otázku: **„Co bude systém děl
 
 ## Hlavní činnosti
 Analytik musí:
+
 1.  **Poznat zákazníka** a pochopit jeho prostředí a procesy.
 2.  **Popsat činnost** pomocí [[obchodni-procesy|modelů obchodních procesů]]. K tomu se nejčastěji využívá [[diagram-aktivit|diagram aktivit]].
 3.  **Vymezit rozsah** rozsáhlého systému pomocí [[diagram-balicku|diagramu balíčků]].
@@ -24,6 +25,7 @@ Analytik musí:
 Analytik musí zvažovat přínosy vs. náklady. Do rozsahu projektu by měly být zahrnuty pouze ty funkcionality, které mají pro zákazníka dostatečnou přidanou hodnotu vzhledem k nákladům na jejich realizaci (zdroj: raw/lectures/01.prednaska.pdf).
 
 ## Související stránky
+
 - [[softwarove-inzenyrstvi]]
 - [[odhad-pracnosti]]
 - [[pripady-uziti]]

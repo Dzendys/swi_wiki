@@ -24,6 +24,7 @@ Technika [[pripady-uziti|případů užití]] slouží k zachycení funkčních 
 Jako alternativu k formálním případům užití představuje přednáška [[uzivatelske-pribehy|uživatelské příběhy (User Stories)]], které jsou typické pro agilní vývoj. Zaměřují se na přidanou hodnotu pro uživatele a slouží jako podklad pro komunikaci v týmu.
 
 ## Související stránky
+
 - [[pozadavky]]
 - [[pripady-uziti]]
 - [[uzivatelske-pribehy]]

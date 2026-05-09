@@ -27,6 +27,7 @@ Oddělení logiky zobrazení od dat je klíčové pro testovatelnost a údržbu 
 Pro zachycení dynamického chování systému v čase se využívá [[sekvencni-diagram|sekvenční diagram]]. Ten vizualizuje interakci mezi instancemi tříd (výměnu zpráv) při realizaci konkrétního scénáře případu užití.
 
 ## Související stránky
+
 - [[vrstvy-architektury]]
 - [[persistence-dat]]
 - [[mvc-mvp]]

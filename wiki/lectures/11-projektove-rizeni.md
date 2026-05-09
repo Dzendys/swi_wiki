@@ -27,6 +27,7 @@ Základem plánu je [[odhad-pracnosti|odhad pracnosti]] (v MD), který nesmí b�
 [[rizeni-rizik|Řízení rizik]] je systematický proces identifikace hrozeb, které mohou projekt ohrozit. U každého rizika se sleduje pravděpodobnost výskytu a dopad na projekt, načež se volí strategie řešení jako akceptace, minimalizace (pravděpodobnosti či dopadu) nebo úplné odstranění zdroje rizika.
 
 ## Související stránky
+
 - [[softwarove-inzenyrstvi]]
 - [[tymova-spoluprace]]
 - [[odhad-pracnosti]]

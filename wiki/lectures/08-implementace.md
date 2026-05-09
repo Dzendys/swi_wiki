@@ -30,6 +30,7 @@ Robustní aplikace musí počítat s chybovými stavy. Přednáška rozebírá s
 [[refaktoring|Refaktoring]] je proces vylepšování vnitřní struktury kódu bez změny jeho vnějšího chování. Pomáhá odstraňovat "code smells" (např. duplicity, dlouhé metody) a udržovat kód srozumitelný. Nezbytnou podmínkou pro bezpečný refaktoring je existence testů.
 
 ## Související stránky
+
 - [[navrh-softwaru]]
 - [[navrhovy-model-trid]]
 - [[softwarova-architektura]]

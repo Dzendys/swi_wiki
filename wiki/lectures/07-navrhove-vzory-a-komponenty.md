@@ -24,6 +24,7 @@ Pro flexibilní správu závislostí se využívají IoC kontejnery. Princip **[
 Přednáška představuje pět vybraných vzorů ze skupiny "Gang of Four" jako osvědčená řešení typických objektových problémů. Jedná se o vzory pro vytváření (Abstract Factory, Builder), chování (State, Observer) a strukturu (Adapter). Podrobnosti viz [[navrhove-vzory-gof]].
 
 ## Související stránky
+
 - [[komponenty-a-rozhrani]]
 - [[dependency-injection]]
 - [[navrhove-vzory-gof]]

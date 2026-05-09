@@ -21,11 +21,13 @@ Hlavním účelem je řídil složitost (komplexitu) velkých systémů. Balíč
 *Obrázek: Rozdělení systému do logických balíčků (Evidence čtenářů, Evidence knih, Evidence výpůjček).*
 
 Pomáhají při:
+
 - Logické organizaci modelu.
 - Zobrazení architektonických vrstev nebo subsystémů.
 - Zobrazení závislostí mezi moduly.
 
 ## Notace a Vztahy
+
 - **Balíček (Package)**: Kreslí se jako složka (obdélník s menším obdélníkem vlevo nahoře). Jméno balíčku je buď uvnitř velkého obdélníku, nebo v malém "oušku".
 - **Závislost (Dependency)**: Kreslí se jako přerušovaná čárkovaná šipka mezi balíčky, značící, že jeden balíček využívá elementy jiného balíčku.
 
@@ -35,6 +37,7 @@ Pomáhají při:
 
 ### Vnoření balíčků
 Balíčky mohou obsahovat jiné balíčky. V UML existuje několik způsobů, jak vnoření (nesting) znázornit:
+
 1.  **Pomocí ikon**: Vnitřní balíčky jsou reprezentovány ikonami složek uvnitř jmenného prostoru nadřazeného balíčku.
 2.  **Grafické vnoření**: Obdélníky vnitřních balíčků jsou nakresleny fyzicky uvnitř těla nadřazeného balíčku.
 3.  **Kompoziční vazba**: Explicitní definice členství pomocí čáry s křížkem v kroužku.
@@ -51,6 +54,7 @@ Velkým problémem v diagramu balíčků jsou **cyklické závislosti** (Balíč
 *Obrázek: Problematická obousměrná závislost, která vytváří cyklus.*
 
 Řešením cyklických závislostí je:
+
 - Přesun problémové třídy.
 - Vyčlenění tříd tvořících cyklus do nového balíčku (všichni pak závisí na tomto novém společném balíčku).
 - Vytvoření rozhraní a uplatnění principu inverze závislostí (Dependency Inversion).
@@ -60,6 +64,7 @@ Velkým problémem v diagramu balíčků jsou **cyklické závislosti** (Balíč
 *Obrázek: Odstranění cyklu vyčleněním společné logiky do Balíčku C.*
 
 ## Související stránky
+
 - [[softwarova-architektura]]
 - [[domenovy-model]]
 - [[navrh-softwaru]]

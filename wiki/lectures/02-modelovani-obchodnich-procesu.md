@@ -28,6 +28,7 @@ Hlavním probíraným nástrojem je [[diagram-aktivit|UML diagram aktivit]], kte
 
 
 ## Související stránky
+
 - [[obchodni-procesy]]
 - [[diagram-aktivit]]
 - [[role-analytika]]

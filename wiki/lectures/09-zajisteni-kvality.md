@@ -24,6 +24,7 @@ Procesy kontroly kvality se dělí na dvě základní disciplíny. [[verifikace-
 [[testovani|Testování]] je technický proces hledání chyb a měření kvality. Přednáška klasifikuje testy podle rozsahu (jednotkové, integrační, systémové), podle znalosti vnitřku (White vs. Black Box) a představuje techniky návrhu testovacích případů, jako je analýza hraničních hodnot nebo tříd ekvivalence.
 
 ## Související stránky
+
 - [[pozadavky]] (Model FURPS)
 - [[implementace]]
 - [[clean-code]]

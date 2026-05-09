@@ -18,12 +18,14 @@ V moderním softwarovém inženýrství je kladen důraz na modularitu a znovupo
 
 ## Komponenta (Component)
 Komponenta je fyzická část systému, která je **samostatně nasaditelná** (např. soubory `.exe`, `.jar`, `.war`, `.dll`). 
+
 - Má svou vnitřní strukturu (může se skládat z mnoha tříd).
 - Je oddělena od ostatních komponent pomocí rozhraní.
 - Pro vizualizaci se v UML používá **diagram komponent** (Structural - Component).
 
 ## Rozhraní (Interface)
 Rozhraní je množina operací, která specifikuje služby poskytované třídou nebo komponentou.
+
 - **Účel**: Odděluje specifikaci ("co") od implementace ("jak"). Tím výrazně **snižuje provázanost** (coupling) mezi částmi systému.
 
 ![[imgs/07.prednaska-015.jpg|172]]
@@ -53,6 +55,7 @@ Komponenty lze propojovat manuálně přímo ve zdrojovém kódu (méně flexibi
 *Obrázek: Závislost na rozhraní (ICtenarDAO) namísto konkrétní implementace.*
 
 ## Související stránky
+
 - [[softwarova-architektura]]
 - [[dependency-injection]]
 - [[diagram-balicku]]

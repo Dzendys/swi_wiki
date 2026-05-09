@@ -27,6 +27,7 @@ Základem každého projektu je schopnost předpovědět jeho náročnost. Před
 Analytická fáze je prvním krokem k pochopení problémové domény. [[role-analytika|Analytik]] funguje jako most mezi zákazníkem a vývojovým týmem, přičemž jeho hlavním úkolem je identifikovat, co má systém dělat, a transformovat tyto potřeby do srozumitelných modelů.
 
 ## Související stránky
+
 - [[softwarove-inzenyrstvi]]
 - [[tymova-spoluprace]]
 - [[odhad-pracnosti]]
