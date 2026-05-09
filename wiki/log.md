@@ -1,5 +1,10 @@
 # Log změn
 
+## [2026-05-09] Merge: refactor/modules-content
+- Úspěšně zrefaktorováno 6 modulů (`wiki/modules/`).
+- Do textu modulů byly doplněny klíčové definice a informace z přednášek (např. SDLC, FURPS, návrhové vzory, Scrum), aby sloužily jako ucelenější přehled bez nutnosti neustálého prokliku na koncepční stránky.
+- Zachován balanc, aby se moduly nepřehltily detaily – hluboké technické znalosti a rozsáhlá vysvětlení zůstávají ve specializovaných konceptech (`wiki/concepts/`).
+
 ## [2026-05-09] Merge: fix/formatting-issues-final
 Surgical oprava formátování v celé wiki:
 
