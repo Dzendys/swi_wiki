@@ -3,50 +3,63 @@
 **Shrnutí**: Tato sekce se věnuje disciplíně řízení softwarových projektů, plánování zdrojů a času, odhadování pracnosti a systematickému řízení rizik.
 
 **Zdroje**:
-
 - `wiki/lectures/11-projektove-rizeni.md`
 
 **Naposledy aktualizováno**: 2026-05-18
 
 ---
 
-## Projektové řízení v SWI
+## Základy projektového řízení
 
-[[projektove-rizeni|Projektové řízení]] zajišťuje dodání softwarového produktu včas, v požadované kvalitě a v rámci stanoveného rozpočtu. Projektový manažer musí neustále vybalancovávat tzv. projektový trojúhelník: **Čas, Cena a Rozsah (Scope)**, přičemž nesmí dojít ke snížení **Kvality**.
+[[projektove-rizeni|Projektové řízení]] zajišťuje dodání softwarového produktu včas, v požadované kvalitě a v rámci stanoveného rozpočtu.
+
+**Projektový trojúhelník (Trojimperativ)**:
+Projektový manažer musí neustále vyvažovat tři základní omezení:
+1. **Čas (Harmonogram)**: Kdy má být projekt hotov.
+2. **Cena (Rozpočet/Zdroje)**: Kolik to bude stát.
+3. **Rozsah (Scope)**: Co všechno se má udělat.
+Změna jednoho parametru nutně ovlivní ostatní. Uprostřed trojúhelníku leží **Kvalita**, kterou nelze obětovat.
 
 ### Fáze projektu
+Klasický projekt prochází fázemi:
+- **Příprava (Initiation/Planning)**: Vytvoření Business Case, hrubý odhad, sestavení plánu.
+- **Provádění (Execution/Monitoring)**: Samotný vývoj. Sledování postupu a nákladů (v čerpání MDs).
+- **Uzavření (Closing)**: Předání díla, formální akceptace zákazníkem a vyhodnocení projektu (Lesson Learned).
 
-1. **Příprava**: Stanovení výstupů, vyhodnocení proveditelnosti a tvorba projektového plánu.
-2. **Provádění**: Monitoring postupu, monitoring nákladů (v MDs) a komunikace se zákazníkem i týmem.
-3. **Uzavření**: Předání produktu, akceptace a vyhodnocení historických dat pro budoucí projekty.
+## Plánování a odhady pracnosti
 
-## Plánování a odhady
+Schopnost udělat spolehlivý [[odhad-pracnosti|odhad pracnosti]] je klíčová. Vyjadřuje se v člověkohodinách (MH) nebo člověkodnech (MD).
 
-Základem každého plánu je [[odhad-pracnosti|odhad pracnosti]], vyjádřený v člověkohodinách (MH) nebo člověkodnech (MD). Odhady mohou vycházet z expertního úsudku, historických dat nebo metod jako Karnerova metoda (Use Case Points).
-
-K vizualizaci harmonogramu a závislostí mezi úkoly se využívají:
-
-- **WBS (Work Breakdown Structure)**: Hierarchický rozklad práce na menší celky.
-- **Ganttův diagram**: Časová osa úkolů se zobrazením vazeb a kritické cesty.
+**Nástroje pro plánování**:
+- **WBS (Work Breakdown Structure)**: Hierarchický rozklad cíle projektu na menší, měřitelné dodávky a úkoly.
+- **Ganttův diagram**: Časová osa úkolů. Zobrazuje závislosti mezi úkoly a identifikuje **Kritickou cestu** (sekvenci úkolů, jejichž zpoždění zpozdí celý projekt).
 
 ![[imgs/11.prednaska-032.jpg|643]]
 
-*Obrázek: Vizualizace projektového plánu pomocí Ganttova diagramu.*
+**Metody odhadování**:
+- **Expertní odhad**: Založeno na zkušenosti seniorů.
+- **Historická data**: Porovnání s podobnými projekty z minulosti.
+- **Use Case Points (Karnerova metoda)**: Algoritmický výpočet na základě počtu případů užití a aktérů.
 
 ## Řízení rizik
 
-[[rizeni-rizik|Řízení rizik]] je preventivní proces identifikace hrozeb. U každého rizika se sleduje **pravděpodobnost** výskytu a **dopad (impakt)** na projekt. 
+[[rizeni-rizik|Řízení rizik]] je systematický a preventivní proces. Riziko je událost, která, pokud nastane, bude mít negativní vliv na projekt.
 
-Strategie řešení zahrnují:
+**Vyhodnocení rizika**:
+Každé riziko se hodnotí z hlediska:
+1. **Pravděpodobnosti výskytu**.
+2. **Dopadu (Impaktu)** na projekt (zpoždění, finanční ztráta).
 
-- **Akceptace**: Přijetí rizika.
-- **Minimalizace**: Snížení pravděpodobnosti nebo dopadu.
-- **Odstranění**: Eliminace zdroje rizika.
-- **Přenesení**: Např. pojištění nebo delegování na subdodavatele.
+**Strategie řešení (Mitigace)**:
+- **Akceptace**: Riziko je příliš malé nebo by obrana stála více než případná škoda. Pouze se monitoruje.
+- **Minimalizace**: Provedení kroků ke snížení pravděpodobnosti nebo dopadu.
+- **Odstranění (Vyhnutí se)**: Změna plánu tak, aby riziko vůbec nevzniklo (např. volba jiné technologie).
+- **Přenesení**: Přenesení následků na někoho jiného (např. pojištění, subdodávka).
 
 ## Týmová spolupráce
 
-V softwarovém inženýrství je zodpovědnost za výsledek sdílená. [[tymova-spoluprace|Týmová spolupráce]] vyžaduje jasné rozdělení rolí (Analytik, Architekt, Vývojář, Tester) a efektivní využití nástrojů pro komunikaci a správu úkolů (např. GitLab Issues). Důležitým aspektem je transparentnost a pravidelná synchronizace týmu.
+V softwarovém inženýrství je [[tymova-spoluprace|týmová spolupráce]] nezbytností. Tým sdílí odpovědnost za výsledek.
+Klíčové je rozdělení rolí (Analytik, Architekt, Vývojář, Tester) a transparentní komunikace (nástroje pro evidenci úkolů, stand-upy, revize kódu).
 
 ## Související stránky
 

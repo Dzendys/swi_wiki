@@ -3,53 +3,56 @@
 **Shrnutí**: Tato sekce se zabývá fázemi po dokončení vývoje – od sestavení a nasazení softwaru přes jeho údržbu a podporu až po integraci s jinými systémy pomocí webových služeb.
 
 **Zdroje**:
-
 - `wiki/lectures/10-nasazeni-udrzba-a-integrace.md`
 
 **Naposledy aktualizováno**: 2026-05-18
 
 ---
 
-## Nasazení aplikace
+## Nasazení aplikace (Deployment)
 
-Proces [[nasazeni-aplikace|nasazení (Deployment)]] začíná sestavením (**buildem**) produktu ze zdrojových kódů (např. pomocí nástrojů Maven, Gradle či npm). Moderní vývoj preferuje automatizované procesy **CI/CD** (Continuous Integration / Continuous Deployment), které zajišťují stabilitu při přenosu mezi vývojovým, testovacím a produkčním prostředím. Pro izolaci prostředí se často využívá kontejnerizace (Docker).
+Proces [[nasazeni-aplikace|nasazení]] začíná sestavením (**buildem**) produktu ze zdrojových kódů.
+- **CI/CD (Continuous Integration / Continuous Deployment)**: Automatizovaný proces (pipeline), který při každé změně v kódu spustí testy a (pokud projdou) sestaví a nasadí aplikaci. Cílem je rychlá a spolehlivá dodávka.
+- **Kontejnerizace**: Pro zajištění, že aplikace poběží stejně na vývojářském notebooku i na produkčním serveru, se využívají kontejnery (např. Docker).
 
 ## Podpora a údržba
 
-Po nasazení přechází systém do fáze [[podpora-a-udrzba|podpory a údržby]]. Podpora se typicky dělí na tři úrovně (**L1–L3**), přičemž parametry provozu (dostupnost, rychlost řešení chyb) jsou definovány v dohodě **SLA (Service Level Agreement)**.
+Z pohledu celoživotních nákladů na software představuje údržba často tu největší položku (až 70 %). Po nasazení do produkce začíná fáze [[podpora-a-udrzba|podpory a údržby]].
 
-Rozlišujeme čtyři typy údržby:
+**Úrovně podpory (SLA - Service Level Agreement)**:
+- **L1 (Helpdesk)**: První kontakt s uživatelem, řešení základních dotazů.
+- **L2**: Techničtější podpora, konfigurace, řešení známých chyb.
+- **L3**: Samotní vývojáři aplikace, oprava složitých chyb v kódu.
 
-1. **Opravná**: Opravy nahlášených chyb.
-2. **Adaptivní**: Přizpůsobení změnám okolí (nový OS, legislativa).
-3. **Zdokonalovací**: Přidávání nových funkcí a optimalizace.
-4. **Preventivní**: Předcházení budoucím problémům.
-
-Při údržbě je nutné dbát na bezpečnost dat a soulad s **GDPR** (anonymizace testovacích dat).
+**Typy údržby**:
+1. **Opravná (Korektivní)**: Opravy chyb objevených v produkci.
+2. **Adaptivní**: Reakce na změny v okolí (nová verze operačního systému, nová legislativa jako EET/GDPR).
+3. **Zdokonalovací (Perfektivní)**: Přidávání nových funkcí na žádost uživatelů (tvoří většinu údržby).
+4. **Preventivní**: Zlepšování vnitřní kvality (refaktoring), aby se předešlo budoucím chybám.
 
 ## Integrace aplikací
 
-[[integrace-aplikaci|Integrace]] řeší propojení izolovaných systémů za účelem sdílení dat. Mezi základní integrační styly patří:
+Většina firemních systémů nefunguje izolovaně, ale potřebuje sdílet data s ostatními ([[integrace-aplikaci|integrace]]).
 
-- **Přenos souborů**: Dávkové zpracování.
-- **Sdílená databáze**: Rychlá výměna, ale vysoká provázanost.
-- **Vzdálené volání procedur (RPC)**: Synchronní komunikace.
-- **Zasílání zpráv (Messaging)**: Asynchronní komunikace přes fronty, která zvyšuje robustnost systému.
+Základní integrační styly:
+- **Přenos souborů**: Typicky asynchronní a dávkové dávkové (např. exporty přes noc). Náchylné na chyby formátu.
+- **Sdílená databáze**: Aplikace čtou a zapisují do jedné DB. Rychlé, ale vytváří extrémní svázanost (Coupling).
+- **Vzdálené volání procedur (RPC)**: Synchronní komunikace "point-to-point". Pokud protistrana neodpovídá, systém čeká.
+- **Zasílání zpráv (Messaging)**: Asynchronní komunikace přes fronty (Message Broker). Systémy jsou volně vázané a výpadky neblokují ostatní.
 
 ## Webové služby
 
-K technické realizaci integrací se využívají [[webove-sluzby-rest-soap|webové služby]]:
+Moderní standard pro RPC komunikaci po síti.
 
-- **SOAP**: Robustní protokol využívající XML a WSDL, vhodný pro komplexní podnikové integrace.
-- **REST**: Architektonický styl využívající standardní HTTP metody (GET, POST, PUT, DELETE) a formáty jako **JSON**. Je lehčí a preferovaný pro webové a mobilní aplikace.
+- **[[webove-sluzby-rest-soap|SOAP (Simple Object Access Protocol)]]**: Klasický, robustní standard. Komunikuje přes **XML** a má přísný kontrakt popsaný přes **WSDL**. Vhodný pro enterprise systémy a banky.
+- **[[webove-sluzby-rest-soap|REST (Representational State Transfer)]]**: Architektonický styl postavený nad protokolem **HTTP** (využívá metody GET, POST, PUT, DELETE). Nejčastěji přenáší data ve formátu **JSON**. Lehčí, preferovaný pro webové a mobilní aplikace.
 
-## Persistence dat
+## Další vzory: Persistence dat
 
-Pro efektivní ukládání objektů do databáze (v rámci [[vrstvy-architektury|datové vrstvy]]) se využívají vzory pro [[persistence-dat|persistenci]]:
-
-- **Table Data Gateway**: Jedna třída pro celou tabulku.
-- **Active Record**: Objekt obsahuje data i business logiku (vhodné pro menší systémy).
-- **Data Mapper**: Úplné oddělení business objektů od databáze (využívané v moderních ORM jako Hibernate).
+Pro efektivní ukládání objektů do relační databáze (Object-Relational Mapping - ORM) definuje [[persistence-dat|persistence]] několik základních vzorů:
+- **Table Data Gateway**: Jedna třída pro celou databázovou tabulku (obsahuje metody jako `FindAll`, `Insert`, `Update`).
+- **Active Record**: Samotný byznys objekt nese i databázové metody (`customer.Save()`). Vhodné pro menší aplikace (časté v Ruby on Rails, Laravel).
+- **Data Mapper**: Kompletní oddělení byznys objektů od databáze. O ukládání a načítání se stará nezávislý mapper. Používá se v komplexních systémech (Hibernate, Entity Framework).
 
 ## Související stránky
 

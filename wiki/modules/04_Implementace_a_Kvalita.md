@@ -3,7 +3,6 @@
 **Shrnutí**: Tato sekce se věnuje fázi realizace softwaru, principům psaní kvalitního kódu a systematickému přístupu k zajištění kvality pomocí testování, verifikace a validace.
 
 **Zdroje**:
-
 - `wiki/lectures/08-implementace.md`
 - `wiki/lectures/09-zajisteni-kvality.md`
 
@@ -11,49 +10,49 @@
 
 ---
 
-## Implementace
+## Implementace a Clean Code
 
-[[implementace|Implementace]] je fáze, která transformuje návrh do spustitelného zdrojového kódu. V moderním softwarovém inženýrství stojí na **[[objektove-paradigma|objektovém paradigmatu]]**, které využívá zapouzdření, dědičnost a polymorfismus k budování komplexních systémů.
+[[implementace|Implementace]] převádí návrh do spustitelného kódu, primárně s využitím [[objektove-paradigma|objektového paradigmatu]] (zapouzdření, dědičnost, polymorfismus).
 
-### Clean Code (Čistý kód)
-Kvalita implementace je přímo úměrná její udržovatelnosti. Dodržování pravidel **[[clean-code|čistého kódu]]** zahrnuje:
+Klíčovým aspektem je udržovatelnost. Pravidla **[[clean-code|čistého kódu]]** zahrnují:
+- **Čitelnost**: Kód se čte mnohem častěji, než píše. Názvy proměnných a metod musí vyjadřovat záměr (tzv. "Intention-Revealing Names").
+- **SRP (Single Responsibility Principle)**: Třída/metoda by měla mít právě jeden důvod ke změně.
+- **DRY (Don't Repeat Yourself)**: Eliminace duplicitního kódu.
+- **LSP (Liskov Substitution Principle)**: Objekt nadtřídy by měl být vždy nahraditelný objektem podtřídy bez narušení funkčnosti.
 
-- **SRP (Single Responsibility)**: Každá třída či metoda má mít jednu zodpovědnost.
-- **DRY (Don't Repeat Yourself)**: Zákaz duplicity kódu.
-- **Law of Demeter**: Objekt by měl komunikovat pouze se svými "přímými známými".
-- **LSP (Liskov Substitution)**: Podtřída musí být zaměnitelná za svou nadtřídu.
+## Refaktoring a Robustnost
 
-Pro uvolnění vazeb mezi komponentami a snadnější testování se využívá princip **[[dependency-injection|Dependency Injection (DI)]]**, kde jsou závislosti objektům "vstřikovány" zvenčí.
+Kód časem degraduje (vzniká tzv. technický dluh). Pravidelný **[[refaktoring|refaktoring]]** znamená úpravu vnitřní struktury kódu **bez změny jeho vnějšího chování**, aby se zlepšila jeho srozumitelnost a zlevnila údržba.
 
-### Robustnost a udržovatelnost
-Robustní aplikace musí obsahovat správné **[[osetreni-chyb-a-logovani|ošetření chyb]]** (využití výjimek) a **logování** pro diagnostiku provozu. Průběžné vylepšování vnitřní struktury kódu bez změny jeho chování se nazývá **[[refaktoring|refaktoring]]**. Ten pomáhá odstraňovat "code smells" (duplicity, dlouhé metody) a snižovat technický dluh.
+Aplikace musí být **robustní** proti chybám:
+- Měla by správně reagovat na nestandardní stavy pomocí **[[osetreni-chyb-a-logovani|výjimek (Exceptions)]]**.
+- Měla by využívat logování pro snadnější diagnostiku problémů v produkci.
 
 ## Zajištění kvality (QA)
 
-[[zajisteni-kvality|Zajištění kvality]] není pouze testování na konci projektu, ale systematický proces prostupující celým cyklem. Kvalitu měříme pomocí externích (korektnost, spolehlivost) a interních (čitelnost, testovatelnost) charakteristik.
+[[zajisteni-kvality|Zajištění kvality (Quality Assurance)]] je systematický proces. Čím později je chyba v životním cyklu objevena, tím dražší je její oprava (exponenciální nárůst nákladů).
 
 ![[imgs/09.prednaska-012.jpg|1000]]
 
-*Obrázek: Exponenciální nárůst nákladů na opravu chyby v čase.*
+Základní rozdělení kontroly kvality:
+- **[[verifikace-a-validace|Verifikace]]**: „Stavíme produkt správně?“ (Zda kód odpovídá specifikaci a návrhu).
+- **[[verifikace-a-validace|Validace]]**: „Stavíme správný produkt?“ (Zda produkt řeší skutečný problém zákazníka).
 
-### Verifikace vs. Validace
-Procesy kontroly kvality dělíme na:
+## Testování softwaru
 
-- **[[verifikace-a-validace|Verifikace]]**: „Stavíme produkt správně?“ (shoda se specifikací a modely).
-- **Validace**: „Stavíme správný produkt?“ (shoda s potřebami uživatele).
+[[testovani|Testování]] je proces spouštění programu s cílem **najít chyby**. Úspěšný test je ten, který najde chybu.
 
-### Testování softwaru
-[[testovani|Testování]] je proces hledání chyb. Rozlišujeme:
+### Úrovně testování:
+1. **Jednotkové (Unit) testy**: Testují izolované části kódu (třídy/metody). Rychlé, levné, píší je vývojáři. K izolaci od závislostí (např. databáze) se používají Mocks/Stubs ve spojení s [[dependency-injection|Dependency Injection]].
+2. **Integrační testy**: Testují spolupráci více komponent.
+3. **Systémové testy**: Testují celou aplikaci (často přes uživatelské rozhraní).
 
-- **Dle rozsahu**: Jednotkové (Unit), Integrační a Systémové testy.
-- **Dle znalosti kódu**: **White Box** (vidíme kód) a **Black Box** (testujeme přes rozhraní).
-- **Techniky**: Analýza hraničních hodnot, třídy ekvivalence, regresní testování (ověření, že změna nerozbila stávající funkce).
-
-Kvalitu testování lze měřit pomocí metrik, jako je **pokrytí kódu (Code Coverage)**.
+### Přístupy:
+- **White Box**: Tester vidí do kódu. Metrikou kvality je *Code Coverage* (procento kódu pokrytého testy).
+- **Black Box**: Tester nezná vnitřní implementaci. Testuje se proti specifikaci/rozhraní pomocí hraničních hodnot a tříd ekvivalence.
+- **Regresní testování**: Zajišťuje, že nová změna (nebo refaktoring) nerozbila již existující a fungující části systému.
 
 ![[imgs/09.prednaska-041.jpg|939]]
-
-*Obrázek: Vizualizace trendů v úspěšnosti testů v čase.*
 
 ## Související stránky
 

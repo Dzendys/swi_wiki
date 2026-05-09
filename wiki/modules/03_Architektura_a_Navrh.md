@@ -3,7 +3,6 @@
 **Shrnutí**: Tato sekce pokrývá fázi návrhu softwaru, od definice celkové architektury a vrstvení systému přes detailní návrh tříd až po využití návrhových vzorů a persistenci dat.
 
 **Zdroje**:
-
 - `wiki/lectures/05-navrh-softwarovych-systemu.md`
 - `wiki/lectures/06-architektonicke-vzory.md`
 - `wiki/lectures/07-navrhove-vzory-a-komponenty.md`
@@ -14,45 +13,47 @@
 
 ## Od analýzy k návrhu
 
-Zatímco analýza odpovídá na otázku "Co má systém dělat?", [[navrh-softwaru|návrh (Design)]] hledá technickou odpověď na otázku **"Jak?"**. Zodpovědnost v této fázi přebírá Solution Architekt, který rozhoduje o výběru technologií, programovacího jazyka a paradigmatu (dominantně [[objektove-paradigma|objektového]]).
+Zatímco analýza odpovídá na otázku "Co má systém dělat?", [[navrh-softwaru|návrh (Design)]] hledá technickou odpověď na otázku **"Jak?"**. Zodpovědnost v této fázi přebírá Architekt, který rozhoduje o výběru technologií a rozdělení systému na komponenty. Většina moderních systémů využívá [[objektove-paradigma|objektové paradigma]].
 
 ## Softwarová architektura
 
-[[softwarova-architektura|Architektura]] se zaměřuje na rozdělení systému do udržovatelných a nezávislých částí.
+[[softwarova-architektura|Architektura]] představuje základní organizaci systému. Dělí se na:
+- **Logická architektura**: Organizace kódu do jmenných prostorů a vrstev. Pro vizualizaci se používá [[diagram-balicku|diagram balíčků]].
+- **Fyzická architektura**: Fyzické rozdělení systému na nasaditelné uzly (servery, zařízení). Modeluje se pomocí diagramu nasazení a diagramu [[komponenty-a-rozhrani|komponent]].
 
-- **Logická architektura**: Organizace kódu do balíčků a jmenných prostorů. Pro vizualizaci logických celků a jejich závislostí se používá [[diagram-balicku|diagram balíčků]].
-- **Fyzická architektura**: Rozdělení systému na samostatně nasaditelné [[komponenty-a-rozhrani|komponenty]] a jejich rozmístění na hardware.
+### Architektonické vzory a vrstvení
+Standardem pro podnikové aplikace je rozdělení do [[vrstvy-architektury|logických vrstev]]:
+1. **Prezentační vrstva**: Zajišťuje interakci s uživatelem.
+2. **Business (Aplikační) vrstva**: Obsahuje hlavní logiku aplikace.
+3. **Datová vrstva**: Komunikuje s databází nebo externími API.
+Závislosti vždy směřují shora dolů (Prezentační -> Business -> Datová).
 
-### Vícevrstvé architektury
-Standardem pro podnikové systémy je rozdělení do [[vrstvy-architektury|logických vrstev]] (typicky Prezentační, Business a Datová). Závislosti by měly směřovat vždy shora dolů. 
+Pro oddělení prezentační vrstvy se často využívají vzory jako **[[mvc-mvp|MVC]]** (Model-View-Controller) nebo **MVP** (Model-View-Presenter), které umožňují snazší testování uživatelského rozhraní.
 
-V prezentační vrstvě se pro oddělení dat od jejich zobrazení využívají vzory **[[mvc-mvp|MVC]]** (Model-View-Controller) nebo **MVP** (Model-View-Presenter), který lépe izoluje pohled pro testování.
+## Detailní návrh a model tříd
 
-## Persistence dat a mapování
+Z analytického doménového modelu vzniká detailní **[[navrhovy-model-trid|návrhový model tříd]]**, který již obsahuje implementační detaily (typy atributů, metody, viditelnost public/private).
 
-Většina systémů vyžaduje trvalé uložení dat v relačních databázích. Protože relační svět nepodporuje dědičnost, využívají se vzory pro **[[mapovani-dedicnosti|mapování dědičnosti]]**:
+Při navrhování tříd a přiřazování zodpovědností se architekti řídí principy **GRASP**:
+- **Informační expert**: Třída by měla dělat to, na co má data.
+- **Nízká provázanost (Low Coupling)**: Změna v jedné třídě by neměla ovlivnit ostatní.
+- **Vysoká soudržnost (High Cohesion)**: Třída by měla mít jasně vymezený účel.
 
-- **Single Table Inheritance**: Jedna tabulka pro celou hierarchii.
-- **Concrete Table Inheritance**: Tabulka pro každou konkrétní třídu.
-- **Class Table Inheritance**: Tabulka pro každou třídu v hierarchii spojená cizími klíči.
-
-## Detailní návrh a spolupráce objektů
-
-Na základě analýzy vzniká detailní **[[navrhovy-model-trid|návrhový model tříd]]**, který obsahuje konkrétní datové typy, viditelnost a metody. Při přiřazování zodpovědností se uplatňují principy **GRASP** (např. Informační expert, Nízká provázanost).
-
-Dynamické chování systému a interakce mezi instancemi tříd v čase zachycuje **[[sekvencni-diagram|sekvenční diagram]]**. Pro vizualizaci aktuálního stavu dat v konkrétní okamžik slouží **[[objektovy-diagram|objektový diagram]]**.
-
-## Komponenty a rozhraní
-
-Modularita systému je zajištěna pomocí [[komponenty-a-rozhrani|rozhraní (Interface)]], která oddělují specifikaci od implementace. Pro flexibilní správu závislostí se využívá princip **[[dependency-injection|Dependency Injection]]**, kde objekty své spolupracovníky nevytvářejí, ale dostávají je zvenčí (vstřikování).
+Chování systému v čase a komunikaci mezi objekty zachycuje **[[sekvencni-diagram|sekvenční diagram]]**. Pillířem nezávislých komponent je používání rozhraní a principu **[[dependency-injection|Dependency Injection]]**, kdy třída nedostává volnost vytvářet si své závislosti sama, ale jsou jí předány.
 
 ## Návrhové vzory (GoF)
 
-Pro řešení opakujících se problémů v objektovém návrhu se využívají osvědčené **[[navrhove-vzory-gof|návrhové vzory GoF]]**:
+[[navrhove-vzory-gof|Návrhové vzory (Design Patterns)]] podle skupiny Gang of Four představují standardizovaná řešení opakujících se problémů. Dělí se na:
+- **Vytvářecí**: Řeší inicializaci objektů (např. *Abstract Factory*, *Builder*, *Singleton*).
+- **Strukturální**: Řeší skládání tříd do větších celků (např. *Adapter*, *Composite*, *Facade*).
+- **Chování**: Řeší komunikaci mezi objekty a distribuci zodpovědnosti (např. *Observer*, *State*, *Strategy*).
 
-- **Vytváření**: Abstract Factory, Builder.
-- **Chování**: State (nahrazuje složitá větvení životním cyklem), Observer.
-- **Struktura**: Adapter (propojení nekompatibilních rozhraní).
+## Persistence dat a mapování
+
+Relační databáze neumí pracovat s objektovými koncepty (např. dědičností). Pro řešení tohoto "Impedance Mismatch" se využívají vzory pro **[[mapovani-dedicnosti|mapování dědičnosti]]**:
+- **Single Table Inheritance**: Celá hierarchie tříd se uloží do jedné velké tabulky. Rychlé, ale obsahuje mnoho NULL hodnot.
+- **Concrete Table Inheritance**: Každá konkrétní třída má vlastní tabulku obsahující i zděděné atributy.
+- **Class Table Inheritance**: Každá třída v hierarchii má tabulku jen pro své atributy, spojují se pomocí JOIN (cizí klíče).
 
 ## Související stránky
 
