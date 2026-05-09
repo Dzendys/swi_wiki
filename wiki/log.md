@@ -1,5 +1,10 @@
 # Log změn
 
+## [2026-05-09] - Vytvoření indexu přednášek (feat/lectures-index)
+- Vytvořena úvodní rozcestníková stránka `wiki/lectures/index.md`.
+- Stránka obsahuje seřazený seznam všech 12 přednášek se stručným výtahovým popiskem pro lepší orientaci.
+- Aktualizován soubor `wiki/lectures/.pages`, aby se rozcestník objevoval na prvním místě v navigaci.
+
 ## [2026-05-09] Merge: refactor/modules-content
 - Úspěšně zrefaktorováno 6 modulů (`wiki/modules/`).
 - Do textu modulů byly doplněny klíčové definice a informace z přednášek (např. SDLC, FURPS, návrhové vzory, Scrum), aby sloužily jako ucelenější přehled bez nutnosti neustálého prokliku na koncepční stránky.
