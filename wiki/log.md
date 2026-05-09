@@ -1,10 +1,10 @@
 # Log změn
 
-## [2026-05-09] - Vytvoření strukturovaných skript (feat/skripta-moduly)
+## [2026-05-09] - Vytvoření strukturovaných modulů (feat/moduly-moduly)
 - Vytvořeno 6 modulů v `wiki/modules/` sloužících jako ucelený studijní průvodce pro zkoušku.
 - Každý modul syntetizuje informace z přednášek a koncepčních stránek do plynulého textu.
 - Zahrnuty klíčové diagramy a vizuální schémata z přednášek pro lepší pochopení souvislostí.
-- Aktualizován `wiki/index.md` o novou sekci "Moduly (Skripta)".
+- Aktualizován `wiki/index.md` o novou sekci "Moduly ".
 - **Modul 01**: Úvod, životní cyklus (SDLC), metodiky (UP, Scrum).
 - **Modul 02**: Analýza procesů, požadavků (FURPS) a doménové modelování.
 - **Modul 03**: Architektura, vrstvení, návrh tříd (GRASP), vzory GoF a persistence.

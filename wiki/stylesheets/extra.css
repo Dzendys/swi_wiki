@@ -1,0 +1,8 @@
+/* Zmenšení a znevýraznění Obsidian tagů na konci stránek */
+.md-typeset hr + p {
+    color: var(--md-default-fg-color--lightest);
+    font-size: 0.65rem;
+    text-align: right;
+    margin-top: -1em;
+    font-family: var(--md-code-font-family);
+}
