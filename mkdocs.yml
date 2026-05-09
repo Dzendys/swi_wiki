@@ -49,7 +49,7 @@ markdown_extensions:
 
 plugins:
   - search
-  - roamlinks
+  - obsidian-bridge
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
@@ -58,12 +58,12 @@ nav:
   - Úvod: index.md
   - Moduly:
     - modules/index.md
-    - 01 Úvod a životní cyklus: modules/01_Uvod_a_Zivotni_Cyklus/index.md
-    - 02 Analýza a požadavky: modules/02_Analyza_a_Pozadavky/index.md
-    - 03 Architektura a návrh: modules/03_Architektura_a_Navrh/index.md
-    - 04 Implementace a kvalita: modules/04_Implementace_a_Kvalita/index.md
-    - 05 Nasazení a provoz: modules/05_Nasazeni_a_Provoz/index.md
-    - 06 Projektové řízení: modules/06_Projektove_Rizeni/index.md
+    - 01 Úvod a životní cyklus: modules/01_Uvod_a_Zivotni_Cyklus.md
+    - 02 Analýza a požadavky: modules/02_Analyza_a_Pozadavky.md
+    - 03 Architektura a návrh: modules/03_Architektura_a_Navrh.md
+    - 04 Implementace a kvalita: modules/04_Implementace_a_Kvalita.md
+    - 05 Nasazení a provoz: modules/05_Nasazeni_a_Provoz.md
+    - 06 Projektové řízení: modules/06_Projektove_Rizeni.md
   - Přednášky:
     - 01 Úvod: lectures/01-uvod-do-swi.md
     - 02 Modelování procesů: lectures/02-modelovani-obchodnich-procesu.md

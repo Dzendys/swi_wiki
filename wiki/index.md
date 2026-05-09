@@ -2,26 +2,27 @@
 
 ## Moduly
 Strukturovaný studijní průvodce rozdělený do logických celků pro přípravu na zkoušku.
-- [[modules/01_Uvod_a_Zivotni_Cyklus/index|01. Úvod a Životní cyklus]]
-- [[modules/02_Analyza_a_Pozadavky/index|02. Analýza a Požadavky]]
-- [[modules/03_Architektura_a_Navrh/index|03. Architektura a Návrh]]
-- [[modules/04_Implementace_a_Kvalita/index|04. Implementace a Kvalita]]
-- [[modules/05_Nasazeni_a_Provoz/index|05. Nasazení a Provoz]]
-- [[modules/06_Projektove_Rizeni/index|06. Projektové Řízení]]
+
+- [[01_Uvod_a_Zivotni_Cyklus|01. Úvod a Životní cyklus]]
+- [[02_Analyza_a_Pozadavky|02. Analýza a Požadavky]]
+- [[03_Architektura_a_Navrh|03. Architektura a Návrh]]
+- [[04_Implementace_a_Kvalita|04. Implementace a Kvalita]]
+- [[05_Nasazeni_a_Provoz|05. Nasazení a Provoz]]
+- [[06_Projektove_Rizeni|06. Projektové Řízení]]
 
 ## Přednášky
-- [[lectures/01-uvod-do-swi|01. Úvod do SWI a týmového vývoje]]
-- [[lectures/02-modelovani-obchodnich-procesu|02. Modelování obchodních procesů]]
-- [[lectures/03-analyza-a-sber-pozadavku|03. Analýza a sběr požadavků]]
-- [[lectures/04-analyza-problemove-domeny|04. Analýza problémové domény]]
-- [[lectures/05-navrh-softwarovych-systemu|05. Návrh softwarových systémů]]
-- [[lectures/06-architektonicke-vzory|06. Architektonické vzory]]
-- [[lectures/07-navrhove-vzory-a-komponenty|07. Návrhové vzory a komponenty]]
-- [[lectures/08-implementace|08. Implementace]]
-- [[lectures/09-zajisteni-kvality|09. Zajištění kvality]]
-- [[lectures/10-nasazeni-udrzba-a-integrace|10. Nasazení, údržba a integrace aplikací]]
-- [[lectures/11-projektove-rizeni|11. Projektové řízení]]
-- [[lectures/12-metodiky-a-agilni-vyvoj|12. Metodiky a agilní přístup]]
+- [[01-uvod-do-swi|01. Úvod do SWI a týmového vývoje]]
+- [[02-modelovani-obchodnich-procesu|02. Modelování obchodních procesů]]
+- [[03-analyza-a-sber-pozadavku|03. Analýza a sběr požadavků]]
+- [[04-analyza-problemove-domeny|04. Analýza problémové domény]]
+- [[05-navrh-softwarovych-systemu|05. Návrh softwarových systémů]]
+- [[06-architektonicke-vzory|06. Architektonické vzory]]
+- [[07-navrhove-vzory-a-komponenty|07. Návrhové vzory a komponenty]]
+- [[08-implementace|08. Implementace]]
+- [[09-zajisteni-kvality|09. Zajištění kvality]]
+- [[10-nasazeni-udrzba-a-integrace|10. Nasazení, údržba a integrace aplikací]]
+- [[11-projektove-rizeni|11. Projektové řízení]]
+- [[12-metodiky-a-agilni-vyvoj|12. Metodiky a agilní přístup]]
 
 ## Koncepty dle oblastí
 
