@@ -1,7 +1,7 @@
 site_name: BI-SWI Wiki
-site_url: https://Dzendys.github.io/SWI-wiki
-repo_name: Dzendys/SWI-wiki
-repo_url: https://github.com/Dzendys/SWI-wiki
+site_url: https://Dzendys.github.io/swi_wiki
+repo_name: Dzendys/swi_wiki
+repo_url: https://github.com/Dzendys/swi_wiki
 theme:
   name: material
   language: cs
