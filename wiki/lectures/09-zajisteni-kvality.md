@@ -3,6 +3,7 @@
 **Shrnutí**: Tato přednáška definuje pojmy Quality Assurance (QA), verifikace a validace, a detailně se věnuje klasifikaci a technikám testování softwaru.
 
 **Zdroje**:
+
 - `raw/lectures/09.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

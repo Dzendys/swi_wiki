@@ -3,6 +3,7 @@
 **Shrnutí**: Rozšířený model tříd, který kromě doménových entit zachycuje konkrétní softwarové třídy, jejich zodpovědnosti (metody), datové typy a viditelnost pro následnou implementaci.
 
 **Zdroje**:
+
 - `raw/lectures/05.prednaska.pdf`
 - `raw/extra/GRASP.pdf`
 

@@ -3,6 +3,7 @@
 **Shrnutí**: Rozdělení systému na menší, udržovatelné a nezávislé části (komponenty, vrstvy, balíčky) a definice jejich vzájemné komunikace za účelem zajištění srozumitelnosti, rozšiřitelnosti a snadné údržby.
 
 **Zdroje**:
+
 - `raw/lectures/05.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

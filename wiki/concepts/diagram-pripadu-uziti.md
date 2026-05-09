@@ -3,6 +3,7 @@
 **Shrnutí**: Grafické znázornění funkčních požadavků systému, aktérů a jejich vzájemných interakcí. Slouží k definici hranic systému a identifikaci rolí.
 
 **Zdroje**:
+
 - `raw/lectures/01.prednaska.pdf`
 - `raw/lectures/03.prednaska.pdf`
 - `raw/extra/Use Case Model.pdf`

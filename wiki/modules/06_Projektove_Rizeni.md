@@ -3,6 +3,7 @@
 **Shrnutí**: Tato sekce se věnuje disciplíně řízení softwarových projektů, plánování zdrojů a času, odhadování pracnosti a systematickému řízení rizik.
 
 **Zdroje**:
+
 - `wiki/lectures/11-projektove-rizeni.md`
 
 **Naposledy aktualizováno**: 2026-05-18

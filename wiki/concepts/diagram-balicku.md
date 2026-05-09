@@ -3,6 +3,7 @@
 **Shrnutí**: Strukturální diagram v UML používaný k organizaci modelových elementů do logických skupin (balíčků). Slouží k rozdělení rozsáhlých systémů na přehledné oblasti.
 
 **Zdroje**:
+
 - `raw/lectures/03.prednaska.pdf`
 - `raw/lectures/05.prednaska.pdf`
 

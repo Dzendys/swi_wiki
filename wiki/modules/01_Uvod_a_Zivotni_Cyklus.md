@@ -3,6 +3,7 @@
 **Shrnutí**: Přehled disciplíny softwarového inženýrství, modelů životního cyklu (SDLC) a konkrétních metodik od klasického Unified Process po agilní SCRUM.
 
 **Zdroje**:
+
 - `wiki/lectures/01-uvod-do-swi.md`
 - `wiki/lectures/12-metodiky-a-agilni-vyvoj.md`
 

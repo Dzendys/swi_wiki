@@ -3,6 +3,7 @@
 **Shrnutí**: Tato přednáška se zaměřuje na tvorbu analytického doménového modelu, hledání entit v systému a zachycení jejich stavů pomocí stavových diagramů.
 
 **Zdroje**:
+
 - `raw/lectures/04.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

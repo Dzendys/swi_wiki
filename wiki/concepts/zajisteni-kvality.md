@@ -3,6 +3,7 @@
 **Shrnutí**: Systematický proces a sada aktivit zaměřených na zajištění a měření kvality softwarového produktu v průběhu celého vývojového cyklu.
 
 **Zdroje**:
+
 - `raw/lectures/09.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08
@@ -29,6 +30,7 @@ Moderní nástroje pro statickou analýzu (např. SonarQube) umožňují vizuali
 Kvalitu lze posuzovat z různých úhlů pohledu (vychází z modelu [[pozadavky#Model FURPS|FURPS]] a normy ISO/IEC 25010):
 
 ### Externí charakteristiky (podpora uživatele)
+
 - **Korektnost**: Systém plní specifikované funkce a neobsahuje chyby.
 - **Použitelnost**: Snadné naučení a používání systému.
 - **Efektivita**: Optimální využívání hardwarových zdrojů (čas, paměť).
@@ -37,6 +39,7 @@ Kvalitu lze posuzovat z různých úhlů pohledu (vychází z modelu [[pozadavky
 - **Robustnost**: Schopnost reagovat na nevalidní vstupy a stresové situace.
 
 ### Interní charakteristiky (podpora vývoje)
+
 - **Udržovatelnost**: Snadný rozvoj, opravy chyb a přizpůsobivost.
 - **Testovatelnost**: Snadné psaní a provádění testů.
 - **Znovupoužitelnost**: Možnost využít části kódu v jiných systémech.

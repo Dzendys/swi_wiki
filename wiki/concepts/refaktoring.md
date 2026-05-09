@@ -3,6 +3,7 @@
 **Shrnutí**: Proces změny vnitřní struktury zdrojového kódu za účelem zlepšení jeho kvality a čitelnosti, aniž by se změnilo jeho vnější chování.
 
 **Zdroje**:
+
 - `raw/lectures/08.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

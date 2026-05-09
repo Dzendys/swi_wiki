@@ -3,6 +3,7 @@
 **Shrnutí**: Mechanismy pro zajištění robustnosti aplikace prostřednictvivím validace vstupů, ošetření výjimečných stavů a sledování běhu programu.
 
 **Zdroje**:
+
 - `raw/lectures/08.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08
@@ -31,6 +32,7 @@ Běžně se používají tyto úrovně (od nejméně závažné):
 -   **FATAL**: Kritická chyba vedoucí k pádu nebo znefunkčnění aplikace.
 
 ### Komponenty logování
+
 -   **Logger**: Třída, kterou programátor používá k zápisu do logu (např. `log.info("...")`).
 -   **Appender/Handler**: Komponenta zodpovědná za fyzický zápis zpráv (do souboru, na konzoli, do databáze, zaslání e-mailu).
 

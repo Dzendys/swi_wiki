@@ -3,6 +3,7 @@
 **Shrnutí**: Úvod do disciplíny softwarového inženýrství, organizace předmětu BI-SWI a základy týmové spolupráce a projektového plánování.
 
 **Zdroje**:
+
 - `raw/lectures/01.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

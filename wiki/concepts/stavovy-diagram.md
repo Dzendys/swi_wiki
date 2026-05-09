@@ -3,6 +3,7 @@
 **Shrnutí**: Diagram chování v UML (State Machine Diagram) používaný k zachycení životního cyklu entity, jejích stavů a přechodů mezi nimi vyvolaných událostmi.
 
 **Zdroje**:
+
 - `raw/lectures/04.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

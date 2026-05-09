@@ -3,6 +3,7 @@
 **Shrnutí**: Fáze softwarového inženýrství, která navazuje na analýzu. Zatímco analýza odpovídá na otázku "Co systém dělá?", návrh řeší "Jak to systém dělá?".
 
 **Zdroje**:
+
 - `raw/lectures/05.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

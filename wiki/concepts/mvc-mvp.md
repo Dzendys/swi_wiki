@@ -3,6 +3,7 @@
 **Shrnutí**: Architektonické vzory pro prezentační vrstvu, které oddělují data (Model) od jejich zobrazení (View) a logiky řízení (Controller/Presenter).
 
 **Zdroje**:
+
 - `raw/lectures/06.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

@@ -3,6 +3,7 @@
 **Shrnutí**: Způsoby a vzory pro trvalé ukládání objektů z operační paměti do datového úložiště (typicky relační databáze).
 
 **Zdroje**:
+
 - `raw/lectures/05.prednaska.pdf`
 - `raw/lectures/06.prednaska.pdf`
 - `raw/extra/Table Data Gateway.pdf`

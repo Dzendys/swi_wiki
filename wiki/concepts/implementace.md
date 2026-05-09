@@ -3,6 +3,7 @@
 **Shrnutí**: Fáze softwarového inženýrství, ve které dochází k realizaci návrhu do spustitelného zdrojového kódu.
 
 **Zdroje**:
+
 - `raw/lectures/08.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

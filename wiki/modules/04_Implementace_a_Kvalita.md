@@ -3,6 +3,7 @@
 **Shrnutí**: Tato sekce se věnuje fázi realizace softwaru, principům psaní kvalitního kódu a systematickému přístupu k zajištění kvality pomocí testování, verifikace a validace.
 
 **Zdroje**:
+
 - `wiki/lectures/08-implementace.md`
 - `wiki/lectures/09-zajisteni-kvality.md`
 

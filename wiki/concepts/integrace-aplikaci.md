@@ -3,6 +3,7 @@
 **Shrnutí**: Propojení izolovaných softwarových systémů za účelem sdílení dat a funkcí a konsolidace firemních procesů.
 
 **Zdroje**:
+
 - `raw/lectures/10.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

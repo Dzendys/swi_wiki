@@ -3,6 +3,7 @@
 **Shrnutí**: Tato přednáška se zabývá závěrečnými fázemi životního cyklu softwaru – od sestavení a nasazení přes podporu a různé typy údržby až po propojení aplikací pomocí integračních stylů a webových služeb.
 
 **Zdroje**:
+
 - `raw/lectures/10.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

@@ -3,6 +3,7 @@
 **Shrnutí**: Pátá přednáška pokrývá přechod od analýzy k návrhu, volbu technologií, mapování objektů do relační databáze a architektonický i třídní návrh systému.
 
 **Zdroje**:
+
 - `raw/lectures/05.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

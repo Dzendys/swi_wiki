@@ -3,6 +3,7 @@
 **Shrnutí**: Rozdělení systému do logických vrstev s jasně definovanými zodpovědnostmi a směrem závislostí za účelem zvýšení udržovatelnosti a testovatelnosti.
 
 **Zdroje**:
+
 - `raw/lectures/06.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

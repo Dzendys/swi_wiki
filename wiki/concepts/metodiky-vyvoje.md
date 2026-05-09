@@ -3,6 +3,7 @@
 **Shrnutí**: Sada doporučení, pravidel a pracovních postupů, které definují, jakým způsobem se vyvíjí softwarový produkt.
 
 **Zdroje**:
+
 - `raw/lectures/12.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

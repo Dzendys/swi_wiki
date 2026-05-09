@@ -3,6 +3,7 @@
 **Shrnutí**: Strukturální diagram UML, který zobrazuje instance tříd, jejich aktuální stav (hodnoty atributů) a vazby v konkrétním časovém okamžiku.
 
 **Zdroje**:
+
 - `raw/lectures/08.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

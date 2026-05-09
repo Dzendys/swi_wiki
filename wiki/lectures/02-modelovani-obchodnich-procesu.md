@@ -3,6 +3,7 @@
 **Shrnutí**: Tato přednáška se zaměřuje na význam modelování procesů u zákazníka, rozdíl mezi současným a budoucím stavem a konkrétní notace pro jejich zachycení, zejména UML diagram aktivit.
 
 **Zdroje**:
+
 - `raw/lectures/02.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

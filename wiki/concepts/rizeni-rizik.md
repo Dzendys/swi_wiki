@@ -3,6 +3,7 @@
 **Shrnutí**: Systematické vyhledávání, vyhodnocování a ošetřování událostí, které mohou negativně ovlivnit vývoj projektu.
 
 **Zdroje**:
+
 - `raw/lectures/11.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

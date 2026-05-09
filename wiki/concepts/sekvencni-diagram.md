@@ -3,6 +3,7 @@
 **Shrnutí**: Interakční diagram v UML, který zobrazuje spolupráci objektů v čase. Slouží k modelování realizace scénářů případů užití.
 
 **Zdroje**:
+
 - `raw/lectures/06.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

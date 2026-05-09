@@ -3,6 +3,7 @@
 **Shrnutí**: Tato přednáška se věnuje procesu identifikace a specifikace požadavků, jejich kategorizaci (včetně modelu FURPS) a prohlubuje znalosti o modelování případů užití.
 
 **Zdroje**:
+
 - `raw/lectures/03.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

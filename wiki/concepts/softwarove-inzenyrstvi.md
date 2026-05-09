@@ -3,6 +3,7 @@
 **Shrnutí**: Disciplína zabývající se systematickým, kontrolovaným a efektivním vývojem a údržbou softwarových systémů.
 
 **Zdroje**:
+
 - `raw/lectures/01.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

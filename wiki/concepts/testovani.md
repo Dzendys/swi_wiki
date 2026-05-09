@@ -3,6 +3,7 @@
 **Shrnutí**: Technický proces provádění programu se záměrem najít chyby a změřit kvalitu produktu.
 
 **Zdroje**:
+
 - `raw/lectures/09.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08
@@ -19,10 +20,12 @@ Testování je jednou z klíčových forem [[verifikace-a-validace|validace a ve
 3.  **Systémové testy**: Testují celý systém jako celek vůči specifikovaným požadavkům.
 
 ### Podle způsobu provádění
+
 -   **Statické testy**: Nevyžadují spuštění programu (např. code review, inspekce, statická analýza kódu).
 -   **Dynamické testy**: Vyžadují spustitelný kód (klasické testy se vstupními a výstupními daty).
 
 ### Podle znalosti vnitřní struktury
+
 -   **White Box (skleněná skříňka)**: Tester zná zdrojový kód. Testy jsou citlivé na změnu implementace.
 -   **Black Box (černá skříňka)**: Tester kód nevidí, ověřuje pouze chování na rozhraní (vstup vs. výstup).
 -   **Gray Box**: Tester má částečnou znalost (např. zná použité algoritmy, ale ne konkrétní kód).
@@ -30,10 +33,12 @@ Testování je jednou z klíčových forem [[verifikace-a-validace|validace a ve
 ## Techniky a typy testů
 
 ### Návrh testovacích případů
+
 -   **Hraniční testování (Boundary Testing)**: Testování hodnot na hranicích intervalů (např. 0, 1, max, max+1), kde je nejvyšší pravděpodobnost výskytu chyby.
 -   **Analýza ekvivalence (Equivalence Analysis)**: Rozdělení vstupních dat do tříd ekvivalence, ze kterých se vybere jeden zástupce. Předpokládá se, že pokud projde zástupce, prošli by i ostatní členové třídy.
 
 ### Speciální typy testů
+
 -   **Regresní testy**: Opětovné spuštění testů po změně kódu k ověření, že nové funkce "nerozbily" ty stávající. Ideální pro automatizaci.
 -   **Smoke testy**: Rychlá sada testů k ověření základní stability aplikace (např. "lze se přihlásit?") po nasazení.
 

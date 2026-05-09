@@ -3,6 +3,7 @@
 **Shrnutí**: Tato přednáška uzavírá semestr přehledem metodik vývoje softwaru, od klasického Unified Process (UP) až po moderní agilní přístupy se zaměřením na SCRUM.
 
 **Zdroje**:
+
 - `raw/lectures/12.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

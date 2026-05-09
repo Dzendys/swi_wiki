@@ -3,6 +3,7 @@
 **Shrnutí**: Proces stanovení množství práce potřebné k dokončení úkolu nebo celého projektu, vyjádřený v člověkohodinách nebo dnech.
 
 **Zdroje**:
+
 - `raw/lectures/01.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08
@@ -25,12 +26,14 @@ Termín dodání lze odvodit z pracnosti a velikosti týmu. Teoreticky lze úkol
 Odhad nelze snadno provést bez detailní znalosti rozsahu (**scope**) projektu. Rozsah zahrnuje nejen implementaci, ale i dokumentaci, školení a řízení.
 
 ### Metody odhadování
+
 -   **Úsudek (Expert Judgment)**: Rychlý, ale často nepřesný (programátoři bývají příliš optimističtí).
 -   **Karnerova metoda (Use Case Points)**: Odhad na základě počtu a složitosti [[pripady-uziti|aktérů a případů užití]].
 -   **COCOMO (Constructive Cost Model)**: Matematický model založený na odhadovaném počtu řádek kódu (LOC).
 -   **Historická data**: Porovnání s dřívějšími projekty v daném odvětví je nejspolehlivější cestou (zdroj: raw/lectures/11.prednaska.pdf).
 
 ### Pravidla pro přesnější odhady
+
 -   **Odhadujte v rozmezí**: Místo jednoho čísla určete dolní a horní hranici (např. s 90% pravděpodobností se výsledek vejde do tohoto intervalu).
 
 ![[imgs/11.prednaska-025.jpg|1286]]

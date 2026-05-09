@@ -3,6 +3,7 @@
 **Shrnutí**: Technika pro zachycení funkčních požadavků systému z pohledu uživatele. Popisuje interakce mezi aktéry a systémem za účelem dosažení určitého cíle.
 
 **Zdroje**:
+
 - `raw/lectures/01.prednaska.pdf`
 - `raw/extra/Use Case Model.pdf`
 - `raw/extra/Ukázka UC.pdf`

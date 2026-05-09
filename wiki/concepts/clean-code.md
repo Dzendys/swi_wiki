@@ -3,6 +3,7 @@
 **Shrnutí**: Soubor pravidel a principů (SRP, DRY, Law of Demeter, LSP), které vedou k čitelnému, udržovatelnému a rozšiřitelnému zdrojovému kódu.
 
 **Zdroje**:
+
 - `raw/lectures/08.prednaska.pdf`
 - `raw/extra/GRASP.pdf`
 - `raw/extra/Vysoká soudržnost.pdf`
@@ -16,12 +17,14 @@ Psaní "čistého kódu" (Clean Code) je základní dovedností softwarového in
 ## Klíčové principy
 
 ### Vysoká soudržnost (High Cohesion) a SRP
+
 - **Soudržnost (Cohesion)**: Míra, jak moc k sobě zodpovědnosti jednoho prvku (metody, třídy) logicky patří.
 - **SRP (Single Responsibility Principle)**: Každý prvek by měl mít právě jednu přesně definovanou zodpovědnost (zdroj: raw/extra/Vysoká soudržnost.pdf).
 - **Výhody**: Snazší pochopení, údržba a stabilita. Prvky s nízkou soudržností jsou nestabilní, protože se musí měnit z mnoha různých důvodů.
 - *Tip*: Pokud metoda obsahuje prázdné řádky nebo komentáře vysvětlující různé sekce, pravděpodobně by měla být rozdělena na více metod.
 
 ### Nízká provázanost (Low Coupling) a Law of Demeter
+
 - **Provázanost (Coupling)**: Míra závislosti mezi třídami. Cílem je, aby změna v jedné třídě vyžadovala minimální změny v ostatních.
 - **Law of Demeter ("Don't talk to strangers")**: Objekt by měl volat pouze metody svých přímých známých (vlastní metody, metody atributů, vytvořených objektů nebo parametrů). Neměl by "procházet" skrze cizí objekty (např. `a.getB().getC().doSomething()` je porušením tohoto pravidla).
 

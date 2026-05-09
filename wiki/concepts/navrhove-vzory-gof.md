@@ -3,6 +3,7 @@
 **Shrnutí**: Klasické objektově orientované návrhové vzory publikované skupinou "Gang of Four" (E. Gamma, R. Helm, R. Johnson, J. Vlissides). Pomáhají řešit typické problémy v návrhu tříd a objektů.
 
 **Zdroje**:
+
 - `raw/lectures/05.prednaska.pdf`
 - `raw/lectures/07.prednaska.pdf`
 

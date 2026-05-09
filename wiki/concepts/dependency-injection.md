@@ -3,6 +3,7 @@
 **Shrnutí**: Návrhové principy sloužící k uvolnění vazeb mezi komponentami. Dependency Injection (DI) je konkrétní formou Inversion of Control (IoC), kde jsou závislosti objektu "vstřikovány" zvenčí.
 
 **Zdroje**:
+
 - `raw/lectures/07.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08
@@ -15,6 +16,7 @@ Při manuálním propojování komponent v kódu (např. `new CtenarDAO()`) vzni
 DI je technika, kdy IoC kontejner (např. Spring) automaticky dosazuje (vstřikuje) závislosti do tříd. Třída pak pracuje pouze s rozhraním, nikoliv s konkrétní implementací.
 
 ### Způsoby vstřikování (DI types)
+
 - **Constructor-based**: Závislosti jsou předávány jako parametry konstruktoru. Doporučeno pro povinné závislosti (umožňuje neměnnost - immutability).
 - **Setter-based**: Závislosti jsou předávány pomocí setter metod. Vhodné pro volitelné závislosti.
 

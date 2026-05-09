@@ -3,6 +3,7 @@
 **Shrnutí**: Klíčová role v softwarovém inženýrství zodpovědná za definici rozsahu systému, pochopení potřeb zákazníka a specifikaci požadavků.
 
 **Zdroje**:
+
 - `raw/lectures/01.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

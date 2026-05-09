@@ -3,6 +3,7 @@
 **Shrnutí**: Tato přednáška se věnuje modelům životního cyklu softwaru (SDLC) a klíčovým aktivitám projektového manažera při přípravě, realizaci a uzavření projektu.
 
 **Zdroje**:
+
 - `raw/lectures/11.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

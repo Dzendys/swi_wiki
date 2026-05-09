@@ -3,6 +3,7 @@
 **Shrnutí**: Technologie pro realizaci vzdálené komunikace mezi systémy pomocí standardizovaných protokolů a datových formátů (XML, JSON).
 
 **Zdroje**:
+
 - `raw/lectures/10.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

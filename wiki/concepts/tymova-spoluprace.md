@@ -3,6 +3,7 @@
 **Shrnutí**: Způsob organizace práce více lidí na společném projektu, zahrnující sdílení zodpovědnosti, komunikaci a správu úkolů.
 
 **Zdroje**:
+
 - `raw/lectures/01.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08
@@ -21,6 +22,7 @@ V rámci BI-SWI je tým hodnocen jako celek, ale existuje povinné **přerozděl
 Efektivní spolupráce vyžaduje jasné vymezení zodpovědností. V softwarovém inženýrství rozlišujeme role podle použité metodiky:
 
 ### Klasické role
+
 - **Projektový manažer (PM)**: Zodpovídá za [[projektove-rizeni|řízení projektu]], termíny, rozpočet a zdroje.
 - **[[role-analytika|Analytik]]**: Komunikuje se zákazníkem, sbírá [[pozadavky]] a vytváří [[pripady-uziti|modely]].
 - **Architekt**: Navrhuje celkovou [[softwarova-architektura|strukturu systému]] a technologický stack.
@@ -28,6 +30,7 @@ Efektivní spolupráce vyžaduje jasné vymezení zodpovědností. V softwarové
 - **Tester**: Provádí [[testovani]] a ověřuje kvalitu.
 
 ### Agilní role ([[scrum|SCRUM]])
+
 - **Product Owner (PO)**: Zástupce byznysu, spravuje Product Backlog a určuje priority.
 - **Scrum Master**: Pomáhá týmu dodržovat procesy a odstraňuje překážky.
 - **Developers**: Samo-organizující se tým zodpovědný za dodání inkrementu softwaru.

@@ -3,6 +3,7 @@
 **Shrnutí**: Šestá přednáška se zaměřuje na hlubší pohled do architektonických vzorů, vrstvení systémů, vzory pro persistenci dat a vzory pro prezentační vrstvu.
 
 **Zdroje**:
+
 - `raw/lectures/06.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

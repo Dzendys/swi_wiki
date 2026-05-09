@@ -3,6 +3,7 @@
 **Shrnutí**: Sada uspořádaných činností, které transformují vstupy na výstupy za účelem dosažení obchodního cíle. Modelování těchto procesů je klíčovou součástí softwarového inženýrství.
 
 **Zdroje**:
+
 - `raw/lectures/02.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

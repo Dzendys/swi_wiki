@@ -3,6 +3,7 @@
 **Shrnutí**: Iterativní a inkrementální proces vývoje softwaru využívající notaci UML, řízený případy užití a zaměřený na architekturu.
 
 **Zdroje**:
+
 - `raw/lectures/12.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

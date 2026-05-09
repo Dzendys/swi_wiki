@@ -3,6 +3,7 @@
 **Shrnutí**: Dva základní procesy kontroly kvality. Verifikace ověřuje shodu se specifikací, zatímco validace ověřuje shodu se skutečnými potřebami uživatele.
 
 **Zdroje**:
+
 - `raw/lectures/09.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

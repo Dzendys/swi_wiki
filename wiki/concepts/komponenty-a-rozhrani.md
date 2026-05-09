@@ -3,6 +3,7 @@
 **Shrnutí**: Základní stavební bloky pro modularizaci systému. Komponenta reprezentuje fyzickou, samostatně nasaditelnou část systému, zatímco rozhraní definuje kontrakt pro komunikaci mezi nimi.
 
 **Zdroje**:
+
 - `raw/lectures/07.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

@@ -3,6 +3,7 @@
 **Shrnutí**: Tato přednáška se věnuje fázi implementace, objektovému paradigmatu, pravidlům pro psaní čistého kódu a technikám refaktoringu.
 
 **Zdroje**:
+
 - `raw/lectures/08.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

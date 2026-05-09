@@ -3,6 +3,7 @@
 **Shrnutí**: Přístup k vývoji založený na iterativní práci, rychlé zpětné vazbě a schopnosti pružně reagovat na měnící se požadavky.
 
 **Zdroje**:
+
 - `raw/lectures/12.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

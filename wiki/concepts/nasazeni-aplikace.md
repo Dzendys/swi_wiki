@@ -3,6 +3,7 @@
 **Shrnutí**: Proces sestavení produktu ze zdrojových kódů a jeho přenosu do cílového prostředí k užívání.
 
 **Zdroje**:
+
 - `raw/lectures/10.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

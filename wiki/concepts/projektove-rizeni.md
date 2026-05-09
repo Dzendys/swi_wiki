@@ -3,6 +3,7 @@
 **Shrnutí**: Disciplína zaměřená na plánování, monitorování a kontrolu projektových aktivit za účelem dosažení cílů v rámci stanovených omezení (čas, cena, kvalita).
 
 **Zdroje**:
+
 - `raw/lectures/11.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

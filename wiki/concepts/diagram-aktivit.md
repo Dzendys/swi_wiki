@@ -3,6 +3,7 @@
 **Shrnutí**: Diagram chování v UML používaný k modelování procedurální logiky, obchodních procesů a algoritmů. Je založen na principu toku tokenů.
 
 **Zdroje**:
+
 - `raw/lectures/02.prednaska.pdf`
 - `raw/extra/Activity Diagram.pdf`
 
@@ -20,6 +21,7 @@
 
 ## Základní prvky
 ### Akční uzly (Action Nodes)
+
 - **Akce**: Základní krok procesu (obdélník se zaoblenými rohy).
 - **Volání aktivity (Call Behavior)**: Označeno symbolem "hrábí", reprezentuje spuštění jiného diagramu (zdroj: raw/extra/Activity Diagram.pdf).
 - Akce se spustí, jakmile obdrží tokeny na všech vstupních hranách. Po dokončení vygeneruje tokeny na všech výstupních hranách (zdroj: raw/extra/Activity Diagram.pdf).
@@ -28,6 +30,7 @@
 *Obrázek: Různé typy akčních uzlů (základní akce, volání aktivity, odeslání/přijetí události).*
 
 ### Řídící uzly (Control Nodes)
+
 - **Počáteční uzel (Initial Node)**: Plné kolečko. Nemá vstupní hrany, při spuštění generuje řídící token (zdroj: raw/extra/Activity Diagram.pdf).
 - **Koncový uzel aktivity (Activity Final Node)**: Terčík. Ukončuje celou instanci aktivity (všechny toky) (zdroj: raw/lectures/02.prednaska.pdf).
 - **Konec toku (Flow Final Node)**: Kolečko s křížkem. Ukončuje pouze danou větev (zdroj: raw/lectures/02.prednaska.pdf).

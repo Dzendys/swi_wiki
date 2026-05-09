@@ -3,6 +3,7 @@
 **Shrnutí**: Tato sekce se zabývá fázemi po dokončení vývoje – od sestavení a nasazení softwaru přes jeho údržbu a podporu až po integraci s jinými systémy pomocí webových služeb.
 
 **Zdroje**:
+
 - `wiki/lectures/10-nasazeni-udrzba-a-integrace.md`
 
 **Naposledy aktualizováno**: 2026-05-18

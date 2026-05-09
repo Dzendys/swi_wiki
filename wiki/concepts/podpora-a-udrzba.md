@@ -3,6 +3,7 @@
 **Shrnutí**: Činnosti spojené s provozem systému po jeho dodání, zahrnující řešení incidentů, opravy chyb a přizpůsobování systému novým potřebám.
 
 **Zdroje**:
+
 - `raw/lectures/10.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

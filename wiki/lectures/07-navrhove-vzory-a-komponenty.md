@@ -3,6 +3,7 @@
 **Shrnutí**: Sedmá přednáška prohlubuje znalosti z oblasti návrhu softwaru se zaměřením na komponenty, rozhraní, mechanismy propojování (IoC/DI) a vybrané návrhové vzory GoF.
 
 **Zdroje**:
+
 - `raw/lectures/07.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

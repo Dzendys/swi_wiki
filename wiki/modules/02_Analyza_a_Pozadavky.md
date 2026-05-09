@@ -3,6 +3,7 @@
 **Shrnutí**: Tato sekce se zabývá analytickou fází vývoje softwaru, od pochopení obchodních procesů zákazníka přes specifikaci požadavků až po vytvoření doménového modelu.
 
 **Zdroje**:
+
 - `wiki/lectures/02-modelovani-obchodnich-procesu.md`
 - `wiki/lectures/03-analyza-a-sber-pozadavku.md`
 - `wiki/lectures/04-analyza-problemove-domeny.md`
@@ -39,6 +40,7 @@ Kategorizace pomocí modelu **FURPS**:
 - **S** (Supportability): Podporovatelnost a rozšiřitelnost.
 
 ### Techniky zachycení požadavků
+
 - **[[pripady-uziti|Případy užití (Use Cases)]]**: Formální popis interakcí mezi aktéry a systémem k dosažení cíle. Jsou typické pro klasické metodiky (UP). Skládají se z [[diagram-pripadu-uziti|diagramu]] a textových scénářů.
 - **[[uzivatelske-pribehy|Uživatelské příběhy (User Stories)]]**: Méně formální zápis („Jako [role] chci [cíl], abych [přínos]“), typický pro [[agilni-vyvoj|agilní vývoj]] a frameworky jako [[scrum]].
 

@@ -3,6 +3,7 @@
 **Shrnutí**: Méně formální způsob zachycení požadavků z pohledu koncového uživatele, typický pro agilní metodiky.
 
 **Zdroje**:
+
 - `raw/lectures/03.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

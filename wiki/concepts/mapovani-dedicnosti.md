@@ -3,6 +3,7 @@
 **Shrnutí**: Vzory pro reprezentaci objektově orientované dědičnosti (generalizace) v relačních databázích, které samy o sobě dědičnost nepodporují.
 
 **Zdroje**:
+
 - `raw/lectures/05.prednaska.pdf`
 - `raw/extra/Single Table Inheritance.pdf`
 - `raw/extra/Concrete Table Inheritance.pdf`

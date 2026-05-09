@@ -3,6 +3,7 @@
 **Shrnutí**: Nejrozšířenější agilní framework pro vývoj softwaru, postavený na iterativní práci, samo-organizujících se týmech a fixních časových intervalech (sprintech).
 
 **Zdroje**:
+
 - `raw/lectures/12.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08

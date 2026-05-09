@@ -39,12 +39,14 @@ Strukturovaný studijní průvodce rozdělený do logických fází vývoje soft
 ## Koncepty dle oblastí
 
 ### 1. Základy a role
+
 - [[softwarove-inzenyrstvi|Softwarové inženýrství]]
 - [[role-analytika|Role analytika]]
 - [[tymova-spoluprace|Týmová spolupráce]]
 - [[odhad-pracnosti|Odhad pracnosti]]
 
 ### 2. Analýza a modelování požadavků
+
 - [[obchodni-procesy|Obchodní procesy]]
 - [[diagram-aktivit|Diagram aktivit (UML)]]
 - [[pozadavky|Požadavky (FURPS)]]
@@ -53,10 +55,12 @@ Strukturovaný studijní průvodce rozdělený do logických fází vývoje soft
 - [[uzivatelske-pribehy|Uživatelské příběhy (User Stories)]]
 
 ### 3. Analýza problémové domény
+
 - [[domenovy-model|Doménový model]]
 - [[stavovy-diagram|Stavový diagram (UML)]]
 
 ### 4. Návrh a softwarová architektura
+
 - [[navrh-softwaru|Návrh softwaru]]
 - [[softwarova-architektura|Softwarová architektura]]
 - [[vrstvy-architektury|Vícevrstvé architektury]]
@@ -66,6 +70,7 @@ Strukturovaný studijní průvodce rozdělený do logických fází vývoje soft
 - [[mvc-mvp|Vzory prezentační vrstvy (MVC, MVP)]]
 
 ### 5. Detailní návrh a vzory
+
 - [[navrhovy-model-trid|Návrhový model tříd (UML)]]
 - [[sekvencni-diagram|Sekvenční diagram (UML)]]
 - [[objektovy-diagram|Objektový diagram (UML)]]
@@ -74,6 +79,7 @@ Strukturovaný studijní průvodce rozdělený do logických fází vývoje soft
 - [[mapovani-dedicnosti|Mapování dědičnosti (ORM)]]
 
 ### 6. Implementace a kvalita kódu
+
 - [[implementace|Implementace]]
 - [[objektove-paradigma|Objektové paradigma]]
 - [[clean-code|Clean Code a principy návrhu]]
@@ -81,17 +87,20 @@ Strukturovaný studijní průvodce rozdělený do logických fází vývoje soft
 - [[osetreni-chyb-a-logovani|Ošetření chyb a logování]]
 
 ### 7. Zajištění kvality a testování
+
 - [[zajisteni-kvality|Zajištění kvality (QA)]]
 - [[verifikace-a-validace|Verifikace a validace]]
 - [[testovani|Testování softwaru]]
 
 ### 8. Provoz, údržba a integrace
+
 - [[nasazeni-aplikace|Nasazení aplikace]]
 - [[podpora-a-udrzba|Podpora a údržba]]
 - [[integrace-aplikaci|Integrace aplikací]]
 - [[webove-sluzby-rest-soap|Webové služby (REST, SOAP)]]
 
 ### 9. Management a metodiky
+
 - [[projektove-rizeni|Projektové řízení]]
 - [[rizeni-rizik|Řízení rizik]]
 - [[metodiky-vyvoje|Metodiky vývoje]]

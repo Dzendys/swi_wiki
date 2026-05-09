@@ -3,6 +3,7 @@
 **Shrnutí**: Specifikace toho, co má systém dělat a jaká omezení musí splňovat. Jsou základem pro odhady pracnosti, návrh architektury a akceptační testování.
 
 **Zdroje**:
+
 - `raw/lectures/03.prednaska.pdf`
 
 **Naposledy aktualizováno**: 2026-05-08
