@@ -1,8 +1,21 @@
 /* Zmenšení a znevýraznění Obsidian tagů na konci stránek */
+/* Pokud se tagy interpretují jako nadpisy (začínají #) */
+.md-typeset hr + h1,
+.md-typeset hr + h2,
+.md-typeset hr + h3,
 .md-typeset hr + p {
-    color: var(--md-default-fg-color--lightest);
-    font-size: 0.65rem;
-    text-align: right;
-    margin-top: -1em;
+    color: var(--md-default-fg-color--lightest) !important;
+    font-size: 0.65rem !important;
+    text-align: right !important;
+    margin-top: -1.5em !important;
     font-family: var(--md-code-font-family);
+    border: none !important;
+    font-weight: normal !important;
+}
+
+/* Skrytí kotev pro tyto "falešné" nadpisy */
+.md-typeset hr + h1 > .headerlink,
+.md-typeset hr + h2 > .headerlink,
+.md-typeset hr + h3 > .headerlink {
+    display: none;
 }
