@@ -1,6 +1,6 @@
 nav:
   - Úvod: index.md
-  - Moduly: ...
-  - Přednášky: ...
-  - Koncepty: ...
+  - modules
+  - lectures
+  - concepts
   - Log změn: log.md
