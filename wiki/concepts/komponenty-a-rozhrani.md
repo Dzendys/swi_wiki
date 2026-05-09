@@ -13,6 +13,7 @@
 V moderním softwarovém inženýrství je kladen důraz na modularitu a znovupoužitelnost. Toho se dosahuje pomocí komponent a jasně definovaných rozhraní.
 
 ![[imgs/07.prednaska-011.jpg|222]]
+
 *Obrázek: Základní UML notace pro komponentu a rozhraní (stereotyp «interface»).*
 
 ## Komponenta (Component)
@@ -26,6 +27,7 @@ Rozhraní je množina operací, která specifikuje služby poskytované třídou
 - **Účel**: Odděluje specifikaci ("co") od implementace ("jak"). Tím výrazně **snižuje provázanost** (coupling) mezi částmi systému.
 
 ![[imgs/07.prednaska-015.jpg|172]]
+
 *Obrázek: Vztah realizace mezi konkrétní třídou a rozhraním.*
 
 - **Typy rozhraní v UML**:
@@ -33,18 +35,21 @@ Rozhraní je množina operací, která specifikuje služby poskytované třídou
     - **Vyžadované (Required)**: Rozhraní, které komponenta potřebuje ke své činnosti (kreslí se jako půlkruh "socket").
 
 ![[imgs/07.prednaska-013.jpg|131]]
+
 *Obrázek: Znázornění nabízeného rozhraní, vyžadovaného rozhraní a jejich sestavení (assembly).*
 
 ## Architektura založená na komponentách
 Použití komponent a rozhraní umožňuje vytvářet čistou architektura, kde jsou jednotlivé vrstvy a moduly propojeny přes kontrakty (rozhraní).
 
 ![[imgs/07.prednaska-017.jpg|835]] ![[imgs/07.prednaska-019.jpg|1343]]
+
 *Obrázek: Komplexní diagram komponent a detailní specifikace metod v rozhraních.*
 
 ## Propojování komponent
 Komponenty lze propojovat manuálně přímo ve zdrojovém kódu (méně flexibilní), nebo pomocí principu **[[dependency-injection|Inversion of Control (IoC)]]**. V tomto případě třída nezávisí na konkrétní implementaci, ale na abstraktním rozhraní.
 
 ![[imgs/07.prednaska-022.jpg|1288]]
+
 *Obrázek: Závislost na rozhraní (ICtenarDAO) namísto konkrétní implementace.*
 
 ## Související stránky

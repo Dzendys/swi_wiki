@@ -28,6 +28,7 @@ K vizualizaci harmonogramu a závislostí mezi úkoly se využívají:
 - **Ganttův diagram**: Časová osa úkolů se zobrazením vazeb a kritické cesty.
 
 ![[imgs/11.prednaska-032.jpg|643]]
+
 *Obrázek: Vizualizace projektového plánu pomocí Ganttova diagramu.*
 
 ## Řízení rizik

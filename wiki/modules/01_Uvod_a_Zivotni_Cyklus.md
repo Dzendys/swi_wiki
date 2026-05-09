@@ -37,6 +37,7 @@ Standardní [[metodiky-vyvoje|metodiky]] pak tyto modely konkrétně realizují.
 4. **Transition (Dodání)**: Nasazení u zákazníka a školení.
 
 ![[imgs/12.prednaska-029.jpg|622]]
+
 *Obrázek: Vizualizace fází a intenzity jednotlivých disciplín v rámci metodiky UP.*
 
 ## Agilní vývoj a SCRUM
@@ -51,6 +52,7 @@ SCRUM definuje specifické role:
 Práce probíhá ve fixních cyklech zvaných **sprinty** (1 týden až 1 měsíc). Každý den probíhá krátký **Daily Scrum** pro synchronizaci týmu.
 
 ![[imgs/12.prednaska-047.jpg|593]]
+
 *Obrázek: Vizualizace základního cyklu metodiky Scrum.*
 
 ## Související stránky

@@ -14,6 +14,7 @@
 [[diagram-aktivit|UML Diagram aktivit]] (Activity Diagram) patří do skupiny diagramů chování. Umožňuje srozumitelné zachycení procesů, rychlou kontrolu logiky a snazší odhady pracnosti (zdroj: raw/lectures/02.prednaska.pdf).
 
 ![[imgs/02.prednaska-023.jpg|470]]
+
 *Obrázek: Příklad základního procesu v diagramu aktivit se zónami zodpovědnosti.*
 
 ## Princip toku tokenů
@@ -27,6 +28,7 @@
 - Akce se spustí, jakmile obdrží tokeny na všech vstupních hranách. Po dokončení vygeneruje tokeny na všech výstupních hranách (zdroj: raw/extra/Activity Diagram.pdf).
 
 ![[imgs/02.prednaska-028.jpg|82]]
+
 *Obrázek: Různé typy akčních uzlů (základní akce, volání aktivity, odeslání/přijetí události).*
 
 ### Řídící uzly (Control Nodes)
@@ -40,18 +42,21 @@
 - **Spojení (Join)**: Silná čára. Více vstupů, jeden výstup. Čeká na tokeny ze všech větví (zdroj: raw/extra/Activity Diagram.pdf).
 
 ![[imgs/02.prednaska-030.jpg|55]] ![[imgs/02.prednaska-032.jpg|228]]
+
 *Obrázek: Legenda řídících uzlů a příklady větvení toku.*
 
 ### Zóny zodpovědnosti (Swimlanes)
 Rozdělují diagram do sloupců nebo řádků podle rolí (např. Student, Učitel, Systém), které jsou za dané akce zodpovědné (zdroj: raw/lectures/02.prednaska.pdf).
 
 ![[imgs/02.prednaska-034.jpg|671]]
+
 *Obrázek: Ukázka rozdělení diagramu do zón zodpovědnosti (Swimlanes).*
 
 ### Objektové uzly (Object Nodes)
 Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník). Lze u nich v hranatých závorkách uvést **stav objektu** (např. `:Objednávka [Vytvořena]`) (zdroj: raw/lectures/02.prednaska.pdf).
 
 ![[imgs/02.prednaska-036.jpg|1855]] ![[imgs/02.prednaska-037.jpg|1763]] ![[imgs/02.prednaska-043.jpg|169]]
+
 *Obrázek: Různé způsoby zobrazení toku objektů a jejich stavů.*
 
 ## Pokročilé konstrukce
@@ -59,10 +64,12 @@ Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník). 
 - **Region přerušení (Interruptible Region)**: Oblast, jejíž provádění může být přerušeno specifikovanou událostí (zdroj: raw/lectures/02.prednaska.pdf).
 
 ![[imgs/02.prednaska-039.jpg|233]] ![[imgs/02.prednaska-041.jpg|567]]
+
 *Obrázek: Ukázka vícenásobného provedení a přerušitelné oblasti.*
 
 ## Komplexní příklad
 ![[imgs/02.prednaska-045.jpg|488]]
+
 *Obrázek: Komplexní model procesu rezervace knihy se všemi prvky.*
 
 ## Časté chyby
@@ -70,9 +77,11 @@ Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník). 
 2.  **Míchání akcí a stavů**: Používání symbolu akce pro zachycení stavu objektu. Správně má být stav v hranatých závorkách uvnitř objektového uzlu (zdroj: raw/lectures/02.prednaska.pdf).
 
 ![[imgs/02.prednaska-049.jpg|159]] ![[imgs/02.prednaska-051.jpg|146]]
+
 *Obrázek: Typická chyba při modelování cyklu a její správné řešení.*
 
 ![[imgs/02.prednaska-053.jpg|236]] ![[imgs/02.prednaska-055.jpg|192]]
+
 *Obrázek: Ukázka nesprávného míchání stavů s akcemi a následná oprava pomocí objektových uzlů.*
 
 ## Související stránky

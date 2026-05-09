@@ -26,6 +26,7 @@ Týkají se procesu vývoje (např. cena, termíny dodání, školení uživatel
 Týkají se vlastností samotného produktu a dělí se na:
 
 ![[imgs/03.prednaska-018.jpg|403]]
+
 *Obrázek: Alternativní reprezentace funkčních požadavků pomocí UML profilu.*
 
 Týkají se vlastností samotného produktu a dělí se na:

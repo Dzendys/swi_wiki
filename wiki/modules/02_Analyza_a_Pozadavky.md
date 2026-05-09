@@ -26,6 +26,7 @@ Před samotným návrhem systému je nutné pochopit [[obchodni-procesy|obchodn�
 Pro vizualizaci procesů se nejčastěji využívá [[diagram-aktivit|UML diagram aktivit]]. Je založen na **principu toku tokenů**, kde virtuální značky procházejí hranami a aktivují akce. Diagram umožňuje rozdělení do **zón zodpovědnosti (swimlanes)** podle rolí a zachycení paralelních i podmíněných toků.
 
 ![[imgs/02.prednaska-023.jpg|470]]
+
 *Obrázek: Příklad procesu v diagramu aktivit se zónami zodpovědnosti.*
 
 ## Specifikace požadavků
@@ -51,6 +52,7 @@ Výsledkem hloubkové analýzy dat a entit je [[domenovy-model|doménový model]
 Při tvorbě modelu se analytik vyhýbá implementačním detailům (např. cizím klíčům) a soustředí se na správnou dekompozici (např. rozlišení mezi popisem a instancí – Kniha vs. Výtisk). Pro zachycení složitého chování entit v čase se využívá [[stavovy-diagram|stavový diagram]].
 
 ![[imgs/04.prednaska-032.jpg|520]]
+
 *Obrázek: Celkový pohled na analytický doménový model knihovny.*
 
 ## Související stránky

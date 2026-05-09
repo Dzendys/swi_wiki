@@ -14,6 +14,7 @@
 Zatímco [[domenovy-model|doménový model]] popisuje entity reálného světa a jejich vztahy, návrhový model tříd (Design Class Diagram) dokumentuje architektonická a implementační rozhodnutí. Slouží jako přímý podklad pro generování zdrojových kódů.
 
 ![[imgs/05.prednaska-062.jpg|432]]
+
 *Obrázek: Ukázka trasování (stereotyp «trace») od doménových tříd k detailnímu návrhu pro implementaci v Javě/C#.*
 
 ## Prvky návrhového modelu
@@ -26,6 +27,7 @@ V návrhovém modelu využíváme plnou sílu UML notace pro zachycení implemen
 - **Šablony (Templates)**: Modelování generických typů (např. `Seznam<T>`).
 
 ![[imgs/05.prednaska-053.jpg|237]] ![[imgs/05.prednaska-055.jpg|153]]
+
 *Obrázek: Přehled prvků třídy v UML a ukázka použití šablon.*
 
 ### Reprezentace vztahů a rozhraní
@@ -35,6 +37,7 @@ Vztahy lze v UML znázornit buď graficky asociací, nebo textově pomocí atrib
 - **Asociace**: Určení směru navigovatelnosti a násobností.
 
 ![[imgs/05.prednaska-057.jpg|602]] ![[imgs/05.prednaska-058.jpg|1242]] ![[imgs/05.prednaska-060.jpg|164]]
+
 *Obrázek: Různé způsoby zachycení vztahů a implementace rozhraní.*
 
 ## Přiřazování zodpovědností (GRASP)

@@ -27,6 +27,7 @@ Tým je typicky malý (do 10 členů) a skládá se ze tří rolí:
 1.  **Sprint**: Základní jednotka, trvá 1 týden až 1 měsíc. Požadavky v něm jsou fixní a nelze je měnit.
 
 ![[imgs/12.prednaska-047.jpg|593]]
+
 *Obrázek: Vizualizace základního cyklu metodiky Scrum (backlogy, sprint, schůzky).*
 
 2.  **Sprint Planning**: Plánovací schůzka na začátku sprintu (stanovení cíle a výběr položek z backlogu).
@@ -40,6 +41,7 @@ Tým je typicky malý (do 10 členů) a skládá se ze tří rolí:
 -   **Dohra (Post-game)**: Integrace systému, akceptační testy, finální dokumentace.
 
 ![[imgs/12.prednaska-051.jpg|720]]
+
 *Obrázek: Podrobný přehled fází Scrumu rozdělený do bloků Předehra, Hra a Dohra.*
 
 ## Související stránky

@@ -32,6 +32,7 @@ Robustní aplikace musí obsahovat správné **[[osetreni-chyb-a-logovani|ošet�
 [[zajisteni-kvality|Zajištění kvality]] není pouze testování na konci projektu, ale systematický proces prostupující celým cyklem. Kvalitu měříme pomocí externích (korektnost, spolehlivost) a interních (čitelnost, testovatelnost) charakteristik.
 
 ![[imgs/09.prednaska-012.jpg|1000]]
+
 *Obrázek: Exponenciální nárůst nákladů na opravu chyby v čase.*
 
 ### Verifikace vs. Validace
@@ -48,6 +49,7 @@ Procesy kontroly kvality dělíme na:
 Kvalitu testování lze měřit pomocí metrik, jako je **pokrytí kódu (Code Coverage)**.
 
 ![[imgs/09.prednaska-041.jpg|939]]
+
 *Obrázek: Vizualizace trendů v úspěšnosti testů v čase.*
 
 ## Související stránky

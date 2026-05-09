@@ -15,6 +15,7 @@
 **Doménový model** (Domain Model) je klíčovým výstupem analytika, který odpovídá na otázku, s jakými daty a entitami systém pracuje (zdroj: raw/lectures/01.prednaska.pdf). K jeho tvorbě se využívá **UML Diagram tříd** (Class Diagram) na vysoké úrovni abstrakce (zdroj: raw/extra/Class Diagram Domain Model.pdf).
 
 ![[imgs/04.prednaska-032.jpg|520]]
+
 *Obrázek: Celkový pohled na analytický model knihovny zahrnující klíčové entity a jejich vazby.*
 
 ## Účel a charakteristika
@@ -29,6 +30,7 @@
 - **Metody**: V doménovém modelu se typicky nepoužívají, ledaže popisují doménovou logiku (nikoliv implementaci jako `print()` nebo `backup()`) (zdroj: raw/lectures/04.prednaska.pdf).
 
 ![[imgs/04.prednaska-010.jpg|516]]
+
 *Obrázek: Detailní notace třídy v UML (název, atributy s viditelností, metody).*
 
 ### Vztahy
@@ -39,6 +41,7 @@
 - **Generalizace (Dědičnost)**: Modelování hierarchie entit (potomek dědí od rodiče).
 
 ![[imgs/04.prednaska-012.jpg|214]]
+
 *Obrázek: Přehled základních typů vazeb mezi třídami.*
 
 #### Speciální vazby
@@ -46,6 +49,7 @@
 - **Atribut vs. Asociace**: Pro doménový model je názornější modelovat komplexní vlastnosti jako samostatné třídy spojené asociací.
 
 ![[imgs/04.prednaska-016.jpg|646]] ![[imgs/04.prednaska-014.jpg|768]]
+
 *Obrázek: Znázornění asociační třídy a porovnání modelování pomocí atributu vs. asociace.*
 
 ## Postup tvorby a refaktoring
@@ -56,6 +60,7 @@ Při tvorbě doménového modelu postupně zpřesňujeme strukturu entit tak, ab
 3.  **Rozlišení popisu a instance**: Oddělení obecné informace (Kniha - název, ISBN) od fyzických exemplářů (Výtisk - evidenční číslo, stav).
 
 ![[imgs/04.prednaska-022.jpg|226]] ![[imgs/04.prednaska-028.jpg|498]] ![[imgs/04.prednaska-030.jpg|498]]
+
 *Obrázek: Ukázky postupného zpřesňování doménového modelu (Kniha a Autor, zavedení Výpůjčky, Kniha vs. Výtisk).*
 
 ## Časté chyby
@@ -70,6 +75,7 @@ Při tvorbě doménového modelu postupně zpřesňujeme strukturu entit tak, ab
 ![[imgs/04.prednaska-048.jpg|555]] ![[imgs/04.prednaska-052.jpg|411]]
 ![[imgs/04.prednaska-054.jpg|497]] ![[imgs/04.prednaska-056.jpg|501]]
 ![[imgs/04.prednaska-058.jpg|131]] ![[imgs/04.prednaska-050.jpg|438]]
+
 *Obrázek: Příklady nejčastějších chyb v doménovém modelu (implementační detaily, softwarové třídy, cizí klíče, nevhodná dědičnost, míchání instance a popisu).*
 
 ## Související stránky
