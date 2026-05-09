@@ -1,21 +1,14 @@
-/* Zmenšení a znevýraznění Obsidian tagů na konci stránek */
-/* Pokud se tagy interpretují jako nadpisy (začínají #) */
+/* Úplné skrytí Obsidian tagů a závěrečných informací za čarou pro MkDocs web */
+/* Cílí na jakýkoliv prvek, který následuje bezprostředně po vodorovné čáře na konci stránky */
 .md-typeset hr + h1,
 .md-typeset hr + h2,
 .md-typeset hr + h3,
+.md-typeset hr + h4,
 .md-typeset hr + p {
-    color: var(--md-default-fg-color--lightest) !important;
-    font-size: 0.65rem !important;
-    text-align: right !important;
-    margin-top: -1.5em !important;
-    font-family: var(--md-code-font-family);
-    border: none !important;
-    font-weight: normal !important;
+    display: none !important;
 }
 
-/* Skrytí kotev pro tyto "falešné" nadpisy */
-.md-typeset hr + h1 > .headerlink,
-.md-typeset hr + h2 > .headerlink,
-.md-typeset hr + h3 > .headerlink {
-    display: none;
+/* Skrytí samotné poslední vodorovné čáry, pokud za ní už nic viditelného není */
+.md-typeset hr:last-of-type {
+    display: none !important;
 }
