@@ -1,14 +1,14 @@
 title: Přednášky
 nav:
-  - 01-uvod-do-swi.md
-  - 02-modelovani-obchodnich-procesu.md
-  - 03-analyza-a-sber-pozadavku.md
-  - 04-analyza-problemove-domeny.md
-  - 05-navrh-softwarovych-systemu.md
-  - 06-architektonicke-vzory.md
-  - 07-navrhove-vzory-a-komponenty.md
-  - 08-implementace.md
-  - 09-zajisteni-kvality.md
-  - 10-nasazeni-udrzba-a-integrace.md
-  - 11-projektove-rizeni.md
-  - 12-metodiky-a-agilni-vyvoj.md
+  - 01 Úvod: 01-uvod-do-swi.md
+  - 02 Modelování procesů: 02-modelovani-obchodnich-procesu.md
+  - 03 Sběr požadavků: 03-analyza-a-sber-pozadavku.md
+  - 04 Analýza domény: 04-analyza-problemove-domeny.md
+  - 05 Návrh systémů: 05-navrh-softwarovych-systemu.md
+  - 06 Architektonické vzory: 06-architektonicke-vzory.md
+  - 07 Návrhové vzory: 07-navrhove-vzory-a-komponenty.md
+  - 08 Implementace: 08-implementace.md
+  - 09 Zajištění kvality: 09-zajisteni-kvality.md
+  - 10 Nasazení a údržba: 10-nasazeni-udrzba-a-integrace.md
+  - 11 Projektové řízení: 11-projektove-rizeni.md
+  - 12 Metodiky: 12-metodiky-a-agilni-vyvoj.md
