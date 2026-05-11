@@ -32,14 +32,20 @@ V návrhovém modelu využíváme plnou sílu UML notace pro zachycení implemen
 *Obrázek: Přehled prvků třídy v UML a ukázka použití šablon.*
 
 ### Reprezentace vztahů a rozhraní
-Vztahy lze v UML znázornit buď graficky asociací, nebo textově pomocí atributu třídy. Důležitým prvkem je také realizace rozhraní.
+V návrhové fázi se rozhodujeme, jak budou vztahy z doménového modelu realizovány v kódu. UML nabízí několik ekvivalentních notací:
 
-- **Realizace rozhraní**: Přerušovaná čára s prázdnou šipkou.
-- **Asociace**: Určení směru navigovatelnosti a násobností.
+1. **Vztah pomocí atributu**: Vztah je zapsán přímo formou atributu třídy (např. `vyplnil: Student`). Je to kompaktní zápis často používaný v detailních diagramech.
 
-![[imgs/05.prednaska-057.jpg|602]] ![[imgs/05.prednaska-058.jpg|1242]] ![[imgs/05.prednaska-060.jpg|164]]
+    ![[imgs/05.prednaska-057.jpg|350]]
 
-*Obrázek: Různé způsoby zachycení vztahů a implementace rozhraní.*
+2. **Grafická asociace**: Klasické znázornění pomocí čáry/šipky mezi třídami. Umožňuje přehledně zobrazit násobnosti (multiplicity) a směry závislostí.
+
+    ![[imgs/05.prednaska-058.jpg|400]]
+
+3. **Realizace rozhraní**: Třída implementuje sadu metod definovanou v rozhraní. V UML se značí přerušovanou čarou s prázdnou šipkou směrem k rozhraní.
+
+    ![[imgs/05.prednaska-060.jpg|150]]
+
 
 ## Přiřazování zodpovědností (GRASP)
 Klíčovým úkolem při tvorbě návrhového modelu je správné rozdělení zodpovědností (převod scénářů z [[pripady-uziti|případů užití]] na metody konkrétních tříd). K tomu se využívají vzory GRASP (General Responsibility Assignment Software Patterns). Často se také využívá princip **[[dependency-injection|Dependency Injection]]** pro uvolnění vazeb mezi třídami.
