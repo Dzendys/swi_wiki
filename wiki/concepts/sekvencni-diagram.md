@@ -29,14 +29,17 @@ Sekvenční diagram (Sequence Diagram) patří mezi diagramy chování a je klí
 
 ## Pokročilé prvky
 
-- **Vytvoření/Zrušení objektu**: Zpráva `«create»` končí u nového objektu. Zrušení se značí křížkem `X` na konci životní čáry (zpráva `«destroy»`).
+- **Vytvoření a zrušení objektu**: Zpráva se stereotypem `«create»` míří přímo na hlavičku nového objektu. Zrušení instance (např. uvolnění z paměti) se značí křížkem `X` na konci životní čáry, kam míří zpráva `«destroy»`.
+
+    ![[imgs/06.prednaska-055.jpg|350]]
+
+
 - **Nalezená a vlastní zpráva**:
-    - **Nalezená zpráva (Found Message)**: Šipka vycházející z černého bodu (vstup do systému zvenčí).
-    - **Zaslání zprávy sám sobě (Self Message)**: Smyčka zpět na stejnou životní čáru (volání vnitřní metody).
+    - **Nalezená zpráva (Found Message)**: Šipka vycházející z černého bodu reprezentuje vstup z vnějšího prostředí, který není v diagramu explicitně modelován.
+    - **Zaslání zprávy sám sobě (Self Message)**: Smyčka zpět na stejnou životní čáru značí volání vnitřní metody daného objektu.
 
-![[imgs/06.prednaska-055.jpg|222]] ![[imgs/06.prednaska-057.jpg|224]]
+    ![[imgs/06.prednaska-057.jpg|250]]
 
-*Obrázek: Modelování životního cyklu objektů a specifických typů zpráv.*
 
 - **Fragmenty (Kombinované fragmenty)**: Rámečky pro řízení toku:
     - `alt`: Větvení (if-then-else).
