@@ -19,7 +19,7 @@ Objektově orientované paradigma (OOP) je v současnosti dominantním přístup
 - **Třída**: Šablona (metadata), která definuje strukturu atributů, signatury a implementace metod a konstruktory pro inicializaci (zdroj: raw/lectures/08.prednaska.pdf).
 - **Objekt (Instance)**: Konkrétní "výrobek" podle šablony. Každý objekt má své vlastní hodnoty atributů (stav), ale metody jsou společné pro všechny instance dané třídy.
 
-### Zapouzdření (Encapsulation)
+### Zapouzdření (Encapsulation) {: #zapouzdření }
 Objekt funguje jako "černá skříňka" (black box). Drží svůj vnitřní stav uvnitř sebe a implementační detaily jsou schovány za množinou veřejných metod. Tím se chrání data před nepřípustnou modifikací zvenčí.
 
 ### Dědičnost (Inheritance)

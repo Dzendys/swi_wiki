@@ -26,7 +26,7 @@ Zabývá se rozložením běžícího softwaru na fyzický hardware:
 - **[[komponenty-a-rozhrani|Komponenty]]**: Rozdělení systému na samostatně nasaditelné jednotky (např. `.jar`, `.dll`). Komponenty jsou od sebe odděleny **rozhraními**, což snižuje jejich provázanost.
 - **Výpočetní uzly**: Určení, na kterých strojích komponenty poběží. Rozhoduje se například mezi architekturou tenkého klienta, tlustého klienta a využitím aplikačních clusterů.
 
-## Využití návrhových vzorů
+## Využití návrhových vzorů {: #využití-návrhových-vzorů }
 Návrh architektury by neměl znovu "vymýšlet kolo". Pro řešení opakujících se architektonických a návrhových problémů se využívají osvědčené **návrhové vzory** (Design Patterns, např. ze skupiny GoF). Příkladem je vzor *Stavitel (Builder)* pro flexibilní konstrukci složitých objektů (např. sestavování SQL skriptů nezávisle na konkrétním dialektu relační databáze).
 
 ## Související stránky
