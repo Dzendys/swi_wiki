@@ -1,5 +1,19 @@
 # Log změn
 
+## [2026-05-11] Merge: update/mapovani-dedicnosti-images
+- Konverze diagramů mapování dědičnosti z `.ppm` do `.jpg`.
+- Integrace obrázků pro **Single Table**, **Concrete Table** a **Class Table Inheritance** do stránky `wiki/concepts/mapovani-dedicnosti.md`.
+- Odstranění původních `.ppm` souborů.
+
+
+## [2026-05-11] Merge: update/fix-changes
+- Provedena rozsáhlá sada oprav a vylepšení na základě seznamu `changes.md`.
+- **Diagramy (UC, Aktivity, Balíčky, Třídy)**: Reorganizace obrázků, rozdělení do logických bloků, oprava notací a doplnění podrobných popisů dle slidů.
+- **Formátování**: Zavedení tabulek pro porovnání chyb (Špatně vs. Dobře) a vynucení zobrazení obrázků vedle sebe. Oprava číslování seznamů a odsazení.
+- **Persistence a GoF**: Rozepsání iterací implementace (Builder) a detailní popis mapování datových entit.
+- **Čištění**: Odstranění specifických informací o předmětu (BI-SWI) v teorii, smazání doporučené literatury a slangových výrazů (stodynka).
+- **Opravy odkazů**: Odstranění spojovníků v zobrazovaných názvech wiki-odkazů.
+
 ## [2026-05-09] - Vytvoření indexu přednášek (feat/lectures-index)
 - Vytvořena úvodní rozcestníková stránka `wiki/lectures/index.md`.
 - Stránka obsahuje seřazený seznam všech 12 přednášek se stručným výtahovým popiskem pro lepší orientaci.
