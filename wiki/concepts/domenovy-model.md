@@ -14,10 +14,6 @@
 
 **Doménový model** (Domain Model) je klíčovým výstupem analytika, který odpovídá na otázku, s jakými daty a entitami systém pracuje. K jeho tvorbě se využívá **UML Diagram tříd** (Class Diagram) na vysoké úrovni abstrakce.
 
-![[imgs/04.prednaska-037.jpg|520]]
-
-*Obrázek: Celkový pohled na analytický model knihovny zahrnující klíčové entity a jejich vazby.*
-
 ## Účel a charakteristika
 
 - **Slovníček pojmů**: Sjednocení terminologie mezi zákazníkem a vývojáři.
