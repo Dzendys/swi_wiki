@@ -63,11 +63,11 @@ Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník). 
 ## Pokročilé konstrukce
 
 - **Vícenásobné provedení (Expansion Region)**: Oblast, kde se akce provádí pro každý prvek vstupní kolekce (zdroj: raw/lectures/02.prednaska.pdf).
+    ![[imgs/02.prednaska-039.jpg|250]]
+
 - **Region přerušení (Interruptible Region)**: Oblast, jejíž provádění může být přerušeno specifikovanou událostí (zdroj: raw/lectures/02.prednaska.pdf).
+    ![[imgs/02.prednaska-041.jpg|400]]
 
-![[imgs/02.prednaska-039.jpg|233]] ![[imgs/02.prednaska-041.jpg|567]]
-
-*Obrázek: Ukázka vícenásobného provedení a přerušitelné oblasti.*
 
 ## Komplexní příklad
 ![[imgs/02.prednaska-045.jpg|488]]
