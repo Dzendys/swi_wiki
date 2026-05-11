@@ -38,6 +38,7 @@ Osoba zodpovědná za celkové řízení. Sleduje a ovlivňuje:
     ![[imgs/11.prednaska-032.jpg|643]]
     *Obrázek: Vizualizace projektového plánu pomocí Ganttova diagramu (úkoly, trvání, závislosti).*
 
+
 2. **Provádění**:
     - Monitorování a aktualizace plánu dle reality.
     - Komunikace se zákazníkem (řešení nedorozumění, zápisy ze schůzek).

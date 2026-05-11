@@ -17,6 +17,7 @@
 
 *Obrázek: Příklad základního procesu v diagramu aktivit se zónami zodpovědnosti.*
 
+
 ## Princip toku tokenů
 Čtení diagramu je založeno na tzv. **hře s tokeny**. Token je virtuální značka, která se pohybuje po hranách diagramu a aktivuje jednotlivé uzly (zdroj: raw/extra/Activity Diagram.pdf).
 
@@ -80,10 +81,12 @@ Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník). 
     ![[imgs/02.prednaska-049.jpg\|159]] ![[imgs/02.prednaska-051.jpg\|146]]
     *Obrázek: Typická chyba při modelování cyklu (vlevo) a její správné řešení (vpravo).*
 
+
 2.  **Míchání akcí a stavů**: Používání symbolu akce pro zachycení stavu objektu. Správně má být stav v hranatých závorkách uvnitř objektového uzlu (zdroj: raw/lectures/02.prednaska.pdf).
 
     ![[imgs/02.prednaska-053.jpg\|236]] ![[imgs/02.prednaska-055.jpg\|192]]
     *Obrázek: Ukázka nesprávného míchání stavů s akcemi (vlevo) a následná oprava pomocí objektových uzlů (vpravo).*
+
 
 ## Související stránky
 
