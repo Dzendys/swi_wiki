@@ -1,5 +1,10 @@
 # Log změn
 
+## [2026-05-12] Merge: feat/analytics-goatcounter
+- Implementace analytiky návštěvnosti pomocí GoatCounter (kód: `swi-wiki`).
+- Přidán vlastní analytický skript do `overrides/` s podporou pro instantní navigaci MkDocs Material.
+- Aktualizována konfigurace `mkdocs.yml` pro aktivaci měření.
+
 ## [2026-05-11] Merge: update/refactor-sources
 - Bulk source refactoring: removed inline sources `(zdroj: ...)` from all pages in `wiki/`.
 - All cited sources were moved to the header `**Zdroje**:` and sorted (lectures and seminars numerically, others alphabetically).
