@@ -29,7 +29,7 @@ Tým je typicky malý (do 10 členů) a skládá se ze tří rolí:
 
 1.  **Sprint**: Základní jednotka, trvá 1 týden až 1 měsíc. Požadavky v něm jsou fixní a nelze je měnit.
 2.  **Sprint Planning**: Plánovací schůzka na začátku sprintu (stanovení cíle a výběr položek z backlogu).
-3.  **Daily Scrum**: Každodenní 15minutová schůzka (stodynka), kde každý odpovídá: *Co jsem dělal včera? Co udělám dnes? Mám nějaké překážky?*
+3.  **Daily Scrum**: Každodenní 15minutová schůzka, kde každý odpovídá: *Co jsem dělal včera? Co udělám dnes? Mám nějaké překážky?*
 4.  **Sprint Review**: Předvedení výsledků (inkrementu) zákazníkovi a zúčastněným stranám na konci sprintu.
 5.  **Sprint Retrospective**: Interní schůzka týmu zaměřená na vylepšení procesů a spolupráce.
 
