@@ -48,10 +48,12 @@
 #### Speciální vazby
 
 - **Asociační třída**: Používá se pro zachycení informací, které patří k samotné vazbě mezi dvěma třídami.
+
     ![[imgs/04.prednaska-016.jpg|400]]
 
 
 - **Atribut vs. Asociace**: Pro doménový model je názornější modelovat komplexní vlastnosti jako samostatné třídy spojené asociací.
+
     ![[imgs/04.prednaska-014.jpg|450]]
 
 
@@ -59,26 +61,32 @@
 Při tvorbě doménového modelu postupně zpřesňujeme strukturu entit tak, aby co nejlépe odpovídala realitě.
 
 1.  **První návrh**: Často začínáme s atributy, které ale mají omezení (např. nemožnost více autorů).
+
     ![[imgs/04.prednaska-024.jpg|200]]
 
 
 2.  **Vyčlenění entit**: Místo atributů (např. jméno autora) vytváříme samostatné entity (Autor).
+
     ![[imgs/04.prednaska-026.jpg|200]]
 
 
 3.  **Sledování výpůjček (1. varianta)**: Přidání třídy Čtenář s přímou vazbou, což ale neumožňuje historii.
+
     ![[imgs/04.prednaska-028.jpg|200]]
 
 
 4.  **Modelování historie**: Zavedení vazební entity (Výpůjčka), která umožňuje sledovat historii výpůjček.
+
     ![[imgs/04.prednaska-032.jpg|350]]
 
 
 5.  **Rozlišení popisu a instance**: Oddělení obecné informace (Kniha) od fyzických exemplářů (Výtisk).
+
     ![[imgs/04.prednaska-035.jpg|350]]
 
 
 6.  **Finální model**: Propojení všech entit včetně Rezervací.
+
     ![[imgs/04.prednaska-037.jpg|500]]
 
 
