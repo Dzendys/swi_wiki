@@ -1,5 +1,8 @@
 # Log změn
 
+## [2026-05-12] fix: odstranění duplicitního obrázku v doménovém modelu
+- Odstraněn redundantní obrázek z úvodu stránky `wiki/concepts/domenovy-model.md` (obrázek se již nachází v sekci "Finální model").
+
 ## [2026-05-12] Merge: feat/analytics-goatcounter
 - Implementace analytiky návštěvnosti pomocí GoatCounter (kód: `swi-wiki`).
 - Přidán vlastní analytický skript do `overrides/` s podporou pro instantní navigaci MkDocs Material.
