@@ -60,11 +60,15 @@ Základní rozdělení kontroly kvality:
 
 3. **Systémové testy**: Testují celou aplikaci (často přes uživatelské rozhraní).
 
-### Přístupy:
+### Metriky a principy kvality:
 
-- **White Box**: Tester vidí do kódu. Metrikou kvality je *Code Coverage* (procento kódu pokrytého testy).
+- **Code Coverage (Pokrytí kódu)**: Obecná metrika vyjadřující procento kódu pokrytého testy. I když se nejčastěji měří u White Box testů, slouží jako celkový indikátor kvality otestování systému.
+- **Programování proti rozhraní**: Klíčový princip pro testovatelnost a rozšiřitelnost. Umožňuje Black Box testování proti kontraktu a snadné mockování závislostí v Unit testech.
 
-- **Black Box**: Tester nezná vnitřní implementaci. Testuje se proti specifikaci/rozhraní pomocí hraničních hodnot a tříd ekvivalence.
+### Přístupy k testování:
+
+- **White Box**: Tester vidí do kódu a navrhuje testy na základě vnitřní struktury (např. průchod všemi větvemi kódu).
+- **Black Box**: Tester nezná vnitřní implementaci. Testuje se chování navenek (vstup vs. výstup) pomocí hraničních hodnot a tříd ekvivalence.
 
 - **Regresní testování**: Zajišťuje, že nová změna (nebo refaktoring) nerozbila již existující a fungující části systému.
 
