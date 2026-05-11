@@ -24,9 +24,13 @@ V návrhové fázi vytváříme detailní UML datový model, který specifikuje 
 
     ![[imgs/05.prednaska-027.jpg|500]]
 
-- **Detailní mapování entit**: Návrh tabulek (např. `Ctenar`, `Vypujcka`, `Vytisk`) s definicí všech atributů, datových typů (VARCHAR, NUMERIC) a integritních omezení.
+- **Detailní mapování entit**: Převod doménových tříd na detailní tabulky. Specifikujeme datové typy (např. VARCHAR pro text, NUMERIC pro čísla) a integritní omezení.
 
-    ![[imgs/05.prednaska-023.jpg|150]] ![[imgs/05.prednaska-032.jpg|500]]
+    - **Příklad tabulky**: Tabulka `Kniha` obsahuje atributy s konkrétními typy, primární klíč (`knihaID`) a cizí klíče (`regalID`, `nakladatelstviID`) pro vazby na další tabulky.
+    ![[imgs/05.prednaska-023.jpg|150]]
+
+    - **Vazby mezi tabulkami**: Detailní náhled na propojení entit (např. `Ctenar`, `Vypujcka`, `Vytisk`). Model zachycuje násobnosti (např. jeden čtenář může mít mnoho výpůjček) a směr navigace.
+    ![[imgs/05.prednaska-032.jpg|500]]
 
 
 ## Table Data Gateway (TDG)
