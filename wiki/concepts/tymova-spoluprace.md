@@ -12,13 +12,6 @@
 
 V softwarovém inženýrství má zodpovědnost za projekt celý tým (zdroj: raw/lectures/01.prednaska.pdf). Efektivní [[tymova-spoluprace|týmová spolupráce]] vyžaduje jasné rozdělení rolí a možnost motivace členů.
 
-## Pravidla a hodnocení
-V rámci BI-SWI je tým hodnocen jako celek, ale existuje povinné **přerozdělování bodů** v rámci každé iterace.
-
-- Lze přidat nebo odebrat až **60 %** získaných bodů (zdroj: raw/lectures/01.prednaska.pdf).
-- Kritéria hodnocení: přístup k projektu, kvalita a množství odvedené práce.
-- K přerozdělení je nutná shoda celého týmu (zdroj: raw/lectures/01.prednaska.pdf).
-
 ## Role v týmu
 Efektivní spolupráce vyžaduje jasné vymezení zodpovědností. V softwarovém inženýrství rozlišujeme role podle použité metodiky:
 
@@ -38,9 +31,9 @@ Efektivní spolupráce vyžaduje jasné vymezení zodpovědností. V softwarové
 
 ## Nástroje pro spolupráci
 
-- **Komunikace**: Doporučeno minimálně jedno osobní setkání týdně. Žádný nástroj (MS Teams, Slack, email) plně nenahradí osobní kontakt (zdroj: raw/lectures/01.prednaska.pdf).
-- **Správa úkolů**: Evidence, přidělování a plánování úkolů probíhá v **GitLab Issues**. Ke každému úkolu se povinně vykazuje čas (zdroj: raw/lectures/01.prednaska.pdf).
-- **Správa souborů**: Pro verzování, sdílení a zálohování zdrojových kódů a dokumentace se používá **Git** (zdroj: raw/lectures/01.prednaska.pdf).
+- **Komunikace**: Žádný nástroj (MS Teams, Slack, email) plně nenahradí osobní kontakt. Doporučuje se pravidelná synchronizace týmu (zdroj: raw/lectures/01.prednaska.pdf).
+- **Správa úkolů**: Pro evidenci, přidělování a plánování úkolů se využívají systémy pro správu úkolů (např. **GitLab Issues**, Jira). Důležité je sledování stavu úkolů a vykazování času.
+- **Správa souborů**: Pro verzování, sdílení a zálohování zdrojových kódů a dokumentace se používají verzeovací systémy (např. **Git**).
 
 ## Výhody a nevýhody
 
