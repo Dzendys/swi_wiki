@@ -28,12 +28,26 @@ Pomáhají při:
 
 ## Notace a Vztahy
 
-- **Balíček (Package)**: Kreslí se jako složka (obdélník s menším obdélníkem vlevo nahoře). Jméno balíčku je buď uvnitř velkého obdélníku, nebo v malém "oušku".
-- **Závislost (Dependency)**: Kreslí se jako přerušovaná čárkovaná šipka mezi balíčky, značící, že jeden balíček využívá elementy jiného balíčku.
+- **Balíček (Package)**: Kreslí se jako složka (obdélník s menším obdélníkem vlevo nahoře – tzv. "ouškem"). Slouží jako kontejner pro související elementy.
+    - **Jméno v těle**: Pokud v diagramu nezobrazujeme obsah balíčku, píše se jeho název doprostřed velkého obdélníku.
+    - **Jméno v oušku**: Pokud uvnitř balíčku zobrazujeme jeho obsah (např. seznam [[navrhovy-model-trid|tříd]], rozhraní nebo vnořené balíčky), píše se název balíčku do ouška.
+
+![[imgs/05.prednaska-030.jpg|400]]
+
+*Obrázek: Balíček "Evidence výpůjček" obsahující související entity (Ctenar, Vypujcka, Vytisk, Rezervace, Pokuta).*
+
+- **Závislost (Dependency)**: Kreslí se jako přerušovaná čárkovaná šipka mezi balíčky. Znamená to, že **klientský** balíček využívá nebo potřebuje elementy z **dodavatelského** balíčku. Změna v dodavatelském balíčku může ovlivnit balíček klientský.
 
 ![[imgs/05.prednaska-039.jpg|107]]
 
 *Obrázek: Základní jednosměrná závislost (Balíček A závisí na Balíčku B).*
+
+### Seskupování a organizace
+Balíčky se používají k logickému rozdělení systému na moduly (např. podle doménových oblastí nebo architektonických vrstev).
+
+![[imgs/03.prednaska-016.jpg|188]]
+
+*Obrázek: Rozdělení IS knihovny do modulů "Evidence čtenářů" a "Správa výpůjček".*
 
 ### Vnoření balíčků
 Balíčky mohou obsahovat jiné balíčky. V UML existuje několik způsobů, jak vnoření (nesting) znázornit:
