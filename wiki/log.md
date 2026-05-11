@@ -1,5 +1,10 @@
 # Log změn
 
+## [2026-05-11] Merge: update/refactor-sources
+- Bulk source refactoring: removed inline sources `(zdroj: ...)` from all pages in `wiki/`.
+- All cited sources were moved to the header `**Zdroje**:` and sorted (lectures and seminars numerically, others alphabetically).
+- Removed redundant `**Last updated**:`, as history is tracked in Git.
+
 ## [2026-05-11] Merge: style/fix-inheritance-layout
 - Reorganizace rozložení obrázků v `mapovani-dedicnosti.md`.
 - Obrázky přesunuty až za popisný text s odsazením (newline), aby se zabránilo chybám v zalomení a zachovala se integrita číslovaných seznamů.
