@@ -1,0 +1,16 @@
+<script data-goatcounter="https://swi-wiki.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+<script>
+  /* Integrace s instantním načítáním MkDocs Material */
+  document.addEventListener("DOMContentLoaded", function() {
+    if (typeof location$ !== "undefined") {
+      location$.subscribe(function(url) {
+        if (window.goatcounter && window.goatcounter.count) {
+          window.goatcounter.count({
+            path: url.pathname + url.search + url.hash
+          })
+        }
+      })
+    }
+  })
+</script>

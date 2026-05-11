@@ -4,6 +4,7 @@ repo_name: Dzendys/swi_wiki
 repo_url: https://github.com/Dzendys/swi_wiki
 theme:
   name: material
+  custom_dir: overrides
   language: cs
   features:
     - content.code.copy
@@ -58,3 +59,8 @@ plugins:
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  analytics:
+    provider: custom
+
