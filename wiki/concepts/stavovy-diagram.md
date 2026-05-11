@@ -22,6 +22,7 @@
 
 *Obrázek: Životní cyklus entity Výtisk (stavy Volný, Vypůjčený, Ztracený, Vyřazený).*
 
+
 ## Notace
 
 - **Počáteční stav**: Plné kolečko.

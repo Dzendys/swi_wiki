@@ -76,30 +76,35 @@ Při tvorbě doménového modelu je nutné se vyvarovat technických detailů a 
 Doménový model nesmí obsahovat technické atributy (např. `rowid`) ani metody pro správu dat (např. `print()`, `backup()`). Rovněž sem nepatří čistě softwarové třídy jako `DatabazeKnih`.
 
 ![[imgs/04.prednaska-046.jpg|216]] ![[imgs/04.prednaska-048.jpg|203]]
+
 *Obrázek: Ukázka zahrnutí implementačních metod (vlevo) a technické třídy pro databázi (vpravo).*
 
 **2. Cizí klíče místo asociací**
 Objekty by měly být propojeny pomocí asociací, nikoliv pomocí ID nebo cizích klíčů (např. `cisloFaktury` v třídě `Kniha`).
 
 ![[imgs/04.prednaska-050.jpg|555]]
+
 *Obrázek: Chyba použití ID/cizího klíče k identifikaci jiné entity místo vazby.*
 
 **3. Míchání instance a popisu**
 Třída nesmí kombinovat atributy obecného popisu (např. `ISBN`) s atributy konkrétního fyzického kusu (např. `evidenční číslo`).
 
 ![[imgs/04.prednaska-052.jpg|438]]
+
 *Obrázek: Míchání popisu (Kniha) a fyzické instance (Výtisk) v jedné třídě.*
 
 **4. Nevhodná dědičnost pro kategorie**
 Pokud se kategorie mohou měnit nebo objekt může patřit do více kategorií, je lepší použít asociaci na samostatnou třídu než dědičnost.
 
 ![[imgs/04.prednaska-054.jpg|411]] ![[imgs/04.prednaska-056.jpg|497]]
+
 *Obrázek: Nevhodné použití dědičnosti pro žánry knih (vlevo) a správné řešení pomocí asociace na Žánr (vpravo).*
 
 **5. Nevhodné modelování historie**
 Historie není samostatná entita, ale záznam změn v čase. Správně se modeluje např. pomocí vazební entity s časovou platností.
 
 ![[imgs/04.prednaska-058.jpg|501]] ![[imgs/04.prednaska-060.jpg|131]]
+
 *Obrázek: Špatné modelování historie jako entity (vlevo) a správné zachycení historie ceny pomocí atributů od-do (vpravo).*
 
 ## Související stránky

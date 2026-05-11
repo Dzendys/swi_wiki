@@ -73,7 +73,9 @@ Pro vizualizaci procesů se využívá [[diagram-aktivit|UML diagram aktivit]].
 
 **Důležité**: Doménový model se vyhýbá implementačním detailům (databáze, GUI). Pro zachycení stavů objektu v čase se využívá [[stavovy-diagram|stavový diagram]].
 
-![[imgs/04.prednaska-032.jpg|520]]
+![[imgs/04.prednaska-037.jpg|520]]
+
+*Obrázek: Celkový analytický doménový model knihovny.*
 
 ## Související stránky
 
