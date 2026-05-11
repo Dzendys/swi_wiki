@@ -50,6 +50,7 @@
 - **Asociační třída**: Používá se pro zachycení informací, které patří k samotné vazbě mezi dvěma třídami.
     ![[imgs/04.prednaska-016.jpg|400]]
 
+
 - **Atribut vs. Asociace**: Pro doménový model je názornější modelovat komplexní vlastnosti jako samostatné třídy spojené asociací.
     ![[imgs/04.prednaska-014.jpg|450]]
 
@@ -60,17 +61,22 @@ Při tvorbě doménového modelu postupně zpřesňujeme strukturu entit tak, ab
 1.  **První návrh**: Často začínáme s atributy, které ale mají omezení (např. nemožnost více autorů).
     ![[imgs/04.prednaska-024.jpg|200]]
 
+
 2.  **Vyčlenění entit**: Místo atributů (např. jméno autora) vytváříme samostatné entity (Autor).
     ![[imgs/04.prednaska-026.jpg|200]]
+
 
 3.  **Sledování výpůjček (1. varianta)**: Přidání třídy Čtenář s přímou vazbou, což ale neumožňuje historii.
     ![[imgs/04.prednaska-028.jpg|200]]
 
+
 4.  **Modelování historie**: Zavedení vazební entity (Výpůjčka), která umožňuje sledovat historii výpůjček.
     ![[imgs/04.prednaska-032.jpg|350]]
 
+
 5.  **Rozlišení popisu a instance**: Oddělení obecné informace (Kniha) od fyzických exemplářů (Výtisk).
     ![[imgs/04.prednaska-035.jpg|350]]
+
 
 6.  **Finální model**: Propojení všech entit včetně Rezervací.
     ![[imgs/04.prednaska-037.jpg|500]]
@@ -85,20 +91,24 @@ Doménový model nesmí obsahovat technické atributy (např. `rowid`) ani metod
 
 ![[imgs/04.prednaska-046.jpg|200]] ![[imgs/04.prednaska-048.jpg|200]]
 
+
 **2. Cizí klíče místo asociací**
 Objekty by měly být propojeny pomocí asociací, nikoliv pomocí ID nebo cizích klíčů (např. `cisloFaktury` v třídě `Kniha`).
 
 ![[imgs/04.prednaska-050.jpg|400]]
+
 
 **3. Míchání instance a popisu**
 Třída nesmí kombinovat atributy obecného popisu (např. `ISBN`) s atributy konkrétního fyzického kusu (např. `evidenční číslo`).
 
 ![[imgs/04.prednaska-052.jpg|350]]
 
+
 **4. Nevhodná dědičnost pro kategorie**
 Pokud se kategorie mohou měnit nebo objekt může patřit do více kategorií, je lepší použít asociaci na samostatnou třídu než dědičnost.
 
 ![[imgs/04.prednaska-054.jpg|350]] ![[imgs/04.prednaska-056.jpg|400]]
+
 
 **5. Nevhodné modelování historie**
 Historie není samostatná entita, ale záznam změn v čase. Správně se modeluje např. pomocí vazební entity s časovou platností.
