@@ -67,25 +67,43 @@ Při tvorbě doménového modelu postupně zpřesňujeme strukturu entit tak, ab
 
 ## Časté chyby
 
-- **Implementační detaily**: Zahrnutí atributů typu `rowid` nebo metod pro údržbu databáze.
-- **Softwarové třídy**: Zahrnutí technických tříd (např. `DatabazeKnih`), které nepatří do reálného světa.
-- **Cizí klíče**: Snaha identifikovat objekt pomocí atributu (např. `cisloFaktury` v třídě `Kniha`) místo použití asociace (zdroj: raw/lectures/04.prednaska.pdf).
-- **Nevhodná dědičnost**: Použití generalizace pro kategorie (např. Žánry), které se mohou měnit. Vhodnější je asociace na samostatnu třídu.
-- **Modelování historie jako entity**: Historie sama o sobě není entita, ale vlastnost dat v čase (správně se modeluje např. pomocí entity Cena s platností od-do).
-- **Pletení instance a popisu**: Třída by neměla obsahovat atributy instance i obecného popisu dohromady. Pletení instance a popisu se pak často projevuje i v nesprávně navrženém [[stavovy-diagram|stavovém diagramu]] (např. stav "Vypůjčeno" na třídě Kniha místo třídy Výtisk).
+Při tvorbě doménového modelu je nutné se vyvarovat technických detailů a míchání různých úrovní abstrakce.
+
+**1. Implementační detaily a softwarové třídy**
+Doménový model nesmí obsahovat technické atributy (např. `rowid`) ani metody pro správu dat (např. `print()`, `backup()`). Rovněž sem nepatří čistě softwarové třídy jako `DatabazeKnih`.
 
 ![[imgs/04.prednaska-042.jpg|216]] ![[imgs/04.prednaska-046.jpg|203]]
-![[imgs/04.prednaska-048.jpg|555]] ![[imgs/04.prednaska-052.jpg|411]]
-![[imgs/04.prednaska-056.jpg|501]] ![[imgs/04.prednaska-050.jpg|438]]
-![[imgs/04.prednaska-058.jpg|131]]
+*Obrázek: Ukázka zahrnutí implementačních metod (vlevo) a technické třídy pro databázi (vpravo).*
 
-*Obrázek: Příklady nejčastějších chyb v doménovém modelu (implementační detaily, softwarové třídy, cizí klíče, nevhodná dědičnost, historie jako entita, míchání instance a popisu a správné zachycení historie).*
+**2. Cizí klíče místo asociací**
+Objekty by měly být propojeny pomocí asociací, nikoliv pomocí ID nebo cizích klíčů (např. `cisloFaktury` v třídě `Kniha`).
+
+![[imgs/04.prednaska-048.jpg|555]]
+*Obrázek: Chyba použití ID/cizího klíče k identifikaci jiné entity místo vazby.*
+
+**3. Nevhodná dědičnost pro kategorie**
+Pokud se kategorie mohou měnit nebo objekt může patřit do více kategorií, je lepší použít asociaci na samostatnou třídu než dědičnost.
+
+![[imgs/04.prednaska-052.jpg|411]]
+*Obrázek: Nevhodné použití dědičnosti pro žánry knih.*
+
+**4. Míchání instance a popisu**
+Třída nesmí kombinovat atributy obecného popisu (např. `ISBN`) s atributy konkrétního fyzického kusu (např. `evidenční číslo`, `stav`). To vede k potížím při modelování životního cyklu.
+
+![[imgs/04.prednaska-050.jpg|438]]
+*Obrázek: Míchání popisu (Kniha) a fyzické instance (Výtisk) v jedné třídě.*
+
+**5. Nevhodné modelování historie**
+Historie není samostatná entita, ale záznam změn v čase. Správně se modeluje např. pomocí vazební entity s časovou platností.
+
+![[imgs/04.prednaska-056.jpg|501]] ![[imgs/04.prednaska-058.jpg|131]]
+*Obrázek: Špatné modelování historie jako entity (vlevo) a správné zachycení historie ceny pomocí atributů od-do (vpravo).*
 
 ## Související stránky
 
 - [[role-analytika]]
 - [[obchodni-procesy]]
-- [[stavovy-diagram]]
+
 
 ---
 #analyza #data #uml #class-diagram #modelovani #BI-SWI
