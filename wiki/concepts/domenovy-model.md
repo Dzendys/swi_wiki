@@ -61,9 +61,9 @@ Při tvorbě doménového modelu postupně zpřesňujeme strukturu entit tak, ab
 2.  **Modelování historie**: Místo přímé vazby (např. Čtenář "má půjčeno" Knihu) zavádíme vazební entity (Výpůjčka), které umožňují sledovat historii a doplňkové údaje (datum od-do).
 3.  **Rozlišení popisu a instance**: Oddělení obecné informace (Kniha - název, ISBN) od fyzických exemplářů (Výtisk - evidenční číslo, stav).
 
-![[imgs/04.prednaska-022.jpg|226]] ![[imgs/04.prednaska-028.jpg|498]] ![[imgs/04.prednaska-030.jpg|498]]
+![[imgs/04.prednaska-022.jpg|226]] ![[imgs/04.prednaska-030.jpg|498]]
 
-*Obrázek: Ukázky postupného zpřesňování doménového modelu (Kniha a Autor, zavedení Výpůjčky, Kniha vs. Výtisk).*
+*Obrázek: Ukázky postupného zpřesňování doménového modelu (vyčlenění Autora, finální rozdělení Kniha vs. Výtisk).*
 
 ## Časté chyby
 
@@ -72,14 +72,14 @@ Při tvorbě doménového modelu postupně zpřesňujeme strukturu entit tak, ab
 - **Cizí klíče**: Snaha identifikovat objekt pomocí atributu (např. `cisloFaktury` v třídě `Kniha`) místo použití asociace (zdroj: raw/lectures/04.prednaska.pdf).
 - **Nevhodná dědičnost**: Použití generalizace pro kategorie (např. Žánry), které se mohou měnit. Vhodnější je asociace na samostatnu třídu.
 - **Modelování historie jako entity**: Historie sama o sobě není entita, ale vlastnost dat v čase (správně se modeluje např. pomocí entity Cena s platností od-do).
-- **Pletení instance a popisu**: Třída by neměla obsahovat atributy instance i obecného popisu dohady.
+- **Pletení instance a popisu**: Třída by neměla obsahovat atributy instance i obecného popisu dohromady. Pletení instance a popisu se pak často projevuje i v nesprávně navrženém [[stavovy-diagram|stavovém diagramu]] (např. stav "Vypůjčeno" na třídě Kniha místo třídy Výtisk).
 
 ![[imgs/04.prednaska-042.jpg|216]] ![[imgs/04.prednaska-046.jpg|203]]
 ![[imgs/04.prednaska-048.jpg|555]] ![[imgs/04.prednaska-052.jpg|411]]
-![[imgs/04.prednaska-054.jpg|497]] ![[imgs/04.prednaska-056.jpg|501]]
-![[imgs/04.prednaska-058.jpg|131]] ![[imgs/04.prednaska-050.jpg|438]]
+![[imgs/04.prednaska-056.jpg|501]] ![[imgs/04.prednaska-050.jpg|438]]
+![[imgs/04.prednaska-058.jpg|131]]
 
-*Obrázek: Příklady nejčastějších chyb v doménovém modelu (implementační detaily, softwarové třídy, cizí klíče, nevhodná dědičnost, míchání instance a popisu).*
+*Obrázek: Příklady nejčastějších chyb v doménovém modelu (implementační detaily, softwarové třídy, cizí klíče, nevhodná dědičnost, historie jako entita, míchání instance a popisu a správné zachycení historie).*
 
 ## Související stránky
 
