@@ -14,7 +14,7 @@
 
 **Doménový model** (Domain Model) je klíčovým výstupem analytika, který odpovídá na otázku, s jakými daty a entitami systém pracuje (zdroj: raw/lectures/01.prednaska.pdf). K jeho tvorbě se využívá **UML Diagram tříd** (Class Diagram) na vysoké úrovni abstrakce (zdroj: raw/extra/Class Diagram Domain Model.pdf).
 
-![[imgs/04.prednaska-032.jpg|520]]
+![[imgs/04.prednaska-037.jpg|520]]
 
 *Obrázek: Celkový pohled na analytický model knihovny zahrnující klíčové entity a jejich vazby.*
 
@@ -61,9 +61,9 @@ Při tvorbě doménového modelu postupně zpřesňujeme strukturu entit tak, ab
 2.  **Modelování historie**: Místo přímé vazby (např. Čtenář "má půjčeno" Knihu) zavádíme vazební entity (Výpůjčka), které umožňují sledovat historii a doplňkové údaje (datum od-do).
 3.  **Rozlišení popisu a instance**: Oddělení obecné informace (Kniha - název, ISBN) od fyzických exemplářů (Výtisk - evidenční číslo, stav).
 
-![[imgs/04.prednaska-022.jpg|226]] ![[imgs/04.prednaska-030.jpg|498]]
+![[imgs/04.prednaska-026.jpg|226]] ![[imgs/04.prednaska-032.jpg|498]] ![[imgs/04.prednaska-035.jpg|498]]
 
-*Obrázek: Ukázky postupného zpřesňování doménového modelu (vyčlenění Autora, finální rozdělení Kniha vs. Výtisk).*
+*Obrázek: Ukázky postupného zpřesňování doménového modelu (vyčlenění Autora, zavedení Výpůjčky, finální rozdělení Kniha vs. Výtisk).*
 
 ## Časté chyby
 
@@ -84,11 +84,11 @@ Objekty by měly být propojeny pomocí asociací, nikoliv pomocí ID nebo cizí
 **3. Nevhodná dědičnost pro kategorie**
 Pokud se kategorie mohou měnit nebo objekt může patřit do více kategorií, je lepší použít asociaci na samostatnou třídu než dědičnost.
 
-![[imgs/04.prednaska-052.jpg|411]]
-*Obrázek: Nevhodné použití dědičnosti pro žánry knih.*
+![[imgs/04.prednaska-052.jpg|411]] ![[imgs/04.prednaska-054.jpg|497]]
+*Obrázek: Nevhodné použití dědičnosti pro žánry knih (vlevo) a správné řešení pomocí asociace na Žánr (vpravo).*
 
 **4. Míchání instance a popisu**
-Třída nesmí kombinovat atributy obecného popisu (např. `ISBN`) s atributy konkrétního fyzického kusu (např. `evidenční číslo`, `stav`). To vede k potížím při modelování životního cyklu.
+Třída nesmí kombinovat atributy obecného popisu (např. `ISBN`) s atributy konkrétního fyzického kusu (např. `evidenční číslo`, `stav`).
 
 ![[imgs/04.prednaska-050.jpg|438]]
 *Obrázek: Míchání popisu (Kniha) a fyzické instance (Výtisk) v jedné třídě.*
