@@ -1,6 +1,6 @@
-# Analýza obrázků - Přednáška 4: Analýza problémové domény (OPRAVENO)
+# Analýza obrázků - Přednáška 4: Analýza problémové domény (DEFINITIVNÍ VERZE)
 
-Tento dokument obsahuje opravený popis obrázků s prefixem `04.prednaska` na základě PDF prezentace.
+Tento dokument obsahuje ověřený popis obrázků s prefixem `04.prednaska` na základě vizuální analýzy PDF prezentace.
 
 ## Přehled diagramů a schémat
 
@@ -20,64 +20,70 @@ Tento dokument obsahuje opravený popis obrázků s prefixem `04.prednaska` na z
 **Téma:** Asociační třída
 **Popis:** Třída C napojená na vztah mezi A a B.
 
-### 04.prednaska-022.jpg & 04.prednaska-024.jpg (Slide 13/14)
-**Téma:** První návrh DM - Kniha
-**Popis:** Třída `Kniha` s autorem modelovaným pomocí atributů `autorJmeno` a `autorPrijmeni`.
-- **Chyba:** Duplikace informací, nelze mít více autorů.
+### 04.prednaska-022.jpg (Slide 13)
+**Téma:** Ukázka tvorby DM - První návrh
+**Popis:** Třída `Kniha` s autorem jako atributy (`autorJmeno`, `autorPrijmeni`).
+
+### 04.prednaska-024.jpg (Slide 14)
+**Téma:** Ukázka tvorby DM - Nevýhody prvního návrhu
+**Popis:** Stejný diagram jako 022, ale s textem vysvětlujícím nevýhody (duplikace, nelze více autorů).
 
 ### 04.prednaska-026.jpg (Slide 15)
-**Téma:** Řešení - Nová třída Autor
-**Popis:** Vyčlenění třídy `Autor` a propojení s `Kniha` pomocí asociace "je napsána" (násobnost `1..*` na obou stranách).
+**Téma:** Ukázka tvorby DM - Řešení (Nová třída Autor)
+**Popis:** Vyčlenění třídy `Autor` a propojení s `Kniha` pomocí asociace "je napsána".
 
-### 04.prednaska-028.jpg & 04.prednaska-030.jpg (Slide 16/17)
+### 04.prednaska-028.jpg (Slide 16)
 **Téma:** Sledování výpůjček - 1. varianta
-**Popis:** Přidání třídy `Ctenar` a přímé vazby "je půjčena" k `Kniha`.
-- **Chyba:** Nelze sledovat historii výpůjček.
+**Popis:** Přímá vazba "je půjčena" mezi `Kniha` a `Ctenar`.
+
+### 04.prednaska-030.jpg (Slide 17)
+**Téma:** Sledování výpůjček - Nevýhody 1. varianty
+**Popis:** Stejný diagram jako 028, ale s textem (nelze sledovat historii).
 
 ### 04.prednaska-032.jpg (Slide 18)
-**Téma:** Sledování výpůjček - Lepší řešení
-**Popis:** Zavedení vazební třídy `Vypujcka` mezi `Kniha` a `Ctenar` s atributy `od`, `do`, `vracena`.
+**Téma:** Sledování výpůjček - Lepší řešení (Vazební třída)
+**Popis:** Zavedení třídy `Vypujcka` mezi `Kniha` a `Ctenar`.
 
 ### 04.prednaska-035.jpg (Slide 20)
 **Téma:** Rozlišení pojmů Kniha a Výtisk
-**Popis:** Rozdělení na `Kniha` (popis) a `Vytisk` (instance s `evidencniCislo`). Výpůjčka se nyní týká `Výtisku`.
+**Popis:** Finální model oddělující `Kniha` (popis) a `Vytisk` (instance). Výpůjčka vede na `Vytisk`.
 
 ### 04.prednaska-037.jpg (Slide 21)
 **Téma:** Komplexní doménový model knihovny
-**Popis:** Finální analytický model zahrnující entity: `Vytisk`, `Kniha`, `Autor`, `Rezervace`, `Vypujcka`, `Ctenar`.
+**Popis:** Celkový pohled zahrnující Rezervace, Výpůjčky, Čtenáře, Knihy, Výtisky a Autory.
 
-### 04.prednaska-042.jpg (Slide 28)
+### 04.prednaska-042.jpg (Slide 25)
+**Téma:** Stavový diagram (State Machine)
+**Popis:** Životní cyklus entity `Výtisk` (stavy: Volný, Vypůjčený, Ztracený, Vyřazený).
+
+### 04.prednaska-046.jpg (Slide 28)
 **Téma:** Chyby v DM - Implementační detaily
 **Popis:** Třída `Kniha` s technickým atributem `rowid` a metodou `print()`.
 
-### 04.prednaska-046.jpg (Slide 29)
+### 04.prednaska-048.jpg (Slide 29)
 **Téma:** Chyby v DM - Softwarové třídy
 **Popis:** Přeškrtnutá technická třída `DatabazeKnih`.
 
-### 04.prednaska-048.jpg (Slide 30)
+### 04.prednaska-050.jpg (Slide 30)
 **Téma:** Chyby v DM - Cizí klíče
 **Popis:** Třída `Kniha` obsahující `cisloFaktury` místo asociace na třídu `Faktura`.
 
-### 04.prednaska-050.jpg (Slide 31)
+### 04.prednaska-052.jpg (Slide 31)
 **Téma:** Chyby v DM - Míchání instance a popisu
-**Popis:** Třída `Kniha` kombinující atributy popisu (`isbn`) a instance (`evidencniCislo`, `stav`).
+**Popis:** Třída `Kniha` kombinující atributy popisu (`isbn`) a instance (`evidencniCislo`).
 
-### 04.prednaska-052.jpg (Slide 32)
+### 04.prednaska-054.jpg (Slide 32)
 **Téma:** Chyby v DM - Nevhodná dědičnost (Kategorie)
-**Popis:** Přeškrtnutá dědičnost `Detektivka`, `Sci-fi` z `Kniha`.
+**Popis:** Přeškrtnutá dědičnost žánrů z třídy `Kniha`.
 
-### 04.prednaska-054.jpg (Slide 33)
-**Téma:** Správné modelování kategorií
-**Popis:** Použití asociace na třídu `Žánr`.
+### 04.prednaska-056.jpg (Slide 33)
+**Téma:** Správné použití dědičnosti / asociace pro kategorie
+**Popis:** Modelování žánrů pomocí asociace na třídu `Žánr`.
 
-### 04.prednaska-056.jpg (Slide 34)
+### 04.prednaska-058.jpg (Slide 34)
 **Téma:** Chyby v DM - Historie jako entita
 **Popis:** Přeškrtnutá vazba `Produkt` -> `Historie`.
 
-### 04.prednaska-058.jpg (Slide 35)
+### 04.prednaska-060.jpg (Slide 35)
 **Téma:** Správné zachycení historie (Cena)
-**Popis:** Třída `Produkt` spojená s třídou `Cena` (atributy `od`, `do`).
-
-### 04.prednaska-060.jpg (Slide 37)
-**Téma:** Shrnutí - Co víme
-**Popis:** Seznam výstupů: Business proces model, Specifikace požadavků, Analytický doménový model, Stavový diagram.
+**Popis:** Modelování historie ceny pomocí třídy `Cena` s atributy `od`, `do`.
