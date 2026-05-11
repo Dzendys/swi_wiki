@@ -22,9 +22,7 @@ Hlavním účelem je řídit složitost (komplexitu) velkých systémů. Balíč
 
 ## Notace a Vztahy
 
-- **Balíček (Package)**: Kreslí se jako ikona složky (obdélník s menším obdélníkem vlevo nahoře). Slouží jako kontejner pro související elementy.
-    - **Jméno v těle**: Pokud v diagramu nezobrazujeme obsah balíčku (je "zavřený"), píše se jeho název doprostřed velkého obdélníku.
-    - **Jméno v horním štítku**: Pokud uvnitř balíčku zobrazujeme jeho obsah (např. seznam tříd nebo vnořené balíčky), píše se název balíčku nahoru do menšího obdélníku (štítku), aby v těle balíčku bylo místo na elementy.
+- **Balíček (Package)**: Kreslí se jako ikona složky (obdélník s menším obdélníkem vlevo nahoře). Slouží jako kontejner pro logické seskupení souvisejících elementů, jako jsou třídy, rozhraní nebo případy užití.
 
 ![[imgs/05.prednaska-030.jpg|400]]
 
