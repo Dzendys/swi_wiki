@@ -13,10 +13,6 @@
 
 Zatímco [[domenovy-model|doménový model]] popisuje entity reálného světa a jejich vztahy, návrhový model tříd (Design Class Diagram) dokumentuje architektonická a implementační rozhodnutí. Slouží jako přímý podklad pro generování zdrojových kódů.
 
-![[imgs/05.prednaska-062.jpg|432]]
-
-*Obrázek: Ukázka trasování (stereotyp «trace») od doménových tříd k detailnímu návrhu pro implementaci v Javě/C#.*
-
 ## Prvky návrhového modelu
 Návrhový model vychází z doménového, ale konkretizuje ho:
 
@@ -53,6 +49,14 @@ Klíčovým úkolem při tvorbě návrhového modelu je správné rozdělení zo
 - **Informační expert (Information Expert)**: Zodpovědnost by měla být přidělena třídě, která má informace potřebné k jejímu splnění.
 - **Nízká provázanost (Low Coupling)**: Třídy by měly být navrženy tak, aby závislost mezi nimi byla co nejmenší. To usnadňuje údržbu a znovupoužitelnost.
 - **Vysoká soudržnost (High Cohesion)**: Zodpovědnosti jedné třídy by měly spolu úzce souviset a tvořit logický celek. Třída by neměla dělat "příliš mnoho nesouvisejících věcí".
+
+## Realizace v kódu
+Návrhový model slouží jako přímý podklad pro implementaci. Pomocí trasování lze sledovat vztah mezi původní doménovou entitou a její konkrétní softwarovou realizací.
+
+![[imgs/05.prednaska-062.jpg|432]]
+
+*Obrázek: Ukázka trasování (stereotyp «trace») od doménových tříd k detailnímu návrhu pro implementaci v Javě/C#.*
+
 
 ## Související stránky
 
