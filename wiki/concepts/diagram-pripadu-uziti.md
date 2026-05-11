@@ -14,20 +14,19 @@
 
 [[diagram-pripadu-uziti|UML Diagram případů užití]] (Use Case Diagram) patří do skupiny diagramů chování. Je doplňkem k textovému popisu [[pripady-uziti|případů užití]] a slouží pro rychlou orientaci v rozsahu systému (zdroj: raw/lectures/03.prednaska.pdf).
 
-![[imgs/03.prednaska-037.jpg|750]]
-
-*Obrázek: Komplexní Use Case diagram zachycující hranice systému (IS knihovny), aktéry a jejich interakce.*
-
 ## Notace a prvky
 
 - **Aktér (Actor)**: Panáček reprezentující roli externí entity (uživatel, jiný systém, čas). Aktér je vždy vně systému (zdroj: raw/extra/Use Case Model.pdf).
+
+    ![[imgs/03.prednaska-032.jpg|70]] ![[imgs/03.prednaska-030.jpg|147]]
+
 - **Případ užití (Use Case)**: Bublina (elipsa) reprezentující ucelenou jednotku funkcionality.
 - **Hranice systému (Subject Boundary)**: Obdélník ohraničující případy užití, které systém realizuje.
 - **Asociace**: Čára spojující aktéra s případem užití (zdroj: raw/lectures/03.prednaska.pdf).
 
-![[imgs/03.prednaska-032.jpg|70]] ![[imgs/03.prednaska-030.jpg|147]]
+![[imgs/03.prednaska-037.jpg|750]]
 
-*Obrázek: Různé způsoby znázornění aktérů (lidské role vs. časový spouštěč).*
+*Obrázek: Komplexní Use Case diagram zachycující hranice systému (IS knihovny), aktéry a jejich interakce.*
 
 ## Vztahy mezi aktéry
 
