@@ -40,11 +40,13 @@
 Vztahy by se měly používat střídmě, aby diagram zůstal přehledný.
 
 - **Include (zahrnutí)**: Směrovaná čárkovaná šipka se stereotypem `«include»`. Označuje povinné vyčlenění **sdílené logiky** (reusage). Nemá se používat pro pouhý rozklad (dekompozici) jednoho UC na kroky (zdroj: raw/extra/Use Case Model.pdf).
+
+    ![[imgs/03.prednaska-048.jpg|350]]
+
 - **Extend (rozšíření)**: Směrovaná čárkovaná šipka se stereotypem `«extend»`. Označuje volitelné rozšíření základního UC za určitých podmínek. Opět platí, že by se nemělo jednat o pouhou dekompozici (zdroj: raw/extra/Use Case Model.pdf).
 
-![[imgs/03.prednaska-048.jpg|635]] ![[imgs/03.prednaska-051.jpg|630]]
+    ![[imgs/03.prednaska-051.jpg|350]]
 
-*Obrázek: Znázornění vztahů include (povinné zahrnutí) a extend (volitelné rozšíření).*
 
 ## Typické chyby v UC diagramech
 
