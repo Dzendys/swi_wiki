@@ -115,13 +115,16 @@ Třída nesmí kombinovat atributy obecného popisu (např. `ISBN`) s atributy k
 **4. Nevhodná dědičnost pro kategorie**
 Pokud se kategorie mohou měnit nebo objekt může patřit do více kategorií, je lepší použít asociaci na samostatnou třídu než dědičnost.
 
-![[imgs/04.prednaska-054.jpg|350]] ![[imgs/04.prednaska-056.jpg|400]]
-
+| Špatně | Dobře |
+| :---: | :---: |
+| ![[imgs/04.prednaska-054.jpg|200]] | ![[imgs/04.prednaska-056.jpg|200]] |
 
 **5. Nevhodné modelování historie**
 Historie není samostatná entita, ale záznam změn v čase. Správně se modeluje např. pomocí vazební entity s časovou platností.
 
-![[imgs/04.prednaska-058.jpg|400]] ![[imgs/04.prednaska-060.jpg|120]]
+| Špatně | Dobře |
+| :---: | :---: |
+| ![[imgs/04.prednaska-058.jpg|200]] | ![[imgs/04.prednaska-060.jpg|120]] |
 
 
 ## Související stránky
