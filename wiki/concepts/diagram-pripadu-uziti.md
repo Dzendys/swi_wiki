@@ -52,27 +52,27 @@ Vztahy by se měly používat střídmě, aby diagram zůstal přehledný.
 
 1.  **Modelování toku (sekvence)**: UC diagram není určen pro zobrazení pořadí kroků. K tomu slouží scénáře nebo diagramy aktivit.
 
-| Špatně | Dobře |
-| :---: | :---: |
-| ![[imgs/03.prednaska-061.jpg|200]] | Pro modelování toku použijte **textové scénáře** nebo **[[diagram-aktivit\|diagramy aktivit]]**. |
+    | Špatně | Dobře |
+    | :---: | :---: |
+    | ![[imgs/03.prednaska-061.jpg|200]] | Pro modelování toku použijte **textové scénáře** nebo **[[diagram-aktivit\|diagramy aktivit]]**. |
 
 2.  **Datová úložiště**: Databáze nebo soubory nejsou aktéři ani případy užití.
 
-| Špatně | Dobře |
-| :---: | :---: |
-| ![[imgs/03.prednaska-063.jpg|200]] | Datová úložiště do UC diagramu nepatří. Pokud je potřeba, zachyťte je v **[[domenovy-model\|doménovém modelu]]**. |
+    | Špatně | Dobře |
+    | :---: | :---: |
+    | ![[imgs/03.prednaska-063.jpg|200]] | Datová úložiště do UC diagramu nepatří. Pokud je potřeba, zachyťte je v **[[domenovy-model\|doménovém modelu]]**. |
 
 3.  **Chybějící aktér**: Každý UC musí být iniciován nebo využíván nějakým aktérem.
 
-| Špatně | Dobře |
-| :---: | :---: |
-| ![[imgs/03.prednaska-065.jpg|200]] | Každý případ užití musí být propojen s alespoň jedním **aktérem**. |
+    | Špatně | Dobře |
+    | :---: | :---: |
+    | ![[imgs/03.prednaska-065.jpg|200]] | Každý případ užití musí být propojen s alespoň jedním **aktérem**. |
 
 4.  **Činnosti mimo systém**: Modelovat by se měly pouze interakce se systémem, nikoliv fyzické činnosti uživatele (např. "přečíst knihu").
 
-| Špatně | Dobře |
-| :---: | :---: |
-| ![[imgs/03.prednaska-067.jpg|200]] | Modelujte pouze akce, které probíhají **v interakci se systémem**. |
+    | Špatně | Dobře |
+    | :---: | :---: |
+    | ![[imgs/03.prednaska-067.jpg|200]] | Modelujte pouze akce, které probíhají **v interakci se systémem**. |
 
 ## Související stránky
 
