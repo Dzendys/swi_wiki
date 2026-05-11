@@ -39,10 +39,6 @@ Zabývají se algoritmy a přiřazováním zodpovědností mezi objekty.
 
 Využití vzoru State v praxi lze ilustrovat pomocí [[sekvencni-diagram|sekvenčních diagramů]], které ukazují, jak objekt deleguje chování na aktuální instanci stavu.
 
-![[imgs/07.prednaska-042.jpg|552]] ![[imgs/07.prednaska-044.jpg|655]]
-
-*Obrázek: Spolupráce objektů při změně stavu výtisku.*
-
 - **Pozorovatel (Observer)**: Definuje závislost 1:N mezi objekty tak, že když jeden objekt změní stav, všechny závislé objekty jsou o tom informovány a automaticky aktualizovány. (Klíčový prvek vzoru [[mvc-mvp|MVC]]).
 
 ## 3. Strukturální vzory (Structural)
