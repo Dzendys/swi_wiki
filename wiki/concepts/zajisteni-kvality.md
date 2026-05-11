@@ -22,12 +22,13 @@ Zajištění kvality (QA) je systematický přístup k zajištění toho, aby so
 
 *Obrázek: Exponenciální nárůst nákladů na opravu chyby v závislosti na fázi odhalení.*
 
-## Měření kvality (Statická analýza)
-Moderní nástroje pro statickou analýzu (např. SonarQube) umožňují vizualizovat kvalitu kódu pomocí různých metrik, jako je technický dluh, spolehlivost a udržovatelnost.
+## Výstupy statické analýzy (spolehlivost a udržovatelnost)
+Moderní nástroje pro statickou analýzu (např. SonarQube) umožňují vizualizovat kvalitu kódu pomocí různých metrik.
 
-![[imgs/09.prednaska-022.jpg|620]] ![[imgs/09.prednaska-023.jpg|615]]
+| Spolehlivost (chyby) | Udržovatelnost (tech. dluh) |
+| :---: | :---: |
+| ![[imgs/09.prednaska-022.jpg|300]] | ![[imgs/09.prednaska-023.jpg|300]] |
 
-*Obrázek: Ukázky výstupů statické analýzy zaměřené na spolehlivost (chyby) a udržovatelnost (technický dluh).*
 
 ## Charakteristiky kvality
 Kvalitu lze posuzovat z různých úhlů pohledu (vychází z modelu [[pozadavky#Model FURPS|FURPS]] a normy ISO/IEC 25010):
