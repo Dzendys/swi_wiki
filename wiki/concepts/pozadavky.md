@@ -26,12 +26,6 @@ Týkají se procesu vývoje (např. cena, termíny dodání, školení uživatel
 ### 2. Produktové požadavky
 Týkají se vlastností samotného produktu a dělí se na:
 
-![[imgs/03.prednaska-018.jpg|403]]
-
-*Obrázek: Alternativní reprezentace funkčních požadavků pomocí UML profilu.*
-
-Týkají se vlastností samotného produktu a dělí se na:
-
 - **Funkční požadavky**: Popisují chování systému (co má dělat).
 - **Nefunkční (obecné) požadavky**: Určují omezení a kvality systému (jak má fungovat). Mají zásadní dopad na návrh architektury (zdroj: raw/lectures/03.prednaska.pdf).
 
@@ -50,6 +44,14 @@ Pro systematickou kategorizaci produktových požadavků se používá model **F
 - [[obchodni-procesy|Modelování obchodních procesů]].
 - Zadávací dokumentace a reportované chyby starého systému.
 - Pozorování uživatelů při práci (zdroj: raw/lectures/03.prednaska.pdf).
+
+## Reprezentace požadavků
+Kromě textové formy lze požadavky v UML reprezentovat i graficky, například pomocí balíčků nebo vlastních profilů (stereotypů), které umožňují sledovat vazby mezi požadavky a dalšími elementy modelu.
+
+![[imgs/03.prednaska-018.jpg|350]]
+
+*Obrázek: Ukázka alternativní reprezentace funkčních požadavků (F1, F2) pomocí UML profilu.*
+
 
 ## Související stránky
 
