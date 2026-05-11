@@ -36,7 +36,7 @@ Tým je typicky malý (do 10 členů) a skládá se ze tří rolí:
 ![[imgs/12.prednaska-047.jpg|593]]
 *Obrázek: Vizualizace základního cyklu metodiky Scrum (backlogy, sprint, schůzky).*
 
-## Fáze projektu (dle přednášky)
+## Fáze projektu
 
 -   **Předehra (Prelude)**: Plánování, sestavení Product Backlogu, návrh architektury na vysokém stupni abstrakce.
 -   **Hra (Play)**: Iterativní provádění sprintů (typicky 3–8 iterací).
