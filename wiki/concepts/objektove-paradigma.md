@@ -39,7 +39,7 @@ Třída, ze které nelze vytvářet instance. Slouží jako předpis pro podtř�
 Schopnost objektů různých tříd reagovat na stejné volání metody různým způsobem. Při volání metody je konkrétní implementace určena skutečným typem objektu, nikoliv typem proměnné, ve které je objekt uložen.
 
 ## Sledování stavu
-Pro vizualizaci aktuálního stavu systému (instancí a jejich vazeb) v konkrétní časový okamžik se používá **[[objektovy-diagram]]**.
+Pro vizualizaci aktuálního stavu systému (instancí a jejich vazeb) v konkrétní časový okamžik se používá **[[objektovy-diagram|objektový diagram]]**.
 
 ## Související stránky
 
