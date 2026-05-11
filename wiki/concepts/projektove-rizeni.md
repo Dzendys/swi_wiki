@@ -36,6 +36,7 @@ Osoba zodpovědná za celkové řízení. Sleduje a ovlivňuje:
     - Tvorba **projektového plánu** (WBS, Ganttův diagram).
 
     ![[imgs/11.prednaska-032.jpg|643]]
+
     *Obrázek: Vizualizace projektového plánu pomocí Ganttova diagramu (úkoly, trvání, závislosti).*
 
 

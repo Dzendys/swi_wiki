@@ -79,12 +79,14 @@ Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník). 
 1.  **Chybné modelování cyklu**: Sloučení zpětné vazby přímo do akce namísto použití slučovacího uzlu (Merge). To způsobí "zaseknutí" (deadlock), protože akce čeká na token z obou vstupů (zdroj: raw/extra/Activity Diagram.pdf).
 
     ![[imgs/02.prednaska-049.jpg\|159]] ![[imgs/02.prednaska-051.jpg\|146]]
+
     *Obrázek: Typická chyba při modelování cyklu (vlevo) a její správné řešení (vpravo).*
 
 
 2.  **Míchání akcí a stavů**: Používání symbolu akce pro zachycení stavu objektu. Správně má být stav v hranatých závorkách uvnitř objektového uzlu (zdroj: raw/lectures/02.prednaska.pdf).
 
     ![[imgs/02.prednaska-053.jpg\|236]] ![[imgs/02.prednaska-055.jpg\|192]]
+
     *Obrázek: Ukázka nesprávného míchání stavů s akcemi (vlevo) a následná oprava pomocí objektových uzlů (vpravo).*
 
 

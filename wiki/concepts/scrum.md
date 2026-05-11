@@ -34,6 +34,7 @@ Tým je typicky malý (do 10 členů) a skládá se ze tří rolí:
 5.  **Sprint Retrospective**: Interní schůzka týmu zaměřená na vylepšení procesů a spolupráce.
 
 ![[imgs/12.prednaska-047.jpg|593]]
+
 *Obrázek: Vizualizace základního cyklu metodiky Scrum (backlogy, sprint, schůzky).*
 
 
