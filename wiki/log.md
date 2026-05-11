@@ -1,5 +1,9 @@
 # Log změn
 
+## [2026-05-11] Merge: style/fix-inheritance-layout
+- Reorganizace rozložení obrázků v `mapovani-dedicnosti.md`.
+- Obrázky přesunuty až za popisný text s odsazením (newline), aby se zabránilo chybám v zalomení a zachovala se integrita číslovaných seznamů.
+
 ## [2026-05-11] Merge: fix/broken-anchor-links
 - Oprava nefunkčních kotev (anchor links) v dokumentaci.
 - Přidány explicitní kotvy pomocí `{: #id }` do souborů `objektove-paradigma.md`, `softwarova-architektura.md` a `metodiky-vyvoje.md`, aby odpovídaly generovaným odkazům z Obsidianu.
