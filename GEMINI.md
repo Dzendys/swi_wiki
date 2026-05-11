@@ -65,15 +65,19 @@ Každá wiki stránka by měla dodržovat tuto strukturu:
 - `raw/lectures/soubor.pdf`
 - `raw/extra/souvisejici-material.pdf`
 
-**Naposledy aktualizováno**: Datum poslední aktualizace.
-
 ---
 
 Zde patří hlavní obsah. Používej jasné nadpisy a krátké odstavce. 
 V textu přirozeně odkazuj na [[souvisejici-koncept|související koncepty]] pomocí skloněných wiki-odkazů.
 
-Všechny relevantní poznatky z přednášek i doplňkových materiálů (extra) musí být logicky syntetizovány.
+**Pravidlo pro citace**: Nepoužívej inline citace typu `(zdroj: ...)`. Všechny zdroje uveď pouze v hlavičce v sekci **Zdroje**. Pokud narazíš na nový zdroj, přidej ho do seznamu v hlavičce.
+Seřazení zdrojů v hlavičce:
+1. Přednášky (`raw/lectures/`) - numericky podle čísla přednášky.
+2. Semináře (`raw/seminars/`) - numericky podle čísla semináře.
+3. Ostatní (např. `raw/extra/`) - abecedně.
 
+Všechny relevantní poznatky z přednášek i doplňkových materiálů (extra) musí být logicky syntetizovány.
+```
 ## Související stránky
 - [[souvisejici-koncept-1]]
 - [[souvisejici-koncept-2]]
@@ -84,7 +88,7 @@ Všechny relevantní poznatky z přednášek i doplňkových materiálů (extra)
 
 ## Pravidla citací a tagování
 
-- **Citace**: Každé faktické tvrzení musí odkazovat na svůj zdrojový soubor formátem `(zdroj: podsložka/nazev_souboru.pdf)`.
+- **Citace**: Každé faktické tvrzení musí být podloženo zdrojem v sekci **Zdroje** v hlavičce stránky. **Inline citace typu `(zdroj: ...)` jsou zakázány.** Pokud informace pochází z nového dokumentu, přidej tento dokument do seznamu zdrojů v hlavičce.
 - **Rozpory**: Pokud si materiály z přednášek a složky `extra` odporují, výslovně na tento rozpor upozorni.
 - **Ověření**: Pokud je tvrzení bez přímého zdroje (tvoje dedukce), označ ho jako vyžadující ověření.
 - **Obsidian Tagy**: Na úplný konec každé stránky pod čáru (`---`) přidej relevantní tagy začínající křížkem. Vždy zahrň tag `#kod-predmetu`.
