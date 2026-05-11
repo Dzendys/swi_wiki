@@ -37,12 +37,7 @@ Příznaky, že kód vyžaduje refaktoring:
 -   **Nahrazení dědičnosti delegováním**: Pokud dědičnost porušuje [[clean-code#Liskov Substitution Principle (LSP)|LSP]].
 -   **Nahrazení chybového kódu výjimkou**: Čistší způsob ošetření chyb.
 -   **Zavedení Null objektu**: Odstranění častých kontrol na `null`.
--   **Zavedení objektu jako parametru**: Seskupení souvisejících parametrů do jedné třídy.
-
-## Doporučená literatura
-
--   Martin Fowler: *Refaktoring: zlepšení existujícího kódu* (ISBN: 80-247-0299-1).
--   Web [refactoring.com](http://refactoring.com/).
+- **Zavedení objektu jako parametru**: Seskupení souvisejících parametrů do jedné třídy.
 
 ## Související stránky
 
