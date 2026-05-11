@@ -20,7 +20,6 @@ Upřednostňujeme:
 3.  **Spolupráci se zákazníkem** před vyjednáváním o smlouvě.
 4.  **Reagování na změny** před dodržováním plánu.
 
-*Poznámka*: I když mají položky uvedené jako druhé (vpravo od předložky "před") svou hodnotu, položek uvedených jako první (vlevo, tučně) si ceníme více. (Jedná se o doslovnou součást Agilního manifestu).
 
 ## Klíčové principy
 
