@@ -14,23 +14,17 @@
 Diagram balíčků (Package Diagram) je klíčový pro zachycení struktury systému na vyšší úrovni abstrakce než [[domenovy-model|diagram tříd]]. Umožňuje seskupit třídy, případy užití nebo i jiné balíčky do logických celků – **balíčků**. V kontextu [[softwarova-architektura|softwarové architektury]] slouží k vizualizaci logické architektury (např. vrstev a podsystémů).
 
 ## Účel
-Hlavním účelem je řídil složitost (komplexitu) velkých systémů. Balíčky by měly být navrženy tak, aby představovaly ucelené, relativně nezávislé moduly. Pomáhají při:
+Hlavním účelem je řídit složitost (komplexitu) velkých systémů. Balíčky by měly být navrženy tak, aby představovaly ucelené, relativně nezávislé moduly. Pomáhají při:
 
-![[imgs/03.prednaska-016.jpg|188]] ![[imgs/05.prednaska-030.jpg|815]]
-
-*Obrázek: Rozdělení systému do logických balíčků (Evidence čtenářů, Evidence knih, Evidence výpůjček).*
-
-Pomáhají při:
-
-- Logické organizaci modelu.
-- Zobrazení architektonických vrstev nebo subsystémů.
-- Zobrazení závislostí mezi moduly.
+- **Logické organizaci modelu**: Seskupování souvisejících elementů (tříd, UC).
+- **Zobrazení architektonických vrstev**: Vizualizace rozdělení systému (viz [[vrstvy-architektury]]).
+- **Správě závislostí**: Identifikace a kontrola vazeb mezi moduly.
 
 ## Notace a Vztahy
 
-- **Balíček (Package)**: Kreslí se jako složka (obdélník s menším obdélníkem vlevo nahoře – tzv. "ouškem"). Slouží jako kontejner pro související elementy.
-    - **Jméno v těle**: Pokud v diagramu nezobrazujeme obsah balíčku, píše se jeho název doprostřed velkého obdélníku.
-    - **Jméno v oušku**: Pokud uvnitř balíčku zobrazujeme jeho obsah (např. seznam [[navrhovy-model-trid|tříd]], rozhraní nebo vnořené balíčky), píše se název balíčku do ouška.
+- **Balíček (Package)**: Kreslí se jako ikona složky (obdélník s menším obdélníkem vlevo nahoře – tzv. **ouškem** neboli štítkem). Slouží jako kontejner pro související elementy.
+    - **Jméno v těle**: Pokud v diagramu nezobrazujeme obsah balíčku (je "zavřený"), píše se jeho název doprostřed velkého obdélníku.
+    - **Jméno v oušku (štítku)**: Pokud uvnitř balíčku zobrazujeme jeho obsah (např. seznam tříd nebo vnořené balíčky), píše se název balíčku nahoru do "ouška", aby v těle balíčku bylo místo na elementy.
 
 ![[imgs/05.prednaska-030.jpg|400]]
 
