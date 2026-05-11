@@ -5,11 +5,11 @@
 **Zdroje**:
 
 - `raw/lectures/05.prednaska.pdf`
-- `raw/extra/Single Table Inheritance.pdf`
-- `raw/extra/Concrete Table Inheritance.pdf`
 - `raw/extra/Class Table Inheritance.pdf`
+- `raw/extra/Concrete Table Inheritance.pdf`
+- `raw/extra/Single Table Inheritance.pdf`
 
-**Naposledy aktualizováno**: 2026-05-11
+
 
 ---
 

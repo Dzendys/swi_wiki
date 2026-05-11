@@ -6,11 +6,11 @@
 
 - `raw/lectures/10.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-Nasazení (Deployment) je fáze, kdy se z vytvořeného kódu stává produkt připravený pro koncového uživatele (zdroj: raw/lectures/10.prednaska.pdf).
+Nasazení (Deployment) je fáze, kdy se z vytvořeného kódu stává produkt připravený pro koncového uživatele.
 
 ## Sestavení produktu (Build)
 Před nasazením musí být produkt "sestaven". To obvykle zahrnuje stažení knihoven v požadovaných verzích, kompilaci, spuštění testů a reporting.

@@ -4,13 +4,8 @@
 
 **Zdroje**:
 
-- `wiki/lectures/05-navrh-softwarovych-systemu.md`
 
-- `wiki/lectures/06-architektonicke-vzory.md`
 
-- `wiki/lectures/07-navrhove-vzory-a-komponenty.md`
-
-**Naposledy aktualizováno**: 2026-05-18
 
 ---
 

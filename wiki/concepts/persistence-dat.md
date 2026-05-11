@@ -6,12 +6,12 @@
 
 - `raw/lectures/05.prednaska.pdf`
 - `raw/lectures/06.prednaska.pdf`
-- `raw/extra/Table Data Gateway.pdf`
-- `raw/extra/Row Data Gateway.pdf`
 - `raw/extra/Active Record.pdf`
 - `raw/extra/Data Mapper.pdf`
+- `raw/extra/Row Data Gateway.pdf`
+- `raw/extra/Table Data Gateway.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
@@ -37,7 +37,7 @@ V návrhové fázi vytváříme detailní UML datový model, který specifikuje 
 Jedna instance této třídy spravuje všechny řádky v jedné tabulce.
 
 - **Princip**: Zapouzdřuje všechny SQL dotazy pro danou tabulku (SELECT, INSERT, UPDATE, DELETE).
-- **Použití**: Vhodné tam, kde doménová logika není složitá a stačí pracovat s RecordSety (zdroj: raw/extra/Table Data Gateway.pdf).
+- **Použití**: Vhodné tam, kde doménová logika není složitá a stačí pracovat s RecordSety.
 
     ![[imgs/06.prednaska-033.jpg|400]]
 

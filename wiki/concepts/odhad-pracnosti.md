@@ -5,8 +5,9 @@
 **Zdroje**:
 
 - `raw/lectures/01.prednaska.pdf`
+- `raw/lectures/11.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
@@ -17,11 +18,11 @@ Pracnost se určuje v "člověko-jednotkách":
 
 - **Man-hour (MH)**: Pracovní hodina člověka.
 - **Man-day (MD)**: Pracovní den člověka (obvykle 1 MD = 8 MH).
-- **Man-week (MW)**: Pracovní týden člověka (obvykle 1 MW = 5 MD) (zdroj: raw/lectures/01.prednaska.pdf).
+- **Man-week (MW)**: Pracovní týden člověka (obvykle 1 MW = 5 MD).
 
 ## Vztah pracnosti a času
 Termín dodání lze odvodit z pracnosti a velikosti týmu. Teoreticky lze úkol o rozsahu 10 MD stihnout ve dvou lidech za 5 dní.
-**Pozor**: V praxi spolupráce více osob přináší režii (komunikace, koordinace), takže doba trvání se s počtem lidí **nezkracuje lineárně** (zdroj: raw/lectures/01.prednaska.pdf).
+**Pozor**: V praxi spolupráce více osob přináší režii (komunikace, koordinace), takže doba trvání se s počtem lidí **nezkracuje lineárně**.
 
 ## Stanovení odhadu
 Odhad nelze snadno provést bez detailní znalosti rozsahu (**scope**) projektu. Rozsah zahrnuje nejen implementaci, ale i dokumentaci, školení a řízení.
@@ -31,7 +32,7 @@ Odhad nelze snadno provést bez detailní znalosti rozsahu (**scope**) projektu.
 -   **Úsudek (Expert Judgment)**: Rychlý, ale často nepřesný (programátoři bývají příliš optimističtí).
 -   **Karnerova metoda (Use Case Points)**: Odhad na základě počtu a složitosti [[pripady-uziti|aktérů a případů užití]].
 -   **COCOMO (Constructive Cost Model)**: Matematický model založený na odhadovaném počtu řádek kódu (LOC).
--   **Historická data**: Porovnání s dřívějšími projekty v daném odvětví je nejspolehlivější cestou (zdroj: raw/lectures/11.prednaska.pdf).
+-   **Historická data**: Porovnání s dřívějšími projekty v daném odvětví je nejspolehlivější cestou.
 
 ### Pravidla pro přesnější odhady
 

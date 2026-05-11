@@ -6,11 +6,11 @@
 
 - `raw/lectures/11.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-Projektové řízení v oblasti softwaru je specifické svou komplexností a vysokou mírou neurčitosti (zdroj: raw/lectures/11.prednaska.pdf).
+Projektové řízení v oblasti softwaru je specifické svou komplexností a vysokou mírou neurčitosti.
 
 ## Základní pojmy
 

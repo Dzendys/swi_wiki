@@ -6,11 +6,11 @@
 
 - `raw/lectures/12.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-**Softwarový proces** je posloupnost kroků vedoucích k vytvoření produktu. Snaha o jeho standardizaci a opakovatelnost vede k vytvoření **metodiky** (zdroj: raw/lectures/12.prednaska.pdf).
+**Softwarový proces** je posloupnost kroků vedoucích k vytvoření produktu. Snaha o jeho standardizaci a opakovatelnost vede k vytvoření **metodiky**.
 
 ## Modely životního cyklu (SDLC) {: #modely-životního-cyklu-sdlc }
 Způsob, jakým jsou jednotlivé kroky (analýza, návrh, implementace, testování) uspořádány v čase:

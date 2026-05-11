@@ -6,11 +6,11 @@
 
 - `raw/lectures/12.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-Agilní přístup vznikl jako reakce na těžkopádnost klasických metodik. Jeho základem je **Agilní manifest** (zdroj: raw/lectures/12.prednaska.pdf).
+Agilní přístup vznikl jako reakce na těžkopádnost klasických metodik. Jeho základem je **Agilní manifest**.
 
 ## Agilní manifest
 Upřednostňujeme:

@@ -6,11 +6,11 @@
 
 - `raw/lectures/01.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-Cílem práce **analytika** je odpovědět na otázku: **„Co bude systém dělat?“** (zdroj: raw/lectures/01.prednaska.pdf).
+Cílem práce **analytika** je odpovědět na otázku: **„Co bude systém dělat?“**.
 
 ## Hlavní činnosti
 Analytik musí:
@@ -19,10 +19,10 @@ Analytik musí:
 2.  **Popsat činnost** pomocí [[obchodni-procesy|modelů obchodních procesů]]. K tomu se nejčastěji využívá [[diagram-aktivit|diagram aktivit]].
 3.  **Vymezit rozsah** rozsáhlého systému pomocí [[diagram-balicku|diagramu balíčků]].
 4.  **Nadefinovat požadavky** a specifikovat rozsah (scope) projektu. K tomuto účelu se vytváří [[pripady-uziti|Model případů užití]].
-5.  **Popsat data a entity**, se kterými systém pracuje prostřednictvím [[domenovy-model|doménového modelu]] (zdroj: raw/lectures/01.prednaska.pdf).
+5.  **Popsat data a entity**, se kterými systém pracuje prostřednictvím [[domenovy-model|doménového modelu]].
 
 ## Analýza přínosů
-Analytik musí zvažovat přínosy vs. náklady. Do rozsahu projektu by měly být zahrnuty pouze ty funkcionality, které mají pro zákazníka dostatečnou přidanou hodnotu vzhledem k nákladům na jejich realizaci (zdroj: raw/lectures/01.prednaska.pdf).
+Analytik musí zvažovat přínosy vs. náklady. Do rozsahu projektu by měly být zahrnuty pouze ty funkcionality, které mají pro zákazníka dostatečnou přidanou hodnotu vzhledem k nákladům na jejich realizaci.
 
 ## Související stránky
 

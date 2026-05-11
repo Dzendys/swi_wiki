@@ -6,11 +6,11 @@
 
 - `raw/lectures/08.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-Objektový diagram (Object Diagram) patří v UML do skupiny **diagramů struktur**. Na rozdíl od [[navrhovy-model-trid|diagramu tříd]], který popisuje obecnou strukturu (šablony), objektový diagram poskytuje "snímek" (snapshot) aktuálního stavu systému v daný časový okamžik (zdroj: raw/lectures/08.prednaska.pdf).
+Objektový diagram (Object Diagram) patří v UML do skupiny **diagramů struktur**. Na rozdíl od [[navrhovy-model-trid|diagramu tříd]], který popisuje obecnou strukturu (šablony), objektový diagram poskytuje "snímek" (snapshot) aktuálního stavu systému v daný časový okamžik.
 
 ## Význam a použití
 

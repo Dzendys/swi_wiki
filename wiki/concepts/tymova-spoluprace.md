@@ -6,11 +6,11 @@
 
 - `raw/lectures/01.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-V softwarovém inženýrství má zodpovědnost za projekt celý tým (zdroj: raw/lectures/01.prednaska.pdf). Efektivní [[tymova-spoluprace|týmová spolupráce]] vyžaduje jasné rozdělení rolí a možnost motivace členů.
+V softwarovém inženýrství má zodpovědnost za projekt celý tým. Efektivní [[tymova-spoluprace|týmová spolupráce]] vyžaduje jasné rozdělení rolí a možnost motivace členů.
 
 ## Role v týmu
 Efektivní spolupráce vyžaduje jasné vymezení zodpovědností. V softwarovém inženýrství rozlišujeme role podle použité metodiky:
@@ -31,14 +31,14 @@ Efektivní spolupráce vyžaduje jasné vymezení zodpovědností. V softwarové
 
 ## Nástroje pro spolupráci
 
-- **Komunikace**: Žádný nástroj (MS Teams, Slack, email) plně nenahradí osobní kontakt. Doporučuje se pravidelná synchronizace týmu (zdroj: raw/lectures/01.prednaska.pdf).
+- **Komunikace**: Žádný nástroj (MS Teams, Slack, email) plně nenahradí osobní kontakt. Doporučuje se pravidelná synchronizace týmu.
 - **Správa úkolů**: Pro evidenci, přidělování a plánování úkolů se využívají systémy pro správu úkolů (např. **GitLab Issues**, Jira). Důležité je sledování stavu úkolů a vykazování času.
 - **Správa souborů**: Pro verzování, sdílení a zálohování zdrojových kódů a dokumentace se používají verzeovací systémy (např. **Git**).
 
 ## Výhody a nevýhody
 
 - **Výhody**: Možnost dodat projekt v kratším čase, specializace jednotlivců.
-- **Nevýhody**: Nutnost řešit režii na komunikaci, sdílení informací a správu souborů (zdroj: raw/lectures/01.prednaska.pdf).
+- **Nevýhody**: Nutnost řešit režii na komunikaci, sdílení informací a správu souborů.
 
 ## Související stránky
 

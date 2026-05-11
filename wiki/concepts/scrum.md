@@ -6,11 +6,11 @@
 
 - `raw/lectures/12.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-SCRUM je framework pro zvládání komplexních projektů. Není to přesný proces, ale soubor rolí, událostí a artefaktů (zdroj: raw/lectures/12.prednaska.pdf).
+SCRUM je framework pro zvládání komplexních projektů. Není to přesný proces, ale soubor rolí, událostí a artefaktů.
 
 ## SCRUM Team
 Tým je typicky malý (do 10 členů) a skládá se ze tří rolí:

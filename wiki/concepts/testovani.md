@@ -6,11 +6,11 @@
 
 - `raw/lectures/09.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-Testování je jednou z klíčových forem [[verifikace-a-validace|validace a verifikace]]. Výsledek testování může prokázat existenci chyb, ale nemůže nikdy prokázat, že software žádné chyby neobsahuje (zdroj: raw/lectures/09.prednaska.pdf).
+Testování je jednou z klíčových forem [[verifikace-a-validace|validace a verifikace]]. Výsledek testování může prokázat existenci chyb, ale nemůže nikdy prokázat, že software žádné chyby neobsahuje.
 
 ## Klasifikace testů
 

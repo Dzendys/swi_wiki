@@ -4,11 +4,8 @@
 
 **Zdroje**:
 
-- `wiki/lectures/01-uvod-do-swi.md`
 
-- `wiki/lectures/12-metodiky-a-agilni-vyvoj.md`
 
-**Naposledy aktualizováno**: 2026-05-18
 
 ---
 

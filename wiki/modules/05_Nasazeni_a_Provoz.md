@@ -4,9 +4,8 @@
 
 **Zdroje**:
 
-- `wiki/lectures/10-nasazeni-udrzba-a-integrace.md`
 
-**Naposledy aktualizováno**: 2026-05-18
+
 
 ---
 

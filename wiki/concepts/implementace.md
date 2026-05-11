@@ -6,11 +6,11 @@
 
 - `raw/lectures/08.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-Implementace je klíčovým krokem vývojového cyklu, který transformuje [[navrh-softwaru|návrh]] a scénáře [[pripady-uziti|případů užití]] do funkčního produktu. Je to jediná činnost, kterou nelze v projektu vynechat (zdroj: raw/lectures/08.prednaska.pdf).
+Implementace je klíčovým krokem vývojového cyklu, který transformuje [[navrh-softwaru|návrh]] a scénáře [[pripady-uziti|případů užití]] do funkčního produktu. Je to jediná činnost, kterou nelze v projektu vynechat.
 
 ## Cíle implementace
 Hlavním cílem není pouze "napsat kód", ale dodat produkt, který:

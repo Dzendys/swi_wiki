@@ -7,11 +7,11 @@
 - `raw/lectures/02.prednaska.pdf`
 - `raw/extra/Activity Diagram.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-[[diagram-aktivit|UML Diagram aktivit]] (Activity Diagram) patří do skupiny diagramů chování. Umožňuje srozumitelné zachycení procesů, rychlou kontrolu logiky a snazší odhady pracnosti (zdroj: raw/lectures/02.prednaska.pdf).
+[[diagram-aktivit|UML Diagram aktivit]] (Activity Diagram) patří do skupiny diagramů chování. Umožňuje srozumitelné zachycení procesů, rychlou kontrolu logiky a snazší odhady pracnosti.
 
 ![[imgs/02.prednaska-023.jpg|470]]
 
@@ -19,14 +19,14 @@
 
 
 ## Princip toku tokenů
-Čtení diagramu je založeno na tzv. **hře s tokeny**. Token je virtuální značka, která se pohybuje po hranách diagramu a aktivuje jednotlivé uzly (zdroj: raw/extra/Activity Diagram.pdf).
+Čtení diagramu je založeno na tzv. **hře s tokeny**. Token je virtuální značka, která se pohybuje po hranách diagramu a aktivuje jednotlivé uzly.
 
 ## Základní prvky
 ### Akční uzly (Action Nodes)
 
 - **Akce**: Základní krok procesu (obdélník se zaoblenými rohy).
-- **Volání aktivity (Call Behavior)**: Označeno symbolem "hrábí", reprezentuje spuštění jiného diagramu (zdroj: raw/extra/Activity Diagram.pdf).
-- Akce se spustí, jakmile obdrží tokeny na všech vstupních hranách. Po dokončení vygeneruje tokeny na všech výstupních hranách (zdroj: raw/extra/Activity Diagram.pdf).
+- **Volání aktivity (Call Behavior)**: Označeno symbolem "hrábí", reprezentuje spuštění jiného diagramu.
+- Akce se spustí, jakmile obdrží tokeny na všech vstupních hranách. Po dokončení vygeneruje tokeny na všech výstupních hranách.
 
 ![[imgs/02.prednaska-028.jpg|82]]
 
@@ -34,27 +34,27 @@
 
 ### Řídící uzly (Control Nodes)
 
-- **Počáteční uzel (Initial Node)**: Plné kolečko. Nemá vstupní hrany, při spuštění generuje řídící token (zdroj: raw/extra/Activity Diagram.pdf).
-- **Koncový uzel aktivity (Activity Final Node)**: Terčík. Ukončuje celou instanci aktivity (všechny toky) (zdroj: raw/lectures/02.prednaska.pdf).
-- **Konec toku (Flow Final Node)**: Kolečko s křížkem. Ukončuje pouze danou větev (zdroj: raw/lectures/02.prednaska.pdf).
-- **Rozhodovací uzel (Decision Node)**: Kosočtverec. Má jeden vstup a více výstupů s výlučnými podmínkami (zdroj: raw/extra/Activity Diagram.pdf).
-- **Slučovací uzel (Merge Node)**: Kosočtverec. Má více vstupů a jeden výstup. Přeposílá každý příchozí token (zdroj: raw/extra/Activity Diagram.pdf).
-- **Rozvětvení (Fork)**: Silná čára. Jeden vstup, více výstupů. Token se duplikuje do všech větví (zdroj: raw/extra/Activity Diagram.pdf).
-- **Spojení (Join)**: Silná čára. Více vstupů, jeden výstup. Čeká na tokeny ze všech větví (zdroj: raw/extra/Activity Diagram.pdf).
+- **Počáteční uzel (Initial Node)**: Plné kolečko. Nemá vstupní hrany, při spuštění generuje řídící token.
+- **Koncový uzel aktivity (Activity Final Node)**: Terčík. Ukončuje celou instanci aktivity (všechny toky).
+- **Konec toku (Flow Final Node)**: Kolečko s křížkem. Ukončuje pouze danou větev.
+- **Rozhodovací uzel (Decision Node)**: Kosočtverec. Má jeden vstup a více výstupů s výlučnými podmínkami.
+- **Slučovací uzel (Merge Node)**: Kosočtverec. Má více vstupů a jeden výstup. Přeposílá každý příchozí token.
+- **Rozvětvení (Fork)**: Silná čára. Jeden vstup, více výstupů. Token se duplikuje do všech větví.
+- **Spojení (Join)**: Silná čára. Více vstupů, jeden výstup. Čeká na tokeny ze všech větví.
 
 ![[imgs/02.prednaska-030.jpg|55]] ![[imgs/02.prednaska-032.jpg|228]]
 
 *Obrázek: Legenda řídících uzlů a příklady větvení toku.*
 
 ### Zóny zodpovědnosti (Swimlanes)
-Rozdělují diagram do sloupců nebo řádků podle rolí (např. Student, Učitel, Systém), které jsou za dané akce zodpovědné (zdroj: raw/lectures/02.prednaska.pdf).
+Rozdělují diagram do sloupců nebo řádků podle rolí (např. Student, Učitel, Systém), které jsou za dané akce zodpovědné.
 
 ![[imgs/02.prednaska-034.jpg|671]]
 
 *Obrázek: Ukázka rozdělení diagramu do zón zodpovědnosti (Swimlanes).*
 
 ### Objektové uzly (Object Nodes)
-Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník) (zdroj: raw/lectures/02.prednaska.pdf).
+Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník).
 
 - **Tok objektů**: Zobrazení, jak jedna akce produkuje objekt a druhá jej přijímá. Lze využít buď samostatný obdélník mezi akcemi, nebo tzv. "piny" přímo na hraně akce.
 
@@ -67,10 +67,10 @@ Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník) (
 
 ## Pokročilé konstrukce
 
-- **Vícenásobné provedení (Expansion Region)**: Oblast, kde se akce provádí pro každý prvek vstupní kolekce (zdroj: raw/lectures/02.prednaska.pdf).
+- **Vícenásobné provedení (Expansion Region)**: Oblast, kde se akce provádí pro každý prvek vstupní kolekce.
     ![[imgs/02.prednaska-039.jpg|250]]
 
-- **Region přerušení (Interruptible Region)**: Oblast, jejíž provádění může být přerušeno specifikovanou událostí (zdroj: raw/lectures/02.prednaska.pdf).
+- **Region přerušení (Interruptible Region)**: Oblast, jejíž provádění může být přerušeno specifikovanou událostí.
     ![[imgs/02.prednaska-041.jpg|400]]
 
 
@@ -81,13 +81,13 @@ Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník) (
 
 ## Časté chyby
 
-1.  **Chybné modelování cyklu**: Sloučení zpětné vazby přímo do akce namísto použití slučovacího uzlu (Merge). To způsobí "zaseknutí" (deadlock), protože akce čeká na token z obou vstupů (zdroj: raw/extra/Activity Diagram.pdf).
+1.  **Chybné modelování cyklu**: Sloučení zpětné vazby přímo do akce namísto použití slučovacího uzlu (Merge). To způsobí "zaseknutí" (deadlock), protože akce čeká na token z obou vstupů.
 
     | Špatně | Dobře |
     | :---: | :---: |
     | ![[imgs/02.prednaska-049.jpg|150]] | ![[imgs/02.prednaska-051.jpg|150]] |
 
-2.  **Míchání akcí a stavů**: Používání symbolu akce pro zachycení stavu objektu. Správně má být stav v hranatých závorkách uvnitř objektového uzlu (zdroj: raw/lectures/02.prednaska.pdf).
+2.  **Míchání akcí a stavů**: Používání symbolu akce pro zachycení stavu objektu. Správně má být stav v hranatých závorkách uvnitř objektového uzlu.
 
     | Špatně | Dobře |
     | :---: | :---: |

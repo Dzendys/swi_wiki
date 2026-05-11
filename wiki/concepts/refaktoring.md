@@ -6,7 +6,7 @@
 
 - `raw/lectures/08.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
@@ -15,7 +15,7 @@ Refaktoring je disciplinovaná technika pro restrukturalizaci existujícího tě
 ## Základní pravidla
 
 1.  **Nemění se vnější chování**: Systém musí po refaktoringu dělat přesně to samé, co před ním.
-2.  **Nutnost testů**: Před začátkem refaktoringu musí existovat sada testů, která ověří, že nedošlo ke změně chování (zdroj: raw/lectures/08.prednaska.pdf).
+2.  **Nutnost testů**: Před začátkem refaktoringu musí existovat sada testů, která ověří, že nedošlo ke změně chování.
 3.  **Malé kroky**: Změny by měly být prováděny v malých, kontrolovaných krůčcích.
 
 ## Kdy začít s refaktoringem (Code Smells)

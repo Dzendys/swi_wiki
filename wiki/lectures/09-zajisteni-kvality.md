@@ -6,7 +6,7 @@
 
 - `raw/lectures/09.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 

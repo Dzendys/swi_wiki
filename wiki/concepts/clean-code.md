@@ -8,7 +8,7 @@
 - `raw/extra/GRASP.pdf`
 - `raw/extra/Vysoká soudržnost.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
@@ -19,7 +19,7 @@ Psaní "čistého kódu" (Clean Code) je základní dovedností softwarového in
 ### Vysoká soudržnost (High Cohesion) a SRP
 
 - **Soudržnost (Cohesion)**: Míra, jak moc k sobě zodpovědnosti jednoho prvku (metody, třídy) logicky patří.
-- **SRP (Single Responsibility Principle)**: Každý prvek by měl mít právě jednu přesně definovanou zodpovědnost (zdroj: raw/extra/Vysoká soudržnost.pdf).
+- **SRP (Single Responsibility Principle)**: Každý prvek by měl mít právě jednu přesně definovanou zodpovědnost.
 - **Výhody**: Snazší pochopení, údržba a stabilita. Prvky s nízkou soudržností jsou nestabilní, protože se musí měnit z mnoha různých důvodů.
 - *Tip*: Pokud metoda obsahuje prázdné řádky nebo komentáře vysvětlující různé sekce, pravděpodobně by měla být rozdělena na více metod.
 

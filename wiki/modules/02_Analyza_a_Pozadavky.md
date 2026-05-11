@@ -4,13 +4,8 @@
 
 **Zdroje**:
 
-- `wiki/lectures/02-modelovani-obchodnich-procesu.md`
 
-- `wiki/lectures/03-analyza-a-sber-pozadavku.md`
 
-- `wiki/lectures/04-analyza-problemove-domeny.md`
-
-**Naposledy aktualizováno**: 2026-05-18
 
 ---
 

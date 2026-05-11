@@ -6,7 +6,7 @@
 
 - `raw/lectures/12.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
@@ -19,7 +19,7 @@ Unified Process (UP) je otevřený standard klasické metodiky, který se stal z
 - **Iterativní a inkrementální**: Vývoj probíhá v cyklech, každý dodává funkční přírůstek.
 
 ## Fáze životního cyklu UP
-Projekt v UP prochází čtyřmi hlavními fázemi (zdroj: raw/lectures/12.prednaska.pdf):
+Projekt v UP prochází čtyřmi hlavními fázemi:
 
 ![[imgs/12.prednaska-029.jpg|622]]
 

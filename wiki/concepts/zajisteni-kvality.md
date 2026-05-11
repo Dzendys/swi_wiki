@@ -6,17 +6,17 @@
 
 - `raw/lectures/09.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-Zajištění kvality (QA) je systematický přístup k zajištění toho, aby softwarový produkt splňoval stanovené požadavky a standardy. Testování je pouze jednou z forem aktivit v rámci QA (zdroj: raw/lectures/09.prednaska.pdf).
+Zajištění kvality (QA) je systematický přístup k zajištění toho, aby softwarový produkt splňoval stanovené požadavky a standardy. Testování je pouze jednou z forem aktivit v rámci QA.
 
 ## Cíle QA
 
 - **Zajištění kvality dodávaného řešení**: Naplnění očekávání zákazníka a bezchybnost.
 - **Měření kvality**: Kvantifikace stavu produktu pomocí metrik.
-- **Úspora financí a zdrojů**: Prevence chyb je levnější než jejich následná oprava. Cena opravy chyby roste exponenciálně s časem (zdroj: raw/lectures/09.prednaska.pdf).
+- **Úspora financí a zdrojů**: Prevence chyb je levnější než jejich následná oprava. Cena opravy chyby roste exponenciálně s časem.
 
 ![[imgs/09.prednaska-012.jpg|1000]]
 

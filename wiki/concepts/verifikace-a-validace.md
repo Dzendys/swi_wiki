@@ -6,11 +6,11 @@
 
 - `raw/lectures/09.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-Rozlišení mezi verifikací a validací je klíčové pro správné nastavení [[zajisteni-kvality|QA]] procesů (zdroj: raw/lectures/09.prednaska.pdf).
+Rozlišení mezi verifikací a validací je klíčové pro správné nastavení [[zajisteni-kvality|QA]] procesů.
 
 ## Verifikace (Verification)
 Odpovídá na otázku: **"Stavíme produkt správně?"** (*Are we building the product right?*)

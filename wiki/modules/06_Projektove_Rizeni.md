@@ -4,9 +4,8 @@
 
 **Zdroje**:
 
-- `wiki/lectures/11-projektove-rizeni.md`
 
-**Naposledy aktualizováno**: 2026-05-18
+
 
 ---
 

@@ -6,11 +6,11 @@
 
 - `raw/lectures/11.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-Riziko v softwarovém projektu může být jak **hrozba** (např. zákazník nepřipraví prostředí včas), tak **příležitost** (zdroj: raw/lectures/11.prednaska.pdf).
+Riziko v softwarovém projektu může být jak **hrozba** (např. zákazník nepřipraví prostředí včas), tak **příležitost**.
 
 ## Evidence rizik
 Každé riziko by mělo být zaznamenáno a popsáno:

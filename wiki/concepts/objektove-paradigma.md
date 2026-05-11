@@ -6,7 +6,7 @@
 
 - `raw/lectures/08.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
@@ -16,7 +16,7 @@ Objektově orientované paradigma (OOP) je v současnosti dominantním přístup
 
 ### Třída vs. Objekt
 
-- **Třída**: Šablona (metadata), která definuje strukturu atributů, signatury a implementace metod a konstruktory pro inicializaci (zdroj: raw/lectures/08.prednaska.pdf).
+- **Třída**: Šablona (metadata), která definuje strukturu atributů, signatury a implementace metod a konstruktory pro inicializaci.
 - **Objekt (Instance)**: Konkrétní "výrobek" podle šablony. Každý objekt má své vlastní hodnoty atributů (stav), ale metody jsou společné pro všechny instance dané třídy.
 
 ### Zapouzdření (Encapsulation) {: #zapouzdření }

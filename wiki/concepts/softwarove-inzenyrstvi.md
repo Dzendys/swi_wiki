@@ -6,11 +6,11 @@
 
 - `raw/lectures/01.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-**Softwarové inženýrství** (SWI) představuje systematický přístup k tvorbě softwaru (zdroj: raw/lectures/01.prednaska.pdf). Nejde pouze o programování, ale o řešení komplexních problémů spojených s vývojem rozsáhlých informačních systémů.
+**Softwarové inženýrství** (SWI) představuje systematický přístup k tvorbě softwaru. Nejde pouze o programování, ale o řešení komplexních problémů spojených s vývojem rozsáhlých informačních systémů.
 
 ## Životní cyklus vývoje softwaru (SDLC)
 Způsob, jakým jsou jednotlivé kroky vývoje uspořádány, definuje **[[metodiky-vyvoje#Modely životního cyklu (SDLC)|model životního cyklu]]** (Vodopád, Iterativní model, Agilní přístup). Moderní inženýrství preferuje iterace:

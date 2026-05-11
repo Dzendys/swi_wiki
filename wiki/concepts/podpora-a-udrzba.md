@@ -6,11 +6,11 @@
 
 - `raw/lectures/10.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-Fáze podpory a údržby je typicky mnohem delší než samotný vývojový projekt. Je to stabilní, běžná činnost zajišťující firmě pravidelné příjmy (zdroj: raw/lectures/10.prednaska.pdf).
+Fáze podpory a údržby je typicky mnohem delší než samotný vývojový projekt. Je to stabilní, běžná činnost zajišťující firmě pravidelné příjmy.
 
 ## Úrovně podpory
 Pro efektivní řešení problémů se podpora dělí na úrovně (tiers):

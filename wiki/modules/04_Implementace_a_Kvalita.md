@@ -4,11 +4,8 @@
 
 **Zdroje**:
 
-- `wiki/lectures/08-implementace.md`
 
-- `wiki/lectures/09-zajisteni-kvality.md`
 
-**Naposledy aktualizováno**: 2026-05-18
 
 ---
 

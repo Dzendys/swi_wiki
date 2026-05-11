@@ -6,11 +6,11 @@
 
 - `raw/lectures/10.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-Integrace aplikací řeší problém izolovaných "ostrovů informací". Umožňuje pružně reagovat na změny v businessu bez nutnosti vytvářet jednu obří aplikaci, která umí vše (zdroj: raw/lectures/10.prednaska.pdf).
+Integrace aplikací řeší problém izolovaných "ostrovů informací". Umožňuje pružně reagovat na změny v businessu bez nutnosti vytvářet jednu obří aplikaci, která umí vše.
 
 ## Důvody pro integraci
 

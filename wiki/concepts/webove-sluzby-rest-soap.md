@@ -6,11 +6,11 @@
 
 - `raw/lectures/10.prednaska.pdf`
 
-**Naposledy aktualizováno**: 2026-05-08
+
 
 ---
 
-Webové služby umožňují integraci aplikací běžících na různých platformách a v různých jazycích (zdroj: raw/lectures/10.prednaska.pdf).
+Webové služby umožňují integraci aplikací běžících na různých platformách a v různých jazycích.
 
 ## SOAP (Simple Object Access Protocol)
 Robustní průmyslový standard pro výměnu strukturovaných informací.
