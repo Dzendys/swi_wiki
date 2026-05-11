@@ -50,28 +50,28 @@ Vztahy by se měly používat střídmě, aby diagram zůstal přehledný.
 ## Typické chyby v UC diagramech
 
 1.  **Modelování toku (sekvence)**: UC diagram není určen pro zobrazení pořadí kroků. K tomu slouží scénáře nebo diagramy aktivit.
-    ![[imgs/03.prednaska-061.jpg|350]]
 
-    *Obrázek: Chyba - snaha o zachycení sekvence kroků pomocí vztahů mezi UC.*
-
+| Špatně | Dobře |
+| :---: | :---: |
+| ![[imgs/03.prednaska-061.jpg|200]] | Pro modelování toku použijte **textové scénáře** nebo **[[diagram-aktivit\|diagramy aktivit]]**. |
 
 2.  **Datová úložiště**: Databáze nebo soubory nejsou aktéři ani případy užití.
-    ![[imgs/03.prednaska-063.jpg|350]]
 
-    *Obrázek: Chyba - kreslení databáze jako prvku UC diagramu.*
-
+| Špatně | Dobře |
+| :---: | :---: |
+| ![[imgs/03.prednaska-063.jpg|200]] | Datová úložiště do UC diagramu nepatří. Pokud je potřeba, zachyťte je v **[[domenovy-model\|doménovém modelu]]**. |
 
 3.  **Chybějící aktér**: Každý UC musí být iniciován nebo využíván nějakým aktérem.
-    ![[imgs/03.prednaska-065.jpg|350]]
 
-    *Obrázek: Chyba - UC "Půjčit knihu" není napojen na žádného aktéra.*
-
+| Špatně | Dobře |
+| :---: | :---: |
+| ![[imgs/03.prednaska-065.jpg|200]] | Každý případ užití musí být propojen s alespoň jedním **aktérem**. |
 
 4.  **Činnosti mimo systém**: Modelovat by se měly pouze interakce se systémem, nikoliv fyzické činnosti uživatele (např. "přečíst knihu").
-    ![[imgs/03.prednaska-067.jpg|350]]
 
-    *Obrázek: Chyba - modelování fyzické činnosti (čtení knihy), která probíhá mimo systém.*
-
+| Špatně | Dobře |
+| :---: | :---: |
+| ![[imgs/03.prednaska-067.jpg|200]] | Modelujte pouze akce, které probíhají **v interakci se systémem**. |
 
 ## Související stránky
 
