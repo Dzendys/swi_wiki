@@ -54,11 +54,16 @@ Rozdělují diagram do sloupců nebo řádků podle rolí (např. Student, Učit
 *Obrázek: Ukázka rozdělení diagramu do zón zodpovědnosti (Swimlanes).*
 
 ### Objektové uzly (Object Nodes)
-Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník). Lze u nich v hranatých závorkách uvést **stav objektu** (např. `:Objednávka [Vytvořena]`) (zdroj: raw/lectures/02.prednaska.pdf).
+Reprezentují data nebo fyzické objekty předávané mezi akcemi (obdélník) (zdroj: raw/lectures/02.prednaska.pdf).
 
-![[imgs/02.prednaska-036.jpg|1855]] ![[imgs/02.prednaska-037.jpg|1763]] ![[imgs/02.prednaska-043.jpg|169]]
+- **Tok objektů**: Zobrazení, jak jedna akce produkuje objekt a druhá jej přijímá. Lze využít buď samostatný obdélník mezi akcemi, nebo tzv. "piny" přímo na hraně akce.
 
-*Obrázek: Různé způsoby zobrazení toku objektů a jejich stavů.*
+    ![[imgs/02.prednaska-036.jpg|250]] ![[imgs/02.prednaska-037.jpg|250]]
+
+- **Pojmenování a stavy**: U objektů lze specifikovat konkrétní název instance (`jméno:Třída`) nebo anonymní instanci (`:Třída`). V hranatých závorkách se uvádí **stav objektu** (např. `[Vytvořena]`).
+
+    ![[imgs/02.prednaska-043.jpg|150]]
+
 
 ## Pokročilé konstrukce
 
