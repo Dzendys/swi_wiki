@@ -24,7 +24,9 @@ Vrstvy představují horizontální rozdělení [[softwarova-architektura|softwa
 ## Pravidla závislostí
 Závislosti by měly směřovat vždy **shora dolů**. Rozlišujeme dva přístupy:
 
-![[imgs/06.prednaska-023.jpg|150]] ![[imgs/06.prednaska-025.jpg|170]]
+| Striktní vrstvení | Relaxované vrstvení |
+| :---: | :---: |
+| ![[imgs/06.prednaska-023.jpg\|250]] | ![[imgs/06.prednaska-025.jpg\|300]] |
 
 *Obrázek: Porovnání striktního (vlevo) a relaxovaného (vpravo) vrstvení.*
 
