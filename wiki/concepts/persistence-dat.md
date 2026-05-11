@@ -17,16 +17,17 @@
 
 Persistence dat v [[vrstvy-architektury|třívrstvé architektuře]] spadá do nejnižší (datové) vrstvy. Existuje několik osvědčených vzorů (dle Martina Fowlera) pro mapování objektů na databázové tabulky.
 
-![[imgs/05.prednaska-027.jpg|631]]
-
-*Obrázek: Vztah mezi konceptuálním modelem a jeho fyzickou realizací v databázi (včetně řešení vztahu M:N).*
-
 ## Návrh datového schématu
 V návrhové fázi vytváříme detailní UML datový model, který specifikuje datové typy, primární a cizí klíče a unikátní indexy.
 
-![[imgs/05.prednaska-023.jpg|159]] ![[imgs/05.prednaska-032.jpg|629]]
+- **Trasovatelnost (Traceability)**: Sledujeme vztah mezi konceptuálním modelem (např. Autor, Kniha) a jeho fyzickou realizací v databázi. To zahrnuje i zavedení asociačních tabulek (např. `jeNapsana`) pro řešení vztahů M:N.
 
-*Obrázek: Detailní návrh databázových tabulek a jejich vzájemných vazeb.*
+    ![[imgs/05.prednaska-027.jpg|500]]
+
+- **Detailní mapování entit**: Návrh tabulek (např. `Ctenar`, `Vypujcka`, `Vytisk`) s definicí všech atributů, datových typů (VARCHAR, NUMERIC) a integritních omezení.
+
+    ![[imgs/05.prednaska-023.jpg|150]] ![[imgs/05.prednaska-032.jpg|500]]
+
 
 ## Table Data Gateway (TDG)
 Jedna instance této třídy spravuje všechny řádky v jedné tabulce.
