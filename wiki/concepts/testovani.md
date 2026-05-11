@@ -56,7 +56,7 @@ Sledování metrik v čase umožňuje vyhodnotit stabilitu systému a efektivitu
 
 *Obrázek: Vizualizace trendů v úspěšnosti testů a procentuálním pokrytí kódu v čase.*
 
-- **Pokrytí kódu (Code Coverage)**: Obecná metrika vyjadřující procento řádků, tříd nebo metod pokrytých testy (nejčastěji měřeno u White Box testů, ale relevantní pro celkovou kvalitu).
+- **Pokrytí kódu (Code Coverage)**: Obecná metrika vyjadřující procento řádků, tříd nebo metod pokrytých testy.
 - **Testování proti rozhraní**: Testy by měly záviset na stabilním rozhraní (kontraktu) spíše než na implementačních detailech, což zvyšuje jejich udržovatelnost a umožňuje snadnou výměnu testovaných komponent (např. pomocí mockování).
 - **Cyklomatická složitost**: Počet nezávislých cest kódem.
 
