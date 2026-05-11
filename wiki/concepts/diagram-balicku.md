@@ -45,12 +45,16 @@ Balíčky se používají k logickému rozdělení systému na moduly (např. po
 Balíčky mohou obsahovat jiné balíčky. V UML existuje několik způsobů, jak vnoření (nesting) znázornit:
 
 1.  **Pomocí ikon**: Vnitřní balíčky jsou reprezentovány ikonami složek uvnitř jmenného prostoru nadřazeného balíčku.
+    ![[imgs/05.prednaska-045.jpg|200]]
+
+
 2.  **Grafické vnoření**: Obdélníky vnitřních balíčků jsou nakresleny fyzicky uvnitř těla nadřazeného balíčku.
+    ![[imgs/05.prednaska-046.jpg|250]]
+
+
 3.  **Kompoziční vazba**: Explicitní definice členství pomocí čáry s křížkem v kroužku.
+    ![[imgs/05.prednaska-047.jpg|200]]
 
-![[imgs/05.prednaska-045.jpg|610]] ![[imgs/05.prednaska-046.jpg|842]] ![[imgs/05.prednaska-047.jpg|560]]
-
-*Obrázek: Různé notace pro zobrazení hierarchie a vnořování balíčků.*
 
 ## Cyklické závislosti
 Velkým problémem v diagramu balíčků jsou **cyklické závislosti** (Balíček A závisí na B a B závisí zpět na A). Cykly ztěžují lokalizaci dopadů změn a komplikují rozšiřitelnost.
