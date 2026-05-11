@@ -24,7 +24,7 @@
 - **Use Case (případ užití)**: Specifický způsob využití systému aktérem k dosažení měřitelného cíle. Představuje ucelenou jednotku funkcionality (zdroj: raw/extra/Use Case Model.pdf).
 - **Aktér (Actor)**: Role, kterou hraje externí entita (člověk, jiný systém, čas) vůči systému. Aktér je vždy vně systému (zdroj: raw/extra/Use Case Model.pdf).
 
-Podrobný popis grafických prvků a vztahů naleznete na stránce [[diagram-pripadu-uziti]].
+Podrobný popis grafických prvků a vztahů naleznete na stránce [[diagram-pripadu-uziti|diagramu případů užití]].
 
 ## Specifikace případu užití
 Každý případ užití by měl být detailně popsán (typicky textově). Standardní specifikace obsahuje:
