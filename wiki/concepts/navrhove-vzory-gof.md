@@ -22,11 +22,24 @@ Zaměřují se na proces vytváření objektů tak, aby byl systém nezávislý 
 
 *Obrázek: UML diagram vzoru Abstract Factory (Klient závisí pouze na abstraktních rozhraních).*
 
-- **[[softwarova-architektura#Využití návrhových vzorů|Stavitel (Builder)]]**: Odděluje konstrukci složitého objektu od jeho reprezentace. Stejný postup konstrukce může vytvořit různé reprezentace (např. SQL dotaz pro různé dialekty). Skládá se z *Directora* (řídí strukturu) a *Buildera* (staví části).
+- **[[softwarova-architektura#Využití návrhových vzorů|Stavitel (Builder)]]**: Odděluje konstrukci složitého objektu od jeho reprezentace. Stejný postup konstrukce může vytvořit různé reprezentace (např. SQL dotaz pro různé dialekty).
 
-![[imgs/05.prednaska-073.jpg|1500]] ![[imgs/05.prednaska-076.jpg|680]] ![[imgs/05.prednaska-079.jpg|622]]
+    **Vývoj implementace (iterace):**
 
-*Obrázek: Implementace vzoru Builder pro generování SQL skriptů pro různé databáze.*
+    1. **Základní abstrakce**: Definice rozhraní `SqlBuilder`, které určuje kroky stavby (např. `createTable`, `insertData`). Klient je odstíněn od konkrétní realizace.
+
+    ![[imgs/05.prednaska-073.jpg|400]]
+
+
+    2. **Konkrétní realizace**: Vytvoření konkrétních stavitelů pro jednotlivé databáze (např. `OracleBuilder`, `PostgresBuilder`), které implementují kroky podle specifik daného dialektu.
+
+    ![[imgs/05.prednaska-076.jpg|500]]
+
+
+    3. **Optimalizace (Abstraktní předek)**: Zavedení třídy `AbstractSqlBuilder`, která obsahuje sdílenou logiku společnou pro všechny (nebo většinu) databází, čímž se zamezuje duplicitě kódu v konkrétních stavitelích.
+
+    ![[imgs/05.prednaska-079.jpg|500]]
+
 
 ## 2. Vzory chování (Behavioral)
 Zabývají se algoritmy a přiřazováním zodpovědností mezi objekty.
