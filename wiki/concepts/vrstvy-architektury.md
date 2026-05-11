@@ -24,12 +24,12 @@ Vrstvy představují horizontální rozdělení [[softwarova-architektura|softwa
 ## Pravidla závislostí
 Závislosti by měly směřovat vždy **shora dolů**. Rozlišujeme dva přístupy:
 
+- **Striktní architektura**: Vrstva může využívat pouze vrstvu bezprostředně pod ní.
+- **Relaxovaná architektura**: Vrstva může využívat jakoukoliv vrstvu pod ní (např. prezentační vrstva může volat přímo technickou službu pro logování). V praxi je tento přístup nejčastější.
+
 | Striktní vrstvení | Relaxované vrstvení |
 | :---: | :---: |
 | ![[imgs/06.prednaska-023.jpg\|250]] | ![[imgs/06.prednaska-025.jpg\|300]] |
-
-- **Striktní architektura**: Vrstva může využívat pouze vrstvu bezprostředně pod ní.
-- **Relaxovaná architektura**: Vrstva může využívat jakoukoliv vrstvu pod ní (např. prezentační vrstva může volat přímo technickou službu pro logování). V praxi je tento přístup nejčastější.
 
 ## Výhody vrstvení
 
