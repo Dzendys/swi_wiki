@@ -29,23 +29,24 @@ Osoba zodpovědná za celkové řízení. Sleduje a ovlivňuje:
 
 ## Fáze projektu
 
-1.  **Příprava**:
+1. **Příprava**:
     - Vyhodnocení proveditelnosti.
-        *   Stanovení výstupů (nejen aplikace, ale i dokumentace, migrace dat, školení).
-        *   [[odhad-pracnosti|Odhady pracnosti]] a alokace zdrojů (přiřazení lidí k rolím).
-        *   Tvorba **projektového plánu** (WBS, Ganttův diagram).
+    - Stanovení výstupů (nejen aplikace, ale i dokumentace, migrace dat, školení).
+    - [[odhad-pracnosti|Odhady pracnosti]] a alokace zdrojů (přiřazení lidí k rolím).
+    - Tvorba **projektového plánu** (WBS, Ganttův diagram).
 
     ![[imgs/11.prednaska-032.jpg|643]]
     *Obrázek: Vizualizace projektového plánu pomocí Ganttova diagramu (úkoly, trvání, závislosti).*
 
-    2.  **Provádění**:
-        *   Monitorování a aktualizace plánu dle reality.
-    *   Komunikace se zákazníkem (řešení nedorozumění, zápisy ze schůzek).
-    *   Komunikace v týmu (přidělování úkolů, odstraňování překážek).
-    *   Měření projektu (spotřebovaný čas v MDs, náklady).
-3.  **Uzavření**:
-    *   Vyhodnocení úspěšnosti a původních odhadů.
-    *   Evidence **historických dat** (trvání, cena, problémy). Tato data jsou klíčová pro odhady budoucích projektů.
+2. **Provádění**:
+    - Monitorování a aktualizace plánu dle reality.
+    - Komunikace se zákazníkem (řešení nedorozumění, zápisy ze schůzek).
+    - Komunikace v týmu (přidělování úkolů, odstraňování překážek).
+    - Měření projektu (spotřebovaný čas v MDs, náklady).
+
+3. **Uzavření**:
+    - Vyhodnocení úspěšnosti a původních odhadů.
+    - Evidence **historických dat** (trvání, cena, problémy). Tato data jsou klíčová pro odhady budoucích projektů.
 
 ## Související stránky
 
