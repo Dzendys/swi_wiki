@@ -3,9 +3,6 @@
 Tento přehled obsahuje syntézu teoretických otázek, které se objevily v minulých zkouškových termínech. Otázky jsou sjednoceny podle témat a doplněny o klíčové body pro úspěšné zodpovězení.
 
 
----
-
-
 ## 1. Procesy a Metodiky
 
 
@@ -25,9 +22,6 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 **Související koncepty**: [[unified-process|Unified Process (UP)]]
 
 
----
-
-
 ### Fáze a činnosti SCRUM
 
 **Otázka**: Vyjmenujte fáze projektu dle metodiky SCRUM a popište typické činnosti v nich vykonávané.
@@ -41,9 +35,6 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 **Výskyt**: `12. 6. 2018`, `6. 6. 2019`, `27. 1. 2021`
 
 **Související koncepty**: [[scrum|metodice SCRUM]]
-
-
----
 
 
 ### Praktiky Extrémního programování (XP)
@@ -65,9 +56,6 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 **Související koncepty**: [[agilni-vyvoj|agilnímu vývoji]], [[metodiky-vyvoje|metodikám vývoje]]
 
 
----
-
-
 ### Průběžná integrace (CI)
 
 **Otázka**: Co je to průběžná integrace a jaké jsou její výhody?
@@ -79,9 +67,6 @@ Jde o praxi častého (i několikrát denně) začleňování kódu všech vývo
 **Výskyt**: `23. 1. 2019`
 
 **Související koncepty**: [[nasazeni-aplikace|nasazování aplikací]], [[agilni-vyvoj|agilním praktikám]]
-
-
----
 
 
 ## 2. Návrh a Architektura
@@ -103,9 +88,6 @@ Jde o praxi častého (i několikrát denně) začleňování kódu všech vývo
 **Související koncepty**: [[softwarova-architektura|softwarové architektuře]]
 
 
----
-
-
 ### Principy GRASP
 
 **Otázka**: Vysvětlete principy GRASP, konkrétně nízkou provázanost (Low Coupling) a vysokou soudržnost (High Cohesion).
@@ -120,9 +102,6 @@ Jde o praxi častého (i několikrát denně) začleňování kódu všech vývo
 **Související koncepty**: [[navrhovy-model-trid|návrhovému modelu tříd]], [[clean-code|principu Clean Code]]
 
 
----
-
-
 ### Liskov Substitution Principle (LSP)
 
 **Otázka**: Definujte Liskov Substitution Principle.
@@ -134,9 +113,6 @@ Objekty v programu by měly být nahraditelné instancemi svých podtříd, ani�
 **Výskyt**: `29. 5. 2018`
 
 **Související koncepty**: [[objektove-paradigma|objektovému paradigmatu]], [[clean-code|principu LSP]]
-
-
----
 
 
 ### OCL omezení (Object Constraint Language)
@@ -155,9 +131,6 @@ OCL se používá k definici invariantů, předpokladů a následných podmínek
 **Související koncepty**: [[navrhovy-model-trid|návrhovému modelu tříd]]
 
 
----
-
-
 ### Architektura MVC
 
 **Otázka**: Stručně popište princip architektury MVC.
@@ -169,9 +142,6 @@ Jde o oddělení datové logiky (**Model**), uživatelského rozhraní (**View**
 **Výskyt**: `3. 1. 2017`
 
 **Související koncepty**: [[mvc-mvp|vzoru MVC]]
-
-
----
 
 
 ### Návrhový vzor Stav (State)
@@ -189,9 +159,6 @@ Vzor umožňuje objektu změnit své chování při změně jeho vnitřního sta
 **Související koncepty**: [[navrhove-vzory-gof|návrhovým vzorům GoF]]
 
 
----
-
-
 ### Mapování dědičnosti do DB
 
 **Otázka**: Jakými způsoby lze mapovat hierarchii dědičnosti do relační databáze?
@@ -205,9 +172,6 @@ Vzor umožňuje objektu změnit své chování při změně jeho vnitřního sta
 **Výskyt**: `22. 5. 2018`, `8. 6. 2023`
 
 **Související koncepty**: [[mapovani-dedicnosti|mapování dědičnosti]]
-
-
----
 
 
 ## 3. Požadavky a Kvalita
@@ -232,9 +196,6 @@ Slouží ke kategorizaci nefunkčních požadavků:
 **Související koncepty**: [[pozadavky|požadavkům]]
 
 
----
-
-
 ### Statická analýza kódu
 
 **Otázka**: Jaké typy problémů typicky odhalí statická analýza zdrojového kódu?
@@ -253,9 +214,6 @@ Slouží ke kategorizaci nefunkčních požadavků:
 **Související koncepty**: [[verifikace-a-validace|verifikaci a validaci]], [[testovani|testování]]
 
 
----
-
-
 ### Typy testování podle znalosti struktury
 
 **Otázka**: Popište rozdíl mezi testováním typu Black Box a White Box.
@@ -270,9 +228,6 @@ Slouží ke kategorizaci nefunkčních požadavků:
 **Související koncepty**: [[testovani|testování softwaru]]
 
 
----
-
-
 ### Interní a externí charakteristiky kvality
 
 **Otázka**: Jaký je rozdíl mezi interními a externími charakteristikami kvality softwaru? Uveďte příklady.
@@ -285,9 +240,6 @@ Slouží ke kategorizaci nefunkčních požadavků:
 **Výskyt**: `29. 5. 2025`
 
 **Související koncepty**: [[zajisteni-kvality|zajištění kvality]]
-
-
----
 
 
 ## 4. Provoz a Management
@@ -309,9 +261,6 @@ Slouží ke kategorizaci nefunkčních požadavků:
 **Související koncepty**: [[podpora-a-udrzba|podpoře a údržbě]]
 
 
----
-
-
 ### Kritická cesta (CPM)
 
 **Otázka**: Definujte kritickou cestu a vysvětlete její význam pro plánování projektu.
@@ -325,9 +274,6 @@ Kritická cesta je nejdelší možná cesta v síťovém grafu činností projek
 **Související koncepty**: [[projektove-rizeni|projektovému řízení]], [[odhad-pracnosti|odhadům pracnosti]]
 
 
----
-
-
 ### Technologie REST
 
 **Otázka**: Popište základní principy technologie REST.
@@ -339,9 +285,6 @@ Jde o architektonický styl orientovaný na zdroje (resources), které jsou iden
 **Výskyt**: `12. 6. 2018`, `6. 6. 2019`
 
 **Související koncepty**: [[webove-sluzby-rest-soap|webovým službám REST]]
-
-
----
 
 
 ### Integrační styly aplikací
@@ -360,9 +303,6 @@ Jde o architektonický styl orientovaný na zdroje (resources), které jsou iden
 **Související koncepty**: [[integrace-aplikaci|integraci aplikací]]
 
 
----
-
-
 ### Správa verzí (SVN vs. Git)
 
 **Otázka**: Jaké možnosti poskytuje systém správy verzí (např. SVN nebo Git) a jaké jsou výhody/nevýhody?
@@ -377,9 +317,6 @@ Systémy pro správu verzí umožňují sledovat historii změn v kódu, vracet 
 **Výskyt**: `3. 1. 2017`
 
 **Související koncepty**: [[tymova-spoluprace|týmové spolupráci]]
-
-
----
 
 
 ## 5. Modelovací tipy a drobné poznatky
@@ -398,9 +335,6 @@ Aktérem nemusí být jen člověk nebo externí systém, ale také **Čas**. Po
 **Výskyt**: `18. 12. 2019`, `16. 12. 2020`
 
 **Související koncepty**: [[pripady-uziti|případům užití]]
-
-
----
 
 
 ### Evidence historie (Role a Smlouvy)
