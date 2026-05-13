@@ -11,7 +11,6 @@ Obsah je rozdělen do tří hlavních úrovní podle způsobu zpracování:
 3.  **[[concepts/index|Koncepty]]**: Atomické stránky věnované konkrétním termínům, diagramům nebo metodikám (např. [[concepts/scrum|Scrum]], [[concepts/diagram-aktivit|Diagram aktivit]]). Jsou linkovány z Modulů i Přednášek pro detailní pochopení daného pojmu.
 4.  **[[exams-theory|Teoretické otázky ze zkoušek]]**: Syntéza teoretických otázek, které se objevily v minulých zkouškových termínech. **Doporučeno pro opakování teorie.**
 
----
 
 ## Moduly
 Strukturovaný studijní průvodce rozdělený do logických fází vývoje software.
