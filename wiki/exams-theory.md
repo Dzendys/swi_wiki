@@ -27,13 +27,14 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 **Otázka**: Vyjmenujte fáze projektu dle metodiky SCRUM a popište typické činnosti v nich vykonávané.
 
 **Odpověď**:
+
 - **Předehra (Prelude)**: Plánování, sestavení úvodního Product Backlogu a hrubý návrh architektury.
 - **Hra (Play)**: Samotný vývoj probíhající v iteracích (sprintech), které zahrnují plánování, každodenní schůzky a review.
 - **Dohra (Post-game)**: Finální integrace, akceptační testy se zákazníkem a příprava dokumentace k nasazení.
 
-**Výskyt**: 12. 6. 2018, 6. 6. 2019, 27. 1. 2021
+**Výskyt**: `12. 6. 2018`, `6. 6. 2019`, `27. 1. 2021`
 
-**Související koncepty**: [[scrum|metodika SCRUM]]
+**Související koncepty**: [[scrum|metodice SCRUM]]
 
 ---
 
@@ -42,6 +43,7 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 **Otázka**: Uveďte alespoň 6 typických praktik nebo charakteristik Extrémního programování.
 
 **Odpověď**:
+
 - **Párové programování**: Dva vývojáři pracují společně u jednoho stroje.
 - **Test Driven Development (TDD)**: Psaní unit testů před samotným kódem.
 - **Průběžná integrace (CI)**: Časté začleňování změn do hlavní větve kódu.
@@ -50,7 +52,7 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 - **Zákazník na místě**: Neustálá přítomnost a dostupnost zástupce zákazníka pro konzultace.
 - **Refaktoring**: Neustálé vylepšování struktury kódu při zachování funkčnosti.
 
-**Výskyt**: 10. 1. 2017, 2. 1. 2019
+**Výskyt**: `10. 1. 2017`, `2. 1. 2019`
 
 **Související koncepty**: [[agilni-vyvoj|agilnímu vývoji]], [[metodiky-vyvoje|metodikám vývoje]]
 
@@ -63,12 +65,13 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 **Otázka**: Jaké modely jsou definovány v rámci Model Driven Architecture (MDA)?
 
 **Odpověď**:
+
 - **CIM (Computation Independent Model)**: Model nezávislý na výpočetním systému, odpovídá doménovému modelu.
 - **PIM (Platform Independent Model)**: Model nezávislý na konkrétní platformě (např. čisté UML bez detailů jazyka).
 - **PSM (Platform Specific Model)**: Model přizpůsobený konkrétní technologii (např. J2EE nebo .NET).
 - **Kód**: Samotná implementace (někdy označována jako ISM - Implementation Specific Model).
 
-**Výskyt**: 30. 5. 2011, 22. 5. 2018
+**Výskyt**: `30. 5. 2011`, `22. 5. 2018`
 
 **Související koncepty**: [[softwarova-architektura|softwarové architektuře]]
 
@@ -80,7 +83,7 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 
 **Odpověď**: Jde o oddělení datové logiky (**Model**), uživatelského rozhraní (**View**) a řízení toku událostí (**Controller**). View čte data přímo z modelu a Controller na základě vstupů od uživatele model mění.
 
-**Výskyt**: 3. 1. 2017
+**Výskyt**: `3. 1. 2017`
 
 **Související koncepty**: [[mvc-mvp|vzoru MVC]]
 
@@ -93,7 +96,7 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 **Odpověď**: Vzor umožňuje objektu změnit své chování při změně jeho vnitřního stavu, přičemž se navenek jeví, jako by změnil svou třídu. Stavy jsou zapouzdřeny do samostatných tříd se společným rozhraním.
 **Příklad**: Životní cyklus objednávky (Nová -> Zaplacená -> Odeslaná) nebo stavy přehrávače médií.
 
-**Výskyt**: 15. 6. 2012, 16. 5. 2014, 23. 1. 2019, 25. 5. 2023
+**Výskyt**: `15. 6. 2012`, `16. 5. 2014`, `23. 1. 2019`, `25. 5. 2023`
 
 **Související koncepty**: [[navrhove-vzory-gof|návrhovým vzorům GoF]]
 
@@ -104,11 +107,12 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 **Otázka**: Jakými způsoby lze mapovat hierarchii dědičnosti do relační databáze?
 
 **Odpověď**:
+
 1.  **Single Table Inheritance**: Celá hierarchie v jedné tabulce (nutný diskriminátor, mnoho NULL hodnot).
-2.  **Concrete Table Inheritance**: Každá konkrétní podtřída má vlastní tabulku se všemi zděděnými sloupci.
+2.  **Concrete Table Inheritance**: Jaká konkrétní podtřída má vlastní tabulku se všemi zděděnými sloupci.
 3.  **Class Table Inheritance**: Každá třída (i abstraktní) má vlastní tabulku, vazby jsou řešeny cizími klíči.
 
-**Výskyt**: 22. 5. 2018, 8. 6. 2023
+**Výskyt**: `22. 5. 2018`, `8. 6. 2023`
 
 **Související koncepty**: [[mapovani-dedicnosti|mapování dědičnosti]]
 
@@ -121,13 +125,14 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 **Otázka**: Co znamená zkratka FURPS a uveďte příklady pro jednotlivé kategorie.
 
 **Odpověď**: Slouží ke kategorizaci nefunkčních požadavků:
+
 - **F (Functionality)**: Funkčnost (bezpečnost, audity).
 - **U (Usability)**: Použitelnost (intuitivnost ovládání, lokalizace).
 - **R (Reliability)**: Spolehlivost (dostupnost systému, odolnost proti chybám).
 - **P (Performance)**: Výkon (rychlost odezvy, propustnost).
 - **S (Supportability)**: Podporovatelnost (udržovatelnost, rozšiřitelnost).
 
-**Výskyt**: 16. 5. 2014, 5. 6. 2018
+**Výskyt**: `16. 5. 2014`, `5. 6. 2018`
 
 **Související koncepty**: [[pozadavky|požadavkům]]
 
@@ -138,6 +143,7 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 **Otázka**: Jaké typy problémů typicky odhalí statická analýza zdrojového kódu?
 
 **Odpověď**:
+
 - Nedosažitelný kód (dead code).
 - Použití neinicializovaných proměnných.
 - Nekonečné smyčky.
@@ -145,7 +151,7 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 - Potenciální bezpečnostní slabiny (např. SQL injection).
 - Příliš vysoká komplexita metod (např. cyklomatická).
 
-**Výskyt**: 18. 5. 2012, 10. 1. 2017, 2. 1. 2019
+**Výskyt**: `18. 5. 2012`, `10. 1. 2017`, `2. 1. 2019`
 
 **Související koncepty**: [[verifikace-a-validace|verifikaci a validaci]], [[testovani|testování]]
 
