@@ -11,12 +11,13 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 **Otázka**: Vyjmenujte 4 fáze Unified procesu.
 
 **Odpověď**:
+
 1.  **Inception (Zahájení)**: Definice rozsahu projektu, hrubé odhady a ověření proveditelnosti.
 2.  **Elaboration (Rozpracování)**: Detailní analýza požadavků, návrh a stabilizace architektury a zmírnění hlavních rizik.
 3.  **Construction (Konstrukce)**: Kompletní implementace zbývajících funkcí a jejich testování.
 4.  **Transition (Dodání)**: Nasazení systému u uživatelů, beta testování, školení a opravy drobných chyb.
 
-**Výskyt**: 18. 5. 2012, 29. 5. 2018
+**Výskyt**: `18. 5. 2012`, `29. 5. 2018`
 
 **Související koncepty**: [[unified-process|Unified Process (UP)]]
 
@@ -164,12 +165,13 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 **Otázka**: Jaké druhy údržby rozlišujeme a jaké jsou jejich cíle?
 
 **Odpověď**:
+
 1.  **Korektivní**: Oprava chyb nalezených až po nasazení do provozu.
 2.  **Adaptivní**: Úprava systému pro nové prostředí (nový OS, HW, legislativa).
 3.  **Perfektivní**: Zlepšování vlastností (výkon, uživatelská přívětivost) na základě požadavků uživatelů.
 4.  **Preventivní**: Úpravy snižující riziko budoucích poruch (např. refaktoring).
 
-**Výskyt**: 8. 6. 2023
+**Výskyt**: `8. 6. 2023`
 
 **Související koncepty**: [[podpora-a-udrzba|podpoře a údržbě]]
 
@@ -181,7 +183,7 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 
 **Odpověď**: Kritická cesta je nejdelší možná cesta v síťovém grafu činností projektu. Určuje celkovou minimální dobu trvání projektu. Jakékoliv zpoždění činnosti na této cestě přímo posouvá termín dokončení celého projektu.
 
-**Výskyt**: 25. 5. 2023
+**Výskyt**: `25. 5. 2023`
 
 **Související koncepty**: [[projektove-rizeni|projektovému řízení]], [[odhad-pracnosti|odhadům pracnosti]]
 
@@ -193,7 +195,7 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 
 **Odpověď**: Jde o architektonický styl orientovaný na zdroje (resources), které jsou identifikovány pomocí URI. K manipulaci se zdroji se využívají standardní metody HTTP (GET, POST, PUT, DELETE). Komunikace je bezstavová.
 
-**Výskyt**: 12. 6. 2018, 6. 6. 2019
+**Výskyt**: `12. 6. 2018`, `6. 6. 2019`
 
 **Související koncepty**: [[webove-sluzby-rest-soap|webovým službám REST]]
 
