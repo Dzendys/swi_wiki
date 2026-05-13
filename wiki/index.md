@@ -9,13 +9,9 @@ Obsah je rozdělen do tří hlavních úrovní podle způsobu zpracování:
 1.  **[[modules/index|Moduly]]**: Ucelená "skripta" a hlavní studijní tok. Jsou to syntetizované texty, které propojují znalosti z několika přednášek a detailních konceptů do logických kapitol (např. celý proces analýzy v jednom celku). **Doporučeno jako primární zdroj ke studiu.**
 2.  **[[lectures/index|Přednášky]]**: Chronologické souhrny jednotlivých přednáškových bloků (1–12). Slouží k rychlému dohledání, co přesně zaznělo v konkrétním týdnu semestru.
 3.  **[[concepts/index|Koncepty]]**: Atomické stránky věnované konkrétním termínům, diagramům nebo metodikám (např. [[concepts/scrum|Scrum]], [[concepts/diagram-aktivit|Diagram aktivit]]). Jsou linkovány z Modulů i Přednášek pro detailní pochopení daného pojmu.
+4.  **[[exams-theory|Teoretické otázky ze zkoušek]]**: Syntéza teoretických otázek, které se objevily v minulých zkouškových termínech. **Doporučeno pro opakování teorie.**
 
 ---
-
-## Příprava na zkoušku
-Užitečné materiály pro finální opakování před zkouškou.
-
-- [[exams-theory|Teoretické otázky ze zkoušek]] (syntéza z minulých termínů)
 
 ## Moduly
 Strukturovaný studijní průvodce rozdělený do logických fází vývoje software.
