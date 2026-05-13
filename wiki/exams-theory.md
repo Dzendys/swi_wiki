@@ -217,6 +217,36 @@ OCL se používá k definici invariantů, předpokladů a následných podmínek
 
 ---
 
+### Typy testování podle znalosti struktury
+
+**Otázka**: Popište rozdíl mezi testováním typu Black Box a White Box.
+
+**Odpověď**:
+
+- **Black Box**: Tester nezná vnitřní strukturu ani kód systému. Ověřuje funkčnost na základě vstupů a očekávaných výstupů vůči specifikaci.
+- **White Box**: Tester má přístup ke zdrojovému kódu a zná vnitřní strukturu systému. Testy se zaměřují na pokrytí cest kódu, podmínek a logiky.
+
+**Výskyt**: `24. 5. 2013`, `9. 6. 2019`
+
+**Související koncepty**: [[testovani|testování softwaru]]
+
+---
+
+### Interní a externí charakteristiky kvality
+
+**Otázka**: Jaký je rozdíl mezi interními a externími charakteristikami kvality softwaru? Uveďte příklady.
+
+**Odpověď**:
+
+- **Externí**: Vlastnosti viditelné pro koncového uživatele. Příklady: **korektnost**, **použitelnost**, **spolehlivost**, **efektivita**.
+- **Interní**: Vlastnosti důležité pro vývojáře a udržovatele systému. Příklady: **udržovatelnost**, **testovatelnost**, **znovupoužitelnost**, **čitelnost kódu**.
+
+**Výskyt**: `29. 5. 2025`
+
+**Související koncepty**: [[zajisteni-kvality|zajištění kvality]]
+
+---
+
 ## 4. Provoz a Management
 
 ### Klasifikace údržby
@@ -259,4 +289,62 @@ OCL se používá k definici invariantů, předpokladů a následných podmínek
 **Související koncepty**: [[webove-sluzby-rest-soap|webovým službám REST]]
 
 ---
+
+### Integrační styly aplikací
+
+**Otázka**: Vyjmenujte a stručně popište základní integrační styly.
+
+**Odpověď**:
+
+1.  **Sdílená databáze**: Aplikace přistupují ke stejným datům v jedné DB.
+2.  **Přenos souborů**: Předávání dat pomocí exportu a importu souborů.
+3.  **Vzdálené volání procedur (RPC)**: Synchronní volání funkcí jiného systému přes rozhraní.
+4.  **Zasílání zpráv (Messaging)**: Asynchronní komunikace přes fronty zpráv (zajišťuje vyšší robustnost).
+
+**Výskyt**: `24. 5. 2013`
+
+**Související koncepty**: [[integrace-aplikaci|integraci aplikací]]
+
+---
+
+### Správa verzí (SVN vs. Git)
+
+**Otázka**: Jaké možnosti poskytuje systém správy verzí (např. SVN nebo Git) a jaké jsou výhody/nevýhody?
+
+**Odpověď**:
+
+Systémy pro správu verzí umožňují sledovat historii změn v kódu, vracet se k předchozím verzím a efektivně spolupracovat v týmu.
+- **Výhody**: Historie změn, možnost paralelní práce (větvení), záloha kódu, dohledatelnost autorů změn.
+- **Nevýhody**: Nutnost řešit konflikty při sloučení změn (merge), režie na správu a naučení nástroje.
+
+**Výskyt**: `3. 1. 2017`
+
+**Související koncepty**: [[tymova-spoluprace|týmové spolupráci]]
+
+---
+
+## 5. Modelovací tipy a drobné poznatky
+
+Tato sekce obsahuje specifické postřehy a drobné teoretické doplňky, které se objevily v zadáních nebo komentářích zkoušejících.
+
+### Čas jako aktér
+**Otázka**: Kdo může být aktérem v Use Case diagramu?
+**Poznatek**: Aktérem nemusí být jen člověk nebo externí systém, ale také **Čas**. Používá se pro akce, které se spouštějí automaticky v daný okamžik (např. „každý večer se generuje uzávěrka“).
+
+**Výskyt**: `18. 12. 2019`, `16. 12. 2020`
+
+**Související koncepty**: [[pripady-uziti|případům užití]]
+
+---
+
+### Evidence historie (Role a Smlouvy)
+**Otázka**: Jak v doménovém modelu zachytit historii rolí (např. kdy byl kdo ředitelem)?
+**Poznatek**: Místo přímé vazby mezi Osobou a Rolí se vloží mezilehlá entita (např. **Smlouva** nebo **Působení**), která obsahuje atributy `od` a `do`.
+
+**Výskyt**: `6. 1. 2021`
+
+**Související koncepty**: [[domenovy-model|doménovému modelu]]
+
+---
+
 #zkouska #teorie #mda #up #scrum #furps #rest #BI-SWI
