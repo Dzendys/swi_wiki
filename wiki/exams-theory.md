@@ -128,6 +128,7 @@ Objekty v programu by měly být nahraditelné instancemi svých podtříd, ani�
 **Odpověď**:
 
 OCL se používá k definici invariantů, předpokladů a následných podmínek v UML modelech.
+
 **Příklad** (limit výpůjček):
 `context Osoba inv: self.vypujcky->size() <= 10`
 
@@ -141,7 +142,9 @@ OCL se používá k definici invariantů, předpokladů a následných podmínek
 
 **Otázka**: Stručně popište princip architektury MVC.
 
-**Odpověď**: Jde o oddělení datové logiky (**Model**), uživatelského rozhraní (**View**) a řízení toku událostí (**Controller**). View čte data přímo z modelu a Controller na základě vstupů od uživatele model mění.
+**Odpověď**:
+
+Jde o oddělení datové logiky (**Model**), uživatelského rozhraní (**View**) a řízení toku událostí (**Controller**). View čte data přímo z modelu a Controller na základě vstupů od uživatele model mění.
 
 **Výskyt**: `3. 1. 2017`
 
@@ -153,7 +156,10 @@ OCL se používá k definici invariantů, předpokladů a následných podmínek
 
 **Otázka**: Popište návrhový vzor Stav a uveďte konkrétní příklad použití.
 
-**Odpověď**: Vzor umožňuje objektu změnit své chování při změně jeho vnitřního stavu, přičemž se navenek jeví, jako by změnil svou třídu. Stavy jsou zapouzdřeny do samostatných tříd se společným rozhraním.
+**Odpověď**:
+
+Vzor umožňuje objektu změnit své chování při změně jeho vnitřního stavu, přičemž se navenek jeví, jako by změnil svou třídu. Stavy jsou zapouzdřeny do samostatných tříd se společným rozhraním.
+
 **Příklad**: Životní cyklus objednávky (Nová -> Zaplacená -> Odeslaná) nebo stavy přehrávače médií.
 
 **Výskyt**: `15. 6. 2012`, `16. 5. 2014`, `23. 1. 2019`, `25. 5. 2023`
@@ -184,7 +190,9 @@ OCL se používá k definici invariantů, předpokladů a následných podmínek
 
 **Otázka**: Co znamená zkratka FURPS a uveďte příklady pro jednotlivé kategorie.
 
-**Odpověď**: Slouží ke kategorizaci nefunkčních požadavků:
+**Odpověď**:
+
+Slouží ke kategorizaci nefunkčních požadavků:
 
 - **F (Functionality)**: Funkčnost (bezpečnost, audity).
 - **U (Usability)**: Použitelnost (intuitivnost ovládání, lokalizace).
@@ -270,7 +278,9 @@ OCL se používá k definici invariantů, předpokladů a následných podmínek
 
 **Otázka**: Definujte kritickou cestu a vysvětlete její význam pro plánování projektu.
 
-**Odpověď**: Kritická cesta je nejdelší možná cesta v síťovém grafu činností projektu. Určuje celkovou minimální dobu trvání projektu. Jakékoliv zpoždění činnosti na této cestě přímo posouvá termín dokončení celého projektu.
+**Odpověď**:
+
+Kritická cesta je nejdelší možná cesta v síťovém grafu činností projektu. Určuje celkovou minimální dobu trvání projektu. Jakékoliv zpoždění činnosti na této cestě přímo posouvá termín dokončení celého projektu.
 
 **Výskyt**: `25. 5. 2023`
 
@@ -282,7 +292,9 @@ OCL se používá k definici invariantů, předpokladů a následných podmínek
 
 **Otázka**: Popište základní principy technologie REST.
 
-**Odpověď**: Jde o architektonický styl orientovaný na zdroje (resources), které jsou identifikovány pomocí URI. K manipulaci se zdroji se využívají standardní metody HTTP (GET, POST, PUT, DELETE). Komunikace je bezstavová.
+**Odpověď**:
+
+Jde o architektonický styl orientovaný na zdroje (resources), které jsou identifikovány pomocí URI. K manipulaci se zdroji se využívají standardní metody HTTP (GET, POST, PUT, DELETE). Komunikace je bezstavová.
 
 **Výskyt**: `12. 6. 2018`, `6. 6. 2019`
 
@@ -314,6 +326,7 @@ OCL se používá k definici invariantů, předpokladů a následných podmínek
 **Odpověď**:
 
 Systémy pro správu verzí umožňují sledovat historii změn v kódu, vracet se k předchozím verzím a efektivně spolupracovat v týmu.
+
 - **Výhody**: Historie změn, možnost paralelní práce (větvení), záloha kódu, dohledatelnost autorů změn.
 - **Nevýhody**: Nutnost řešit konflikty při sloučení změn (merge), režie na správu a naučení nástroje.
 
@@ -328,8 +341,12 @@ Systémy pro správu verzí umožňují sledovat historii změn v kódu, vracet 
 Tato sekce obsahuje specifické postřehy a drobné teoretické doplňky, které se objevily v zadáních nebo komentářích zkoušejících.
 
 ### Čas jako aktér
+
 **Otázka**: Kdo může být aktérem v Use Case diagramu?
-**Poznatek**: Aktérem nemusí být jen člověk nebo externí systém, ale také **Čas**. Používá se pro akce, které se spouštějí automaticky v daný okamžik (např. „každý večer se generuje uzávěrka“).
+
+**Odpověď**:
+
+Aktérem nemusí být jen člověk nebo externí systém, ale také **Čas**. Používá se pro akce, které se spouštějí automaticky v daný okamžik (např. „každý večer se generuje uzávěrka“).
 
 **Výskyt**: `18. 12. 2019`, `16. 12. 2020`
 
@@ -338,8 +355,12 @@ Tato sekce obsahuje specifické postřehy a drobné teoretické doplňky, které
 ---
 
 ### Evidence historie (Role a Smlouvy)
+
 **Otázka**: Jak v doménovém modelu zachytit historii rolí (např. kdy byl kdo ředitelem)?
-**Poznatek**: Místo přímé vazby mezi Osobou a Rolí se vloží mezilehlá entita (např. **Smlouva** nebo **Působení**), která obsahuje atributy `od` a `do`.
+
+**Odpověď**:
+
+Místo přímé vazby mezi Osobou a Rolí se vloží mezilehlá entita (např. **Smlouva** nebo **Působení**), která obsahuje atributy `od` a `do`.
 
 **Výskyt**: `6. 1. 2021`
 
