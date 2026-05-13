@@ -12,6 +12,11 @@ Obsah je rozdělen do tří hlavních úrovní podle způsobu zpracování:
 
 ---
 
+## Příprava na zkoušku
+Užitečné materiály pro finální opakování před zkouškou.
+
+- [[exams-theory|Teoretické otázky ze zkoušek]] (syntéza z minulých termínů)
+
 ## Moduly
 Strukturovaný studijní průvodce rozdělený do logických fází vývoje software.
 

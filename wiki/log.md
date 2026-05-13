@@ -1,5 +1,11 @@
 # Log změn
 
+## [2026-05-13] Merge: feat/exam-theory-extraction
+- Syntéza teoretických otázek z minulých zkouškových termínů.
+- Vytvořena stránka [[exams-theory]] s přehledem otázek rozdělených do kategorií (Metodiky, Návrh, Kvalita, Management).
+- Otázky obsahují stručné odpovědi a výčty termínů, kdy se objevily.
+- Aktualizován hlavní rozcestník [[index]].
+
 ## [2026-05-12] fix: odstranění duplicitního obrázku v doménovém modelu
 - Odstraněn redundantní obrázek z úvodu stránky `wiki/concepts/domenovy-model.md` (obrázek se již nachází v sekci "Finální model").
 
