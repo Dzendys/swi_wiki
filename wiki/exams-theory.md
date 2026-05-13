@@ -37,25 +37,6 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 **Související koncepty**: [[scrum|metodice SCRUM]]
 
 
-### Praktiky Extrémního programování (XP)
-
-**Otázka**: Uveďte alespoň 6 typických praktik nebo charakteristik Extrémního programování.
-
-**Odpověď**:
-
-- **Párové programování**: Dva vývojáři pracují společně u jednoho stroje.
-- **Test Driven Development (TDD)**: Psaní unit testů před samotným kódem.
-- **Průběžná integrace (CI)**: Časté začleňování změn do hlavní větve kódu.
-- **Malá vydání**: Časté dodávky fungujícího, ale menšího kusu softwaru.
-- **Jednoduchý návrh**: Implementace pouze toho, co je aktuálně potřeba (YAGNI).
-- **Zákazník na místě**: Neustálá přítomnost a dostupnost zástupce zákazníka pro konzultace.
-- **Refaktoring**: Neustálé vylepšování struktury kódu při zachování funkčnosti.
-
-**Výskyt**: `10. 1. 2017`, `2. 1. 2019`
-
-**Související koncepty**: [[agilni-vyvoj|agilnímu vývoji]], [[metodiky-vyvoje|metodikám vývoje]]
-
-
 ### Průběžná integrace (CI)
 
 **Otázka**: Co je to průběžná integrace a jaké jsou její výhody?
@@ -70,22 +51,6 @@ Jde o praxi častého (i několikrát denně) začleňování kódu všech vývo
 
 
 ## 2. Návrh a Architektura
-
-
-### Modely OMG MDA
-
-**Otázka**: Jaké modely jsou definovány v rámci Model Driven Architecture (MDA)?
-
-**Odpověď**:
-
-- **CIM (Computation Independent Model)**: Model nezávislý na výpočetním systému, odpovídá doménovému modelu.
-- **PIM (Platform Independent Model)**: Model nezávislý na konkrétní platformě (např. čisté UML bez detailů jazyka).
-- **PSM (Platform Specific Model)**: Model přizpůsobený konkrétní technologii (např. J2EE nebo .NET).
-- **Kód**: Samotná implementace (někdy označována jako ISM - Implementation Specific Model).
-
-**Výskyt**: `30. 5. 2011`, `22. 5. 2018`
-
-**Související koncepty**: [[softwarova-architektura|softwarové architektuře]]
 
 
 ### Principy GRASP
@@ -113,22 +78,6 @@ Objekty v programu by měly být nahraditelné instancemi svých podtříd, ani�
 **Výskyt**: `29. 5. 2018`
 
 **Související koncepty**: [[objektove-paradigma|objektovému paradigmatu]], [[clean-code|principu LSP]]
-
-
-### OCL omezení (Object Constraint Language)
-
-**Otázka**: Namodelujte integritní omezení v OCL (např. limit výpůjček, unikátnost záznamů).
-
-**Odpověď**:
-
-OCL se používá k definici invariantů, předpokladů a následných podmínek v UML modelech.
-
-**Příklad** (limit výpůjček):
-`context Osoba inv: self.vypujcky->size() <= 10`
-
-**Výskyt**: `30. 5. 2011`, `15. 6. 2012`
-
-**Související koncepty**: [[navrhovy-model-trid|návrhovému modelu tříd]]
 
 
 ### Architektura MVC
