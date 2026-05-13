@@ -59,6 +59,20 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 
 ---
 
+### Průběžná integrace (CI)
+
+**Otázka**: Co je to průběžná integrace a jaké jsou její výhody?
+
+**Odpověď**:
+
+Jde o praxi častého (i několikrát denně) začleňování kódu všech vývojářů do společné hlavní větve. Každé začlenění je automaticky ověřeno sestavením (buildem) a sadou testů, což umožňuje včasnou detekci chyb integrace.
+
+**Výskyt**: `23. 1. 2019`
+
+**Související koncepty**: [[nasazeni-aplikace|nasazování aplikací]], [[agilni-vyvoj|agilním praktikám]]
+
+---
+
 ## 2. Návrh a Architektura
 
 ### Modely OMG MDA
@@ -75,6 +89,51 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 **Výskyt**: `30. 5. 2011`, `22. 5. 2018`
 
 **Související koncepty**: [[softwarova-architektura|softwarové architektuře]]
+
+---
+
+### Principy GRASP
+
+**Otázka**: Vysvětlete principy GRASP, konkrétně nízkou provázanost (Low Coupling) a vysokou soudržnost (High Cohesion).
+
+**Odpověď**:
+
+- **Nízká provázanost**: Snaha o minimalizaci závislostí mezi třídami. Změna v jedné třídě by měla mít minimální dopad na ostatní. Zvyšuje znovupoužitelnost a udržovatelnost.
+- **Vysoká soudržnost**: Třída by měla mít jasně definovanou a úzkou zodpovědnost. Metody třídy by měly úzce souviset s jejím účelem. Usnadňuje pochopení a testování kódu.
+
+**Výskyt**: `5. 6. 2018`, `10. 6. 2021`
+
+**Související koncepty**: [[navrhovy-model-trid|návrhovému modelu tříd]], [[clean-code|principu Clean Code]]
+
+---
+
+### Liskov Substitution Principle (LSP)
+
+**Otázka**: Definujte Liskov Substitution Principle.
+
+**Odpověď**:
+
+Objekty v programu by měly být nahraditelné instancemi svých podtříd, aniž by se změnila korektnost programu. Podtřída nesmí vyžadovat více (oslabení předpokladů) a nesmí zaručovat méně (posílení následných podmínek) než její nadtřída.
+
+**Výskyt**: `29. 5. 2018`
+
+**Související koncepty**: [[objektove-paradigma|objektovému paradigmatu]], [[clean-code|principu LSP]]
+
+---
+
+### OCL omezení (Object Constraint Language)
+
+**Otázka**: Namodelujte integritní omezení v OCL (např. limit výpůjček, unikátnost záznamů).
+
+**Odpověď**:
+
+OCL se používá k definici invariantů, předpokladů a následných podmínek v UML modelech.
+**Příklad** (limit výpůjček):
+`context Osoba inv: self.vypujcky->size() <= 10`
+
+**Výskyt**: `30. 5. 2011`, `15. 6. 2012`
+
+**Související koncepty**: [[navrhovy-model-trid|návrhovému modelu tříd]]
 
 ---
 
