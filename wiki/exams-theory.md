@@ -2,9 +2,12 @@
 
 Tento přehled obsahuje syntézu teoretických otázek, které se objevily v minulých zkouškových termínech. Otázky jsou sjednoceny podle témat a doplněny o klíčové body pro úspěšné zodpovězení.
 
+
 ---
 
+
 ## 1. Procesy a Metodiky
+
 
 ### Fáze Unified Process (UP)
 
@@ -21,7 +24,9 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 
 **Související koncepty**: [[unified-process|Unified Process (UP)]]
 
+
 ---
+
 
 ### Fáze a činnosti SCRUM
 
@@ -37,7 +42,9 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 
 **Související koncepty**: [[scrum|metodice SCRUM]]
 
+
 ---
+
 
 ### Praktiky Extrémního programování (XP)
 
@@ -57,7 +64,9 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 
 **Související koncepty**: [[agilni-vyvoj|agilnímu vývoji]], [[metodiky-vyvoje|metodikám vývoje]]
 
+
 ---
+
 
 ### Průběžná integrace (CI)
 
@@ -71,9 +80,12 @@ Jde o praxi častého (i několikrát denně) začleňování kódu všech vývo
 
 **Související koncepty**: [[nasazeni-aplikace|nasazování aplikací]], [[agilni-vyvoj|agilním praktikám]]
 
+
 ---
 
+
 ## 2. Návrh a Architektura
+
 
 ### Modely OMG MDA
 
@@ -90,7 +102,9 @@ Jde o praxi častého (i několikrát denně) začleňování kódu všech vývo
 
 **Související koncepty**: [[softwarova-architektura|softwarové architektuře]]
 
+
 ---
+
 
 ### Principy GRASP
 
@@ -105,7 +119,9 @@ Jde o praxi častého (i několikrát denně) začleňování kódu všech vývo
 
 **Související koncepty**: [[navrhovy-model-trid|návrhovému modelu tříd]], [[clean-code|principu Clean Code]]
 
+
 ---
+
 
 ### Liskov Substitution Principle (LSP)
 
@@ -119,7 +135,9 @@ Objekty v programu by měly být nahraditelné instancemi svých podtříd, ani�
 
 **Související koncepty**: [[objektove-paradigma|objektovému paradigmatu]], [[clean-code|principu LSP]]
 
+
 ---
+
 
 ### OCL omezení (Object Constraint Language)
 
@@ -136,7 +154,9 @@ OCL se používá k definici invariantů, předpokladů a následných podmínek
 
 **Související koncepty**: [[navrhovy-model-trid|návrhovému modelu tříd]]
 
+
 ---
+
 
 ### Architektura MVC
 
@@ -150,7 +170,9 @@ Jde o oddělení datové logiky (**Model**), uživatelského rozhraní (**View**
 
 **Související koncepty**: [[mvc-mvp|vzoru MVC]]
 
+
 ---
+
 
 ### Návrhový vzor Stav (State)
 
@@ -166,7 +188,9 @@ Vzor umožňuje objektu změnit své chování při změně jeho vnitřního sta
 
 **Související koncepty**: [[navrhove-vzory-gof|návrhovým vzorům GoF]]
 
+
 ---
+
 
 ### Mapování dědičnosti do DB
 
@@ -182,9 +206,12 @@ Vzor umožňuje objektu změnit své chování při změně jeho vnitřního sta
 
 **Související koncepty**: [[mapovani-dedicnosti|mapování dědičnosti]]
 
+
 ---
 
+
 ## 3. Požadavky a Kvalita
+
 
 ### Model FURPS
 
@@ -204,7 +231,9 @@ Slouží ke kategorizaci nefunkčních požadavků:
 
 **Související koncepty**: [[pozadavky|požadavkům]]
 
+
 ---
+
 
 ### Statická analýza kódu
 
@@ -223,7 +252,9 @@ Slouží ke kategorizaci nefunkčních požadavků:
 
 **Související koncepty**: [[verifikace-a-validace|verifikaci a validaci]], [[testovani|testování]]
 
+
 ---
+
 
 ### Typy testování podle znalosti struktury
 
@@ -238,7 +269,9 @@ Slouží ke kategorizaci nefunkčních požadavků:
 
 **Související koncepty**: [[testovani|testování softwaru]]
 
+
 ---
+
 
 ### Interní a externí charakteristiky kvality
 
@@ -253,9 +286,12 @@ Slouží ke kategorizaci nefunkčních požadavků:
 
 **Související koncepty**: [[zajisteni-kvality|zajištění kvality]]
 
+
 ---
 
+
 ## 4. Provoz a Management
+
 
 ### Klasifikace údržby
 
@@ -272,7 +308,9 @@ Slouží ke kategorizaci nefunkčních požadavků:
 
 **Související koncepty**: [[podpora-a-udrzba|podpoře a údržbě]]
 
+
 ---
+
 
 ### Kritická cesta (CPM)
 
@@ -286,7 +324,9 @@ Kritická cesta je nejdelší možná cesta v síťovém grafu činností projek
 
 **Související koncepty**: [[projektove-rizeni|projektovému řízení]], [[odhad-pracnosti|odhadům pracnosti]]
 
+
 ---
+
 
 ### Technologie REST
 
@@ -300,7 +340,9 @@ Jde o architektonický styl orientovaný na zdroje (resources), které jsou iden
 
 **Související koncepty**: [[webove-sluzby-rest-soap|webovým službám REST]]
 
+
 ---
+
 
 ### Integrační styly aplikací
 
@@ -317,7 +359,9 @@ Jde o architektonický styl orientovaný na zdroje (resources), které jsou iden
 
 **Související koncepty**: [[integrace-aplikaci|integraci aplikací]]
 
+
 ---
+
 
 ### Správa verzí (SVN vs. Git)
 
@@ -334,11 +378,14 @@ Systémy pro správu verzí umožňují sledovat historii změn v kódu, vracet 
 
 **Související koncepty**: [[tymova-spoluprace|týmové spolupráci]]
 
+
 ---
+
 
 ## 5. Modelovací tipy a drobné poznatky
 
 Tato sekce obsahuje specifické postřehy a drobné teoretické doplňky, které se objevily v zadáních nebo komentářích zkoušejících.
+
 
 ### Čas jako aktér
 
@@ -352,7 +399,9 @@ Aktérem nemusí být jen člověk nebo externí systém, ale také **Čas**. Po
 
 **Související koncepty**: [[pripady-uziti|případům užití]]
 
+
 ---
+
 
 ### Evidence historie (Role a Smlouvy)
 
@@ -365,6 +414,7 @@ Místo přímé vazby mezi Osobou a Rolí se vloží mezilehlá entita (např. *
 **Výskyt**: `6. 1. 2021`
 
 **Související koncepty**: [[domenovy-model|doménovému modelu]]
+
 
 ---
 
