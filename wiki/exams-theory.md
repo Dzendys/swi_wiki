@@ -34,7 +34,7 @@ Tento přehled obsahuje syntézu teoretických otázek, které se objevily v min
 
 **Výskyt**: `12. 6. 2018`, `6. 6. 2019`, `27. 1. 2021`
 
-**Související koncepty**: [[scrum|metodice SCRUM]]
+**Související koncepty**: [[scrum|SCRUM]]
 
 
 ### Průběžná integrace (CI)
@@ -47,7 +47,7 @@ Jde o praxi častého (i několikrát denně) začleňování kódu všech vývo
 
 **Výskyt**: `23. 1. 2019`
 
-**Související koncepty**: [[nasazeni-aplikace|nasazování aplikací]], [[agilni-vyvoj|agilním praktikám]]
+**Související koncepty**: [[nasazeni-aplikace|nasazování aplikací]], [[agilni-vyvoj|agilní vývoj]]
 
 
 ## 2. Návrh a Architektura
@@ -64,7 +64,7 @@ Jde o praxi častého (i několikrát denně) začleňování kódu všech vývo
 
 **Výskyt**: `5. 6. 2018`, `10. 6. 2021`
 
-**Související koncepty**: [[navrhovy-model-trid|návrhovému modelu tříd]], [[clean-code|principu Clean Code]]
+**Související koncepty**: [[navrhovy-model-trid|návrhový model tříd]], [[clean-code|clean code]]
 
 
 ### Liskov Substitution Principle (LSP)
@@ -77,7 +77,7 @@ Objekty v programu by měly být nahraditelné instancemi svých podtříd, ani�
 
 **Výskyt**: `29. 5. 2018`
 
-**Související koncepty**: [[objektove-paradigma|objektovému paradigmatu]], [[clean-code|principu LSP]]
+**Související koncepty**: [[objektove-paradigma|objektovém paradigma]], [[clean-code|LSP]]
 
 
 ### Architektura MVC
@@ -90,7 +90,7 @@ Jde o oddělení datové logiky (**Model**), uživatelského rozhraní (**View**
 
 **Výskyt**: `3. 1. 2017`
 
-**Související koncepty**: [[mvc-mvp|vzoru MVC]]
+**Související koncepty**: [[mvc-mvp|MVC]]
 
 
 ### Návrhový vzor Stav (State)
@@ -105,7 +105,7 @@ Vzor umožňuje objektu změnit své chování při změně jeho vnitřního sta
 
 **Výskyt**: `15. 6. 2012`, `16. 5. 2014`, `23. 1. 2019`, `25. 5. 2023`
 
-**Související koncepty**: [[navrhove-vzory-gof|návrhovým vzorům GoF]]
+**Související koncepty**: [[navrhove-vzory-gof|návrhový vzor GoF]]
 
 
 ### Mapování dědičnosti do DB
@@ -142,7 +142,7 @@ Slouží ke kategorizaci nefunkčních požadavků:
 
 **Výskyt**: `16. 5. 2014`, `5. 6. 2018`
 
-**Související koncepty**: [[pozadavky|požadavkům]]
+**Související koncepty**: [[pozadavky|FURPS]]
 
 
 ### Statická analýza kódu
@@ -207,7 +207,7 @@ Slouží ke kategorizaci nefunkčních požadavků:
 
 **Výskyt**: `8. 6. 2023`
 
-**Související koncepty**: [[podpora-a-udrzba|podpoře a údržbě]]
+**Související koncepty**: [[podpora-a-udrzba|podpora a údržba]]
 
 
 ### Kritická cesta (CPM)
@@ -220,7 +220,7 @@ Kritická cesta je nejdelší možná cesta v síťovém grafu činností projek
 
 **Výskyt**: `25. 5. 2023`
 
-**Související koncepty**: [[projektove-rizeni|projektovému řízení]], [[odhad-pracnosti|odhadům pracnosti]]
+**Související koncepty**: [[projektove-rizeni|projektové řízení]], [[odhad-pracnosti|odhad pracnosti]]
 
 
 ### Technologie REST
@@ -233,7 +233,7 @@ Jde o architektonický styl orientovaný na zdroje (resources), které jsou iden
 
 **Výskyt**: `12. 6. 2018`, `6. 6. 2019`
 
-**Související koncepty**: [[webove-sluzby-rest-soap|webovým službám REST]]
+**Související koncepty**: [[webove-sluzby-rest-soap|REST]]
 
 
 ### Integrační styly aplikací
@@ -249,7 +249,7 @@ Jde o architektonický styl orientovaný na zdroje (resources), které jsou iden
 
 **Výskyt**: `24. 5. 2013`
 
-**Související koncepty**: [[integrace-aplikaci|integraci aplikací]]
+**Související koncepty**: [[integrace-aplikaci|integrace aplikací]]
 
 
 ### Správa verzí (SVN vs. Git)
@@ -265,7 +265,7 @@ Systémy pro správu verzí umožňují sledovat historii změn v kódu, vracet 
 
 **Výskyt**: `3. 1. 2017`
 
-**Související koncepty**: [[tymova-spoluprace|týmové spolupráci]]
+**Související koncepty**: [[tymova-spoluprace|týmová spolupráce]]
 
 
 ## 5. Modelovací tipy a drobné poznatky
@@ -283,7 +283,7 @@ Aktérem nemusí být jen člověk nebo externí systém, ale také **Čas**. Po
 
 **Výskyt**: `18. 12. 2019`, `16. 12. 2020`
 
-**Související koncepty**: [[pripady-uziti|případům užití]]
+**Související koncepty**: [[pripady-uziti|případy užití]]
 
 
 ### Evidence historie (Role a Smlouvy)
@@ -296,7 +296,7 @@ Místo přímé vazby mezi Osobou a Rolí se vloží mezilehlá entita (např. *
 
 **Výskyt**: `6. 1. 2021`
 
-**Související koncepty**: [[domenovy-model|doménovému modelu]]
+**Související koncepty**: [[domenovy-model|doménoý model]]
 
 
 ---
