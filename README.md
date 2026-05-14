@@ -4,6 +4,8 @@ Tento repozitář obsahuje znalostní bázi pro předmět **BI-SWI (Softwarové 
 
 Renderovaná verze wiki je dostupná na **[GitHub Pages](https://dzendys.github.io/swi_wiki/)**.
 
+![Graf](imgs/Graph.png)
+
 ## Jak s wiki pracovat
 - **Vyhledávání**
   
