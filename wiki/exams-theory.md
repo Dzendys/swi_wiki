@@ -296,7 +296,7 @@ Místo přímé vazby mezi Osobou a Rolí se vloží mezilehlá entita (např. *
 
 **Výskyt**: `6. 1. 2021`
 
-**Související koncepty**: [[domenovy-model|doménoý model]]
+**Související koncepty**: [[domenovy-model|doménový model]]
 
 
 ---
