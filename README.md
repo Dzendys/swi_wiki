@@ -17,7 +17,7 @@ Renderovaná verze wiki je dostupná na **[GitHub Pages](https://dzendys.github.
 
 - **Příprava na zkoušku**
   
-  Pro ucelené pochopení látky se doporučuje kombinovat studium chronologických přednášek s tematicky zaměřenými koncepty.
+  Pro ucelené pochopení látky se doporučuje kombinovat studium chronologických přednášek s tematicky zaměřenými koncepty a teoretickými otázky.
 
 ## Obsah wiki
 
