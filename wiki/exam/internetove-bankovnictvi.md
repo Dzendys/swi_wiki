@@ -3,10 +3,13 @@
 **Shrnutí**: Zadání doménového modelu systému pro pokročilé internetové bankovnictví malých podniků, zahrnující správu účtů, platební příkazy, disponenty a historii transakcí. Jedno z nejobsáhlejších a nejnáročnějších zkouškových témat.
 
 **Zdroje**:
+
 - `domenove-modely/intenetove-bankovnictvi.md`
 - `domenove-modely/dump.md`
 
-**Výskyty tématu**: 4. 2. 2015 · 20. 5. 2015 · 13. 1. 2016 · 22. 5. 2018 · 8. 6. 2023 · 5. 6. 2025
+**Výskyty tématu**:
+
+4. 2. 2015 · 20. 5. 2015 · 13. 1. 2016 · 22. 5. 2018 · 8. 6. 2023 · 5. 6. 2025
 
 ---
 

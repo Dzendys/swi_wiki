@@ -3,10 +3,13 @@
 **Shrnutí**: Zadání doménového modelu systému pro organizaci letních táborů, včetně přihlašování účastníků, ubytování a plateb. Jedno z nejčastěji se opakujících zkouškových témat.
 
 **Zdroje**:
+
 - `domenove-modely/letni-tabory.md`
 - `domenove-modely/dump.md`
 
-**Výskyty tématu**: 18. 5. 2012 · 24. 5. 2013 · 20. 12. 2013 · 23. 1. 2019 · 7. 6. 2021 · 25. 5. 2023 · 15. 5. 2025
+**Výskyty tématu**:
+
+18. 5. 2012 · 24. 5. 2013 · 20. 12. 2013 · 23. 1. 2019 · 7. 6. 2021 · 25. 5. 2023 · 15. 5. 2025
 
 ---
 

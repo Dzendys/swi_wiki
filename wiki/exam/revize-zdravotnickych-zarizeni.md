@@ -3,10 +3,13 @@
 **Shrnutí**: Zadání doménového modelu systému pro správu a plánování pravidelných revizí zdravotnických přístrojů, včetně stavů zařízení a práce technika.
 
 **Zdroje**:
+
 - `domenove-modely/revize-zdravotnickych-zarizeni.md`
 - `domenove-modely/dump.md`
 
-**Výskyty tématu**: 12. 6. 2018 · 6. 6. 2019 · 27. 1. 2021 · 19. 6. 2025
+**Výskyty tématu**:
+
+12. 6. 2018 · 6. 6. 2019 · 27. 1. 2021 · 19. 6. 2025
 
 ---
 

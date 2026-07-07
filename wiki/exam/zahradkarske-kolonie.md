@@ -3,10 +3,13 @@
 **Shrnutí**: Zadání doménového modelu systému pro správu elektrických přípojek v zahrádkářském spolku, včetně životního cyklu přípojky a fakturace.
 
 **Zdroje**:
+
 - `domenove-modely/zahradkarske-kolonie.md`
 - `domenove-modely/dump.md`
 
-**Výskyty tématu**: 11. 5. 2011 · 30. 5. 2011 · 17. 12. 2014 · 5. 6. 2018
+**Výskyty tématu**:
+
+11. 5. 2011 · 30. 5. 2011 · 17. 12. 2014 · 5. 6. 2018
 
 ---
 

@@ -3,10 +3,13 @@
 **Shrnutí**: Zadání doménového modelu systému pro internetový obchod, zahrnující správu produktů, košík, objednávky, platby a doručení. Jedno z nejpodrobnějších a nejčastěji opakujících se témat.
 
 **Zdroje**:
+
 - `domenove-modely/eshop.md`
 - `domenove-modely/dump.md`
 
-**Výskyty tématu**: 29. 5. 2018 · 23. 5. 2019 · 18. 12. 2019 · 20. 5. 2021 · 5. 1. 2022
+**Výskyty tématu**:
+
+29. 5. 2018 · 23. 5. 2019 · 18. 12. 2019 · 20. 5. 2021 · 5. 1. 2022
 
 ---
 
