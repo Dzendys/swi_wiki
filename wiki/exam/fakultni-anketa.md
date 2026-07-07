@@ -46,7 +46,7 @@ Systém každý den kontroluje, zda vypršel čas pro vyplnění ankety. Po uply
 - **Varianta A**: Nalezněte všechny účastníky a uveďte alespoň 5 případů užití.
 - **Varianta B**: Jmenujte a popište alespoň 3 případy užití systému a jejich aktéry.
 
-### Diagram komponent
+### [[komponenty-a-rozhrani|Diagram komponent]]
 
 - Aplikace má 3 komponenty – GUI, CORE, REST_API. GUI komunikuje s CORE pomocí rozhraní `SpravaVysledku` a `SpravaAnkety`. REST_API komunikuje s CORE pouze přes `SpravaVysledku`. `SpravaVysledku` má implementaci `SpravaVysledkuImpl`. Zachyťte jako UML diagram (diagram komponent).
 

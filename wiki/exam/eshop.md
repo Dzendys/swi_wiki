@@ -46,11 +46,6 @@ Když je objednávka uhrazena nebo byla zvolena platba dobírkou, pak je objedn�
 - **Varianta A**: Vytvořte 5 UC pro různé aktéry a ke každému doplňte větu s krátkým popisem.
 - **Varianta B**: Vytvořte dohromady 6 UC pro alespoň 2 různé aktéry.
 
-### Diagram nasazení
-
-- Model nasazení: E-shop běží na PHP nad Apachem, DB je MySQL na stejném stroji, server komunikuje přes protokol SOAP s dopravní společností (notifikace).
-
-
 ## Související stránky
 - [[domenovy-model|Doménový model]]
 - [[diagram-aktivit|Diagram aktivit]]

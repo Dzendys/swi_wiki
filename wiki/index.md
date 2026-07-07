@@ -9,7 +9,7 @@ Obsah je rozdělen do čtyř hlavních úrovní podle způsobu zpracování:
 1.  **[[modules/index|Moduly]]**: Ucelená "skripta" a hlavní studijní tok. Jsou to syntetizované texty, které propojují znalosti z několika přednášek a detailních konceptů do logických kapitol (např. celý proces analýzy v jednom celku). **Doporučeno jako primární zdroj ke studiu.**
 2.  **[[lectures/index|Přednášky]]**: Chronologické souhrny jednotlivých přednáškových bloků (1–12). Slouží k rychlému dohledání, co přesně zaznělo v konkrétním týdnu semestru.
 3.  **[[concepts/index|Koncepty]]**: Atomické stránky věnované konkrétním termínům, diagramům nebo metodikám (např. [[concepts/scrum|Scrum]], [[concepts/diagram-aktivit|Diagram aktivit]]). Jsou linkovány z Modulů i Přednášek pro detailní pochopení daného pojmu.
-4.  **[[zkouska/index|Zkouška]]**: Materiály přímo ke zkoušce – [[zkouska/exams-theory|teoretické otázky z minulých termínů]] a konkrétní [[zkouska/index|zadání doménových modelů]] s praktickými úkoly pro každé téma. **Doporučeno jako finální příprava na zkoušku.**
+4.  **[[exam/index|Zkouška]]**: Materiály přímo ke zkoušce – [[exam/exams-theory|teoretické otázky z minulých termínů]] a konkrétní [[exam/index|zadání doménových modelů]] s praktickými úkoly pro každé téma. **Doporučeno jako finální příprava na zkoušku.**
 
 
 ## Moduly
@@ -111,14 +111,14 @@ Strukturovaný studijní průvodce rozdělený do logických fází vývoje soft
 
 ## Zkouška
 
-- [[zkouska/exams-theory|Teoretické otázky ze zkoušek]]
-- [[zkouska/letni-tabory|Letní tábory]]
-- [[zkouska/zahradkarske-kolonie|Zahrádkářské kolonie]]
-- [[zkouska/eshop|Internetový obchod (E-shop)]]
-- [[zkouska/internetove-bankovnictvi|Internetové bankovnictví]]
-- [[zkouska/zdravotni-pojistovna|Zdravotní pojišťovna]]
-- [[zkouska/revize-zdravotnickych-zarizeni|Revize zdravotnických zařízení]]
-- [[zkouska/fakultni-anketa|Fakultní ankety]]
+- [[exam/exams-theory|Teoretické otázky ze zkoušek]]
+- [[exam/letni-tabory|Letní tábory]]
+- [[exam/zahradkarske-kolonie|Zahrádkářské kolonie]]
+- [[exam/eshop|Internetový obchod (E-shop)]]
+- [[exam/internetove-bankovnictvi|Internetové bankovnictví]]
+- [[exam/zdravotni-pojistovna|Zdravotní pojišťovna]]
+- [[exam/revize-zdravotnickych-zarizeni|Revize zdravotnických zařízení]]
+- [[exam/fakultni-anketa|Fakultní ankety]]
 
 ---
 #index #BI-SWI

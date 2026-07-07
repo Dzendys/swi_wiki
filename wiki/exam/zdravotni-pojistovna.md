@@ -41,11 +41,6 @@ Pojištěný občan má právo si nechat vyhotovit přehled transakcí ověřen�
 
 - Napište 5 případů užití, použijte alespoň jednou `<<include>>` a `<<extend>>`, jeden ze scénářů detailně rozepište.
 
-### Diagram nasazení
-
-- Server běží jako webová aplikace na Oracle Application Serveru (oddělený od DB Oracle Database 11g). Lékař/lékárna má PC se softwarem napojeným na čtečku karet přes RS485. PC pak se serverem komunikuje přes IPSec.
-
-
 ## Související stránky
 - [[domenovy-model|Doménový model]]
 - [[diagram-aktivit|Diagram aktivit]]

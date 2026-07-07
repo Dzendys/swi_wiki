@@ -45,13 +45,6 @@ Systém využívá běžný uživatel (majitel) skrze webové rozhraní, zatímc
 - **Varianta B**: Nakreslete diagram s alespoň 3 aktéry a 6 případy užití (včetně include/extend).
 - **Varianta C**: 6 případů užití pro 3 různé aktéry (od každého 2), kde složitější diagramy nahradí psaný scénář.
 
-### Diagram nasazení
-
-- **Varianta A**: Databáze běží na serveru, běžný uživatel se připojuje přes webové rozhraní a servisní technik přes speciální aplikaci.
-- **Varianta B**: Databáze je na fyzicky odděleném serveru, technik používá mobilní aplikaci komunikující se serverem přes IRM, klienti jdou přes prohlížeč.
-- **Varianta C**: Aplikace běží na serveru Glassfish v Javě, fyzicky oddělená DB, technik má aplikaci na OS Android.
-
-
 ## Související stránky
 - [[domenovy-model|Doménový model]]
 - [[diagram-aktivit|Diagram aktivit]]
