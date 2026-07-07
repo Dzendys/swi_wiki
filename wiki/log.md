@@ -1,5 +1,14 @@
 # Log změn
 
+## [2026-07-07] Merge: feat/zkouska-sekce
+- Vytvořena nová sekce **Zkouška** (`wiki/exam/`) pro přípravu na zkoušku.
+- Přidán přehledový index [[exam/index]] s tabulkou všech témat a výskyty.
+- Stránka [[exam/exams-theory]] přesunuta do sekce `exam/` (dříve `wiki/exams-theory.md`).
+- Vytvořeno 7 stránek zkouškových témat, každá obsahuje zadání doménového modelu a praktické úkoly (diagramy, use case, sekvenční diagram atd.) prolinkované na příslušné koncepty ve wiki.
+- Diagram nasazení odebrán (není součástí aktuální zkoušky).
+- Diagram komponent prolinkován na [[komponenty-a-rozhrani]].
+- Aktualizována navigace `wiki/.pages`, rozcestník [[index]] a `README.md`.
+
 ## [2026-05-13] Merge: feat/exam-theory-extraction
 - Syntéza teoretických otázek z minulých zkouškových termínů.
 - Vytvořena stránka [[exams-theory]] s přehledem otázek rozdělených do kategorií (Metodiky, Návrh, Kvalita, Management).
