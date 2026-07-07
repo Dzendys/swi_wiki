@@ -1,0 +1,14 @@
+/* Úplné skrytí Obsidian tagů a závěrečných informací za čarou pro MkDocs web */
+/* Cílí na jakýkoliv prvek, který následuje bezprostředně po vodorovné čáře na konci stránky */
+.md-typeset hr + h1,
+.md-typeset hr + h2,
+.md-typeset hr + h3,
+.md-typeset hr + h4,
+.md-typeset hr + p {
+    display: none !important;
+}
+
+/* Skrytí samotné poslední vodorovné čáry, pokud za ní už nic viditelného není */
+.md-typeset hr:last-of-type {
+    display: none !important;
+}
