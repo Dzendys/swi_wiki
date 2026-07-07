@@ -36,19 +36,19 @@ U každého tábora musí být evidována ubytovací zařízení, ve kterých bu
 
 ### [[stavovy-diagram|Stavový diagram]]
 
-- **Varianta A**: Nakreslete stavový diagram zachycující stavy ubytovacího zařízení.
-- **Varianta B**: Nakreslete stavový diagram zachycující stavy přihlášky účastníka během celého procesu přihlášení.
+- Varianta A: Nakreslete stavový diagram zachycující stavy ubytovacího zařízení.
+- Varianta B: Nakreslete stavový diagram zachycující stavy přihlášky účastníka během celého procesu přihlášení.
 
 ### [[sekvencni-diagram|Sekvenční diagram]]
 
-- **Varianta A**: Vytvořte sekvenční diagram pro výpočet celkového počtu lůžek na táboře.
-- **Varianta B**: Vytvořte sekvenční diagram pro implementaci funkce `vratCelkovouKapacituTabora()` třídy Tábor. Předpokládejte, že třída Tábor již obsahuje metodu `vratVsechnaUbytovaciZarizeni()`.
-- **Varianta C**: Vytvořte nespecifikovaný sekvenční diagram (obecně).
+- Varianta A: Vytvořte sekvenční diagram pro výpočet celkového počtu lůžek na táboře.
+- Varianta B: Vytvořte sekvenční diagram pro implementaci funkce `vratCelkovouKapacituTabora()` třídy Tábor. Předpokládejte, že třída Tábor již obsahuje metodu `vratVsechnaUbytovaciZarizeni()`.
+- Varianta C: Vytvořte nespecifikovaný sekvenční diagram (obecně).
 
 ### [[diagram-pripadu-uziti|Diagram případů užití]]
 
-- **Varianta A**: Vytvořte model případů užití. Zaznamenejte alespoň 5 případů užití a použijte vazby `<<extend>>` a `<<include>>`.
-- **Varianta B**: Zaznamenejte všechny aktéry, min. 5 případů užití a podrobně rozepište případ „Přihlášení účastníka na tábor" (hlavní i alternativní scénář).
+- Varianta A: Vytvořte model případů užití. Zaznamenejte alespoň 5 případů užití a použijte vazby `<<extend>>` a `<<include>>`.
+- Varianta B: Zaznamenejte všechny aktéry, min. 5 případů užití a podrobně rozepište případ „Přihlášení účastníka na tábor" (hlavní i alternativní scénář).
 
 ## Související stránky
 - [[domenovy-model|Doménový model]]

@@ -42,9 +42,9 @@ Systém využívá běžný uživatel (majitel) skrze webové rozhraní, zatímc
 
 ### [[diagram-pripadu-uziti|Diagram případů užití]]
 
-- **Varianta A**: Nakreslete use case diagram s alespoň 7 příklady užití a použijte `<<include>>` a `<<extend>>`.
-- **Varianta B**: Nakreslete diagram s alespoň 3 aktéry a 6 případy užití (včetně include/extend).
-- **Varianta C**: 6 případů užití pro 3 různé aktéry (od každého 2), kde složitější diagramy nahradí psaný scénář.
+- Varianta A: Nakreslete use case diagram s alespoň 7 příklady užití a použijte `<<include>>` a `<<extend>>`.
+- Varianta B: Nakreslete diagram s alespoň 3 aktéry a 6 případy užití (včetně include/extend).
+- Varianta C: 6 případů užití pro 3 různé aktéry (od každého 2), kde složitější diagramy nahradí psaný scénář.
 
 ## Související stránky
 - [[domenovy-model|Doménový model]]

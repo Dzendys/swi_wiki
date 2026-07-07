@@ -44,8 +44,8 @@ V rámci internetového bankovnictví musí být možné sledovat pohyby na úč
 
 ### [[sekvencni-diagram|Sekvenční diagram]]
 
-- **Varianta A**: Vypočítání zůstatku na účtu k danému datu s využitím metod `vratKonto(mesic)`, `vratPohyby()` a `vratCastku()` volaných na polymorfní Transakci.
-- **Varianta B**: Sekvenční diagram pro metodu `vratZustatek(datum)`, k dispozici jsou metody `vratPohyby()` na třídě Účet a `vratCastku()` na třídě Transakce.
+- Varianta A: Vypočítání zůstatku na účtu k danému datu s využitím metod `vratKonto(mesic)`, `vratPohyby()` a `vratCastku()` volaných na polymorfní Transakci.
+- Varianta B: Sekvenční diagram pro metodu `vratZustatek(datum)`, k dispozici jsou metody `vratPohyby()` na třídě Účet a `vratCastku()` na třídě Transakce.
 
 ### [[diagram-pripadu-uziti|Diagram případů užití]]
 

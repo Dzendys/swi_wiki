@@ -44,8 +44,8 @@ Když je objednávka uhrazena nebo byla zvolena platba dobírkou, pak je objedn�
 
 ### [[diagram-pripadu-uziti|Diagram případů užití]]
 
-- **Varianta A**: Vytvořte 5 UC pro různé aktéry a ke každému doplňte větu s krátkým popisem.
-- **Varianta B**: Vytvořte dohromady 6 UC pro alespoň 2 různé aktéry.
+- Varianta A: Vytvořte 5 UC pro různé aktéry a ke každému doplňte větu s krátkým popisem.
+- Varianta B: Vytvořte dohromady 6 UC pro alespoň 2 různé aktéry.
 
 ## Související stránky
 - [[domenovy-model|Doménový model]]

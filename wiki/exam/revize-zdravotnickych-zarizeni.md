@@ -42,8 +42,8 @@ Pokud se revize nestihne provést včas, je označena jako propadlá. Pokud zař
 
 ### [[diagram-pripadu-uziti|Diagram případů užití]]
 
-- **Varianta A**: Nakreslete min. 5 případů užití se zohledněním aktérů technik, zákazník a „systém" (pro automatizované procesy) + detailní textový scénář.
-- **Varianta B**: Popište alespoň 3 případy užití a jejich aktéry.
+- Varianta A: Nakreslete min. 5 případů užití se zohledněním aktérů technik, zákazník a „systém" (pro automatizované procesy) + detailní textový scénář.
+- Varianta B: Popište alespoň 3 případy užití a jejich aktéry.
 
 
 ## Související stránky
