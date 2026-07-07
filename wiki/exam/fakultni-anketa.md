@@ -7,9 +7,7 @@
 - `domenove-modely/fakutlni-anketa.md`
 - `domenove-modely/dump.md`
 
-**Výskyty tématu**:
-
-7. 1. 2015 · 3. 1. 2017 · 13. 6. 2019 · 13. 1. 2021 · 29. 5. 2025
+**Výskyty tématu**: `7. 1. 2015`, `3. 1. 2017`, `13. 6. 2019`, `13. 1. 2021`, `29. 5. 2025`
 
 ---
 

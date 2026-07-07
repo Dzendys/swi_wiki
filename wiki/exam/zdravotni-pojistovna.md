@@ -7,9 +7,7 @@
 - `domenove-modely/zdravotni-pojistvona.md`
 - `domenove-modely/dump.md`
 
-**Výskyty tématu**:
-
-15. 6. 2012 · 16. 5. 2014 · 12. 6. 2025 (jako „Elektronická zdravotní karta pacienta")
+**Výskyty tématu**: `15. 6. 2012`, `16. 5. 2014`, `12. 6. 2025` (jako „Elektronická zdravotní karta pacienta")
 
 ---
 
