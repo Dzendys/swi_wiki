@@ -17,7 +17,7 @@ Renderovaná verze wiki je dostupná na **[GitHub Pages](https://dzendys.github.
 
 - **Příprava na zkoušku**
   
-  Pro ucelené pochopení látky se doporučuje kombinovat studium chronologických přednášek s tematicky zaměřenými koncepty a teoretickými otázky.
+  Sekce **Zkouška** obsahuje jak teoretické otázky z minulých termínů, tak konkrétní zadání doménových modelů s příslušnými praktickými úkoly (diagramy, scenáře, use case). Každé téma je na samostatné stránce proplinkované na detailní koncepty.
 
 ## Obsah wiki
 
@@ -59,6 +59,12 @@ Detailně zpracovaná témata pokrývající klíčové oblasti softwarového in
 
 ### 2. Průvodce přednáškami
 Chronologický přehled kurzu. Stránky shrnují klíčové body jednotlivých přednášek a odkazují na detailní zpracování souvisejících konceptů.
+
+### 3. Zkouška
+Materiály přímo ke zkoušce, rozdělené do dvou částí:
+
+- **Teoretické otázky** – syntéza otázek z minulých termínů (metodiky, architektura, kvalita, procesy).
+- **Doménové modely** – 7 konkrétních zkouškových témat se zadáním a všemi typy praktických úkolů (diagram aktivit, stavový diagram, sekvenční diagram, use case, diagram nasazení). Každé téma je proplinkované na relevantní UML a analytické koncepty ve wiki.
 
 ---
 *Vytvořeno jako podpora pro studium předmětu BI-SWI na FIT ČVUT.*
